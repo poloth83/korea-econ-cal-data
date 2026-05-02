@@ -1,8 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-03T01:34:00.000Z",
+  "updatedAt": "2026-05-02T16:47:36.049Z",
   "agencies": {
-    "bok":  { "filename": "bok_26년.ics",  "uploadedAt": "2026-05-03T01:34:00.000Z" },
-    "moef": { "filename": "moef_5월.ics", "uploadedAt": "2026-05-03T01:34:00.000Z" }
+    "bok": {
+      "filename": "bok.ics",
+      "uploadedAt": "2026-05-02T16:47:36.049Z"
+    },
+    "moef": {
+      "filename": "moef.ics",
+      "uploadedAt": "2026-05-02T16:47:36.049Z"
+    }
   }
 }
