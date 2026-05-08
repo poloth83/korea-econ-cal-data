@@ -262,7 +262,7 @@ async function fetchFredEvents() {
   for (let safety = 0; safety < 20; safety++) {
     const url = `${FRED_API_BASE}releases/dates?api_key=${FRED_API_KEY}` +
       `&realtime_start=${start}&realtime_end=${end}` +
-      `&include_release_dates_with_no_data=true&file_type=json` +
+      `&include_release_dates_with_no_data=false&file_type=json` +
       `&limit=${pageSize}&offset=${offset}` +
       `&order_by=release_date&sort_order=asc`;
     const data = await fetchJson(url);
