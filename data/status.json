@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T15:28:19.224Z",
+  "generatedAt": "2026-05-08T15:34:01.444Z",
   "manifestUpdatedAt": "2026-05-08T14:53:46.043Z",
   "agencies": {
     "bok": {
@@ -25,7 +25,7 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-05-08T15:27:30.469Z",
+    "generatedAt": "2026-05-08T15:33:42.373Z",
     "window": {
       "start": "2025-04-08",
       "end": "2026-11-04"
@@ -35,7 +35,7 @@
       "skipped": false,
       "count": 0,
       "sourceRecords": 0,
-      "error": "request timed out after 15000ms"
+      "error": "HTTP 500"
     },
     "fed": {
       "count": 200,
@@ -53,7 +53,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-05-08T15:28:19.014Z",
+      "generatedAt": "2026-05-08T15:34:00.939Z",
       "status": "blocked",
       "verificationSkippedReason": "data/fed.ics is missing; run sync with FRED_API_KEY before Forex Factory cross-checks can compare releases.",
       "counts": {
@@ -70,6 +70,10 @@
     {
       "code": "fed-ics-missing",
       "message": "data/fed.ics is not published yet. Configure FRED_API_KEY to publish full US economic releases."
+    },
+    {
+      "code": "fred-fetch-failed",
+      "message": "FRED releases failed during automation: HTTP 500"
     }
   ]
 }
