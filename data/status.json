@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "generatedAt": "2026-05-08T14:54:02.996Z",
+  "manifestUpdatedAt": "2026-05-08T14:53:46.043Z",
+  "agencies": {
+    "bok": {
+      "filename": "bok.ics",
+      "uploadedAt": "2026-05-02T16:47:36.049Z",
+      "available": true
+    },
+    "moef": {
+      "filename": "moef.ics",
+      "uploadedAt": "2026-05-02T16:47:36.049Z",
+      "available": true
+    },
+    "ust": {
+      "filename": "ust.ics",
+      "uploadedAt": "2026-05-08T11:21:15.844Z",
+      "available": true
+    },
+    "fed_speech": {
+      "filename": "fed_speech.ics",
+      "uploadedAt": "2026-05-08T14:53:46.043Z",
+      "available": true
+    }
+  },
+  "sync": {
+    "generatedAt": "2026-05-08T14:53:46.043Z",
+    "window": {
+      "start": "2025-04-08",
+      "end": "2026-11-04"
+    },
+    "fred": {
+      "success": false,
+      "skipped": true,
+      "count": 0,
+      "sourceRecords": 0,
+      "error": "FRED_API_KEY missing"
+    },
+    "fed": {
+      "count": 200,
+      "changed": false,
+      "skippedWrite": true,
+      "filename": "fed.ics"
+    },
+    "fedSpeech": {
+      "count": 157,
+      "changed": true,
+      "error": null,
+      "filename": "fed_speech.ics"
+    },
+    "manifestChanged": true
+  },
+  "verification": {
+    "forexFactory": {
+      "generatedAt": "2026-05-08T14:53:56.651Z",
+      "status": "blocked",
+      "verificationSkippedReason": "data/fed.ics is missing; run sync with FRED_API_KEY before Forex Factory cross-checks can compare releases.",
+      "counts": {
+        "forexFactoryHighUsd": 0,
+        "appFedEvents": 0,
+        "checked": 0,
+        "mismatches": 0,
+        "ignored": 0
+      },
+      "feedErrors": [
+        {
+          "feed": "https://nfs.faireconomy.media/ff_calendar_thisweek.xml",
+          "error": "https://nfs.faireconomy.media/ff_calendar_thisweek.xml HTTP 429"
+        }
+      ]
+    }
+  },
+  "warnings": [
+    {
+      "code": "fed-ics-missing",
+      "message": "data/fed.ics is not published yet. Configure FRED_API_KEY to publish full US economic releases."
+    },
+    {
+      "code": "fred-api-key-missing",
+      "message": "FRED releases were skipped because FRED_API_KEY was not available to automation."
+    },
+    {
+      "code": "forexfactory-feed-warning",
+      "message": "Forex Factory feed returned 1 warning(s)."
+    }
+  ]
+}

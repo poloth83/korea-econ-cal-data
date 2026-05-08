@@ -449,7 +449,6 @@ function escIcs(s) {
 }
 
 function eventsToIcs(events, calendarName) {
-  const stamp = fmtUtcStamp(now);
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
@@ -474,6 +473,7 @@ function eventsToIcs(events, calendarName) {
     const end = new Date(`${event.date}T${event.time || '09:00'}:00`);
     end.setHours(end.getHours() + 1);
     const endStr = `${end.getFullYear()}${String(end.getMonth() + 1).padStart(2, '0')}${String(end.getDate()).padStart(2, '0')}T${String(end.getHours()).padStart(2, '0')}${String(end.getMinutes()).padStart(2, '0')}00`;
+    const stamp = fmtUtcStamp(new Date(`${event.date}T${event.time || '09:00'}:00+09:00`));
     lines.push(
       'BEGIN:VEVENT',
       `UID:${escIcs(event.id)}@korea-econ-cal-data`,
