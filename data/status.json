@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T15:34:01.444Z",
-  "manifestUpdatedAt": "2026-05-08T14:53:46.043Z",
+  "generatedAt": "2026-05-08T15:38:59.716Z",
+  "manifestUpdatedAt": "2026-05-08T15:38:55.549Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -22,25 +22,32 @@
       "filename": "fed_speech.ics",
       "uploadedAt": "2026-05-08T14:53:46.043Z",
       "available": true
+    },
+    "fed": {
+      "filename": "fed.ics",
+      "uploadedAt": "2026-05-08T15:38:55.549Z",
+      "available": true
     }
   },
   "sync": {
-    "generatedAt": "2026-05-08T15:33:42.373Z",
+    "generatedAt": "2026-05-08T15:38:55.549Z",
     "window": {
       "start": "2025-04-08",
       "end": "2026-11-04"
     },
     "fred": {
-      "success": false,
+      "success": true,
       "skipped": false,
-      "count": 0,
-      "sourceRecords": 0,
-      "error": "HTTP 500"
+      "partial": false,
+      "count": 361,
+      "sourceRecords": 361,
+      "failures": [],
+      "error": null
     },
     "fed": {
-      "count": 200,
-      "changed": false,
-      "skippedWrite": true,
+      "count": 561,
+      "changed": true,
+      "skippedWrite": false,
       "filename": "fed.ics"
     },
     "fedSpeech": {
@@ -49,31 +56,22 @@
       "error": null,
       "filename": "fed_speech.ics"
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-05-08T15:34:00.939Z",
-      "status": "blocked",
-      "verificationSkippedReason": "data/fed.ics is missing; run sync with FRED_API_KEY before Forex Factory cross-checks can compare releases.",
+      "generatedAt": "2026-05-08T15:38:59.521Z",
+      "status": "ok",
+      "verificationSkippedReason": null,
       "counts": {
         "forexFactoryHighUsd": 5,
-        "appFedEvents": 0,
-        "checked": 0,
+        "appFedEvents": 561,
+        "checked": 4,
         "mismatches": 0,
-        "ignored": 5
+        "ignored": 1
       },
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "fed-ics-missing",
-      "message": "data/fed.ics is not published yet. Configure FRED_API_KEY to publish full US economic releases."
-    },
-    {
-      "code": "fred-fetch-failed",
-      "message": "FRED releases failed during automation: HTTP 500"
-    }
-  ]
+  "warnings": []
 }
