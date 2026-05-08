@@ -2,6 +2,11 @@ name: Sync US economic calendar data
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync-us-data.yml'
+      - 'package.json'
+      - 'scripts/**'
   schedule:
     # Daily 06:20 KST. FRED/Fed feeds are cheap; content is committed only when data changes.
     - cron: '20 21 * * *'
