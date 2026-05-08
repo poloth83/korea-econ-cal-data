@@ -29,6 +29,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Refresh main
+        run: git pull --ff-only origin main
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -72,7 +75,6 @@ jobs:
             echo "No generated data changes."
           else
             git commit -m "Update automated US calendar data"
-            git pull --rebase origin main
             git push
           fi
 
