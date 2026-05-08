@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-08T15:38:55.549Z",
+  "updatedAt": "2026-05-08T16:10:46.956Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-05-02T16:47:36.049Z"
+      "uploadedAt": "2026-05-08T16:10:46.956Z"
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-05-02T16:47:36.049Z"
+      "uploadedAt": "2026-05-08T16:10:46.956Z"
     },
     "ust": {
       "filename": "ust.ics",
@@ -21,6 +21,10 @@
     "fed": {
       "filename": "fed.ics",
       "uploadedAt": "2026-05-08T15:38:55.549Z"
+    },
+    "kostat": {
+      "filename": "kostat.ics",
+      "uploadedAt": "2026-05-08T16:10:46.956Z"
     }
   }
 }

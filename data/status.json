@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T15:38:59.716Z",
-  "manifestUpdatedAt": "2026-05-08T15:38:55.549Z",
+  "generatedAt": "2026-05-08T16:10:53.808Z",
+  "manifestUpdatedAt": "2026-05-08T16:10:46.956Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-05-02T16:47:36.049Z",
+      "uploadedAt": "2026-05-08T16:10:46.956Z",
       "available": true
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-05-02T16:47:36.049Z",
+      "uploadedAt": "2026-05-08T16:10:46.956Z",
       "available": true
     },
     "ust": {
@@ -26,6 +26,11 @@
     "fed": {
       "filename": "fed.ics",
       "uploadedAt": "2026-05-08T15:38:55.549Z",
+      "available": true
+    },
+    "kostat": {
+      "filename": "kostat.ics",
+      "uploadedAt": "2026-05-08T16:10:46.956Z",
       "available": true
     }
   },
@@ -55,6 +60,52 @@
       "changed": false,
       "error": null,
       "filename": "fed_speech.ics"
+    },
+    "manifestChanged": true
+  },
+  "koreaSync": {
+    "generatedAt": "2026-05-08T16:10:46.956Z",
+    "window": {
+      "start": "2025-04-09",
+      "end": "2026-11-05"
+    },
+    "sources": {
+      "bok": {
+        "success": true,
+        "count": 203,
+        "changed": true,
+        "skippedWrite": false,
+        "filename": "bok.ics",
+        "meta": {
+          "years": [
+            2025,
+            2026
+          ]
+        },
+        "error": null
+      },
+      "kostat": {
+        "success": true,
+        "count": 83,
+        "changed": true,
+        "skippedWrite": false,
+        "filename": "kostat.ics",
+        "meta": {
+          "year": 2026
+        },
+        "error": null
+      },
+      "moef": {
+        "success": true,
+        "count": 141,
+        "changed": true,
+        "skippedWrite": false,
+        "filename": "moef.ics",
+        "meta": {
+          "months": 20
+        },
+        "error": null
+      }
     },
     "manifestChanged": true
   },

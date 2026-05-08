@@ -1,0 +1,62 @@
+name: Sync Korean economic calendar data
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/sync-kr-data.yml'
+      - 'package.json'
+      - 'scripts/sync-kr-data.mjs'
+      - 'scripts/write-status-summary.mjs'
+  schedule:
+    # Daily 06:05 KST. Source failures preserve existing published ICS files.
+    - cron: '5 21 * * *'
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  sync-kr-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Generate Korean ICS files
+        timeout-minutes: 7
+        run: node scripts/sync-kr-data.mjs
+
+      - name: Write public status summary
+        run: node scripts/write-status-summary.mjs
+
+      - name: Upload automation reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: kr-calendar-automation-reports
+          path: reports/*.json
+          if-no-files-found: ignore
+
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/manifest.json
+          [ -f data/status.json ] && git add data/status.json
+          [ -f data/bok.ics ] && git add data/bok.ics
+          [ -f data/moef.ics ] && git add data/moef.ics
+          [ -f data/kostat.ics ] && git add data/kostat.ics
+          if git diff --cached --quiet; then
+            echo "No generated data changes."
+          else
+            git commit -m "Update automated Korean calendar data"
+            git push
+          fi

@@ -1,0 +1,764 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Korea Econ Cal Data//KOSTAT Economic Releases//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:KOSTAT Economic Press Schedule
+X-WR-TIMEZONE:Asia/Seoul
+BEGIN:VTIMEZONE
+TZID:Asia/Seoul
+BEGIN:STANDARD
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:KST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:kostat-2026-01-02-1k6tc1f@korea-econ-cal-data
+DTSTAMP:20260102T030000Z
+DTSTART;TZID=Asia/Seoul:20260102T120000
+DTEND;TZID=Asia/Seoul:20260102T123000
+SUMMARY:[통계청] 2025년 11월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-01-14-538ik0@korea-econ-cal-data
+DTSTAMP:20260113T230000Z
+DTSTART;TZID=Asia/Seoul:20260114T080000
+DTEND;TZID=Asia/Seoul:20260114T083000
+SUMMARY:[통계청] 2025년 12월 및 연간 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-01-22-1b0iev3@korea-econ-cal-data
+DTSTAMP:20260122T030000Z
+DTSTART;TZID=Asia/Seoul:20260122T120000
+DTEND;TZID=Asia/Seoul:20260122T123000
+SUMMARY:[통계청] 2025년 양곡소비량조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 농어업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-01-28-12sc3o0@korea-econ-cal-data
+DTSTAMP:20260128T030000Z
+DTSTART;TZID=Asia/Seoul:20260128T120000
+DTEND;TZID=Asia/Seoul:20260128T123000
+SUMMARY:[통계청] 2025년 11월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-01-29-jz80wc@korea-econ-cal-data
+DTSTAMP:20260129T030000Z
+DTSTART;TZID=Asia/Seoul:20260129T120000
+DTEND;TZID=Asia/Seoul:20260129T123000
+SUMMARY:[통계청] 2025년 12월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-01-29-8d5qv1@korea-econ-cal-data
+DTSTAMP:20260129T030000Z
+DTSTART;TZID=Asia/Seoul:20260129T120000
+DTEND;TZID=Asia/Seoul:20260129T123000
+SUMMARY:[통계청] 2025년 국내인구이동통계 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-01-30-hdd38z@korea-econ-cal-data
+DTSTAMP:20260129T230000Z
+DTSTART;TZID=Asia/Seoul:20260130T080000
+DTEND;TZID=Asia/Seoul:20260130T083000
+SUMMARY:[통계청] 2025년 12월 및 연간 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-02-02-pes2d1@korea-econ-cal-data
+DTSTAMP:20260202T030000Z
+DTSTART;TZID=Asia/Seoul:20260202T120000
+DTEND;TZID=Asia/Seoul:20260202T123000
+SUMMARY:[통계청] 2025년 12월 및 연간 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-02-02-1gbr63j@korea-econ-cal-data
+DTSTAMP:20260202T030000Z
+DTSTART;TZID=Asia/Seoul:20260202T120000
+DTEND;TZID=Asia/Seoul:20260202T123000
+SUMMARY:[통계청] 국가데이터처\, 일일물가조사로 설 물가 안정 지원한다
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-02-03-1440hy7@korea-econ-cal-data
+DTSTAMP:20260202T230000Z
+DTSTART;TZID=Asia/Seoul:20260203T080000
+DTEND;TZID=Asia/Seoul:20260203T083000
+SUMMARY:[통계청] 2026년 1월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-02-11-tjz3rw@korea-econ-cal-data
+DTSTAMP:20260210T230000Z
+DTSTART;TZID=Asia/Seoul:20260211T080000
+DTEND;TZID=Asia/Seoul:20260211T083000
+SUMMARY:[통계청] 2026년 1월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-02-25-15m0ltx@korea-econ-cal-data
+DTSTAMP:20260225T030000Z
+DTSTART;TZID=Asia/Seoul:20260225T120000
+DTEND;TZID=Asia/Seoul:20260225T123000
+SUMMARY:[통계청] 2025년 12월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-02-25-1xkpgmo@korea-econ-cal-data
+DTSTAMP:20260225T030000Z
+DTSTART;TZID=Asia/Seoul:20260225T120000
+DTEND;TZID=Asia/Seoul:20260225T123000
+SUMMARY:[통계청] 2025년 출생·사망통계(잠정)
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-02-25-1qm0663@korea-econ-cal-data
+DTSTAMP:20260225T030000Z
+DTSTART;TZID=Asia/Seoul:20260225T120000
+DTEND;TZID=Asia/Seoul:20260225T123000
+SUMMARY:[통계청] 2026년 1월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-02-26-1j2n4it@korea-econ-cal-data
+DTSTAMP:20260226T030000Z
+DTSTART;TZID=Asia/Seoul:20260226T120000
+DTEND;TZID=Asia/Seoul:20260226T123000
+SUMMARY:[통계청] 2025년 4/4분기 가계동향조사 결과 (2025년 연간 지출 포함)
+DESCRIPTION:국가데이터처 보도계획 · 담당: 가계수지동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-03-04-i76e0v@korea-econ-cal-data
+DTSTAMP:20260303T230000Z
+DTSTART;TZID=Asia/Seoul:20260304T080000
+DTEND;TZID=Asia/Seoul:20260304T083000
+SUMMARY:[통계청] 2026년 1월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-03-05-14n9fop@korea-econ-cal-data
+DTSTAMP:20260305T030000Z
+DTSTART;TZID=Asia/Seoul:20260305T120000
+DTEND;TZID=Asia/Seoul:20260305T123000
+SUMMARY:[통계청] 2026년 1월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-03-06-184u3gw@korea-econ-cal-data
+DTSTAMP:20260305T230000Z
+DTSTART;TZID=Asia/Seoul:20260306T080000
+DTEND;TZID=Asia/Seoul:20260306T083000
+SUMMARY:[통계청] 2026년 2월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-03-18-zhb6wt@korea-econ-cal-data
+DTSTAMP:20260317T230000Z
+DTSTART;TZID=Asia/Seoul:20260318T080000
+DTEND;TZID=Asia/Seoul:20260318T083000
+SUMMARY:[통계청] 2026년 2월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-03-19-1ucv1m8@korea-econ-cal-data
+DTSTAMP:20260319T030000Z
+DTSTART;TZID=Asia/Seoul:20260319T120000
+DTEND;TZID=Asia/Seoul:20260319T123000
+SUMMARY:[통계청] 2025년 혼인·이혼통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-03-25-1y0491m@korea-econ-cal-data
+DTSTAMP:20260325T030000Z
+DTSTART;TZID=Asia/Seoul:20260325T120000
+DTEND;TZID=Asia/Seoul:20260325T123000
+SUMMARY:[통계청] 2026년 1월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-03-25-zxti6y@korea-econ-cal-data
+DTSTAMP:20260325T030000Z
+DTSTART;TZID=Asia/Seoul:20260325T120000
+DTEND;TZID=Asia/Seoul:20260325T123000
+SUMMARY:[통계청] 2026년 2월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-03-30-2x1io2@korea-econ-cal-data
+DTSTAMP:20260330T030000Z
+DTSTART;TZID=Asia/Seoul:20260330T120000
+DTEND;TZID=Asia/Seoul:20260330T123000
+SUMMARY:[통계청] 2025년 4/4분기 및 2025년 연간 실질 지역내총생산(잠정)
+DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-03-31-1aenzmy@korea-econ-cal-data
+DTSTAMP:20260330T230000Z
+DTSTART;TZID=Asia/Seoul:20260331T080000
+DTEND;TZID=Asia/Seoul:20260331T083000
+SUMMARY:[통계청] 2026년 2월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-04-01-15c68u6@korea-econ-cal-data
+DTSTAMP:20260401T030000Z
+DTSTART;TZID=Asia/Seoul:20260401T120000
+DTEND;TZID=Asia/Seoul:20260401T123000
+SUMMARY:[통계청] 2026년 2월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-04-02-1nl3dq9@korea-econ-cal-data
+DTSTAMP:20260401T230000Z
+DTSTART;TZID=Asia/Seoul:20260402T080000
+DTEND;TZID=Asia/Seoul:20260402T083000
+SUMMARY:[통계청] 2026년 3월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-04-15-1dz48y2@korea-econ-cal-data
+DTSTAMP:20260414T230000Z
+DTSTART;TZID=Asia/Seoul:20260415T080000
+DTEND;TZID=Asia/Seoul:20260415T083000
+SUMMARY:[통계청] 2026년 3월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-04-22-127edkr@korea-econ-cal-data
+DTSTAMP:20260422T030000Z
+DTSTART;TZID=Asia/Seoul:20260422T120000
+DTEND;TZID=Asia/Seoul:20260422T123000
+SUMMARY:[통계청] 2026년 2월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-04-22-199mdtp@korea-econ-cal-data
+DTSTAMP:20260422T030000Z
+DTSTART;TZID=Asia/Seoul:20260422T120000
+DTEND;TZID=Asia/Seoul:20260422T123000
+SUMMARY:[통계청] 2026년 3월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-04-30-1r9gvwl@korea-econ-cal-data
+DTSTAMP:20260429T230000Z
+DTSTART;TZID=Asia/Seoul:20260430T080000
+DTEND;TZID=Asia/Seoul:20260430T083000
+SUMMARY:[통계청] 2026년 3월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-05-04-1kbj5v3@korea-econ-cal-data
+DTSTAMP:20260504T030000Z
+DTSTART;TZID=Asia/Seoul:20260504T120000
+DTEND;TZID=Asia/Seoul:20260504T123000
+SUMMARY:[통계청] 2026년 3월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-05-06-a4is5m@korea-econ-cal-data
+DTSTAMP:20260505T230000Z
+DTSTART;TZID=Asia/Seoul:20260506T080000
+DTEND;TZID=Asia/Seoul:20260506T083000
+SUMMARY:[통계청] 2026년 4월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-05-13-1qn2qej@korea-econ-cal-data
+DTSTAMP:20260512T230000Z
+DTSTART;TZID=Asia/Seoul:20260513T080000
+DTEND;TZID=Asia/Seoul:20260513T083000
+SUMMARY:[통계청] 2026년 4월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-05-22-1fcniuj@korea-econ-cal-data
+DTSTAMP:20260522T030000Z
+DTSTART;TZID=Asia/Seoul:20260522T120000
+DTEND;TZID=Asia/Seoul:20260522T123000
+SUMMARY:[통계청] 2025년 농가 및 어가경제조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 농어업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-05-27-18bejjw@korea-econ-cal-data
+DTSTAMP:20260527T030000Z
+DTSTART;TZID=Asia/Seoul:20260527T120000
+DTEND;TZID=Asia/Seoul:20260527T123000
+SUMMARY:[통계청] 2026년 3월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-05-27-1tigy58@korea-econ-cal-data
+DTSTAMP:20260527T030000Z
+DTSTART;TZID=Asia/Seoul:20260527T120000
+DTEND;TZID=Asia/Seoul:20260527T123000
+SUMMARY:[통계청] 2026년 4월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-05-28-hev8m1@korea-econ-cal-data
+DTSTAMP:20260528T030000Z
+DTSTART;TZID=Asia/Seoul:20260528T120000
+DTEND;TZID=Asia/Seoul:20260528T123000
+SUMMARY:[통계청] 2026년 1/4분기 가계동향조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 가계수지동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-05-29-k1hn7s@korea-econ-cal-data
+DTSTAMP:20260528T230000Z
+DTSTART;TZID=Asia/Seoul:20260529T080000
+DTEND;TZID=Asia/Seoul:20260529T083000
+SUMMARY:[통계청] 2026년 4월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-06-01-jjzf5g@korea-econ-cal-data
+DTSTAMP:20260601T030000Z
+DTSTART;TZID=Asia/Seoul:20260601T120000
+DTEND;TZID=Asia/Seoul:20260601T123000
+SUMMARY:[통계청] 2026년 4월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-06-02-1ja5ph7@korea-econ-cal-data
+DTSTAMP:20260601T230000Z
+DTSTART;TZID=Asia/Seoul:20260602T080000
+DTEND;TZID=Asia/Seoul:20260602T083000
+SUMMARY:[통계청] 2026년 5월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-06-11-h37wl4@korea-econ-cal-data
+DTSTAMP:20260610T230000Z
+DTSTART;TZID=Asia/Seoul:20260611T080000
+DTEND;TZID=Asia/Seoul:20260611T083000
+SUMMARY:[통계청] 2026년 5월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-06-24-1cdo5th@korea-econ-cal-data
+DTSTAMP:20260624T030000Z
+DTSTART;TZID=Asia/Seoul:20260624T120000
+DTEND;TZID=Asia/Seoul:20260624T123000
+SUMMARY:[통계청] 2026년 4월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-06-24-1rkhmxb@korea-econ-cal-data
+DTSTAMP:20260624T030000Z
+DTSTART;TZID=Asia/Seoul:20260624T120000
+DTEND;TZID=Asia/Seoul:20260624T123000
+SUMMARY:[통계청] 2026년 5월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-06-25-1fzdrgw@korea-econ-cal-data
+DTSTAMP:20260625T030000Z
+DTSTART;TZID=Asia/Seoul:20260625T120000
+DTEND;TZID=Asia/Seoul:20260625T123000
+SUMMARY:[통계청] 2026년 1/4분기 실질 지역내총생산(잠정)
+DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-06-30-1gp031n@korea-econ-cal-data
+DTSTAMP:20260629T230000Z
+DTSTART;TZID=Asia/Seoul:20260630T080000
+DTEND;TZID=Asia/Seoul:20260630T083000
+SUMMARY:[통계청] 2026년 5월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-07-01-1sp9wbx@korea-econ-cal-data
+DTSTAMP:20260701T030000Z
+DTSTART;TZID=Asia/Seoul:20260701T120000
+DTEND;TZID=Asia/Seoul:20260701T123000
+SUMMARY:[통계청] 2026년 5월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-07-02-13shw0c@korea-econ-cal-data
+DTSTAMP:20260701T230000Z
+DTSTART;TZID=Asia/Seoul:20260702T080000
+DTEND;TZID=Asia/Seoul:20260702T083000
+SUMMARY:[통계청] 2026년 6월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-07-15-11zawd5@korea-econ-cal-data
+DTSTAMP:20260714T230000Z
+DTSTART;TZID=Asia/Seoul:20260715T080000
+DTEND;TZID=Asia/Seoul:20260715T083000
+SUMMARY:[통계청] 2026년 6월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-07-23-aap73y@korea-econ-cal-data
+DTSTAMP:20260723T030000Z
+DTSTART;TZID=Asia/Seoul:20260723T120000
+DTEND;TZID=Asia/Seoul:20260723T123000
+SUMMARY:[통계청] 2026년 5월 경제활동인구조사 청년층 부가조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-07-29-63a5q@korea-econ-cal-data
+DTSTAMP:20260729T030000Z
+DTSTART;TZID=Asia/Seoul:20260729T120000
+DTEND;TZID=Asia/Seoul:20260729T123000
+SUMMARY:[통계청] 2026년 5월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-07-29-71qadq@korea-econ-cal-data
+DTSTAMP:20260729T030000Z
+DTSTART;TZID=Asia/Seoul:20260729T120000
+DTEND;TZID=Asia/Seoul:20260729T123000
+SUMMARY:[통계청] 2026년 6월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-07-31-1wkszli@korea-econ-cal-data
+DTSTAMP:20260730T230000Z
+DTSTART;TZID=Asia/Seoul:20260731T080000
+DTEND;TZID=Asia/Seoul:20260731T083000
+SUMMARY:[통계청] 2026년 6월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-08-03-17irgoi@korea-econ-cal-data
+DTSTAMP:20260803T030000Z
+DTSTART;TZID=Asia/Seoul:20260803T120000
+DTEND;TZID=Asia/Seoul:20260803T123000
+SUMMARY:[통계청] 2026년 6월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-08-04-ma2k25@korea-econ-cal-data
+DTSTAMP:20260803T230000Z
+DTSTART;TZID=Asia/Seoul:20260804T080000
+DTEND;TZID=Asia/Seoul:20260804T083000
+SUMMARY:[통계청] 2026년 7월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-08-05-1st1n0c@korea-econ-cal-data
+DTSTAMP:20260805T030000Z
+DTSTART;TZID=Asia/Seoul:20260805T120000
+DTEND;TZID=Asia/Seoul:20260805T123000
+SUMMARY:[통계청] 2026년 5월 경제활동인구조사 고령층 부가조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-08-12-t808ty@korea-econ-cal-data
+DTSTAMP:20260811T230000Z
+DTSTART;TZID=Asia/Seoul:20260812T080000
+DTEND;TZID=Asia/Seoul:20260812T083000
+SUMMARY:[통계청] 2026년 7월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-08-26-44mrhe@korea-econ-cal-data
+DTSTAMP:20260826T030000Z
+DTSTART;TZID=Asia/Seoul:20260826T120000
+DTEND;TZID=Asia/Seoul:20260826T123000
+SUMMARY:[통계청] 2025년 출생통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-08-26-sdoov@korea-econ-cal-data
+DTSTAMP:20260826T030000Z
+DTSTART;TZID=Asia/Seoul:20260826T120000
+DTEND;TZID=Asia/Seoul:20260826T123000
+SUMMARY:[통계청] 2026년 6월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-08-26-qad2sx@korea-econ-cal-data
+DTSTAMP:20260826T030000Z
+DTSTART;TZID=Asia/Seoul:20260826T120000
+DTEND;TZID=Asia/Seoul:20260826T123000
+SUMMARY:[통계청] 2026년 7월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-08-27-xjham8@korea-econ-cal-data
+DTSTAMP:20260827T030000Z
+DTSTART;TZID=Asia/Seoul:20260827T120000
+DTEND;TZID=Asia/Seoul:20260827T123000
+SUMMARY:[통계청] 2026년 2/4분기 가계동향조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 가계수지동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-08-28-jl5ljn@korea-econ-cal-data
+DTSTAMP:20260828T030000Z
+DTSTART;TZID=Asia/Seoul:20260828T120000
+DTEND;TZID=Asia/Seoul:20260828T123000
+SUMMARY:[통계청] 2025년 건설업조사 결과(잠정) [공사실적 부문]
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-08-31-1vg6uzl@korea-econ-cal-data
+DTSTAMP:20260830T230000Z
+DTSTART;TZID=Asia/Seoul:20260831T080000
+DTEND;TZID=Asia/Seoul:20260831T083000
+SUMMARY:[통계청] 2026년 7월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-09-01-gl3v37@korea-econ-cal-data
+DTSTAMP:20260901T030000Z
+DTSTART;TZID=Asia/Seoul:20260901T120000
+DTEND;TZID=Asia/Seoul:20260901T123000
+SUMMARY:[통계청] 2026년 7월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-09-02-1ttpepy@korea-econ-cal-data
+DTSTAMP:20260901T230000Z
+DTSTART;TZID=Asia/Seoul:20260902T080000
+DTEND;TZID=Asia/Seoul:20260902T083000
+SUMMARY:[통계청] 2026년 8월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-09-09-1i60uh3@korea-econ-cal-data
+DTSTAMP:20260908T230000Z
+DTSTART;TZID=Asia/Seoul:20260909T080000
+DTEND;TZID=Asia/Seoul:20260909T083000
+SUMMARY:[통계청] 2026년 8월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-09-22-1ey1uwy@korea-econ-cal-data
+DTSTAMP:20260922T030000Z
+DTSTART;TZID=Asia/Seoul:20260922T120000
+DTEND;TZID=Asia/Seoul:20260922T123000
+SUMMARY:[통계청] 2025년 사망원인통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-09-23-1uo7ww0@korea-econ-cal-data
+DTSTAMP:20260923T030000Z
+DTSTART;TZID=Asia/Seoul:20260923T120000
+DTEND;TZID=Asia/Seoul:20260923T123000
+SUMMARY:[통계청] 2026년 7월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-09-23-1xi8vbk@korea-econ-cal-data
+DTSTAMP:20260923T030000Z
+DTSTART;TZID=Asia/Seoul:20260923T120000
+DTEND;TZID=Asia/Seoul:20260923T123000
+SUMMARY:[통계청] 2026년 8월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-09-28-1y61bw1@korea-econ-cal-data
+DTSTAMP:20260928T030000Z
+DTSTART;TZID=Asia/Seoul:20260928T120000
+DTEND;TZID=Asia/Seoul:20260928T123000
+SUMMARY:[통계청] 2026년 2/4분기 실질 지역내총생산(잠정)
+DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-09-30-169dg9w@korea-econ-cal-data
+DTSTAMP:20260929T230000Z
+DTSTART;TZID=Asia/Seoul:20260930T080000
+DTEND;TZID=Asia/Seoul:20260930T083000
+SUMMARY:[통계청] 2026년 8월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-10-01-knwueg@korea-econ-cal-data
+DTSTAMP:20261001T030000Z
+DTSTART;TZID=Asia/Seoul:20261001T120000
+DTEND;TZID=Asia/Seoul:20261001T123000
+SUMMARY:[통계청] 2026년 8월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-10-02-grhm8n@korea-econ-cal-data
+DTSTAMP:20261001T230000Z
+DTSTART;TZID=Asia/Seoul:20261002T080000
+DTEND;TZID=Asia/Seoul:20261002T083000
+SUMMARY:[통계청] 2026년 9월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-10-16-ofoq9g@korea-econ-cal-data
+DTSTAMP:20261015T230000Z
+DTSTART;TZID=Asia/Seoul:20261016T080000
+DTEND;TZID=Asia/Seoul:20261016T083000
+SUMMARY:[통계청] 2026년 9월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-10-21-6ep766@korea-econ-cal-data
+DTSTAMP:20261021T030000Z
+DTSTART;TZID=Asia/Seoul:20261021T120000
+DTEND;TZID=Asia/Seoul:20261021T123000
+SUMMARY:[통계청] 2026년 8월 경제활동인구조사 근로형태별 부가조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-10-22-5koich@korea-econ-cal-data
+DTSTAMP:20261022T030000Z
+DTSTART;TZID=Asia/Seoul:20261022T120000
+DTEND;TZID=Asia/Seoul:20261022T123000
+SUMMARY:[통계청] 2025년 기업생멸행정통계(잠정) 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 기업통계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-10-28-kbfgl5@korea-econ-cal-data
+DTSTAMP:20261028T030000Z
+DTSTART;TZID=Asia/Seoul:20261028T120000
+DTEND;TZID=Asia/Seoul:20261028T123000
+SUMMARY:[통계청] 2026년 8월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-10-28-e5z9ab@korea-econ-cal-data
+DTSTAMP:20261028T030000Z
+DTSTART;TZID=Asia/Seoul:20261028T120000
+DTEND;TZID=Asia/Seoul:20261028T123000
+SUMMARY:[통계청] 2026년 9월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-10-30-17iyouf@korea-econ-cal-data
+DTSTAMP:20261029T230000Z
+DTSTART;TZID=Asia/Seoul:20261030T080000
+DTEND;TZID=Asia/Seoul:20261030T083000
+SUMMARY:[통계청] 2026년 9월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-11-02-ageoh@korea-econ-cal-data
+DTSTAMP:20261102T030000Z
+DTSTART;TZID=Asia/Seoul:20261102T120000
+DTEND;TZID=Asia/Seoul:20261102T123000
+SUMMARY:[통계청] 2026년 9월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-11-03-a1i2a3@korea-econ-cal-data
+DTSTAMP:20261102T230000Z
+DTSTART;TZID=Asia/Seoul:20261103T080000
+DTEND;TZID=Asia/Seoul:20261103T083000
+SUMMARY:[통계청] 2026년 10월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-11-04-1itfko3@korea-econ-cal-data
+DTSTAMP:20261104T030000Z
+DTSTART;TZID=Asia/Seoul:20261104T120000
+DTEND;TZID=Asia/Seoul:20261104T123000
+SUMMARY:[통계청] 2026년 8월 경제활동인구조사 비경제활동인구 부가조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-11-04-12vjq9p@korea-econ-cal-data
+DTSTAMP:20261104T030000Z
+DTSTART;TZID=Asia/Seoul:20261104T120000
+DTEND;TZID=Asia/Seoul:20261104T123000
+SUMMARY:[통계청] 2026년 8월 경제활동인구조사 비임금근로 부가조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-11-05-19z0ch6@korea-econ-cal-data
+DTSTAMP:20261105T030000Z
+DTSTART;TZID=Asia/Seoul:20261105T120000
+DTEND;TZID=Asia/Seoul:20261105T123000
+SUMMARY:[통계청] 2025년 다문화인구동태 통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+END:VCALENDAR

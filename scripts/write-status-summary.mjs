@@ -24,8 +24,23 @@ function fileAvailable(filename) {
 }
 
 const manifest = readJson(path.join(DATA_DIR, 'manifest.json'), { agencies: {} });
-const syncReport = readJson(path.join(REPORT_DIR, 'us-sync-report.json'));
-const ffReport = readJson(path.join(REPORT_DIR, 'forexfactory-verify.json'));
+const previousStatus = readJson(path.join(DATA_DIR, 'status.json'), {});
+const rawSyncReport = readJson(path.join(REPORT_DIR, 'us-sync-report.json'));
+const rawKrReport = readJson(path.join(REPORT_DIR, 'kr-sync-report.json'));
+const rawFfReport = readJson(path.join(REPORT_DIR, 'forexfactory-verify.json'));
+
+function useReportIfFresh(report, previousGeneratedAt) {
+  if (!report) return null;
+  if (!previousGeneratedAt || !report.generatedAt) return report;
+  const reportTime = new Date(report.generatedAt).getTime();
+  const previousTime = new Date(previousGeneratedAt).getTime();
+  if (!Number.isFinite(reportTime) || !Number.isFinite(previousTime)) return report;
+  return reportTime >= previousTime ? report : null;
+}
+
+const syncReport = useReportIfFresh(rawSyncReport, previousStatus.sync?.generatedAt);
+const krReport = useReportIfFresh(rawKrReport, previousStatus.koreaSync?.generatedAt);
+const ffReport = useReportIfFresh(rawFfReport, previousStatus.verification?.forexFactory?.generatedAt);
 
 const agencies = Object.fromEntries(
   Object.entries(manifest.agencies || {}).map(([key, info]) => [
@@ -73,6 +88,14 @@ if (Array.isArray(ffReport?.feedErrors) && ffReport.feedErrors.length > 0) {
     message: `Forex Factory feed returned ${ffReport.feedErrors.length} warning(s).`,
   });
 }
+const krFailures = Object.entries(krReport?.sources || {})
+  .filter(([, source]) => source && source.success === false);
+if (krFailures.length > 0) {
+  warnings.push({
+    code: 'kr-sync-partial',
+    message: `Korean data automation partially failed: ${krFailures.map(([key]) => key).join(', ')}.`,
+  });
+}
 
 const status = {
   version: 1,
@@ -86,7 +109,13 @@ const status = {
     fed: syncReport.fed || null,
     fedSpeech: syncReport.fedSpeech || null,
     manifestChanged: !!syncReport.manifestChanged,
-  } : null,
+  } : (previousStatus.sync || null),
+  koreaSync: krReport ? {
+    generatedAt: krReport.generatedAt || null,
+    window: krReport.window || null,
+    sources: krReport.sources || {},
+    manifestChanged: !!krReport.manifestChanged,
+  } : (previousStatus.koreaSync || null),
   verification: {
     forexFactory: ffReport ? {
       generatedAt: ffReport.generatedAt || null,
@@ -94,7 +123,7 @@ const status = {
       verificationSkippedReason: ffReport.verificationSkippedReason || null,
       counts: ffReport.counts || null,
       feedErrors: Array.isArray(ffReport.feedErrors) ? ffReport.feedErrors : [],
-    } : null,
+    } : (previousStatus.verification?.forexFactory || null),
   },
   warnings,
 };

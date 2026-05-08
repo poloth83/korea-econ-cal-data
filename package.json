@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "sync:kr": "node scripts/sync-kr-data.mjs",
+    "sync:kr:dry": "node scripts/sync-kr-data.mjs --dry-run",
     "sync:us": "node scripts/sync-us-data.mjs",
     "sync:us:dry": "node scripts/sync-us-data.mjs --dry-run",
     "verify:forexfactory": "node scripts/verify-forexfactory.mjs",

@@ -9,14 +9,23 @@
 ```
 data/
 ├── manifest.json   ← 어떤 기관 ICS가 있는지 + 갱신일시
-├── bok.ics         ← 한국은행 (선택)
-├── moef.ics        ← 기획재정부 (선택)
+├── bok.ics         ← 자동 생성 한국은행 통계공표일정
+├── moef.ics        ← 자동 생성 기획재정부 국고채 발행일정
+├── kostat.ics      ← 자동 생성 통계청/국가데이터처 경제 보도계획
 ├── ust.ics         ← 미국 재무부 입찰 일정
 ├── fed.ics         ← 자동 생성 미국 경제지표 (FRED + FOMC + 정기 패턴)
 └── fed_speech.ics  ← 자동 생성 Fed 연설/증언 일정
 ```
 
 ## 자동화
+
+`.github/workflows/sync-kr-data.yml`가 매일 06:05 KST에 실행됩니다.
+
+- `scripts/sync-kr-data.mjs`: `bok.ics`, `moef.ics`, `kostat.ics`, `manifest.json` 자동 갱신
+- 한국은행은 통계공표일정 연도별 표를 조회해 과거 13개월 + 미래 180일 범위를 생성합니다
+- 기획재정부는 국채시장 월간 발행일정을 월별 조회해 생성합니다
+- 통계청/국가데이터처는 보도계획 중 시장 관련 경제지표성 항목만 필터링합니다
+- 특정 기관 수집이 실패하면 기존 발행 ICS를 유지하고 `status.json`에 경고를 남깁니다
 
 `.github/workflows/sync-us-data.yml`가 매일 06:20 KST에 실행됩니다.
 
@@ -28,11 +37,14 @@ data/
 로컬 dry-run:
 
 ```bash
+npm run sync:kr:dry
 npm run sync:us:dry
 npm run verify:forexfactory:dry
 ```
 
-## ICS 파일 갱신 워크플로
+## 수동 ICS 파일 갱신 워크플로
+
+자동화가 실패했을 때만 수동으로 사용합니다.
 
 ### 1. 새 ICS 다운로드
 
@@ -73,7 +85,7 @@ jsDelivr는 GitHub의 main 브랜치 변경을 1~10분 내 캐싱. 그 후 모�
 }
 ```
 
-지원되는 `agencyKey`: `bok` (한국은행), `moef` (기획재정부), `ust`, `fed`, `fed_speech`
+지원되는 `agencyKey`: `bok` (한국은행), `moef` (기획재정부), `kostat` (통계청/국가데이터처), `ust`, `fed`, `fed_speech`
 
 ## 라이선스
 
