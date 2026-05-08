@@ -41,6 +41,25 @@ const FOMC_MEETINGS = [
   { year: 2026, meeting: '12월', decisionUtc: '2026-12-16T19:00:00Z', pressConf: true },
 ];
 
+const FRED_RELEASES = [
+  { id: 9, name: 'Advance Monthly Sales for Retail and Food Services', title: '미국 소매판매', timeEt: '08:30' },
+  { id: 10, name: 'Consumer Price Index', title: '미국 CPI', timeEt: '08:30' },
+  { id: 13, name: 'G.17 Industrial Production and Capacity Utilization', title: '미국 산업생산', timeEt: '09:15' },
+  { id: 27, name: 'New Residential Construction', title: '미국 주택착공', timeEt: '08:30' },
+  { id: 46, name: 'Producer Price Index', title: '미국 PPI', timeEt: '08:30' },
+  { id: 50, name: 'Employment Situation', title: '미국 고용지표 (NFP)', timeEt: '08:30' },
+  { id: 51, name: 'U.S. International Trade in Goods and Services', title: '미국 무역수지', timeEt: '08:30' },
+  { id: 53, name: 'Gross Domestic Product', title: '미국 GDP', timeEt: '08:30' },
+  { id: 54, name: 'Personal Income and Outlays', title: '미국 PCE / 개인소득·지출', timeEt: '08:30' },
+  { id: 95, name: "Manufacturer's Shipments, Inventories, and Orders (M3) Survey", title: '미국 제조업수주 / 내구재', timeEt: '08:30' },
+  { id: 97, name: 'New Residential Sales', title: '미국 신규주택판매', timeEt: '10:00' },
+  { id: 180, name: 'Unemployment Insurance Weekly Claims Report', title: '미국 주간실업수당청구', timeEt: '08:30' },
+  { id: 188, name: 'U.S. Import and Export Price Indexes', title: '미국 수출입물가지수', timeEt: '08:30' },
+  { id: 192, name: 'Job Openings and Labor Turnover Survey', title: '미국 JOLTS (구인이직)', timeEt: '10:00' },
+  { id: 229, name: 'Construction Spending', title: '미국 건설지출', timeEt: '10:00' },
+  { id: 291, name: 'Existing Home Sales', title: '미국 기존주택판매', timeEt: '10:00' },
+];
+
 const fmtKey = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 const fmtUtcStamp = (d) => `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, '0')}${String(d.getUTCDate()).padStart(2, '0')}T${String(d.getUTCHours()).padStart(2, '0')}${String(d.getUTCMinutes()).padStart(2, '0')}${String(d.getUTCSeconds()).padStart(2, '0')}Z`;
 
@@ -255,28 +274,41 @@ async function fetchFredEvents() {
 
   const start = fmtKey(startDate);
   const end = fmtKey(endDate);
-  const pageSize = 1000;
   const allRecords = [];
-  let offset = 0;
+  const failures = [];
 
-  for (let safety = 0; safety < 20; safety++) {
-    const url = `${FRED_API_BASE}releases/dates?api_key=${FRED_API_KEY}` +
-      `&realtime_start=${start}&realtime_end=${end}` +
-      `&include_release_dates_with_no_data=false&file_type=json` +
-      `&limit=${pageSize}&offset=${offset}` +
-      `&order_by=release_date&sort_order=asc`;
-    const data = await fetchJson(url);
-    const records = data.release_dates || [];
-    allRecords.push(...records);
-    const total = data.count || 0;
-    if (allRecords.length >= total || records.length < pageSize) break;
-    offset += pageSize;
+  for (const release of FRED_RELEASES) {
+    const params = new URLSearchParams({
+      api_key: FRED_API_KEY,
+      release_id: String(release.id),
+      realtime_start: start,
+      realtime_end: end,
+      include_release_dates_with_no_data: 'true',
+      file_type: 'json',
+      limit: '10000',
+      sort_order: 'asc',
+    });
+    const url = `${FRED_API_BASE}release/dates?${params.toString()}`;
+    try {
+      const data = await fetchJson(url);
+      const records = data.release_dates || [];
+      allRecords.push(...records.map(record => ({
+        ...record,
+        release_id: record.release_id || release.id,
+        release_name: record.release_name || release.name,
+        releaseMeta: release,
+      })));
+    } catch (err) {
+      failures.push({ releaseId: release.id, name: release.name, error: err.message });
+    }
   }
 
   const events = allRecords.map(rd => {
-    const title = mapFredReleaseName(rd.release_name);
+    const release = rd.releaseMeta || {};
+    const releaseName = rd.release_name || release.name || '';
+    const title = release.title || mapFredReleaseName(releaseName);
     if (!title) return null;
-    const etTime = defaultFredReleaseTimeEt(rd.release_name);
+    const etTime = release.timeEt || defaultFredReleaseTimeEt(releaseName);
     const kst = etToKst(rd.date, etTime);
     return {
       id: `fred_${rd.release_id}_${rd.date}`,
@@ -284,11 +316,31 @@ async function fetchFredEvents() {
       date: kst.date,
       time: kst.time,
       title,
-      note: `${rd.release_name} · ${etTime} ET`,
+      note: `${releaseName} · ${etTime} ET`,
     };
   }).filter(Boolean);
 
-  return { success: true, events, count: events.length, sourceRecords: allRecords.length };
+  if (allRecords.length === 0) {
+    return {
+      success: false,
+      partial: false,
+      events: [],
+      count: 0,
+      sourceRecords: 0,
+      failures,
+      error: failures.length > 0 ? `${failures.length} FRED release(s) failed` : 'No FRED release dates returned',
+    };
+  }
+
+  return {
+    success: failures.length === 0,
+    partial: failures.length > 0,
+    events,
+    count: events.length,
+    sourceRecords: allRecords.length,
+    failures,
+    error: failures.length > 0 ? `${failures.length} FRED release(s) failed` : null,
+  };
 }
 
 function generateFomcEvents() {
@@ -573,8 +625,10 @@ async function main() {
   report.fred = {
     success: fredResult.success,
     skipped: !!fredResult.skipped,
+    partial: !!fredResult.partial,
     count: fredResult.count || 0,
     sourceRecords: fredResult.sourceRecords || 0,
+    failures: fredResult.failures || [],
     error: fredResult.error || null,
   };
 
@@ -585,7 +639,7 @@ async function main() {
     ...generateUsScheduledIndicators(startDate, endDate),
   ]);
   const fedIcs = eventsToIcs(generatedFedEvents, 'US Economic Data Releases');
-  const shouldWriteFed = !!fredResult.success;
+  const shouldWriteFed = !!fredResult.success || !!fredResult.partial;
   const fedChanged = shouldWriteFed ? writeIfChanged('fed.ics', fedIcs) : false;
   report.fed = {
     count: generatedFedEvents.length,

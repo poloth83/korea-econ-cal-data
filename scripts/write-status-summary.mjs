@@ -50,6 +50,11 @@ if (syncReport?.fred?.skipped) {
     code: 'fred-api-key-missing',
     message: 'FRED releases were skipped because FRED_API_KEY was not available to automation.',
   });
+} else if (syncReport?.fred?.partial) {
+  warnings.push({
+    code: 'fred-fetch-partial',
+    message: `FRED releases partially updated; ${syncReport.fred.failures?.length || 0} release(s) failed.`,
+  });
 } else if (syncReport?.fred && !syncReport.fred.success) {
   warnings.push({
     code: 'fred-fetch-failed',
