@@ -112,14 +112,17 @@ function parseIcsDate(value) {
 
 function parseFedIcs() {
   const filePath = path.join(ROOT, 'data', 'fed.ics');
-  if (!fs.existsSync(filePath)) return [];
+  if (!fs.existsSync(filePath)) {
+    return { exists: false, events: [] };
+  }
   const text = fs.readFileSync(filePath, 'utf8').replace(/\r\n/g, '\n');
   const blocks = [...text.matchAll(/BEGIN:VEVENT\n([\s\S]*?)\nEND:VEVENT/gi)].map(m => m[1]);
-  return blocks.map(block => {
+  const events = blocks.map(block => {
     const summary = (block.match(/^SUMMARY:(.*)$/m)?.[1] || '').replace(/\\,/g, ',').replace(/\\;/g, ';');
     const dtstart = block.match(/^DTSTART[^:]*:(.*)$/m)?.[1] || '';
     return { title: summary, date: parseIcsDate(dtstart) };
   }).filter(event => event.title && event.date);
+  return { exists: true, events };
 }
 
 function addDays(dateStr, days) {
@@ -177,18 +180,32 @@ async function main() {
     ffResult = { events: [], feedErrors: [{ feed: 'all', error: err.message }] };
   }
 
-  const appEvents = parseFedIcs();
-  const result = verify(ffResult.events, appEvents);
-  const status = result.mismatches.length > 0
-    ? 'mismatch'
-    : ffResult.events.length > 0
-      ? 'ok'
-      : 'blocked';
+  const appSource = parseFedIcs();
+  const appEvents = appSource.events;
+  let verificationSkippedReason = null;
+  let result = { checked: [], mismatches: [], ignored: ffResult.events };
+
+  if (!appSource.exists) {
+    verificationSkippedReason = 'data/fed.ics is missing; run sync with FRED_API_KEY before Forex Factory cross-checks can compare releases.';
+  } else if (appEvents.length === 0) {
+    verificationSkippedReason = 'data/fed.ics contains no comparable events; Forex Factory cross-check skipped.';
+  } else {
+    result = verify(ffResult.events, appEvents);
+  }
+
+  const status = verificationSkippedReason
+    ? 'blocked'
+    : result.mismatches.length > 0
+      ? 'mismatch'
+      : ffResult.events.length > 0
+        ? 'ok'
+        : 'blocked';
 
   const report = {
     generatedAt,
     dryRun: DRY_RUN,
     status,
+    verificationSkippedReason,
     source: 'Forex Factory / Fair Economy weekly XML feeds',
     note: 'Forex Factory is used only as a market-calendar cross-check. Official/source data remains authoritative.',
     feedErrors: ffResult.feedErrors,
