@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-03T06:56:33.968Z",
+  "updatedAt": "2026-05-08T11:21:15.844Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -12,7 +12,7 @@
     },
     "ust": {
       "filename": "ust.ics",
-      "uploadedAt": "2026-05-03T06:56:33.968Z"
+      "uploadedAt": "2026-05-08T11:21:15.844Z"
     }
   }
 }
