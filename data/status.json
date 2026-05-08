@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-08T16:14:56.400Z",
+  "generatedAt": "2026-05-08T16:17:24.660Z",
   "manifestUpdatedAt": "2026-05-08T16:10:46.956Z",
   "agencies": {
     "bok": {
@@ -64,23 +64,12 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-05-08T16:14:36.505Z",
+    "generatedAt": "2026-05-08T16:17:04.526Z",
     "window": {
       "start": "2025-04-08",
       "end": "2026-11-04"
     },
     "sources": {
-      "kostat": {
-        "success": true,
-        "count": 83,
-        "changed": false,
-        "skippedWrite": false,
-        "filename": "kostat.ics",
-        "meta": {
-          "year": 2026
-        },
-        "error": null
-      },
       "bok": {
         "success": true,
         "count": 203,
@@ -92,6 +81,17 @@
             2025,
             2026
           ]
+        },
+        "error": null
+      },
+      "kostat": {
+        "success": true,
+        "count": 83,
+        "changed": false,
+        "skippedWrite": false,
+        "filename": "kostat.ics",
+        "meta": {
+          "year": 2026
         },
         "error": null
       },
