@@ -200,11 +200,16 @@ function defaultFredReleaseTimeEt(englishName) {
   return '08:30';
 }
 
-async function fetchWithTimeout(url, options = {}, timeoutMs = FETCH_TIMEOUT_MS) {
+async function fetchWithTimeout(url, readBody, timeoutMs = FETCH_TIMEOUT_MS) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    return await fetch(url, { ...options, signal: controller.signal });
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'korea-econ-cal-data/0.1' },
+      signal: controller.signal,
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await readBody(res);
   } catch (err) {
     if (err?.name === 'AbortError') {
       throw new Error(`request timed out after ${timeoutMs}ms`);
@@ -219,9 +224,7 @@ async function fetchJson(url, attempts = 3) {
   let lastError;
   for (let i = 0; i < attempts; i++) {
     try {
-      const res = await fetchWithTimeout(url, { headers: { 'User-Agent': 'korea-econ-cal-data/0.1' } });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
+      const data = await fetchWithTimeout(url, res => res.json());
       if (data?.error_code || data?.error_message) {
         throw new Error(`FRED ${data.error_code || 'error'}: ${data.error_message || 'unknown error'}`);
       }
@@ -238,9 +241,7 @@ async function fetchText(url, attempts = 3) {
   let lastError;
   for (let i = 0; i < attempts; i++) {
     try {
-      const res = await fetchWithTimeout(url, { headers: { 'User-Agent': 'korea-econ-cal-data/0.1' } });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return await res.text();
+      return await fetchWithTimeout(url, res => res.text());
     } catch (err) {
       lastError = err;
       if (i < attempts - 1) await new Promise(resolve => setTimeout(resolve, 500 * 2 ** i));
