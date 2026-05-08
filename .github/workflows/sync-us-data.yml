@@ -20,6 +20,7 @@ env:
 jobs:
   sync-us-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,6 +31,7 @@ jobs:
           node-version: '24'
 
       - name: Generate US ICS files
+        timeout-minutes: 6
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: node scripts/sync-us-data.mjs
