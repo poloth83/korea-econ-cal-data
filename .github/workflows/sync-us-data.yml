@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: calendar-data-main
+  cancel-in-progress: false
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -68,6 +72,7 @@ jobs:
             echo "No generated data changes."
           else
             git commit -m "Update automated US calendar data"
+            git pull --rebase origin main
             git push
           fi
 
