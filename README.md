@@ -10,7 +10,26 @@
 data/
 ├── manifest.json   ← 어떤 기관 ICS가 있는지 + 갱신일시
 ├── bok.ics         ← 한국은행 (선택)
-└── moef.ics        ← 기획재정부 (선택)
+├── moef.ics        ← 기획재정부 (선택)
+├── ust.ics         ← 미국 재무부 입찰 일정
+├── fed.ics         ← 자동 생성 미국 경제지표 (FRED + FOMC + 정기 패턴)
+└── fed_speech.ics  ← 자동 생성 Fed 연설/증언 일정
+```
+
+## 자동화
+
+`.github/workflows/sync-us-data.yml`가 매일 06:20 KST에 실행됩니다.
+
+- `scripts/sync-us-data.mjs`: `fed.ics`, `fed_speech.ics`, `manifest.json` 자동 갱신
+- `scripts/verify-forexfactory.mjs`: Forex Factory/Fair Economy 주간 XML의 USD high-impact 일정과 `fed.ics` 교차검증
+- 검증 불일치가 있으면 자동 commit을 막고 GitHub Actions artifact에 리포트를 남깁니다
+- `FRED_API_KEY`는 GitHub repo secret으로 설정해야 FRED 기반 지표가 완전하게 생성됩니다
+
+로컬 dry-run:
+
+```bash
+npm run sync:us:dry
+npm run verify:forexfactory:dry
 ```
 
 ## ICS 파일 갱신 워크플로
@@ -54,7 +73,7 @@ jsDelivr는 GitHub의 main 브랜치 변경을 1~10분 내 캐싱. 그 후 모�
 }
 ```
 
-지원되는 `agencyKey`: `bok` (한국은행), `moef` (기획재정부)
+지원되는 `agencyKey`: `bok` (한국은행), `moef` (기획재정부), `ust`, `fed`, `fed_speech`
 
 ## 라이선스
 

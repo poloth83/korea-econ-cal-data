@@ -1,0 +1,1430 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Korea Econ Cal Data//Automated US Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Federal Reserve Speeches and Testimony
+X-WR-TIMEZONE:Asia/Seoul
+BEGIN:VTIMEZONE
+TZID:Asia/Seoul
+BEGIN:STANDARD
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:KST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fed_speech_2025-04-10_10_TestimonyGovernorMichell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250410T230000
+DTEND;TZID=Asia/Seoul:20250411T000000
+SUMMARY:Bowman 증언
+DESCRIPTION:Before the U.S. Senate Committee on Banking\, Housing\, and Urban Affairs · 10:00 a.m. ET · Testimony - Governor Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-04-14_14_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250415T020000
+DTEND;TZID=Asia/Seoul:20250415T030000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Economic Outlook with Chris Waller Event\, hosted by the Chartered Financial Analyst (CFA) Society of St. Louis\, St. Louis\, Mo. · 1:00 p.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-04-15_15_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250416T081000
+DTEND;TZID=Asia/Seoul:20250416T091000
+SUMMARY:Cook 연설
+DESCRIPTION:At the Cal Alumni Club of Washington\, D.C. Annual Reception\, Washington\, D.C. · 7:10 p.m. ET · Speech - Governor Lisa D. Cook 
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-04-16_16_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250417T023000
+DTEND;TZID=Asia/Seoul:20250417T033000
+SUMMARY:Powell 연설
+DESCRIPTION:At Discussion: Chair Jerome H. Powell at the Economic Club of Chicago\, Chicago\, Ill.  · 1:30 p.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-04-17_17_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250418T004500
+DTEND;TZID=Asia/Seoul:20250418T014500
+SUMMARY:Barr 연설
+DESCRIPTION:At the Federal Reserve Bank of New York and Columbia University&#8217\;s School of International and Public Affairs 2025 State-of-the-Field Conference on Cyber Risk to Financial Stability\, New York\, N.Y.  · 11:45 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-04-22_22_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250422T220000
+DTEND;TZID=Asia/Seoul:20250422T230000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the Federal Reserve Bank of Philadelphia Economic Mobility Summit\, Philadelphia\, Pa. · 9:00 a.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-04-22_22_SpeechGovernorAdrianaDKu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250423T070000
+DTEND;TZID=Asia/Seoul:20250423T080000
+SUMMARY:Kugler 연설
+DESCRIPTION:At the Heller-Hurwicz Economics Institute 2025 Roundtable with Dr. Adriana Kugler\, Minneapolis\, Minn. · 6:00 p.m. ET · Speech - Governor Adriana D. Kugler
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-04-23_23_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250423T223500
+DTEND;TZID=Asia/Seoul:20250423T233500
+SUMMARY:Waller 연설
+DESCRIPTION:At a Fed Listens event hosted by the Federal Reserve Bank of St. Louis (Virtual) · 9:35 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-03_3_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250504T015000
+DTEND;TZID=Asia/Seoul:20250504T025000
+SUMMARY:Cook 연설
+DESCRIPTION:At the Spring 2025 James Madison College Commencement Ceremony\, Michigan State University\, East Lansing\, Mich. · 12:50 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-09_9_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250509T185500
+DTEND;TZID=Asia/Seoul:20250509T195500
+SUMMARY:Barr 연설
+DESCRIPTION:At the Reykjavik Economic Conference 2025\, Reykjavik\, Iceland · 5:55 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-09_9_SpeechGovernorAdrianaDKu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250509T194500
+DTEND;TZID=Asia/Seoul:20250509T204500
+SUMMARY:Kugler 연설
+DESCRIPTION:At the Reykjavik Economic Conference 2025\, Reykjavik\, Iceland · 6:45 a.m. ET · Speech - Governor Adriana D. Kugler
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-09_9_PanelDiscussionGovernorC@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250510T003000
+DTEND;TZID=Asia/Seoul:20250510T013000
+SUMMARY:Waller 패널토론
+DESCRIPTION:At the Hoover Monetary Policy Conference: Finishing the Job and New Challenges\, Stanford\, Calif. · 11:30 a.m. ET · Panel Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-09_9_PanelDiscussionGovernorL@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250510T084500
+DTEND;TZID=Asia/Seoul:20250510T094500
+SUMMARY:Cook 패널토론
+DESCRIPTION:At the Hoover Monetary Policy Conference: Finishing the Job and New Challenges\, Stanford\, Calif. · 7:45 p.m. ET · Panel Discussion - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-12_12_SpeechGovernorAdrianaDKu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250512T232500
+DTEND;TZID=Asia/Seoul:20250513T002500
+SUMMARY:Kugler 연설
+DESCRIPTION:At the National Association for Business Economics and the Central Bank of Ireland&#8217\;s International Economic Symposium\, Central Bank of Ireland\, Dublin\, Ireland  · 10:25 a.m. ET · Speech - Governor Adriana D. Kugler
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-14_14_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250514T181500
+DTEND;TZID=Asia/Seoul:20250514T191500
+SUMMARY:Waller 연설
+DESCRIPTION:At the Award Ceremony for the Winners of the 2nd Edition of the Bank Al-Maghrib Prize for Economic and Financial Research\, Rabat\, Morocco  · 5:15 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-14_14_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250514T221000
+DTEND;TZID=Asia/Seoul:20250514T231000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the Annual Conference of Second District Directors and Advisors (virtual) · 9:10 a.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-15_15_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250515T214000
+DTEND;TZID=Asia/Seoul:20250515T224000
+SUMMARY:Powell 연설
+DESCRIPTION:At the Thomas Laubach Research Conference\, Washington\, D.C. · 8:40 a.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-15_15_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250516T030500
+DTEND;TZID=Asia/Seoul:20250516T040500
+SUMMARY:Barr 연설
+DESCRIPTION:At the 2025 Northeast/Mid-Atlantic Small Business Credit Symposium\, hosted by the Federal Reserve Banks of New York\, Cleveland\, Philadelphia\, Boston\, and Richmond (virtual) · 2:05 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-19_19_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250519T214500
+DTEND;TZID=Asia/Seoul:20250519T224500
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the Federal Reserve Bank of Atlanta Financial Markets Conference\, Fernandina Beach\, Fla. · 8:45 a.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-20_20_SpeechGovernorAdrianaDKu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250521T060000
+DTEND;TZID=Asia/Seoul:20250521T070000
+SUMMARY:Kugler 연설
+DESCRIPTION:At the Spring 2025 Berkeley Economics Commencement Ceremony (Virtual) · 5:00 p.m. ET · Speech - Governor Adriana D. Kugler
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-21_21_FedListensEventGovernorB@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250522T012000
+DTEND;TZID=Asia/Seoul:20250522T022000
+SUMMARY:Bowman Fed Listens Event
+DESCRIPTION:At the Fed Listens event hosted by the Federal Reserve Bank of Richmond\, Roanoke\, Virginia · 12:20 p.m. ET · Fed Listens Event - Governor Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-23_23_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250524T010000
+DTEND;TZID=Asia/Seoul:20250524T020000
+SUMMARY:Cook 연설
+DESCRIPTION:At the Seventh Annual Women in Macro Conference\, cosponsored by New York University&#39\;s Graduate School of Arts and Science\, New York University&#39\;s Stern School of Business\, and the University of Chicago&#39\;s Becker Friedman Institute (Virtual) · 12:00 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-25_25_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250526T034000
+DTEND;TZID=Asia/Seoul:20250526T044000
+SUMMARY:Powell 연설
+DESCRIPTION:At the Princeton University Baccalaureate Ceremony\, Princeton\, N.J. · 2:40 p.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-05-29_29_SpeechGovernorAdrianaDKu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250530T030000
+DTEND;TZID=Asia/Seoul:20250530T040000
+SUMMARY:Kugler 연설
+DESCRIPTION:At the 5th Annual Federal Reserve Board Macro-Finance Workshop (virtual) · 2:00 p.m. ET · Speech - Governor Adriana D. Kugler
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-01_1_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250602T090000
+DTEND;TZID=Asia/Seoul:20250602T100000
+SUMMARY:Waller 연설
+DESCRIPTION:At the 2025 Bank of Korea International Conference: Structural Shifts and Monetary Policy\, Seoul\, Republic of Korea · 8:00 p.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-02_2_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250603T020000
+DTEND;TZID=Asia/Seoul:20250603T030000
+SUMMARY:Powell 연설
+DESCRIPTION:At the Federal Reserve Board&#8217\;s International Finance Division 75th Anniversary Conference\, Washington\, D.C. · 1:00 p.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-03_3_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250604T020000
+DTEND;TZID=Asia/Seoul:20250604T030000
+SUMMARY:Cook 연설
+DESCRIPTION:At the Peter McColough Series on International Economics: A Conversation With Lisa D. Cook\, New York\, N.Y.  · 1:00 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-04_4_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250604T213000
+DTEND;TZID=Asia/Seoul:20250604T223000
+SUMMARY:Cook 연설
+DESCRIPTION:At the Fed Listens event hosted by the Federal Reserve Bank of Atlanta\, Atlanta\, Ga. · 8:30 a.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-05_5_SpeechGovernorAdrianaDKu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250606T010000
+DTEND;TZID=Asia/Seoul:20250606T020000
+SUMMARY:Kugler 연설
+DESCRIPTION:At the Economic Club of New York (ECNY) Luncheon\, New York\, N.Y. · 12:00 p.m. ET · Speech - Governor Adriana D. Kugler
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-06_6_SpeechGovernorMichelleWB@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250606T230000
+DTEND;TZID=Asia/Seoul:20250607T000000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Psaros Center for Financial Markets and Policy Event\, Georgetown University\, Washington\, D.C. · 10:00 a.m. ET · Speech - Governor Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-23_23_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250623T160000
+DTEND;TZID=Asia/Seoul:20250623T170000
+SUMMARY:Waller 연설
+DESCRIPTION:At the 2025 International Journal of Central Banking Conference\, Prague 1\, Czech Republic · 3:00 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-23_23_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250623T230000
+DTEND;TZID=Asia/Seoul:20250624T000000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the 2025 International Journal of Central Banking Conference\, Prague 1\, Czech Republic · 10:00 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-23_23_SpeechGovernorAdrianaDKu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250624T033000
+DTEND;TZID=Asia/Seoul:20250624T043000
+SUMMARY:Kugler 연설
+DESCRIPTION:At a Fed Listens event hosted by the Federal Reserve Bank of New York (Virtual) · 2:30 p.m. ET · Speech - Governor Adriana D. Kugler
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-24_24_TestimonyChairJeromeHPow@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250624T230000
+DTEND;TZID=Asia/Seoul:20250625T000000
+SUMMARY:Powell 증언
+DESCRIPTION:Before the U.S. House Financial Services Committee · 10:00 a.m. ET · Testimony - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-24_24_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250625T050000
+DTEND;TZID=Asia/Seoul:20250625T060000
+SUMMARY:Barr 연설
+DESCRIPTION:At a Fed Listens event hosted by the Federal Reserve Bank of Kansas City\, Omaha Branch (Virtual) · 4:00 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-25_25_TestimonyChairJeromeHPow@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250625T230000
+DTEND;TZID=Asia/Seoul:20250626T000000
+SUMMARY:Powell 증언
+DESCRIPTION:Before the U.S. Senate Committee on Banking\, Housing\, and Urban Affairs · 10:00 a.m. ET · Testimony - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-26_26_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250627T021500
+DTEND;TZID=Asia/Seoul:20250627T031500
+SUMMARY:Barr 연설
+DESCRIPTION:At the 2025 Policy Summit hosted by the Federal Reserve Bank of Cleveland\, Cleveland\, Ohio · 1:15 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-06-27_27_DiscussionGovernorLisaDC@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250627T221500
+DTEND;TZID=Asia/Seoul:20250627T231500
+SUMMARY:Cook 토론
+DESCRIPTION:At a Fed Listens event hosted by the Federal Reserve Bank of Cleveland at their 2025 Policy Summit\, Cleveland\, Ohio · 9:15 a.m. ET · Discussion - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-07-01_1_DiscussionChairJeromeHPo@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250701T223000
+DTEND;TZID=Asia/Seoul:20250701T233000
+SUMMARY:Powell 토론
+DESCRIPTION:At the European Central Bank Forum on Central Banking 2025\, Sintra\, Portugal · 9:30 a.m. ET · Discussion - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-07-10_10_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250711T021500
+DTEND;TZID=Asia/Seoul:20250711T031500
+SUMMARY:Waller 연설
+DESCRIPTION:At a Conversation with Federal Reserve Governor Christopher J. Waller\, hosted by the Federal Reserve Bank of Dallas and the World Affairs Council of Dallas/Fort Worth\, Dallas\, Texas · 1:15 p.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-07-15_15_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250715T221500
+DTEND;TZID=Asia/Seoul:20250715T231500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Federal Reserve Board&#39\;s Second Annual Financial Inclusion Conference (via pre-recorded video) · 9:15 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-07-15_15_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250716T014500
+DTEND;TZID=Asia/Seoul:20250716T024500
+SUMMARY:Barr 연설
+DESCRIPTION:At the Federal Reserve Board&#39\;s Second Annual Financial Inclusion Conference\, Washington\, D.C. · 12:45 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-07-16_16_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250716T230000
+DTEND;TZID=Asia/Seoul:20250717T000000
+SUMMARY:Barr 연설
+DESCRIPTION:At Conversation with Governor Barr\, Washington\, D.C. · 10:00 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-07-17_17_SpeechGovernorAdrianaDKu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250717T221500
+DTEND;TZID=Asia/Seoul:20250717T231500
+SUMMARY:Kugler 연설
+DESCRIPTION:At the Housing Partnership Network Symposium\, Washington\, D.C. · 9:15 a.m. ET · Speech - Governor Adriana D. Kugler
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-07-17_17_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250718T023000
+DTEND;TZID=Asia/Seoul:20250718T033000
+SUMMARY:Cook 연설
+DESCRIPTION:At the National Bureau of Economic Research (NBER) Summer Institute: Digital Economics and Artificial Intelligence (virtual) · 1:30 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-07-17_17_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250718T073000
+DTEND;TZID=Asia/Seoul:20250718T083000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Money Marketeers Speech\, New York\, New York · 6:30 p.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-07-22_22_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250722T213000
+DTEND;TZID=Asia/Seoul:20250722T223000
+SUMMARY:Powell 연설
+DESCRIPTION:At the Integrated Review of the Capital Framework for Large Banks Conference\, Washington\, D.C. · 8:30 a.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-07-22_22_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250723T012500
+DTEND;TZID=Asia/Seoul:20250723T022500
+SUMMARY:Bowman 토론
+DESCRIPTION:At the Integrated Review of the Capital Framework for Large Banks Conference\, Washington\, D.C. · 12:25 p.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-08-06_6_DiscussionGovernorLisaDC@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250807T030000
+DTEND;TZID=Asia/Seoul:20250807T040000
+SUMMARY:Cook 토론
+DESCRIPTION:At A Central Bank Perspective on the Evolving Global Landscape (virtual) · 2:00 p.m. ET · Discussion - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-08-09_9_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250810T011500
+DTEND;TZID=Asia/Seoul:20250810T021500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Kansas Bankers Association (KBA) CEO and Senior Management Summit and Annual Meeting\, Colorado Springs\, Colo. · 12:15 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-08-19_19_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250820T031000
+DTEND;TZID=Asia/Seoul:20250820T041000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Wyoming Blockchain Symposium 2025\, Teton Village\, Wyoming · 2:10 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-08-20_20_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250821T000000
+DTEND;TZID=Asia/Seoul:20250821T010000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Wyoming Blockchain Symposium 2025\, Teton Village\, Wyoming · 11:00 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-08-22_22_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250822T230000
+DTEND;TZID=Asia/Seoul:20250823T000000
+SUMMARY:Powell 연설
+DESCRIPTION:At the 2025 Jackson Hole Economic Policy Symposium\, Moran\, Wyoming · 10:00 a.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-08-28_28_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250829T073000
+DTEND;TZID=Asia/Seoul:20250829T083000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Economic Club of Miami Dinner\, Miami\, Fla. · 6:30 p.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-09-22_22_SpeechGovernorStephenIMi@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250923T010000
+DTEND;TZID=Asia/Seoul:20250923T020000
+SUMMARY:Miran 연설
+DESCRIPTION:At the Economic Club of New York Luncheon\, New York\, N.Y. · 12:00 p.m. ET · Speech - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-09-23_23_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250923T220000
+DTEND;TZID=Asia/Seoul:20250923T230000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the 134th Annual Kentucky Bankers Association Convention (virtual) · 9:00 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-09-23_23_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250924T013500
+DTEND;TZID=Asia/Seoul:20250924T023500
+SUMMARY:Powell 연설
+DESCRIPTION:At the Greater Providence Chamber of Commerce 2025 Economic Outlook Luncheon\, Warwick\, R.I. · 12:35 p.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-09-25_25_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250925T230000
+DTEND;TZID=Asia/Seoul:20250926T000000
+SUMMARY:Bowman 토론
+DESCRIPTION:At the Financial Markets Quality Conference 2025\, Washington\, D.C. · 10:00 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-09-25_25_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250926T020000
+DTEND;TZID=Asia/Seoul:20250926T030000
+SUMMARY:Barr 연설
+DESCRIPTION:At a Conversation with Michael S. Barr\, Peterson Institute for International Economics\, Washington\, D.C. · 1:00 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-09-26_26_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250927T020000
+DTEND;TZID=Asia/Seoul:20250927T030000
+SUMMARY:Bowman 연설
+DESCRIPTION:At a Conversation with Michelle W. Bowman\, The Cornell Club of New York\, New York City\, N.Y. · 1:00 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-09-29_29_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250929T203000
+DTEND;TZID=Asia/Seoul:20250929T213000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Sibos 2025 Conference\, Frankfurt am Main\, Germany · 7:30 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-09-30_30_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20250930T190000
+DTEND;TZID=Asia/Seoul:20250930T200000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the Bank of Finland International Monetary Policy Conference\, Helsinki\, Finland · 6:00 a.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-03_3_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251004T024000
+DTEND;TZID=Asia/Seoul:20251004T034000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the Drexel Economic Forum\, Philadelphia\, Pa. · 1:40 p.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-07_7_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251007T230500
+DTEND;TZID=Asia/Seoul:20251008T000500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the 2025 Community Banking Research Conference\, St. Louis\, Mo. (via pre-recorded video) · 10:05 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-07_7_DiscussionGovernorStephe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251007T234500
+DTEND;TZID=Asia/Seoul:20251008T004500
+SUMMARY:Miran 토론
+DESCRIPTION:At the Managed Funds Association (MFA) Policy Outlook 2025\, New York\, N.Y. · 10:45 a.m. ET · Discussion - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-08_8_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251008T223000
+DTEND;TZID=Asia/Seoul:20251008T233000
+SUMMARY:Barr 연설
+DESCRIPTION:At the 2025 Community Banking Research Conference\, St. Louis\, Mo. · 9:30 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-09_9_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251009T213000
+DTEND;TZID=Asia/Seoul:20251009T223000
+SUMMARY:Powell 연설
+DESCRIPTION:At the Community Bank Conference\, Washington\, D.C.  (via pre-recorded video) · 8:30 a.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-09_9_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251009T213500
+DTEND;TZID=Asia/Seoul:20251009T223500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Community Bank Conference\, Washington\, D.C.   · 8:35 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-09_9_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251009T214500
+DTEND;TZID=Asia/Seoul:20251009T224500
+SUMMARY:Bowman 토론
+DESCRIPTION:At the Community Bank Conference\, Washington\, D.C. · 8:45 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-09_9_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251010T014500
+DTEND;TZID=Asia/Seoul:20251010T024500
+SUMMARY:Barr 연설
+DESCRIPTION:At the Economic Club of Minnesota Luncheon\, Minneapolis\, Minn.   · 12:45 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-14_14_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251014T214500
+DTEND;TZID=Asia/Seoul:20251014T224500
+SUMMARY:Bowman 토론
+DESCRIPTION:At the 2025 Institute of International Finance (IIF) Annual Membership Meeting\, Washington\, D.C. · 8:45 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-14_14_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251015T012000
+DTEND;TZID=Asia/Seoul:20251015T022000
+SUMMARY:Powell 연설
+DESCRIPTION:At the National Association for Business Economics (NABE) Annual Meeting\, Philadelphia\, Pa. · 12:20 p.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-14_14_DiscussionGovernorChrist@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251015T042500
+DTEND;TZID=Asia/Seoul:20251015T052500
+SUMMARY:Waller 토론
+DESCRIPTION:At the 2025 Institute of International Finance (IIF) Annual Membership Meeting\, Washington\, D.C. · 3:25 p.m. ET · Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-15_15_DiscussionGovernorStephe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251016T013000
+DTEND;TZID=Asia/Seoul:20251016T023000
+SUMMARY:Miran 토론
+DESCRIPTION:At the Nomura Research Forum\, Washington\, D.C. · 12:30 p.m. ET · Discussion - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-15_15_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251016T020000
+DTEND;TZID=Asia/Seoul:20251016T030000
+SUMMARY:Waller 연설
+DESCRIPTION:At 2025 DC Fintech Week\, Arlington\, Va. · 1:00 p.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-16_16_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251016T220000
+DTEND;TZID=Asia/Seoul:20251016T230000
+SUMMARY:Barr 연설
+DESCRIPTION:At 2025 DC Fintech Week\, Washington\, D.C. · 9:00 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-16_16_SpeechGovernorStephenIMi@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251016T220000
+DTEND;TZID=Asia/Seoul:20251016T230000
+SUMMARY:Miran 연설
+DESCRIPTION:At the 2025 Institute of International Finance (IIF) Annual Membership Meeting\, Washington\, D.C. · 9:00 a.m. ET · Speech - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-16_16_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251016T220000
+DTEND;TZID=Asia/Seoul:20251016T230000
+SUMMARY:Waller 연설
+DESCRIPTION:At the C. Peter McColough Series on International Economics with Governor Christopher J. Waller\, New York\, N.Y. · 9:00 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-16_16_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251016T230000
+DTEND;TZID=Asia/Seoul:20251017T000000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the 2025 Federal Reserve Stress Testing Research Conference (virtual) · 10:00 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-16_16_DiscussionGovernorStephe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251017T051500
+DTEND;TZID=Asia/Seoul:20251017T061500
+SUMMARY:Miran 토론
+DESCRIPTION:At the Semafor Fall 2025 World Economy Summit\, Washington\, D.C. · 4:15 p.m. ET · Discussion - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-21_21_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251021T220000
+DTEND;TZID=Asia/Seoul:20251021T230000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Payments Innovation Conference\, Washington\, D.C. · 9:00 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-22_22_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251023T050000
+DTEND;TZID=Asia/Seoul:20251023T060000
+SUMMARY:Barr 연설
+DESCRIPTION:At the Crossing the Credit Barrier Conference hosted by the Federal Reserve Bank of St. Louis\, St. Louis\, Mo. (via pre-recorded video) · 4:00 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-23_23_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251023T232500
+DTEND;TZID=Asia/Seoul:20251024T002500
+SUMMARY:Barr 연설
+DESCRIPTION:At the Novogradac 2025 Fall New Markets Tax Credit Conference\, New Orleans\, La. · 10:25 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-10-30_30_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251030T225500
+DTEND;TZID=Asia/Seoul:20251030T235500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Economic Growth and Regulatory Paperwork Reduction Act Outreach Meeting (via pre-recorded video) · 9:55 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-03_3_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251104T040000
+DTEND;TZID=Asia/Seoul:20251104T050000
+SUMMARY:Cook 연설
+DESCRIPTION:At Federal Reserve Governor Lisa Cook: The Outlook for the Economy and Monetary Policy\, Washington\, D.C. · 2:00 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-04_4_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251104T203500
+DTEND;TZID=Asia/Seoul:20251104T213500
+SUMMARY:Bowman 토론
+DESCRIPTION:At the 2025 Santander International Banking Conference\, Madrid\, Spain · 6:35 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-06_6_DiscussionGovernorMichae@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251107T010000
+DTEND;TZID=Asia/Seoul:20251107T020000
+SUMMARY:Barr 토론
+DESCRIPTION:At a Conversation with Governor Michael S. Barr\, hosted by Fed Communities (Virtual) · 11:00 a.m. ET · Discussion - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-06_6_DiscussionGovernorChrist@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251107T053000
+DTEND;TZID=Asia/Seoul:20251107T063000
+SUMMARY:Waller 토론
+DESCRIPTION:At the Bank of Canada 2025 Annual Economic Conference\, Ottawa\, Canada · 3:30 p.m. ET · Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-07_7_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251107T210000
+DTEND;TZID=Asia/Seoul:20251107T220000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At Euro20+\, Frankfurt am Main\, Germany · 7:00 a.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-07_7_SpeechGovernorStephenIMi@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251108T050000
+DTEND;TZID=Asia/Seoul:20251108T060000
+SUMMARY:Miran 연설
+DESCRIPTION:At the BCVC Summit 2025\, New York\, N.Y. · 3:00 p.m. ET · Speech - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-11_11_DiscussionGovernorMichae@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251112T122500
+DTEND;TZID=Asia/Seoul:20251112T132500
+SUMMARY:Barr 토론
+DESCRIPTION:At the Singapore FinTech Festival\, Singapore · 10:25 p.m. ET · Discussion - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-12_12_DiscussionGovernorChrist@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251113T002000
+DTEND;TZID=Asia/Seoul:20251113T012000
+SUMMARY:Waller 토론
+DESCRIPTION:At the Ninth Annual Fintech Conference hosted by the Federal Reserve Bank of Philadelphia\, Philadelphia\, Pa. · 10:20 a.m. ET · Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-12_12_DiscussionGovernorStephe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251113T023000
+DTEND;TZID=Asia/Seoul:20251113T033000
+SUMMARY:Miran 토론
+DESCRIPTION:At the Fireside Chat at University of Cambridge Judge Business School\, Cambridge\, United Kingdom · 12:30 p.m. ET · Discussion - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-17_17_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251117T233000
+DTEND;TZID=Asia/Seoul:20251118T003000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the Federal Reserve Bank of Kansas City\, Kansas City\, Mo. · 9:30 a.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-17_17_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251118T053500
+DTEND;TZID=Asia/Seoul:20251118T063500
+SUMMARY:Waller 연설
+DESCRIPTION:At the Society of Professional Economists (SPE) Annual Dinner 2025\, London\, United Kingdom · 3:35 p.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-18_18_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251119T003000
+DTEND;TZID=Asia/Seoul:20251119T013000
+SUMMARY:Barr 연설
+DESCRIPTION:At the Kogod School of Business Alan Meltzer Speaker Series\, Washington\, D.C. · 10:30 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-19_19_SpeechGovernorStephenIMi@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251120T000000
+DTEND;TZID=Asia/Seoul:20251120T010000
+SUMMARY:Miran 연설
+DESCRIPTION:At the Bank Policy Institute and Small Business &amp\; Entrepreneurship Council: Conversation with Governor Stephen I. Miran\, Washington\, D.C. · 10:00 a.m. ET · Speech - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-20_20_DiscussionGovernorMichae@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251120T233000
+DTEND;TZID=Asia/Seoul:20251121T003000
+SUMMARY:Barr 토론
+DESCRIPTION:At the FinRegLab AI Symposium 2025\, Washington\, D.C. · 9:30 a.m. ET · Discussion - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-20_20_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251121T010000
+DTEND;TZID=Asia/Seoul:20251121T020000
+SUMMARY:Cook 연설
+DESCRIPTION:At Assessing Resilience and Vulnerabilities in the Financial System: A Conversation with Fed Governor Lisa D. Cook\, Washington\, D.C. · 11:00 a.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-20_20_DiscussionGovernorStephe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251121T081500
+DTEND;TZID=Asia/Seoul:20251121T091500
+SUMMARY:Miran 토론
+DESCRIPTION:At American Investment Council General Counsel Day\, New York\, N.Y. · 6:15 p.m. ET · Discussion - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-21_21_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251121T223000
+DTEND;TZID=Asia/Seoul:20251121T233000
+SUMMARY:Barr 연설
+DESCRIPTION:At the College Fed Challenge Finals\, Washington\, D.C. · 8:30 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-11-21_21_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251121T224500
+DTEND;TZID=Asia/Seoul:20251121T234500
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the 2025 Federal Reserve Bank of Cleveland Financial Stability Conference\, Cleveland\, Ohio · 8:45 a.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-12-01_1_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251202T100000
+DTEND;TZID=Asia/Seoul:20251202T110000
+SUMMARY:Powell 연설
+DESCRIPTION:At the Hoover Institution&#8217\;s George P. Shultz Memorial Lecture Series: George Shultz and Economic Policy\, Stanford\, Calif. · 8:00 p.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-12-02_2_TestimonyViceChairforSup@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251203T000000
+DTEND;TZID=Asia/Seoul:20251203T010000
+SUMMARY:Bowman 증언
+DESCRIPTION:Before the U.S. House Financial Services Committee · 10:00 a.m. ET · Testimony - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-12-04_4_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251205T023000
+DTEND;TZID=Asia/Seoul:20251205T033000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Florida Bankers Association Leadership Luncheon (Virtual) · 12:30 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-12-15_15_SpeechGovernorStephenIMi@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251215T233000
+DTEND;TZID=Asia/Seoul:20251216T003000
+SUMMARY:Miran 연설
+DESCRIPTION:At Columbia University\, New York\, N.Y. · 9:30 a.m. ET · Speech - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2025-12-17_17_DiscussionGovernorChrist@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20251217T221500
+DTEND;TZID=Asia/Seoul:20251217T231500
+SUMMARY:Waller 토론
+DESCRIPTION:At the Yale University CEO Summit\, New York\, N.Y. · 8:15 a.m. ET · Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-01-07_7_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260108T061000
+DTEND;TZID=Asia/Seoul:20260108T071000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the California Bankers Association: 2026 Bank Presidents Seminar (Virtual) · 4:10 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-01-14_14_SpeechGovernorStephenIMi@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260115T003000
+DTEND;TZID=Asia/Seoul:20260115T013000
+SUMMARY:Miran 연설
+DESCRIPTION:At the Delphi Economic Forum Lecture\, Athens\, Greece · 10:30 a.m. ET · Speech - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-01-15_15_PanelDiscussionGovernorM@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260115T231500
+DTEND;TZID=Asia/Seoul:20260116T001500
+SUMMARY:Barr 패널토론
+DESCRIPTION:At the Wharton School of the University of Pennsylvania Conference: Future of Finance Forum\, Washington\, D.C. · 9:15 a.m. ET · Panel Discussion - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-01-16_16_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260117T010000
+DTEND;TZID=Asia/Seoul:20260117T020000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Outlook &#8217\;26 New England Economic Forum\, Foxborough\, Mass. · 11:00 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-01-16_16_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260117T053000
+DTEND;TZID=Asia/Seoul:20260117T063000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the American Institute for Economic Research\, Shadow Open Market Committee\, and Florida Atlantic University Conference\, Boca Raton\, Fla. · 3:30 p.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-01-30_30_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260131T070000
+DTEND;TZID=Asia/Seoul:20260131T080000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the SW Graduate School of Banking at SMU Cox: 161st Assembly for Bank Directors (Virtual) · 5:00 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-04_4_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260205T083000
+DTEND;TZID=Asia/Seoul:20260205T093000
+SUMMARY:Cook 연설
+DESCRIPTION:At the Economic Club of Miami\, Miami\, Florida · 6:30 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-06_6_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260207T020000
+DTEND;TZID=Asia/Seoul:20260207T030000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At Supply-Side Factors and Inflation: What Have We Learned?\, The Brookings Institution\, Washington\, D.C. · 12:00 p.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-09_9_DiscussionGovernorChrist@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260210T033000
+DTEND;TZID=Asia/Seoul:20260210T043000
+SUMMARY:Waller 토론
+DESCRIPTION:At the Global Interdependence Center Summit: The Dollar and Continued U.S. Exceptionalism\, La Jolla\, Calif. · 1:30 p.m. ET · Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-09_9_DiscussionGovernorStephe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260210T043000
+DTEND;TZID=Asia/Seoul:20260210T053000
+SUMMARY:Miran 토론
+DESCRIPTION:At the Boston University Questrom School of Business Events and Conference Center\, Boston\, Mass. · 2:30 p.m. ET · Discussion - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-11_11_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260212T001500
+DTEND;TZID=Asia/Seoul:20260212T011500
+SUMMARY:Bowman 토론
+DESCRIPTION:At the Keefe\, Bruyette &amp\; Woods 33rd Annual Winter Financial Services Conference (virtual) · 10:15 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-12_12_DiscussionGovernorStephe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260213T090500
+DTEND;TZID=Asia/Seoul:20260213T100500
+SUMMARY:Miran 토론
+DESCRIPTION:At the Federal Reserve Bank of Dallas Global Perspectives Event\, Dallas\, Texas · 7:05 p.m. ET · Discussion - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-16_16_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260216T222500
+DTEND;TZID=Asia/Seoul:20260216T232500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the American Bankers Association Conference for Community Bankers\, Orlando\, Fla. · 8:25 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-17_17_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260218T024500
+DTEND;TZID=Asia/Seoul:20260218T034500
+SUMMARY:Barr 연설
+DESCRIPTION:At the New York Association for Business Economics (NYABE): A Conversation with Michael S. Barr\, New York\, N.Y. · 12:45 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-18_18_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260219T030000
+DTEND;TZID=Asia/Seoul:20260219T040000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Exchequer Club: A Conversation with Michelle W. Bowman\, Washington\, D.C. · 1:00 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-19_19_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260219T223000
+DTEND;TZID=Asia/Seoul:20260219T233000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the 2026 Banking Outlook Conference: The Next Horizon in Banking\, Atlanta\, Ga. · 8:30 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-23_23_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260223T220000
+DTEND;TZID=Asia/Seoul:20260223T230000
+SUMMARY:Waller 연설
+DESCRIPTION:At the 2026 National Association for Business Economists (NABE) Annual Economic Policy Conference\, Washington\, D.C. · 8:00 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-24_24_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260224T231500
+DTEND;TZID=Asia/Seoul:20260225T001500
+SUMMARY:Waller 연설
+DESCRIPTION:At the 2026 Technology-Enabled Disruption Conference: Shaping the Future of Finance and Payments (Virtual) · 9:15 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-24_24_DiscussionGovernorLisaDC@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260224T233000
+DTEND;TZID=Asia/Seoul:20260225T003000
+SUMMARY:Cook 토론
+DESCRIPTION:At the 2026 National Association for Business Economists (NABE) Annual Economic Policy Conference\, Washington\, D.C. · 9:30 a.m. ET · Discussion - Governor Lisa D. Cook 
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-02-26_26_TestimonyViceChairforSup@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260227T000000
+DTEND;TZID=Asia/Seoul:20260227T010000
+SUMMARY:Bowman 증언
+DESCRIPTION:Before the U.S. Senate Committee on Banking\, Housing\, and Urban Affairs · 10:00 a.m. ET · Testimony - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-05_5_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260306T031500
+DTEND;TZID=Asia/Seoul:20260306T041500
+SUMMARY:Bowman 토론
+DESCRIPTION:At Navigating What&#8217\;s Next: Perspective on the Economy &amp\; Innovation (virtual) · 1:15 p.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-11_11_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260311T213000
+DTEND;TZID=Asia/Seoul:20260311T223000
+SUMMARY:Bowman 토론
+DESCRIPTION:At the American Bankers Association Washington Summit\, Washington\, D.C. · 8:30 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-12_12_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260313T000000
+DTEND;TZID=Asia/Seoul:20260313T010000
+SUMMARY:Bowman 연설
+DESCRIPTION:At a Conversation with Vice Chair for Supervision Bowman\, Washington\, D.C. · 11:00 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-21_21_SpeechChairJeromeHPowell@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260322T023000
+DTEND;TZID=Asia/Seoul:20260322T033000
+SUMMARY:Powell 연설
+DESCRIPTION:At the American Society for Public Administration (ASPA) Annual Conference: Paul A. Volcker Public Integrity Award Ceremony (virtual) · 1:30 p.m. ET · Speech - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-24_24_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260325T073000
+DTEND;TZID=Asia/Seoul:20260325T083000
+SUMMARY:Barr 연설
+DESCRIPTION:At the National Community Investment Conference\, Phoenix\, Ariz. · 6:30 p.m. ET · Speech - Governor Michael S. Barr  
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-25_25_DiscussionGovernorStephe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260326T051000
+DTEND;TZID=Asia/Seoul:20260326T061000
+SUMMARY:Miran 토론
+DESCRIPTION:At the Digital Asset Summit 2026\, New York\, N.Y. · 4:10 p.m. ET · Discussion - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-26_26_TestimonyRandallDGuynnDi@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260326T230000
+DTEND;TZID=Asia/Seoul:20260327T000000
+SUMMARY:Regulation 증언
+DESCRIPTION:Before the U.S. House Financial Services Subcommittee on Digital Assets\, Financial Technology\, and Artificial Intelligence · 10:00 a.m. ET · Testimony - Randall D. Guynn\, Director\, Division of Supervision and Regulation
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-26_26_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260327T050000
+DTEND;TZID=Asia/Seoul:20260327T060000
+SUMMARY:Cook 연설
+DESCRIPTION:At Professor Andrew Metrick &amp\; Yale Program on Financial Stability Presents Federal Reserve Board of Governors\, Governor Lisa Cook\, New Haven\, Conn. · 4:00 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-26_26_SpeechGovernorStephenIMi@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260327T073000
+DTEND;TZID=Asia/Seoul:20260327T083000
+SUMMARY:Miran 연설
+DESCRIPTION:At an Economic Club of Miami Event\, Miami\, Fla. · 6:30 p.m. ET · Speech - Governor Stephen I. Miran
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-26_26_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260327T080000
+DTEND;TZID=Asia/Seoul:20260327T090000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the Global Perspectives Speaker Series\, Dallas\, Texas · 7:00 p.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-26_26_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260327T081000
+DTEND;TZID=Asia/Seoul:20260327T091000
+SUMMARY:Barr 연설
+DESCRIPTION:At a Conversation with Governor Michael S. Barr\, Washington\, D.C. · 7:10 p.m. ET · Speech - Governor Michael S. Barr  
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-30_30_DiscussionChairJeromeHPo@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260330T233000
+DTEND;TZID=Asia/Seoul:20260331T003000
+SUMMARY:Powell 토론
+DESCRIPTION:At the Harvard University Principles of Economics Class\, Harvard University\, Cambridge\, Massachusetts · 10:30 a.m. ET · Discussion - Chair Jerome H. Powell
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-31_31_DiscussionGovernorMichae@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260401T040000
+DTEND;TZID=Asia/Seoul:20260401T050000
+SUMMARY:Barr 토론
+DESCRIPTION:At The Federalist Society&#39\;s The GENIUS Act in Practice: Key Questions for Stablecoin Regulation (virtual) · 3:00 p.m. ET · Discussion - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-03-31_31_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260401T061000
+DTEND;TZID=Asia/Seoul:20260401T071000
+SUMMARY:Bowman 연설
+DESCRIPTION:At CBA Live 2026\, San Diego\, California · 5:10 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-04-01_1_DiscussionGovernorMichae@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260401T221000
+DTEND;TZID=Asia/Seoul:20260401T231000
+SUMMARY:Barr 토론
+DESCRIPTION:At the National Fair Housing Alliance 2026 Responsible AI Symposium\, Washington\, D.C. · 9:10 a.m. ET · Discussion - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-04-07_7_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260408T065000
+DTEND;TZID=Asia/Seoul:20260408T075000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the University of Detroit Mercy College of Business Administration Charlton Center for Responsible Investing Speaker Series\, Detroit\, Mich. · 5:50 p.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-04-08_8_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260409T033500
+DTEND;TZID=Asia/Seoul:20260409T043500
+SUMMARY:Waller 연설
+DESCRIPTION:At the Bemidji State University 27th Annual Student Achievement Conference\, Bemidji\, Minn. · 2:35 p.m. ET · Speech - Governor Christopher J. Waller  
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-04-13_13_DiscussionGovernorStephe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260414T072000
+DTEND;TZID=Asia/Seoul:20260414T082000
+SUMMARY:Miran 토론
+DESCRIPTION:At the Symposium on Building the Financial System of the 21st Century: An Agenda for Europe and the United States\, Washington\, D.C. · 6:20 p.m. ET · Discussion - Governor Stephen I. Miran   
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-04-14_14_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260415T014500
+DTEND;TZID=Asia/Seoul:20260415T024500
+SUMMARY:Barr 연설
+DESCRIPTION:At Strengthening America&#39\;s Economy through Rural Investment: A Working Forum\, Washington\, D.C. · 12:45 p.m. ET · Speech - Governor Michael S. Barr  
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-04-15_15_DiscussionGovernorMichae@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260415T213000
+DTEND;TZID=Asia/Seoul:20260415T223000
+SUMMARY:Barr 토론
+DESCRIPTION:At the National Community Reinvestment Coalition (NCRC) Just Economy Conference\, Washington\, D.C. · 8:30 a.m. ET · Discussion - Governor Michael S. Barr  
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-04-15_15_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260416T024500
+DTEND;TZID=Asia/Seoul:20260416T034500
+SUMMARY:Bowman 토론
+DESCRIPTION:At the Institute of International Finance Global Outlook Forum\, Washington\, D.C. · 1:45 p.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman   
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-04-16_16_DiscussionGovernorStephe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260416T233500
+DTEND;TZID=Asia/Seoul:20260417T003500
+SUMMARY:Miran 토론
+DESCRIPTION:At the Washington Economic Festival: Global Macro Sessions\, Washington\, D.C. · 10:35 a.m. ET · Discussion - Governor Stephen I. Miran   
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-04-17_17_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260418T030000
+DTEND;TZID=Asia/Seoul:20260418T040000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Auburn University Department of Economics David Kaserman Memorial Lecture\, Auburn\, Ala.  · 2:00 p.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-04-21_21_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260422T033000
+DTEND;TZID=Asia/Seoul:20260422T043000
+SUMMARY:Speech -- Governor Christopher J. Waller
+DESCRIPTION:At a Brookings Institution Event\, Washington\, D.C. · 2:30 p.m. ET · Speech -- Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-05_5_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260505T230000
+DTEND;TZID=Asia/Seoul:20260506T000000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the 2026 Women in Housing and Finance Symposium\, Washington\, D.C.  · 10:00 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-05_5_DiscussionGovernorMichae@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260506T013000
+DTEND;TZID=Asia/Seoul:20260506T023000
+SUMMARY:Barr 토론
+DESCRIPTION:At Conversation with Governor Michael Barr and Deputy Governor Sam Woods\, Oxford\, United Kingdom · 12:30 p.m. ET · Discussion - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-08_8_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260508T184500
+DTEND;TZID=Asia/Seoul:20260508T194500
+SUMMARY:Cook 연설
+DESCRIPTION:At the Central Bank of West African States (BCEAO) Conference on Digital Assets\, Dakar\, Senegal · 5:45 a.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-08_8_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260509T083000
+DTEND;TZID=Asia/Seoul:20260509T093000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Hoover Institution Monetary Policy Conference\, Stanford\, Calif. · 7:30 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-08_8_PanelDiscussionGovernorC@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260509T083000
+DTEND;TZID=Asia/Seoul:20260509T093000
+SUMMARY:Waller 패널토론
+DESCRIPTION:At the Hoover Institution Monetary Policy Conference\, Stanford\, Calif. · 7:30 p.m. ET · Panel Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-14_14_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260508T132319Z
+DTSTART;TZID=Asia/Seoul:20260515T080000
+DTEND;TZID=Asia/Seoul:20260515T090000
+SUMMARY:Barr 연설
+DESCRIPTION:At a Money Marketeers FOMC Event\, New York\, N.Y. · 7:00 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+END:VCALENDAR

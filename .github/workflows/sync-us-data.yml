@@ -1,0 +1,64 @@
+name: Sync US economic calendar data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily 06:20 KST. FRED/Fed feeds are cheap; content is committed only when data changes.
+    - cron: '20 21 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-us-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate US ICS files
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: node scripts/sync-us-data.mjs
+
+      - name: Verify against Forex Factory
+        id: verify_ff
+        continue-on-error: true
+        run: node scripts/verify-forexfactory.mjs
+
+      - name: Decide whether automation may commit
+        id: gate
+        run: node scripts/automation-commit-gate.mjs
+
+      - name: Upload automation reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: us-calendar-automation-reports
+          path: reports/*.json
+          if-no-files-found: ignore
+
+      - name: Commit generated data
+        if: steps.gate.outputs.commit == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/manifest.json
+          [ -f data/fed.ics ] && git add data/fed.ics
+          [ -f data/fed_speech.ics ] && git add data/fed_speech.ics
+          if git diff --cached --quiet; then
+            echo "No generated data changes."
+          else
+            git commit -m "Update automated US calendar data"
+            git push
+          fi
+
+      - name: Report blocked commit
+        if: steps.gate.outputs.commit != 'true'
+        run: |
+          echo "Automated commit blocked: ${{ steps.gate.outputs.reason }}"
+          echo "Review the uploaded Forex Factory verification report before publishing generated data."

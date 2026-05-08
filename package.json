@@ -1,0 +1,16 @@
+{
+  "name": "korea-econ-cal-data",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "sync:us": "node scripts/sync-us-data.mjs",
+    "sync:us:dry": "node scripts/sync-us-data.mjs --dry-run",
+    "verify:forexfactory": "node scripts/verify-forexfactory.mjs",
+    "verify:forexfactory:dry": "node scripts/verify-forexfactory.mjs --dry-run",
+    "automation:gate": "node scripts/automation-commit-gate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
