@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-09T00:15:14.907Z",
+  "generatedAt": "2026-05-09T23:33:57.295Z",
   "manifestUpdatedAt": "2026-05-09T00:15:07.834Z",
   "agencies": {
     "bok": {
@@ -64,7 +64,7 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-05-09T00:14:24.881Z",
+    "generatedAt": "2026-05-09T23:33:37.298Z",
     "window": {
       "start": "2025-04-09",
       "end": "2026-11-05"
