@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-14T07:36:19.971Z",
-  "manifestUpdatedAt": "2026-05-14T07:36:02.004Z",
+  "generatedAt": "2026-05-14T08:04:47.988Z",
+  "manifestUpdatedAt": "2026-05-14T08:04:44.683Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,12 +20,12 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-05-11T00:11:26.137Z",
+      "uploadedAt": "2026-05-14T08:04:44.683Z",
       "available": true
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-05-12T08:05:56.869Z",
+      "uploadedAt": "2026-05-14T08:04:44.683Z",
       "available": true
     },
     "kostat": {
@@ -35,33 +35,33 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-05-13T08:14:41.290Z",
+    "generatedAt": "2026-05-14T08:04:44.683Z",
     "window": {
-      "start": "2025-04-13",
-      "end": "2026-11-09"
+      "start": "2025-04-14",
+      "end": "2026-11-10"
     },
     "fred": {
       "success": true,
       "skipped": false,
       "partial": false,
-      "count": 360,
-      "sourceRecords": 360,
+      "count": 361,
+      "sourceRecords": 361,
       "failures": [],
       "error": null
     },
     "fed": {
-      "count": 560,
-      "changed": false,
+      "count": 561,
+      "changed": true,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
     "fedSpeech": {
-      "count": 156,
-      "changed": false,
+      "count": 157,
+      "changed": true,
       "error": null,
       "filename": "fed_speech.ics"
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "koreaSync": {
     "generatedAt": "2026-05-14T07:36:02.004Z",
@@ -111,12 +111,12 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-05-13T08:14:44.434Z",
+      "generatedAt": "2026-05-14T08:04:47.715Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
         "forexFactoryHighUsd": 8,
-        "appFedEvents": 560,
+        "appFedEvents": 561,
         "checked": 7,
         "mismatches": 0,
         "ignored": 1

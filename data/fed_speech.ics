@@ -1410,6 +1410,15 @@ DESCRIPTION:At the Hoover Institution Monetary Policy Conference\, Stanford\, Ca
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-05-14_14_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260514T170000Z
+DTSTART;TZID=Asia/Seoul:20260515T020000
+DTEND;TZID=Asia/Seoul:20260515T030000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Federal Reserve Bank of Kansas City&#8217\;s Future of Banking Conference (via pre-recorded video) · 1:00 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman 
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:fed_speech_2026-05-14_14_SpeechGovernorMichaelSBa@korea-econ-cal-data
 DTSTAMP:20260514T230000Z
 DTSTART;TZID=Asia/Seoul:20260515T080000
