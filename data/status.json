@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-14T08:04:47.988Z",
+  "generatedAt": "2026-05-14T10:15:10.801Z",
   "manifestUpdatedAt": "2026-05-14T08:04:44.683Z",
   "agencies": {
     "bok": {
@@ -64,7 +64,7 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-05-14T07:36:02.004Z",
+    "generatedAt": "2026-05-14T10:14:53.047Z",
     "window": {
       "start": "2025-04-14",
       "end": "2026-11-10"
@@ -73,7 +73,7 @@
       "bok": {
         "success": true,
         "count": 201,
-        "changed": true,
+        "changed": false,
         "skippedWrite": false,
         "filename": "bok.ics",
         "meta": {
@@ -87,7 +87,7 @@
       "kostat": {
         "success": true,
         "count": 84,
-        "changed": true,
+        "changed": false,
         "skippedWrite": false,
         "filename": "kostat.ics",
         "meta": {
@@ -98,7 +98,7 @@
       "moef": {
         "success": true,
         "count": 140,
-        "changed": true,
+        "changed": false,
         "skippedWrite": false,
         "filename": "moef.ics",
         "meta": {
@@ -107,7 +107,7 @@
         "error": null
       }
     },
-    "manifestChanged": true
+    "manifestChanged": false
   },
   "verification": {
     "forexFactory": {
