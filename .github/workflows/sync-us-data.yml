@@ -55,6 +55,9 @@ jobs:
       - name: Write public status summary
         run: node scripts/write-status-summary.mjs
 
+      - name: Build Google Calendar subscription feed
+        run: node scripts/build-google-calendar-ics.mjs
+
       - name: Upload automation reports
         uses: actions/upload-artifact@v4
         with:
@@ -71,6 +74,8 @@ jobs:
           [ -f data/status.json ] && git add data/status.json
           [ -f data/fed.ics ] && git add data/fed.ics
           [ -f data/fed_speech.ics ] && git add data/fed_speech.ics
+          [ -f data/ust.ics ] && git add data/ust.ics
+          [ -f data/calendar.ics ] && git add data/calendar.ics
           if git diff --cached --quiet; then
             echo "No generated data changes."
           else

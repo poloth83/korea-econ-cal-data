@@ -7,6 +7,7 @@ on:
       - '.github/workflows/sync-kr-data.yml'
       - 'package.json'
       - 'scripts/sync-kr-data.mjs'
+      - 'scripts/build-google-calendar-ics.mjs'
       - 'scripts/write-status-summary.mjs'
   schedule:
     # Daily 06:05 KST. Source failures preserve existing published ICS files.
@@ -45,6 +46,9 @@ jobs:
       - name: Write public status summary
         run: node scripts/write-status-summary.mjs
 
+      - name: Build Google Calendar subscription feed
+        run: node scripts/build-google-calendar-ics.mjs
+
       - name: Upload automation reports
         uses: actions/upload-artifact@v4
         with:
@@ -61,6 +65,7 @@ jobs:
           [ -f data/bok.ics ] && git add data/bok.ics
           [ -f data/moef.ics ] && git add data/moef.ics
           [ -f data/kostat.ics ] && git add data/kostat.ics
+          [ -f data/calendar.ics ] && git add data/calendar.ics
           if git diff --cached --quiet; then
             echo "No generated data changes."
           else

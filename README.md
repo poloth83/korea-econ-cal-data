@@ -9,6 +9,7 @@
 ```
 data/
 ├── manifest.json   ← 어떤 기관 ICS가 있는지 + 갱신일시
+├── calendar.ics    ← Google Calendar 구독용 통합 캘린더
 ├── bok.ics         ← 자동 생성 한국은행 통계공표일정
 ├── moef.ics        ← 자동 생성 기획재정부 국고채 발행일정
 ├── kostat.ics      ← 자동 생성 통계청/국가데이터처 경제 보도계획
@@ -17,11 +18,32 @@ data/
 └── fed_speech.ics  ← 자동 생성 Fed 연설/증언 일정
 ```
 
+## Google Calendar 구독
+
+Google Calendar에서 아래 URL을 `URL로 캘린더 추가`에 입력하면 앱에 배포되는 경제지표 일정을 별도 캘린더로 구독할 수 있습니다.
+
+```text
+https://cdn.jsdelivr.net/gh/poloth83/korea-econ-cal-data@main/data/calendar.ics
+```
+
+대체 URL:
+
+```text
+https://raw.githubusercontent.com/poloth83/korea-econ-cal-data/main/data/calendar.ics
+```
+
+주의사항:
+
+- `calendar.ics`는 `bok.ics`, `moef.ics`, `kostat.ics`, `fed.ics`, `fed_speech.ics`, `ust.ics`를 합친 통합 피드입니다.
+- Google Calendar의 구독 캘린더 갱신 주기는 Google이 관리하므로 GitHub 반영 직후 즉시 바뀌지 않을 수 있습니다.
+- 이벤트 `UID`는 원본 소스별 ICS의 값을 유지해 중복 생성을 줄입니다.
+
 ## 자동화
 
 `.github/workflows/sync-kr-data.yml`가 매일 06:05 KST에 실행됩니다.
 
 - `scripts/sync-kr-data.mjs`: `bok.ics`, `moef.ics`, `kostat.ics`, `manifest.json` 자동 갱신
+- `scripts/build-google-calendar-ics.mjs`: Google Calendar 구독용 `calendar.ics` 자동 생성
 - 한국은행은 통계공표일정 연도별 표를 조회해 과거 13개월 + 미래 180일 범위를 생성합니다
 - 기획재정부는 국채시장 월간 발행일정을 월별 조회해 생성합니다
 - 통계청/국가데이터처는 보도계획 중 시장 관련 경제지표성 항목만 필터링합니다
@@ -31,6 +53,7 @@ data/
 
 - `scripts/sync-us-data.mjs`: `fed.ics`, `fed_speech.ics`, `manifest.json` 자동 갱신
 - `scripts/verify-forexfactory.mjs`: Forex Factory/Fair Economy 주간 XML의 USD high-impact 일정과 `fed.ics` 교차검증
+- `scripts/build-google-calendar-ics.mjs`: Google Calendar 구독용 `calendar.ics` 자동 생성
 - 검증 불일치가 있으면 자동 commit을 막고 GitHub Actions artifact에 리포트를 남깁니다
 - `FRED_API_KEY`는 GitHub repo secret으로 설정해야 FRED 기반 지표가 완전하게 생성됩니다
 
@@ -40,6 +63,7 @@ data/
 npm run sync:kr:dry
 npm run sync:us:dry
 npm run verify:forexfactory:dry
+npm run calendar:dry
 ```
 
 ## 수동 ICS 파일 갱신 워크플로

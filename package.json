@@ -10,6 +10,8 @@
     "sync:us:dry": "node scripts/sync-us-data.mjs --dry-run",
     "verify:forexfactory": "node scripts/verify-forexfactory.mjs",
     "verify:forexfactory:dry": "node scripts/verify-forexfactory.mjs --dry-run",
+    "calendar:build": "node scripts/build-google-calendar-ics.mjs",
+    "calendar:dry": "node scripts/build-google-calendar-ics.mjs --dry-run",
     "status:write": "node scripts/write-status-summary.mjs",
     "status:dry": "node scripts/write-status-summary.mjs --dry-run",
     "automation:gate": "node scripts/automation-commit-gate.mjs"
