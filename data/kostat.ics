@@ -761,4 +761,13 @@ SUMMARY:[통계청] 2025년 다문화인구동태 통계
 DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-11-11-dqb3hk@korea-econ-cal-data
+DTSTAMP:20261110T230000Z
+DTSTART;TZID=Asia/Seoul:20261111T080000
+DTEND;TZID=Asia/Seoul:20261111T083000
+SUMMARY:[통계청] 2026년 10월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
 END:VCALENDAR

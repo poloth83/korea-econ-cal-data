@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-13T08:14:44.642Z",
-  "manifestUpdatedAt": "2026-05-12T08:05:56.869Z",
+  "generatedAt": "2026-05-14T07:36:19.971Z",
+  "manifestUpdatedAt": "2026-05-14T07:36:02.004Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-05-11T00:10:41.479Z",
+      "uploadedAt": "2026-05-14T07:36:02.004Z",
       "available": true
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-05-12T00:15:11.168Z",
+      "uploadedAt": "2026-05-14T07:36:02.004Z",
       "available": true
     },
     "ust": {
@@ -30,7 +30,7 @@
     },
     "kostat": {
       "filename": "kostat.ics",
-      "uploadedAt": "2026-05-08T16:10:46.956Z",
+      "uploadedAt": "2026-05-14T07:36:02.004Z",
       "available": true
     }
   },
@@ -64,16 +64,16 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-05-13T08:13:58.576Z",
+    "generatedAt": "2026-05-14T07:36:02.004Z",
     "window": {
-      "start": "2025-04-13",
-      "end": "2026-11-09"
+      "start": "2025-04-14",
+      "end": "2026-11-10"
     },
     "sources": {
       "bok": {
         "success": true,
-        "count": 202,
-        "changed": false,
+        "count": 201,
+        "changed": true,
         "skippedWrite": false,
         "filename": "bok.ics",
         "meta": {
@@ -86,8 +86,8 @@
       },
       "kostat": {
         "success": true,
-        "count": 83,
-        "changed": false,
+        "count": 84,
+        "changed": true,
         "skippedWrite": false,
         "filename": "kostat.ics",
         "meta": {
@@ -97,8 +97,8 @@
       },
       "moef": {
         "success": true,
-        "count": 141,
-        "changed": false,
+        "count": 140,
+        "changed": true,
         "skippedWrite": false,
         "filename": "moef.ics",
         "meta": {
@@ -107,7 +107,7 @@
         "error": null
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
