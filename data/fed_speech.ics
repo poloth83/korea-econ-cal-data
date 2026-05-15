@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-04-14_14_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250414T170000Z
-DTSTART;TZID=Asia/Seoul:20250415T020000
-DTEND;TZID=Asia/Seoul:20250415T030000
-SUMMARY:Waller 연설
-DESCRIPTION:At the Economic Outlook with Chris Waller Event\, hosted by the Chartered Financial Analyst (CFA) Society of St. Louis\, St. Louis\, Mo. · 1:00 p.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-04-15_15_SpeechGovernorLisaDCook@korea-econ-cal-data
 DTSTAMP:20250415T231000Z
 DTSTART;TZID=Asia/Seoul:20250416T081000
@@ -1425,6 +1416,33 @@ DTSTART;TZID=Asia/Seoul:20260515T080000
 DTEND;TZID=Asia/Seoul:20260515T090000
 SUMMARY:Barr 연설
 DESCRIPTION:At a Money Marketeers FOMC Event\, New York\, N.Y. · 7:00 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-19_19_DiscussionGovernorChrist@korea-econ-cal-data
+DTSTAMP:20260519T120000Z
+DTSTART;TZID=Asia/Seoul:20260519T210000
+DTEND;TZID=Asia/Seoul:20260519T220000
+SUMMARY:Waller 토론
+DESCRIPTION:At the International Research Forum on Monetary Policy\, Frankfurt am Main\, Germany · 8:00 a.m. ET · Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-20_20_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260520T131500Z
+DTSTART;TZID=Asia/Seoul:20260520T221500
+DTEND;TZID=Asia/Seoul:20260520T231500
+SUMMARY:Barr 연설
+DESCRIPTION:At the Financial Health Network&#8217\;s (FHN) EMERGE Financial Health 2026 Conference\, Atlanta\, Ga. · 9:15 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-22_22_LectureGovernorChristoph@korea-econ-cal-data
+DTSTAMP:20260522T140000Z
+DTSTART;TZID=Asia/Seoul:20260522T230000
+DTEND;TZID=Asia/Seoul:20260523T000000
+SUMMARY:Waller Lecture
+DESCRIPTION:At the Centre for Central Banking Guest Lecture\, Frankfurt am Main\, Germany · 10:00 a.m. ET · Lecture - Governor Christopher J. Waller
 LOCATION:United States
 END:VEVENT
 END:VCALENDAR

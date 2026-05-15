@@ -18,15 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-04-14_14_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250414T170000Z
-DTSTART;TZID=Asia/Seoul:20250415T020000
-DTEND;TZID=Asia/Seoul:20250415T030000
-SUMMARY:Waller 연설
-DESCRIPTION:At the Economic Outlook with Chris Waller Event\, hosted by the Chartered Financial Analyst (CFA) Society of St. Louis\, St. Louis\, Mo. · 1:00 p.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fred_188_2025-04-15@korea-econ-cal-data
 DTSTAMP:20250415T123000Z
 DTSTART;TZID=Asia/Seoul:20250415T213000
@@ -7338,6 +7329,15 @@ DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 1/4 · 12:00 K
 LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-05-19_19_DiscussionGovernorChrist@korea-econ-cal-data
+DTSTAMP:20260519T120000Z
+DTSTART;TZID=Asia/Seoul:20260519T210000
+DTEND;TZID=Asia/Seoul:20260519T220000
+SUMMARY:Waller 토론
+DESCRIPTION:At the International Research Forum on Monetary Policy\, Frankfurt am Main\, Germany · 8:00 a.m. ET · Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:ust-6-week-bill-2026-05-19@korea-econ-cal-data
 DTSTAMP:20260508T112100Z
 DTSTART:20260519T153000Z
@@ -7346,6 +7346,15 @@ SUMMARY:미국 6주 T-Bill 입찰
 DESCRIPTION:발표 2026-05-14 · 결제 2026-05-21 · 11:30 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-20_20_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260520T131500Z
+DTSTART;TZID=Asia/Seoul:20260520T221500
+DTEND;TZID=Asia/Seoul:20260520T231500
+SUMMARY:Barr 연설
+DESCRIPTION:At the Financial Health Network&#8217\;s (FHN) EMERGE Financial Health 2026 Conference\, Atlanta\, Ga. · 9:15 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2026-05-20@korea-econ-cal-data
@@ -7467,6 +7476,15 @@ DTSTART;TZID=Asia/Seoul:20260522T230000
 DTEND;TZID=Asia/Seoul:20260523T000000
 SUMMARY:미시간대 소비자심리 (확정)
 DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-22_22_LectureGovernorChristoph@korea-econ-cal-data
+DTSTAMP:20260522T140000Z
+DTSTART;TZID=Asia/Seoul:20260522T230000
+DTEND;TZID=Asia/Seoul:20260523T000000
+SUMMARY:Waller Lecture
+DESCRIPTION:At the Centre for Central Banking Guest Lecture\, Frankfurt am Main\, Germany · 10:00 a.m. ET · Lecture - Governor Christopher J. Waller
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-15T00:14:52.164Z",
-  "manifestUpdatedAt": "2026-05-15T00:14:31.061Z",
+  "generatedAt": "2026-05-15T08:22:30.668Z",
+  "manifestUpdatedAt": "2026-05-15T08:22:27.858Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,7 +20,7 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-05-14T08:04:44.683Z",
+      "uploadedAt": "2026-05-15T08:22:27.858Z",
       "available": true
     },
     "fed": {
@@ -35,10 +35,10 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-05-14T10:15:28.903Z",
+    "generatedAt": "2026-05-15T08:22:27.858Z",
     "window": {
-      "start": "2025-04-14",
-      "end": "2026-11-10"
+      "start": "2025-04-15",
+      "end": "2026-11-11"
     },
     "fred": {
       "success": true,
@@ -56,12 +56,12 @@
       "filename": "fed.ics"
     },
     "fedSpeech": {
-      "count": 157,
-      "changed": false,
+      "count": 159,
+      "changed": true,
       "error": null,
       "filename": "fed_speech.ics"
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "koreaSync": {
     "generatedAt": "2026-05-15T00:14:31.061Z",
@@ -111,7 +111,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-05-14T10:15:31.156Z",
+      "generatedAt": "2026-05-15T08:22:30.418Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
