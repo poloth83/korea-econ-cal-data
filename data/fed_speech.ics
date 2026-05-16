@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-04-15_15_SpeechGovernorLisaDCook@korea-econ-cal-data
-DTSTAMP:20250415T231000Z
-DTSTART;TZID=Asia/Seoul:20250416T081000
-DTEND;TZID=Asia/Seoul:20250416T091000
-SUMMARY:Cook 연설
-DESCRIPTION:At the Cal Alumni Club of Washington\, D.C. Annual Reception\, Washington\, D.C. · 7:10 p.m. ET · Speech - Governor Lisa D. Cook 
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-04-16_16_SpeechChairJeromeHPowell@korea-econ-cal-data
 DTSTAMP:20250416T173000Z
 DTSTART;TZID=Asia/Seoul:20250417T023000
