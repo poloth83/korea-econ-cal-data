@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-04-16_16_SpeechChairJeromeHPowell@korea-econ-cal-data
-DTSTAMP:20250416T173000Z
-DTSTART;TZID=Asia/Seoul:20250417T023000
-DTEND;TZID=Asia/Seoul:20250417T033000
-SUMMARY:Powell 연설
-DESCRIPTION:At Discussion: Chair Jerome H. Powell at the Economic Club of Chicago\, Chicago\, Ill.  · 1:30 p.m. ET · Speech - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-04-17_17_SpeechGovernorMichaelSBa@korea-econ-cal-data
 DTSTAMP:20250417T154500Z
 DTSTART;TZID=Asia/Seoul:20250418T004500
