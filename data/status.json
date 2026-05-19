@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-18T00:15:17.608Z",
-  "manifestUpdatedAt": "2026-05-17T00:11:18.625Z",
+  "generatedAt": "2026-05-19T08:49:14.033Z",
+  "manifestUpdatedAt": "2026-05-19T08:48:52.116Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -10,7 +10,7 @@
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-05-16T00:09:36.626Z",
+      "uploadedAt": "2026-05-19T08:48:52.116Z",
       "available": true
     },
     "ust": {
@@ -64,10 +64,10 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-05-18T00:14:54.412Z",
+    "generatedAt": "2026-05-19T08:48:52.116Z",
     "window": {
-      "start": "2025-04-18",
-      "end": "2026-11-14"
+      "start": "2025-04-19",
+      "end": "2026-11-15"
     },
     "sources": {
       "bok": {
@@ -97,8 +97,8 @@
       },
       "moef": {
         "success": true,
-        "count": 141,
-        "changed": false,
+        "count": 142,
+        "changed": true,
         "skippedWrite": false,
         "filename": "moef.ics",
         "meta": {
@@ -107,7 +107,7 @@
         "error": null
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
