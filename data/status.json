@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-19T08:49:14.033Z",
+  "generatedAt": "2026-05-20T08:44:21.613Z",
   "manifestUpdatedAt": "2026-05-19T08:48:52.116Z",
   "agencies": {
     "bok": {
@@ -64,10 +64,10 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-05-19T08:48:52.116Z",
+    "generatedAt": "2026-05-20T08:43:59.833Z",
     "window": {
-      "start": "2025-04-19",
-      "end": "2026-11-15"
+      "start": "2025-04-20",
+      "end": "2026-11-16"
     },
     "sources": {
       "bok": {
@@ -98,7 +98,7 @@
       "moef": {
         "success": true,
         "count": 142,
-        "changed": true,
+        "changed": false,
         "skippedWrite": false,
         "filename": "moef.ics",
         "meta": {
@@ -107,7 +107,7 @@
         "error": null
       }
     },
-    "manifestChanged": true
+    "manifestChanged": false
   },
   "verification": {
     "forexFactory": {
