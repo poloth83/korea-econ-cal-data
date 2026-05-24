@@ -18,78 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fred_180_2025-04-17@korea-econ-cal-data
-DTSTAMP:20250417T123000Z
-DTSTART;TZID=Asia/Seoul:20250417T213000
-DTEND;TZID=Asia/Seoul:20250417T223000
-SUMMARY:미국 주간실업수당청구
-DESCRIPTION:Unemployment Insurance Weekly Claims Report · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_27_2025-04-17@korea-econ-cal-data
-DTSTAMP:20250417T123000Z
-DTSTART;TZID=Asia/Seoul:20250417T213000
-DTEND;TZID=Asia/Seoul:20250417T223000
-SUMMARY:미국 주택착공
-DESCRIPTION:New Residential Construction · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-04-17_17_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20250417T154500Z
-DTSTART;TZID=Asia/Seoul:20250418T004500
-DTEND;TZID=Asia/Seoul:20250418T014500
-SUMMARY:Barr 연설
-DESCRIPTION:At the Federal Reserve Bank of New York and Columbia University&#8217\;s School of International and Public Affairs 2025 State-of-the-Field Conference on Cyber Risk to Financial Stability\, New York\, N.Y.  · 11:45 a.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-04-22_22_SpeechViceChairPhilipNJe@korea-econ-cal-data
-DTSTAMP:20250422T130000Z
-DTSTART;TZID=Asia/Seoul:20250422T220000
-DTEND;TZID=Asia/Seoul:20250422T230000
-SUMMARY:Jefferson 연설
-DESCRIPTION:At the Federal Reserve Bank of Philadelphia Economic Mobility Summit\, Philadelphia\, Pa. · 9:00 a.m. ET · Speech - Vice Chair Philip N. Jefferson
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-04-22_22_SpeechGovernorAdrianaDKu@korea-econ-cal-data
-DTSTAMP:20250422T220000Z
-DTSTART;TZID=Asia/Seoul:20250423T070000
-DTEND;TZID=Asia/Seoul:20250423T080000
-SUMMARY:Kugler 연설
-DESCRIPTION:At the Heller-Hurwicz Economics Institute 2025 Roundtable with Dr. Adriana Kugler\, Minneapolis\, Minn. · 6:00 p.m. ET · Speech - Governor Adriana D. Kugler
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_27_2025-04-23@korea-econ-cal-data
-DTSTAMP:20250423T123000Z
-DTSTART;TZID=Asia/Seoul:20250423T213000
-DTEND;TZID=Asia/Seoul:20250423T223000
-SUMMARY:미국 주택착공
-DESCRIPTION:New Residential Construction · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-04-23_23_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250423T133500Z
-DTSTART;TZID=Asia/Seoul:20250423T223500
-DTEND;TZID=Asia/Seoul:20250423T233500
-SUMMARY:Waller 연설
-DESCRIPTION:At a Fed Listens event hosted by the Federal Reserve Bank of St. Louis (Virtual) · 9:35 a.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_97_2025-04-23@korea-econ-cal-data
-DTSTAMP:20250423T140000Z
-DTSTART;TZID=Asia/Seoul:20250423T230000
-DTEND;TZID=Asia/Seoul:20250424T000000
-SUMMARY:미국 신규주택판매
-DESCRIPTION:New Residential Sales · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fred_180_2025-04-24@korea-econ-cal-data
 DTSTAMP:20250424T123000Z
 DTSTART;TZID=Asia/Seoul:20250424T213000
@@ -7504,6 +7432,24 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-05-27_27_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260527T195500Z
+DTSTART;TZID=Asia/Seoul:20260528T045500
+DTEND;TZID=Asia/Seoul:20260528T055500
+SUMMARY:Cook 연설
+DESCRIPTION:At the Stanford Institute for Economic Policy Research (SIEPR) Policy Forum\, Stanford\, California · 3:55 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-27_27_DiscussionViceChairPhili@korea-econ-cal-data
+DTSTAMP:20260528T000000Z
+DTSTART;TZID=Asia/Seoul:20260528T090000
+DTEND;TZID=Asia/Seoul:20260528T100000
+SUMMARY:Jefferson 토론
+DESCRIPTION:At the Bank of Japan-Institute for Monetary and Economic Studies Conference\, Tokyo\, Japan · 8:00 p.m. ET · Discussion - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:kostat-2026-05-28-hev8m1@korea-econ-cal-data
 DTSTAMP:20260528T030000Z
 DTSTART;TZID=Asia/Seoul:20260528T120000
@@ -7613,6 +7559,33 @@ DTEND;TZID=Asia/Seoul:20260529T123000
 SUMMARY:[BOK] 금융기관 가중평균금리
 DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 4 · 12:00 KST
 LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-29_29_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260529T131000Z
+DTSTART;TZID=Asia/Seoul:20260529T221000
+DTEND;TZID=Asia/Seoul:20260529T231000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Reykjavik Economic Conference 2026\, Reykjavik\, Iceland · 9:10 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-31_31_PanelDiscussionGovernorC@korea-econ-cal-data
+DTSTAMP:20260531T123000Z
+DTSTART;TZID=Asia/Seoul:20260531T213000
+DTEND;TZID=Asia/Seoul:20260531T223000
+SUMMARY:Waller 패널토론
+DESCRIPTION:At the 32nd Dubrovnik Economic Conference\, Orašac\, Croatia · 8:30 a.m. ET · Panel Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-31_31_SpeechGovernorJeromeHPow@korea-econ-cal-data
+DTSTAMP:20260601T003000Z
+DTSTART;TZID=Asia/Seoul:20260601T093000
+DTEND;TZID=Asia/Seoul:20260601T103000
+SUMMARY:Powell 연설
+DESCRIPTION:At the John F. Kennedy Profile in Courage Award Ceremony\, Boston\, Mass. · 8:30 p.m. ET · Speech - Governor Jerome H. Powell
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:moef-2026-06-01-ly8rfx@korea-econ-cal-data
@@ -12391,6 +12364,33 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
+UID:fred_188_2026-11-17@korea-econ-cal-data
+DTSTAMP:20261117T133000Z
+DTSTART;TZID=Asia/Seoul:20261117T223000
+DTEND;TZID=Asia/Seoul:20261117T233000
+SUMMARY:미국 수출입물가지수
+DESCRIPTION:U.S. Import and Export Price Indexes · 08:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fred_9_2026-11-17@korea-econ-cal-data
+DTSTAMP:20261117T133000Z
+DTSTART;TZID=Asia/Seoul:20261117T223000
+DTEND;TZID=Asia/Seoul:20261117T233000
+SUMMARY:미국 소매판매
+DESCRIPTION:Advance Monthly Sales for Retail and Food Services · 08:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fred_13_2026-11-17@korea-econ-cal-data
+DTSTAMP:20261117T141500Z
+DTSTART;TZID=Asia/Seoul:20261117T231500
+DTEND;TZID=Asia/Seoul:20261118T001500
+SUMMARY:미국 산업생산
+DESCRIPTION:G.17 Industrial Production and Capacity Utilization · 09:15 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:bok-2026-11-18-1cqc87z@korea-econ-cal-data
 DTSTAMP:20261118T030000Z
 DTSTART;TZID=Asia/Seoul:20261118T120000
@@ -12400,6 +12400,15 @@ DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 3/4 · 12:00 K
 LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
+UID:fred_27_2026-11-18@korea-econ-cal-data
+DTSTAMP:20261118T133000Z
+DTSTART;TZID=Asia/Seoul:20261118T223000
+DTEND;TZID=Asia/Seoul:20261118T233000
+SUMMARY:미국 주택착공
+DESCRIPTION:New Residential Construction · 08:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:bok-2026-11-19-1wc722e@korea-econ-cal-data
 DTSTAMP:20261119T030000Z
 DTSTART;TZID=Asia/Seoul:20261119T120000
@@ -12407,6 +12416,15 @@ DTEND;TZID=Asia/Seoul:20261119T123000
 SUMMARY:[BOK] 국제투자대조표 (대외채무·채권 통계)
 DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 3/4 · 12:00 KST
 LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:fred_180_2026-11-19@korea-econ-cal-data
+DTSTAMP:20261119T133000Z
+DTSTART;TZID=Asia/Seoul:20261119T223000
+DTEND;TZID=Asia/Seoul:20261119T233000
+SUMMARY:미국 주간실업수당청구
+DESCRIPTION:Unemployment Insurance Weekly Claims Report · 08:30 ET
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:bok-2026-11-20-5f1pj3@korea-econ-cal-data

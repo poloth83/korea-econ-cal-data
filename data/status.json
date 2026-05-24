@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-24T00:16:21.203Z",
-  "manifestUpdatedAt": "2026-05-24T00:15:57.659Z",
+  "generatedAt": "2026-05-24T08:00:57.340Z",
+  "manifestUpdatedAt": "2026-05-24T08:00:54.085Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,12 +20,12 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-05-17T00:11:18.625Z",
+      "uploadedAt": "2026-05-24T08:00:54.085Z",
       "available": true
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-05-17T00:11:18.625Z",
+      "uploadedAt": "2026-05-24T08:00:54.085Z",
       "available": true
     },
     "kostat": {
@@ -35,28 +35,28 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-05-17T00:11:18.625Z",
+    "generatedAt": "2026-05-24T08:00:54.085Z",
     "window": {
-      "start": "2025-04-17",
-      "end": "2026-11-13"
+      "start": "2025-04-24",
+      "end": "2026-11-20"
     },
     "fred": {
       "success": true,
       "skipped": false,
       "partial": false,
-      "count": 360,
-      "sourceRecords": 360,
+      "count": 361,
+      "sourceRecords": 361,
       "failures": [],
       "error": null
     },
     "fed": {
-      "count": 561,
+      "count": 562,
       "changed": true,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
     "fedSpeech": {
-      "count": 157,
+      "count": 158,
       "changed": true,
       "error": null,
       "filename": "fed_speech.ics"
@@ -111,15 +111,15 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-05-17T00:11:20.782Z",
+      "generatedAt": "2026-05-24T08:00:57.139Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
-        "forexFactoryHighUsd": 8,
-        "appFedEvents": 561,
-        "checked": 7,
+        "forexFactoryHighUsd": 2,
+        "appFedEvents": 562,
+        "checked": 2,
         "mismatches": 0,
-        "ignored": 1
+        "ignored": 0
       },
       "feedErrors": []
     }

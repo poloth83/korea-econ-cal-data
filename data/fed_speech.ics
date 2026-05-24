@@ -15,42 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-04-17_17_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20250417T154500Z
-DTSTART;TZID=Asia/Seoul:20250418T004500
-DTEND;TZID=Asia/Seoul:20250418T014500
-SUMMARY:Barr 연설
-DESCRIPTION:At the Federal Reserve Bank of New York and Columbia University&#8217\;s School of International and Public Affairs 2025 State-of-the-Field Conference on Cyber Risk to Financial Stability\, New York\, N.Y.  · 11:45 a.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-04-22_22_SpeechViceChairPhilipNJe@korea-econ-cal-data
-DTSTAMP:20250422T130000Z
-DTSTART;TZID=Asia/Seoul:20250422T220000
-DTEND;TZID=Asia/Seoul:20250422T230000
-SUMMARY:Jefferson 연설
-DESCRIPTION:At the Federal Reserve Bank of Philadelphia Economic Mobility Summit\, Philadelphia\, Pa. · 9:00 a.m. ET · Speech - Vice Chair Philip N. Jefferson
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-04-22_22_SpeechGovernorAdrianaDKu@korea-econ-cal-data
-DTSTAMP:20250422T220000Z
-DTSTART;TZID=Asia/Seoul:20250423T070000
-DTEND;TZID=Asia/Seoul:20250423T080000
-SUMMARY:Kugler 연설
-DESCRIPTION:At the Heller-Hurwicz Economics Institute 2025 Roundtable with Dr. Adriana Kugler\, Minneapolis\, Minn. · 6:00 p.m. ET · Speech - Governor Adriana D. Kugler
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-04-23_23_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250423T133500Z
-DTSTART;TZID=Asia/Seoul:20250423T223500
-DTEND;TZID=Asia/Seoul:20250423T233500
-SUMMARY:Waller 연설
-DESCRIPTION:At a Fed Listens event hosted by the Federal Reserve Bank of St. Louis (Virtual) · 9:35 a.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-03_3_SpeechGovernorLisaDCook@korea-econ-cal-data
 DTSTAMP:20250503T165000Z
 DTSTART;TZID=Asia/Seoul:20250504T015000
@@ -1425,6 +1389,51 @@ DTSTART;TZID=Asia/Seoul:20260522T230000
 DTEND;TZID=Asia/Seoul:20260523T000000
 SUMMARY:Waller Lecture
 DESCRIPTION:At the Centre for Central Banking Guest Lecture\, Frankfurt am Main\, Germany · 10:00 a.m. ET · Lecture - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-27_27_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260527T195500Z
+DTSTART;TZID=Asia/Seoul:20260528T045500
+DTEND;TZID=Asia/Seoul:20260528T055500
+SUMMARY:Cook 연설
+DESCRIPTION:At the Stanford Institute for Economic Policy Research (SIEPR) Policy Forum\, Stanford\, California · 3:55 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-27_27_DiscussionViceChairPhili@korea-econ-cal-data
+DTSTAMP:20260528T000000Z
+DTSTART;TZID=Asia/Seoul:20260528T090000
+DTEND;TZID=Asia/Seoul:20260528T100000
+SUMMARY:Jefferson 토론
+DESCRIPTION:At the Bank of Japan-Institute for Monetary and Economic Studies Conference\, Tokyo\, Japan · 8:00 p.m. ET · Discussion - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-29_29_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260529T131000Z
+DTSTART;TZID=Asia/Seoul:20260529T221000
+DTEND;TZID=Asia/Seoul:20260529T231000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Reykjavik Economic Conference 2026\, Reykjavik\, Iceland · 9:10 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-31_31_PanelDiscussionGovernorC@korea-econ-cal-data
+DTSTAMP:20260531T123000Z
+DTSTART;TZID=Asia/Seoul:20260531T213000
+DTEND;TZID=Asia/Seoul:20260531T223000
+SUMMARY:Waller 패널토론
+DESCRIPTION:At the 32nd Dubrovnik Economic Conference\, Orašac\, Croatia · 8:30 a.m. ET · Panel Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-05-31_31_SpeechGovernorJeromeHPow@korea-econ-cal-data
+DTSTAMP:20260601T003000Z
+DTSTART;TZID=Asia/Seoul:20260601T093000
+DTEND;TZID=Asia/Seoul:20260601T103000
+SUMMARY:Powell 연설
+DESCRIPTION:At the John F. Kennedy Profile in Courage Award Ceremony\, Boston\, Mass. · 8:30 p.m. ET · Speech - Governor Jerome H. Powell
 LOCATION:United States
 END:VEVENT
 END:VCALENDAR
