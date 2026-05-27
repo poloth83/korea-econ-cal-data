@@ -8339,15 +8339,6 @@ DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2025 · 12:00 KST
 LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
-UID:kostat-2026-06-25-1fzdrgw@korea-econ-cal-data
-DTSTAMP:20260625T030000Z
-DTSTART;TZID=Asia/Seoul:20260625T120000
-DTEND;TZID=Asia/Seoul:20260625T123000
-SUMMARY:[통계청] 2026년 1/4분기 실질 지역내총생산(잠정)
-DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
-LOCATION:Statistics Korea / National Data Office
-END:VEVENT
-BEGIN:VEVENT
 UID:fred_180_2026-06-25@korea-econ-cal-data
 DTSTAMP:20260625T123000Z
 DTSTART;TZID=Asia/Seoul:20260625T213000
@@ -8439,6 +8430,15 @@ DTEND;TZID=Asia/Seoul:20260629T113000
 SUMMARY:[국고채 입찰] 2년물
 DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
 LOCATION:Ministry of Economy and Finance
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-06-29-1fzdrgw@korea-econ-cal-data
+DTSTAMP:20260629T030000Z
+DTSTART;TZID=Asia/Seoul:20260629T120000
+DTEND;TZID=Asia/Seoul:20260629T123000
+SUMMARY:[통계청] 2026년 1/4분기 실질 지역내총생산(잠정)
+DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2026-06-29@korea-econ-cal-data
@@ -12425,6 +12425,33 @@ DTEND;TZID=Asia/Seoul:20261120T123000
 SUMMARY:[BOK] 차주별 가계부채
 DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 3/4 · 12:00 KST
 LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:moef-2026-11-23-n6cg1s@korea-econ-cal-data
+DTSTAMP:20261123T020000Z
+DTSTART;TZID=Asia/Seoul:20261123T110000
+DTEND;TZID=Asia/Seoul:20261123T113000
+SUMMARY:[국고채 입찰] 5년물
+DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
+LOCATION:Ministry of Economy and Finance
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-2026-11-24-17hpe0x@korea-econ-cal-data
+DTSTAMP:20261123T210000Z
+DTSTART;TZID=Asia/Seoul:20261124T060000
+DTEND;TZID=Asia/Seoul:20261124T063000
+SUMMARY:[BOK] 소비자동향조사
+DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 11 · 06:00 KST
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:moef-2026-11-24-1cj42jr@korea-econ-cal-data
+DTSTAMP:20261124T020000Z
+DTSTART;TZID=Asia/Seoul:20261124T110000
+DTEND;TZID=Asia/Seoul:20261124T113000
+SUMMARY:[국고채 입찰] 20년물
+DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
+LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
 UID:beige_2026_12@korea-econ-cal-data

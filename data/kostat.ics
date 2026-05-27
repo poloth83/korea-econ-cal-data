@@ -402,10 +402,10 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
-UID:kostat-2026-06-25-1fzdrgw@korea-econ-cal-data
-DTSTAMP:20260625T030000Z
-DTSTART;TZID=Asia/Seoul:20260625T120000
-DTEND;TZID=Asia/Seoul:20260625T123000
+UID:kostat-2026-06-29-1fzdrgw@korea-econ-cal-data
+DTSTAMP:20260629T030000Z
+DTSTART;TZID=Asia/Seoul:20260629T120000
+DTEND;TZID=Asia/Seoul:20260629T123000
 SUMMARY:[통계청] 2026년 1/4분기 실질 지역내총생산(잠정)
 DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
