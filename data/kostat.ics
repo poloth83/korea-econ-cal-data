@@ -770,4 +770,22 @@ SUMMARY:[통계청] 2026년 10월 고용동향
 DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-11-25-1v42um7@korea-econ-cal-data
+DTSTAMP:20261125T030000Z
+DTSTART;TZID=Asia/Seoul:20261125T120000
+DTEND;TZID=Asia/Seoul:20261125T123000
+SUMMARY:[통계청] 2026년 10월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-11-25-ifpcbm@korea-econ-cal-data
+DTSTAMP:20261125T030000Z
+DTSTART;TZID=Asia/Seoul:20261125T120000
+DTEND;TZID=Asia/Seoul:20261125T123000
+SUMMARY:[통계청] 2026년 9월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
 END:VCALENDAR
