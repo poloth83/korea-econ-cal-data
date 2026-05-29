@@ -788,4 +788,13 @@ SUMMARY:[통계청] 2026년 9월 인구동향
 DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-11-26-cgxjbr@korea-econ-cal-data
+DTSTAMP:20261126T030000Z
+DTSTART;TZID=Asia/Seoul:20261126T120000
+DTEND;TZID=Asia/Seoul:20261126T123000
+SUMMARY:[통계청] 2026년 3/4분기 가계동향조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 가계수지동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
 END:VCALENDAR

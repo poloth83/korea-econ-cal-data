@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-05-28T11:06:33.218Z",
-  "manifestUpdatedAt": "2026-05-28T11:06:31.049Z",
+  "generatedAt": "2026-05-29T10:54:48.506Z",
+  "manifestUpdatedAt": "2026-05-29T10:54:31.501Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -10,7 +10,7 @@
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-05-28T11:05:56.711Z",
+      "uploadedAt": "2026-05-29T10:54:31.501Z",
       "available": true
     },
     "ust": {
@@ -30,7 +30,7 @@
     },
     "kostat": {
       "filename": "kostat.ics",
-      "uploadedAt": "2026-05-28T11:05:56.711Z",
+      "uploadedAt": "2026-05-29T10:54:31.501Z",
       "available": true
     }
   },
@@ -64,16 +64,16 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-05-28T11:05:56.711Z",
+    "generatedAt": "2026-05-29T10:54:31.501Z",
     "window": {
-      "start": "2025-04-28",
-      "end": "2026-11-24"
+      "start": "2025-04-29",
+      "end": "2026-11-25"
     },
     "sources": {
       "bok": {
         "success": true,
         "count": 204,
-        "changed": true,
+        "changed": false,
         "skippedWrite": false,
         "filename": "bok.ics",
         "meta": {
@@ -86,7 +86,7 @@
       },
       "kostat": {
         "success": true,
-        "count": 86,
+        "count": 87,
         "changed": true,
         "skippedWrite": false,
         "filename": "kostat.ics",
@@ -97,7 +97,7 @@
       },
       "moef": {
         "success": true,
-        "count": 141,
+        "count": 140,
         "changed": true,
         "skippedWrite": false,
         "filename": "moef.ics",
