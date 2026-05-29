@@ -1436,4 +1436,22 @@ SUMMARY:Powell 연설
 DESCRIPTION:At the John F. Kennedy Profile in Courage Award Ceremony\, Boston\, Mass. · 8:30 p.m. ET · Speech - Governor Jerome H. Powell
 LOCATION:United States
 END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-06-03_3_DiscussionGovernorMichae@korea-econ-cal-data
+DTSTAMP:20260603T130000Z
+DTSTART;TZID=Asia/Seoul:20260603T220000
+DTEND;TZID=Asia/Seoul:20260603T230000
+SUMMARY:Barr 토론
+DESCRIPTION:At the Community Development Bankers Association (CDBA) Peer Forum 2026\, Washington\, D.C. · 9:00 a.m. ET · Discussion - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-06-06_6_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260606T160000Z
+DTSTART;TZID=Asia/Seoul:20260607T010000
+DTEND;TZID=Asia/Seoul:20260607T020000
+SUMMARY:Barr 연설
+DESCRIPTION:At the 5th DC Finance Conference\, Washington\, D.C. · 12:00 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
 END:VCALENDAR
