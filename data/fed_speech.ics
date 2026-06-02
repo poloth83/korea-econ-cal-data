@@ -1446,6 +1446,15 @@ DESCRIPTION:At the Community Development Bankers Association (CDBA) Peer Forum 2
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-06-04_4_TestimonyViceChairforSup@korea-econ-cal-data
+DTSTAMP:20260604T140000Z
+DTSTART;TZID=Asia/Seoul:20260604T230000
+DTEND;TZID=Asia/Seoul:20260605T000000
+SUMMARY:Bowman 증언
+DESCRIPTION:Before the U.S. House Financial Services Committee · 10:00 a.m. ET · Testimony - Vice Chair for Supervision Michelle W. Bowman 
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:fed_speech_2026-06-06_6_SpeechGovernorMichaelSBa@korea-econ-cal-data
 DTSTAMP:20260606T160000Z
 DTSTART;TZID=Asia/Seoul:20260607T010000
