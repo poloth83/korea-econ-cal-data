@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-05-03_3_SpeechGovernorLisaDCook@korea-econ-cal-data
-DTSTAMP:20250503T165000Z
-DTSTART;TZID=Asia/Seoul:20250504T015000
-DTEND;TZID=Asia/Seoul:20250504T025000
-SUMMARY:Cook 연설
-DESCRIPTION:At the Spring 2025 James Madison College Commencement Ceremony\, Michigan State University\, East Lansing\, Mich. · 12:50 p.m. ET · Speech - Governor Lisa D. Cook
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-09_9_SpeechGovernorMichaelSBa@korea-econ-cal-data
 DTSTAMP:20250509T095500Z
 DTSTART;TZID=Asia/Seoul:20250509T185500
