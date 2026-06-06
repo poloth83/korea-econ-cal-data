@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-05T22:37:43.132Z",
-  "manifestUpdatedAt": "2026-06-05T22:37:39.361Z",
+  "generatedAt": "2026-06-06T22:13:28.301Z",
+  "manifestUpdatedAt": "2026-06-06T22:13:09.846Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-05-30T07:33:12.132Z",
+      "uploadedAt": "2026-06-06T22:13:09.846Z",
       "available": true
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-05-29T10:54:31.501Z",
+      "uploadedAt": "2026-06-06T22:13:09.846Z",
       "available": true
     },
     "ust": {
@@ -30,7 +30,7 @@
     },
     "kostat": {
       "filename": "kostat.ics",
-      "uploadedAt": "2026-05-29T10:54:31.501Z",
+      "uploadedAt": "2026-06-06T22:13:09.846Z",
       "available": true
     }
   },
@@ -64,16 +64,16 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-06-05T22:25:07.978Z",
+    "generatedAt": "2026-06-06T22:13:09.846Z",
     "window": {
-      "start": "2025-05-05",
-      "end": "2026-12-02"
+      "start": "2025-05-06",
+      "end": "2026-12-03"
     },
     "sources": {
       "bok": {
         "success": true,
-        "count": 203,
-        "changed": false,
+        "count": 204,
+        "changed": true,
         "skippedWrite": false,
         "filename": "bok.ics",
         "meta": {
@@ -84,26 +84,30 @@
         },
         "error": null
       },
-      "moef": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
-        "filename": "moef.ics",
-        "meta": null,
-        "error": "fetch failed"
-      },
       "kostat": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
+        "success": true,
+        "count": 91,
+        "changed": true,
+        "skippedWrite": false,
         "filename": "kostat.ics",
-        "meta": null,
-        "error": "fetch failed"
+        "meta": {
+          "year": 2026
+        },
+        "error": null
+      },
+      "moef": {
+        "success": true,
+        "count": 142,
+        "changed": true,
+        "skippedWrite": false,
+        "filename": "moef.ics",
+        "meta": {
+          "months": 20
+        },
+        "error": null
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {

@@ -12445,6 +12445,42 @@ DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:kostat-2026-11-30-2dmu4b@korea-econ-cal-data
+DTSTAMP:20261129T230000Z
+DTSTART;TZID=Asia/Seoul:20261130T080000
+DTEND;TZID=Asia/Seoul:20261130T083000
+SUMMARY:[통계청] 2026년 10월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:moef-2026-11-30-ly8rfx@korea-econ-cal-data
+DTSTAMP:20261130T020000Z
+DTSTART;TZID=Asia/Seoul:20261130T110000
+DTEND;TZID=Asia/Seoul:20261130T113000
+SUMMARY:[국고채 입찰] 2년물
+DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
+LOCATION:Ministry of Economy and Finance
+END:VEVENT
+BEGIN:VEVENT
+UID:moef-2026-12-01-12vazb2@korea-econ-cal-data
+DTSTAMP:20261201T020000Z
+DTSTART;TZID=Asia/Seoul:20261201T110000
+DTEND;TZID=Asia/Seoul:20261201T113000
+SUMMARY:[국고채 입찰] 30년물
+DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
+LOCATION:Ministry of Economy and Finance
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-01-zviaf1@korea-econ-cal-data
+DTSTAMP:20261201T030000Z
+DTSTART;TZID=Asia/Seoul:20261201T120000
+DTEND;TZID=Asia/Seoul:20261201T123000
+SUMMARY:[통계청] 2026년 10월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
 UID:spg_mfg_final_2026-12-01@korea-econ-cal-data
 DTSTAMP:20261201T144500Z
 DTSTART;TZID=Asia/Seoul:20261201T234500
@@ -12481,6 +12517,15 @@ DESCRIPTION:ISM Manufacturing PMI · 10:00 ET · 매월 1번째 영업일
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:kostat-2026-12-02-1j702je@korea-econ-cal-data
+DTSTAMP:20261201T230000Z
+DTSTART;TZID=Asia/Seoul:20261202T080000
+DTEND;TZID=Asia/Seoul:20261202T083000
+SUMMARY:[통계청] 2026년 11월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
 UID:adp_nfp_2026-12-02@korea-econ-cal-data
 DTSTAMP:20261202T131500Z
 DTSTART;TZID=Asia/Seoul:20261202T221500
@@ -12497,6 +12542,24 @@ DTEND;TZID=Asia/Seoul:20261203T050000
 SUMMARY:Fed Beige Book (12월 FOMC 대비)
 DESCRIPTION:12월 FOMC 회의 14일 전 (수요일) · 14:00 ET
 LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-03-1v86tap@korea-econ-cal-data
+DTSTAMP:20261203T030000Z
+DTSTART;TZID=Asia/Seoul:20261203T120000
+DTEND;TZID=Asia/Seoul:20261203T123000
+SUMMARY:[통계청] 2026년 가계금융복지조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 복지통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-2026-12-04-tqw7vg@korea-econ-cal-data
+DTSTAMP:20261204T030000Z
+DTSTART;TZID=Asia/Seoul:20261204T120000
+DTEND;TZID=Asia/Seoul:20261204T123000
+SUMMARY:[BOK] 예금취급기관 산업별 대출금
+DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 3/4 · 12:00 KST
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:fomc_2026_12@korea-econ-cal-data

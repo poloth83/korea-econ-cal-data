@@ -797,4 +797,40 @@ SUMMARY:[통계청] 2026년 3/4분기 가계동향조사 결과
 DESCRIPTION:국가데이터처 보도계획 · 담당: 가계수지동향과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-11-30-2dmu4b@korea-econ-cal-data
+DTSTAMP:20261129T230000Z
+DTSTART;TZID=Asia/Seoul:20261130T080000
+DTEND;TZID=Asia/Seoul:20261130T083000
+SUMMARY:[통계청] 2026년 10월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-01-zviaf1@korea-econ-cal-data
+DTSTAMP:20261201T030000Z
+DTSTART;TZID=Asia/Seoul:20261201T120000
+DTEND;TZID=Asia/Seoul:20261201T123000
+SUMMARY:[통계청] 2026년 10월 온라인쇼핑동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-02-1j702je@korea-econ-cal-data
+DTSTAMP:20261201T230000Z
+DTSTART;TZID=Asia/Seoul:20261202T080000
+DTEND;TZID=Asia/Seoul:20261202T083000
+SUMMARY:[통계청] 2026년 11월 소비자물가동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-03-1v86tap@korea-econ-cal-data
+DTSTAMP:20261203T030000Z
+DTSTART;TZID=Asia/Seoul:20261203T120000
+DTEND;TZID=Asia/Seoul:20261203T123000
+SUMMARY:[통계청] 2026년 가계금융복지조사 결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 복지통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
 END:VCALENDAR
