@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-09T22:44:59.866Z",
-  "manifestUpdatedAt": "2026-06-09T22:44:26.795Z",
+  "generatedAt": "2026-06-09T22:53:34.756Z",
+  "manifestUpdatedAt": "2026-06-09T22:53:29.355Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -25,7 +25,7 @@
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-06-08T22:52:09.536Z",
+      "uploadedAt": "2026-06-09T22:53:29.355Z",
       "available": true
     },
     "kostat": {
@@ -35,22 +35,22 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-06-08T22:52:09.536Z",
+    "generatedAt": "2026-06-09T22:53:29.355Z",
     "window": {
-      "start": "2025-05-08",
-      "end": "2026-12-05"
+      "start": "2025-05-09",
+      "end": "2026-12-06"
     },
     "fred": {
       "success": true,
       "skipped": false,
       "partial": false,
-      "count": 361,
-      "sourceRecords": 361,
+      "count": 360,
+      "sourceRecords": 360,
       "failures": [],
       "error": null
     },
     "fed": {
-      "count": 560,
+      "count": 559,
       "changed": true,
       "skippedWrite": false,
       "filename": "fed.ics"
@@ -107,12 +107,12 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-06-08T22:52:14.268Z",
+      "generatedAt": "2026-06-09T22:53:34.159Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
         "forexFactoryHighUsd": 6,
-        "appFedEvents": 560,
+        "appFedEvents": 559,
         "checked": 6,
         "mismatches": 0,
         "ignored": 0
@@ -120,10 +120,5 @@
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef, kostat."
-    }
-  ]
+  "warnings": []
 }
