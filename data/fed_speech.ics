@@ -15,42 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-05-09_9_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20250509T095500Z
-DTSTART;TZID=Asia/Seoul:20250509T185500
-DTEND;TZID=Asia/Seoul:20250509T195500
-SUMMARY:Barr 연설
-DESCRIPTION:At the Reykjavik Economic Conference 2025\, Reykjavik\, Iceland · 5:55 a.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-05-09_9_SpeechGovernorAdrianaDKu@korea-econ-cal-data
-DTSTAMP:20250509T104500Z
-DTSTART;TZID=Asia/Seoul:20250509T194500
-DTEND;TZID=Asia/Seoul:20250509T204500
-SUMMARY:Kugler 연설
-DESCRIPTION:At the Reykjavik Economic Conference 2025\, Reykjavik\, Iceland · 6:45 a.m. ET · Speech - Governor Adriana D. Kugler
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-05-09_9_PanelDiscussionGovernorC@korea-econ-cal-data
-DTSTAMP:20250509T153000Z
-DTSTART;TZID=Asia/Seoul:20250510T003000
-DTEND;TZID=Asia/Seoul:20250510T013000
-SUMMARY:Waller 패널토론
-DESCRIPTION:At the Hoover Monetary Policy Conference: Finishing the Job and New Challenges\, Stanford\, Calif. · 11:30 a.m. ET · Panel Discussion - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-05-09_9_PanelDiscussionGovernorL@korea-econ-cal-data
-DTSTAMP:20250509T234500Z
-DTSTART;TZID=Asia/Seoul:20250510T084500
-DTEND;TZID=Asia/Seoul:20250510T094500
-SUMMARY:Cook 패널토론
-DESCRIPTION:At the Hoover Monetary Policy Conference: Finishing the Job and New Challenges\, Stanford\, Calif. · 7:45 p.m. ET · Panel Discussion - Governor Lisa D. Cook
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-12_12_SpeechGovernorAdrianaDKu@korea-econ-cal-data
 DTSTAMP:20250512T142500Z
 DTSTART;TZID=Asia/Seoul:20250512T232500
