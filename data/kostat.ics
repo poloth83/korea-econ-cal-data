@@ -833,4 +833,13 @@ SUMMARY:[통계청] 2026년 가계금융복지조사 결과
 DESCRIPTION:국가데이터처 보도계획 · 담당: 복지통계과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-09-v8ui5u@korea-econ-cal-data
+DTSTAMP:20261209T030000Z
+DTSTART;TZID=Asia/Seoul:20261209T120000
+DTEND;TZID=Asia/Seoul:20261209T123000
+SUMMARY:[통계청] 2025년 생명표
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
 END:VCALENDAR
