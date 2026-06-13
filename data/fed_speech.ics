@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-05-12_12_SpeechGovernorAdrianaDKu@korea-econ-cal-data
-DTSTAMP:20250512T142500Z
-DTSTART;TZID=Asia/Seoul:20250512T232500
-DTEND;TZID=Asia/Seoul:20250513T002500
-SUMMARY:Kugler 연설
-DESCRIPTION:At the National Association for Business Economics and the Central Bank of Ireland&#8217\;s International Economic Symposium\, Central Bank of Ireland\, Dublin\, Ireland  · 10:25 a.m. ET · Speech - Governor Adriana D. Kugler
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-14_14_SpeechGovernorChristophe@korea-econ-cal-data
 DTSTAMP:20250514T091500Z
 DTSTART;TZID=Asia/Seoul:20250514T181500
