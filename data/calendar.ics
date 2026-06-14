@@ -27,15 +27,6 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
-UID:fred_10_2025-05-13@korea-econ-cal-data
-DTSTAMP:20250513T123000Z
-DTSTART;TZID=Asia/Seoul:20250513T213000
-DTEND;TZID=Asia/Seoul:20250513T223000
-SUMMARY:미국 CPI
-DESCRIPTION:Consumer Price Index · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-14_14_SpeechGovernorChristophe@korea-econ-cal-data
 DTSTAMP:20250514T091500Z
 DTSTART;TZID=Asia/Seoul:20250514T181500
@@ -12550,6 +12541,15 @@ DTSTART;TZID=Asia/Seoul:20261210T223000
 DTEND;TZID=Asia/Seoul:20261210T233000
 SUMMARY:미국 주간실업수당청구
 DESCRIPTION:Unemployment Insurance Weekly Claims Report · 08:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_prelim_2026-12-11@korea-econ-cal-data
+DTSTAMP:20261211T150000Z
+DTSTART;TZID=Asia/Seoul:20261212T000000
+DTEND;TZID=Asia/Seoul:20261212T010000
+SUMMARY:미시간대 소비자심리 (예비)
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
