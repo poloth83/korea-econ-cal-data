@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-14T22:36:54.025Z",
-  "manifestUpdatedAt": "2026-06-14T22:36:50.362Z",
+  "generatedAt": "2026-06-15T23:07:44.377Z",
+  "manifestUpdatedAt": "2026-06-15T23:07:11.113Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-06-11T22:54:04.381Z",
+      "uploadedAt": "2026-06-15T23:07:11.113Z",
       "available": true
     },
     "moef": {
@@ -64,16 +64,16 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-06-14T22:19:01.414Z",
+    "generatedAt": "2026-06-15T23:07:11.113Z",
     "window": {
-      "start": "2025-05-14",
-      "end": "2026-12-11"
+      "start": "2025-05-15",
+      "end": "2026-12-12"
     },
     "sources": {
       "bok": {
         "success": true,
-        "count": 205,
-        "changed": false,
+        "count": 204,
+        "changed": true,
         "skippedWrite": false,
         "filename": "bok.ics",
         "meta": {
@@ -103,7 +103,7 @@
         "error": "fetch failed"
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
@@ -120,5 +120,10 @@
       "feedErrors": []
     }
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "kr-sync-partial",
+      "message": "Korean data automation partially failed: moef, kostat."
+    }
+  ]
 }
