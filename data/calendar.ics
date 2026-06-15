@@ -27,24 +27,6 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
-UID:fed_speech_2025-05-14_14_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250514T091500Z
-DTSTART;TZID=Asia/Seoul:20250514T181500
-DTEND;TZID=Asia/Seoul:20250514T191500
-SUMMARY:Waller 연설
-DESCRIPTION:At the Award Ceremony for the Winners of the 2nd Edition of the Bank Al-Maghrib Prize for Economic and Financial Research\, Rabat\, Morocco  · 5:15 a.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-05-14_14_SpeechViceChairPhilipNJe@korea-econ-cal-data
-DTSTAMP:20250514T131000Z
-DTSTART;TZID=Asia/Seoul:20250514T221000
-DTEND;TZID=Asia/Seoul:20250514T231000
-SUMMARY:Jefferson 연설
-DESCRIPTION:At the Annual Conference of Second District Directors and Advisors (virtual) · 9:10 a.m. ET · Speech - Vice Chair Philip N. Jefferson
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fred_180_2025-05-15@korea-econ-cal-data
 DTSTAMP:20250515T123000Z
 DTSTART;TZID=Asia/Seoul:20250515T213000
