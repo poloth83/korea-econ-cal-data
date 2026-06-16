@@ -18,15 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:moef-2025-05-12-1rmu37u@korea-econ-cal-data
-DTSTAMP:20250512T020000Z
-DTSTART;TZID=Asia/Seoul:20250512T110000
-DTEND;TZID=Asia/Seoul:20250512T113000
-SUMMARY:[국고채 입찰] 3년물
-DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
-LOCATION:Ministry of Economy and Finance
-END:VEVENT
-BEGIN:VEVENT
 UID:fred_180_2025-05-15@korea-econ-cal-data
 DTSTAMP:20250515T123000Z
 DTSTART;TZID=Asia/Seoul:20250515T213000
@@ -79,24 +70,6 @@ DTEND;TZID=Asia/Seoul:20250516T040500
 SUMMARY:Barr 연설
 DESCRIPTION:At the 2025 Northeast/Mid-Atlantic Small Business Credit Symposium\, hosted by the Federal Reserve Banks of New York\, Cleveland\, Philadelphia\, Boston\, and Richmond (virtual) · 2:05 p.m. ET · Speech - Governor Michael S. Barr
 LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:bok-2025-05-16-sipa6j@korea-econ-cal-data
-DTSTAMP:20250515T210000Z
-DTSTART;TZID=Asia/Seoul:20250516T060000
-DTEND;TZID=Asia/Seoul:20250516T063000
-SUMMARY:[BOK] 수출입물가지수 및 무역지수
-DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2025 4 · 06:00 KST
-LOCATION:Bank of Korea
-END:VEVENT
-BEGIN:VEVENT
-UID:moef-2025-05-16-rst9io@korea-econ-cal-data
-DTSTAMP:20250516T020000Z
-DTSTART;TZID=Asia/Seoul:20250516T110000
-DTEND;TZID=Asia/Seoul:20250516T113000
-SUMMARY:[국고채 입찰] 50년물
-DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
-LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
 UID:fred_188_2025-05-16@korea-econ-cal-data
@@ -12517,6 +12490,15 @@ DESCRIPTION:Unemployment Insurance Weekly Claims Report · 08:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:moef-2026-12-11-rst9io@korea-econ-cal-data
+DTSTAMP:20261211T020000Z
+DTSTART;TZID=Asia/Seoul:20261211T110000
+DTEND;TZID=Asia/Seoul:20261211T113000
+SUMMARY:[국고채 입찰] 50년물
+DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
+LOCATION:Ministry of Economy and Finance
+END:VEVENT
+BEGIN:VEVENT
 UID:umich_prelim_2026-12-11@korea-econ-cal-data
 DTSTAMP:20261211T150000Z
 DTSTART;TZID=Asia/Seoul:20261212T000000
@@ -12524,6 +12506,15 @@ DTEND;TZID=Asia/Seoul:20261212T010000
 SUMMARY:미시간대 소비자심리 (예비)
 DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
 LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:moef-2026-12-14-cxvxis@korea-econ-cal-data
+DTSTAMP:20261214T020000Z
+DTSTART;TZID=Asia/Seoul:20261214T110000
+DTEND;TZID=Asia/Seoul:20261214T113000
+SUMMARY:[국고채 입찰] 10년물
+DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
+LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
 UID:fomc_2026_12@korea-econ-cal-data

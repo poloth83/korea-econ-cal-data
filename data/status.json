@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-15T23:12:17.310Z",
-  "manifestUpdatedAt": "2026-06-15T23:12:13.305Z",
+  "generatedAt": "2026-06-16T22:55:55.294Z",
+  "manifestUpdatedAt": "2026-06-16T22:55:36.162Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-06-15T23:07:11.113Z",
+      "uploadedAt": "2026-06-16T22:55:36.162Z",
       "available": true
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-06-10T22:54:46.585Z",
+      "uploadedAt": "2026-06-16T22:55:36.162Z",
       "available": true
     },
     "ust": {
@@ -64,15 +64,26 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-06-15T23:07:11.113Z",
+    "generatedAt": "2026-06-16T22:55:36.162Z",
     "window": {
-      "start": "2025-05-15",
-      "end": "2026-12-12"
+      "start": "2025-05-16",
+      "end": "2026-12-13"
     },
     "sources": {
+      "kostat": {
+        "success": true,
+        "count": 92,
+        "changed": false,
+        "skippedWrite": false,
+        "filename": "kostat.ics",
+        "meta": {
+          "year": 2026
+        },
+        "error": null
+      },
       "bok": {
         "success": true,
-        "count": 204,
+        "count": 203,
         "changed": true,
         "skippedWrite": false,
         "filename": "bok.ics",
@@ -85,22 +96,15 @@
         "error": null
       },
       "moef": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
+        "success": true,
+        "count": 143,
+        "changed": true,
+        "skippedWrite": false,
         "filename": "moef.ics",
-        "meta": null,
-        "error": "fetch failed"
-      },
-      "kostat": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
-        "filename": "kostat.ics",
-        "meta": null,
-        "error": "fetch failed"
+        "meta": {
+          "months": 20
+        },
+        "error": null
       }
     },
     "manifestChanged": true
