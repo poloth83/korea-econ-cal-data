@@ -18,60 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fred_180_2025-05-15@korea-econ-cal-data
-DTSTAMP:20250515T123000Z
-DTSTART;TZID=Asia/Seoul:20250515T213000
-DTEND;TZID=Asia/Seoul:20250515T223000
-SUMMARY:미국 주간실업수당청구
-DESCRIPTION:Unemployment Insurance Weekly Claims Report · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_46_2025-05-15@korea-econ-cal-data
-DTSTAMP:20250515T123000Z
-DTSTART;TZID=Asia/Seoul:20250515T213000
-DTEND;TZID=Asia/Seoul:20250515T223000
-SUMMARY:미국 PPI
-DESCRIPTION:Producer Price Index · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_9_2025-05-15@korea-econ-cal-data
-DTSTAMP:20250515T123000Z
-DTSTART;TZID=Asia/Seoul:20250515T213000
-DTEND;TZID=Asia/Seoul:20250515T223000
-SUMMARY:미국 소매판매
-DESCRIPTION:Advance Monthly Sales for Retail and Food Services · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-05-15_15_SpeechChairJeromeHPowell@korea-econ-cal-data
-DTSTAMP:20250515T124000Z
-DTSTART;TZID=Asia/Seoul:20250515T214000
-DTEND;TZID=Asia/Seoul:20250515T224000
-SUMMARY:Powell 연설
-DESCRIPTION:At the Thomas Laubach Research Conference\, Washington\, D.C. · 8:40 a.m. ET · Speech - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_13_2025-05-15@korea-econ-cal-data
-DTSTAMP:20250515T131500Z
-DTSTART;TZID=Asia/Seoul:20250515T221500
-DTEND;TZID=Asia/Seoul:20250515T231500
-SUMMARY:미국 산업생산
-DESCRIPTION:G.17 Industrial Production and Capacity Utilization · 09:15 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-05-15_15_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20250515T180500Z
-DTSTART;TZID=Asia/Seoul:20250516T030500
-DTEND;TZID=Asia/Seoul:20250516T040500
-SUMMARY:Barr 연설
-DESCRIPTION:At the 2025 Northeast/Mid-Atlantic Small Business Credit Symposium\, hosted by the Federal Reserve Banks of New York\, Cleveland\, Philadelphia\, Boston\, and Richmond (virtual) · 2:05 p.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fred_188_2025-05-16@korea-econ-cal-data
 DTSTAMP:20250516T123000Z
 DTSTART;TZID=Asia/Seoul:20250516T213000

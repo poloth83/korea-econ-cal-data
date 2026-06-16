@@ -15,24 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-05-15_15_SpeechChairJeromeHPowell@korea-econ-cal-data
-DTSTAMP:20250515T124000Z
-DTSTART;TZID=Asia/Seoul:20250515T214000
-DTEND;TZID=Asia/Seoul:20250515T224000
-SUMMARY:Powell 연설
-DESCRIPTION:At the Thomas Laubach Research Conference\, Washington\, D.C. · 8:40 a.m. ET · Speech - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-05-15_15_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20250515T180500Z
-DTSTART;TZID=Asia/Seoul:20250516T030500
-DTEND;TZID=Asia/Seoul:20250516T040500
-SUMMARY:Barr 연설
-DESCRIPTION:At the 2025 Northeast/Mid-Atlantic Small Business Credit Symposium\, hosted by the Federal Reserve Banks of New York\, Cleveland\, Philadelphia\, Boston\, and Richmond (virtual) · 2:05 p.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-19_19_SpeechViceChairPhilipNJe@korea-econ-cal-data
 DTSTAMP:20250519T124500Z
 DTSTART;TZID=Asia/Seoul:20250519T214500
