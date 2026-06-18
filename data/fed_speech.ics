@@ -1373,4 +1373,13 @@ SUMMARY:Barr 연설
 DESCRIPTION:At the 5th DC Finance Conference\, Washington\, D.C. · 12:00 p.m. ET · Speech - Governor Michael S. Barr
 LOCATION:United States
 END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-06-22_22_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260622T130000Z
+DTSTART;TZID=Asia/Seoul:20260622T220000
+DTEND;TZID=Asia/Seoul:20260622T230000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Fifth Conference on the International Roles of the U.S. Dollar\, Washington\, D.C. · 9:00 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
 END:VCALENDAR

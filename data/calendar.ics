@@ -7792,6 +7792,15 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-06-22_22_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260622T130000Z
+DTSTART;TZID=Asia/Seoul:20260622T220000
+DTEND;TZID=Asia/Seoul:20260622T230000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Fifth Conference on the International Roles of the U.S. Dollar\, Washington\, D.C. · 9:00 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:ust-13-week-bill-2026-06-22@korea-econ-cal-data
 DTSTAMP:20260508T112100Z
 DTSTART:20260622T153000Z
@@ -12452,6 +12461,15 @@ DTEND;TZID=Asia/Seoul:20261215T123000
 SUMMARY:[BOK] 통화 및 유동성
 DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 10 · 12:00 KST
 LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:fred_46_2026-12-15@korea-econ-cal-data
+DTSTAMP:20261215T133000Z
+DTSTART;TZID=Asia/Seoul:20261215T223000
+DTEND;TZID=Asia/Seoul:20261215T233000
+SUMMARY:미국 PPI
+DESCRIPTION:Producer Price Index · 08:30 ET
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:bok-2026-12-16-ba5tps@korea-econ-cal-data
