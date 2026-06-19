@@ -842,4 +842,22 @@ SUMMARY:[통계청] 2025년 생명표
 DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-16-7uq5az@korea-econ-cal-data
+DTSTAMP:20261215T230000Z
+DTSTART;TZID=Asia/Seoul:20261216T080000
+DTEND;TZID=Asia/Seoul:20261216T083000
+SUMMARY:[통계청] 2026년 11월 고용동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-17-12p27d5@korea-econ-cal-data
+DTSTAMP:20261217T030000Z
+DTSTART;TZID=Asia/Seoul:20261217T120000
+DTEND;TZID=Asia/Seoul:20261217T123000
+SUMMARY:[통계청] 2025년 건설업조사 결과(잠정) [기업실적 부문]
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
 END:VCALENDAR
