@@ -18,15 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-05-19_19_SpeechViceChairPhilipNJe@korea-econ-cal-data
-DTSTAMP:20250519T124500Z
-DTSTART;TZID=Asia/Seoul:20250519T214500
-DTEND;TZID=Asia/Seoul:20250519T224500
-SUMMARY:Jefferson 연설
-DESCRIPTION:At the Federal Reserve Bank of Atlanta Financial Markets Conference\, Fernandina Beach\, Fla. · 8:45 a.m. ET · Speech - Vice Chair Philip N. Jefferson
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-20_20_SpeechGovernorAdrianaDKu@korea-econ-cal-data
 DTSTAMP:20250520T210000Z
 DTSTART;TZID=Asia/Seoul:20250521T060000
@@ -12506,5 +12497,32 @@ DTEND;TZID=Asia/Seoul:20261217T123000
 SUMMARY:[통계청] 2025년 건설업조사 결과(잠정) [기업실적 부문]
 DESCRIPTION:국가데이터처 보도계획 · 담당: 산업통계과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:fred_180_2026-12-17@korea-econ-cal-data
+DTSTAMP:20261217T133000Z
+DTSTART;TZID=Asia/Seoul:20261217T223000
+DTEND;TZID=Asia/Seoul:20261217T233000
+SUMMARY:미국 주간실업수당청구
+DESCRIPTION:Unemployment Insurance Weekly Claims Report · 08:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fred_188_2026-12-17@korea-econ-cal-data
+DTSTAMP:20261217T133000Z
+DTSTART;TZID=Asia/Seoul:20261217T223000
+DTEND;TZID=Asia/Seoul:20261217T233000
+SUMMARY:미국 수출입물가지수
+DESCRIPTION:U.S. Import and Export Price Indexes · 08:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fred_27_2026-12-17@korea-econ-cal-data
+DTSTAMP:20261217T133000Z
+DTSTART;TZID=Asia/Seoul:20261217T223000
+DTEND;TZID=Asia/Seoul:20261217T233000
+SUMMARY:미국 주택착공
+DESCRIPTION:New Residential Construction · 08:30 ET
+LOCATION:United States
 END:VEVENT
 END:VCALENDAR

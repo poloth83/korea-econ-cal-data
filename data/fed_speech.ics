@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-05-19_19_SpeechViceChairPhilipNJe@korea-econ-cal-data
-DTSTAMP:20250519T124500Z
-DTSTART;TZID=Asia/Seoul:20250519T214500
-DTEND;TZID=Asia/Seoul:20250519T224500
-SUMMARY:Jefferson 연설
-DESCRIPTION:At the Federal Reserve Bank of Atlanta Financial Markets Conference\, Fernandina Beach\, Fla. · 8:45 a.m. ET · Speech - Vice Chair Philip N. Jefferson
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-20_20_SpeechGovernorAdrianaDKu@korea-econ-cal-data
 DTSTAMP:20250520T210000Z
 DTSTART;TZID=Asia/Seoul:20250521T060000
