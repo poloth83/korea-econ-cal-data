@@ -27,15 +27,6 @@ DESCRIPTION:At the Federal Reserve Bank of Atlanta Financial Markets Conference\
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
-UID:bok-2025-05-20-1nfumik@korea-econ-cal-data
-DTSTAMP:20250520T030000Z
-DTSTART;TZID=Asia/Seoul:20250520T120000
-DTEND;TZID=Asia/Seoul:20250520T123000
-SUMMARY:[BOK] 가계신용
-DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2025 1/4 · 12:00 KST
-LOCATION:Bank of Korea
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-20_20_SpeechGovernorAdrianaDKu@korea-econ-cal-data
 DTSTAMP:20250520T210000Z
 DTSTART;TZID=Asia/Seoul:20250521T060000
