@@ -1292,4 +1292,13 @@ SUMMARY:[국고채 입찰] 10년물
 DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
+BEGIN:VEVENT
+UID:moef-2026-12-21-n6cg1s@korea-econ-cal-data
+DTSTAMP:20261221T020000Z
+DTSTART;TZID=Asia/Seoul:20261221T110000
+DTEND;TZID=Asia/Seoul:20261221T113000
+SUMMARY:[국고채 입찰] 5년물
+DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
+LOCATION:Ministry of Economy and Finance
+END:VEVENT
 END:VCALENDAR
