@@ -18,15 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fred_180_2025-05-22@korea-econ-cal-data
-DTSTAMP:20250522T123000Z
-DTSTART;TZID=Asia/Seoul:20250522T213000
-DTEND;TZID=Asia/Seoul:20250522T223000
-SUMMARY:미국 주간실업수당청구
-DESCRIPTION:Unemployment Insurance Weekly Claims Report · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fred_27_2025-05-23@korea-econ-cal-data
 DTSTAMP:20250523T123000Z
 DTSTART;TZID=Asia/Seoul:20250523T213000
@@ -7880,6 +7871,15 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-06-24_24_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260624T180000Z
+DTSTART;TZID=Asia/Seoul:20260625T030000
+DTEND;TZID=Asia/Seoul:20260625T040000
+SUMMARY:Cook 연설
+DESCRIPTION:At the Federal Reserve Bank of Cleveland State of Small Business Symposium (via pre-recorded video) · 2:00 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:bok-2026-06-25-w4xztt@korea-econ-cal-data
 DTSTAMP:20260624T210000Z
 DTSTART;TZID=Asia/Seoul:20260625T060000
@@ -7931,6 +7931,15 @@ DTSTART;TZID=Asia/Seoul:20260625T213000
 DTEND;TZID=Asia/Seoul:20260625T223000
 SUMMARY:미국 제조업수주 / 내구재
 DESCRIPTION:Manufacturer's Shipments\, Inventories\, and Orders (M3) Survey · 08:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-06-25_25_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260625T124500Z
+DTSTART;TZID=Asia/Seoul:20260625T214500
+DTEND;TZID=Asia/Seoul:20260625T224500
+SUMMARY:Bowman 토론
+DESCRIPTION:At the Massachusetts Bankers Association 2026 Executive Officers Conference\, Harwich\, Mass. · 8:45 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT

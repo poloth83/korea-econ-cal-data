@@ -1355,4 +1355,22 @@ SUMMARY:Waller 연설
 DESCRIPTION:At the Fifth Conference on the International Roles of the U.S. Dollar\, Washington\, D.C. · 9:00 a.m. ET · Speech - Governor Christopher J. Waller
 LOCATION:United States
 END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-06-24_24_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260624T180000Z
+DTSTART;TZID=Asia/Seoul:20260625T030000
+DTEND;TZID=Asia/Seoul:20260625T040000
+SUMMARY:Cook 연설
+DESCRIPTION:At the Federal Reserve Bank of Cleveland State of Small Business Symposium (via pre-recorded video) · 2:00 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-06-25_25_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260625T124500Z
+DTSTART;TZID=Asia/Seoul:20260625T214500
+DTEND;TZID=Asia/Seoul:20260625T224500
+SUMMARY:Bowman 토론
+DESCRIPTION:At the Massachusetts Bankers Association 2026 Executive Officers Conference\, Harwich\, Mass. · 8:45 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
 END:VCALENDAR
