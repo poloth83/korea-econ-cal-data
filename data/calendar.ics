@@ -18,42 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fred_27_2025-05-23@korea-econ-cal-data
-DTSTAMP:20250523T123000Z
-DTSTART;TZID=Asia/Seoul:20250523T213000
-DTEND;TZID=Asia/Seoul:20250523T223000
-SUMMARY:미국 주택착공
-DESCRIPTION:New Residential Construction · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_97_2025-05-23@korea-econ-cal-data
-DTSTAMP:20250523T140000Z
-DTSTART;TZID=Asia/Seoul:20250523T230000
-DTEND;TZID=Asia/Seoul:20250524T000000
-SUMMARY:미국 신규주택판매
-DESCRIPTION:New Residential Sales · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:umich_final_2025-05-23@korea-econ-cal-data
-DTSTAMP:20250523T140000Z
-DTSTART;TZID=Asia/Seoul:20250523T230000
-DTEND;TZID=Asia/Seoul:20250524T000000
-SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-05-23_23_SpeechGovernorLisaDCook@korea-econ-cal-data
-DTSTAMP:20250523T160000Z
-DTSTART;TZID=Asia/Seoul:20250524T010000
-DTEND;TZID=Asia/Seoul:20250524T020000
-SUMMARY:Cook 연설
-DESCRIPTION:At the Seventh Annual Women in Macro Conference\, cosponsored by New York University&#39\;s Graduate School of Arts and Science\, New York University&#39\;s Stern School of Business\, and the University of Chicago&#39\;s Becker Friedman Institute (Virtual) · 12:00 p.m. ET · Speech - Governor Lisa D. Cook
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-25_25_SpeechChairJeromeHPowell@korea-econ-cal-data
 DTSTAMP:20250525T184000Z
 DTSTART;TZID=Asia/Seoul:20250526T034000

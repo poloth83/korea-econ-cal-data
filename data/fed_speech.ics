@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-05-23_23_SpeechGovernorLisaDCook@korea-econ-cal-data
-DTSTAMP:20250523T160000Z
-DTSTART;TZID=Asia/Seoul:20250524T010000
-DTEND;TZID=Asia/Seoul:20250524T020000
-SUMMARY:Cook 연설
-DESCRIPTION:At the Seventh Annual Women in Macro Conference\, cosponsored by New York University&#39\;s Graduate School of Arts and Science\, New York University&#39\;s Stern School of Business\, and the University of Chicago&#39\;s Becker Friedman Institute (Virtual) · 12:00 p.m. ET · Speech - Governor Lisa D. Cook
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-25_25_SpeechChairJeromeHPowell@korea-econ-cal-data
 DTSTAMP:20250525T184000Z
 DTSTART;TZID=Asia/Seoul:20250526T034000
