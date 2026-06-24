@@ -429,6 +429,15 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
+UID:kostat-2026-07-02-178nzi5@korea-econ-cal-data
+DTSTAMP:20260701T230000Z
+DTSTART;TZID=Asia/Seoul:20260702T080000
+DTEND;TZID=Asia/Seoul:20260702T083000
+SUMMARY:[통계청] 2025년 기준 소비자물가지수 개편 실시
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
 UID:kostat-2026-07-02-13shw0c@korea-econ-cal-data
 DTSTAMP:20260701T230000Z
 DTSTART;TZID=Asia/Seoul:20260702T080000
