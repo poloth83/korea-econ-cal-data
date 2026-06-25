@@ -8057,6 +8057,15 @@ DESCRIPTION:ADP National Employment Report · 8:15 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-07-01_1_DiscussionChairmanKevinW@korea-econ-cal-data
+DTSTAMP:20260701T130000Z
+DTSTART;TZID=Asia/Seoul:20260701T220000
+DTEND;TZID=Asia/Seoul:20260701T230000
+SUMMARY:Warsh 토론
+DESCRIPTION:At the European Central Bank (ECB) Forum on Central Banking 2026\, Sintra\, Portugal · 9:00 a.m. ET · Discussion - Chairman Kevin Warsh
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:spg_mfg_final_2026-07-01@korea-econ-cal-data
 DTSTAMP:20260701T134500Z
 DTSTART;TZID=Asia/Seoul:20260701T224500
