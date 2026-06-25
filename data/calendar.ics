@@ -12507,4 +12507,22 @@ SUMMARY:[국고채 입찰] 20년물
 DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-23-175r51a@korea-econ-cal-data
+DTSTAMP:20261223T030000Z
+DTSTART;TZID=Asia/Seoul:20261223T120000
+DTEND;TZID=Asia/Seoul:20261223T123000
+SUMMARY:[통계청] 2026년 10월 인구동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-23-181qbws@korea-econ-cal-data
+DTSTAMP:20261223T030000Z
+DTSTART;TZID=Asia/Seoul:20261223T120000
+DTEND;TZID=Asia/Seoul:20261223T123000
+SUMMARY:[통계청] 2026년 11월 국내인구이동통계
+DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
 END:VCALENDAR
