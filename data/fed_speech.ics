@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-05-25_25_SpeechChairJeromeHPowell@korea-econ-cal-data
-DTSTAMP:20250525T184000Z
-DTSTART;TZID=Asia/Seoul:20250526T034000
-DTEND;TZID=Asia/Seoul:20250526T044000
-SUMMARY:Powell 연설
-DESCRIPTION:At the Princeton University Baccalaureate Ceremony\, Princeton\, N.J. · 2:40 p.m. ET · Speech - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-05-29_29_SpeechGovernorAdrianaDKu@korea-econ-cal-data
 DTSTAMP:20250529T180000Z
 DTSTART;TZID=Asia/Seoul:20250530T030000
