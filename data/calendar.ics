@@ -18,24 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:moef-2025-05-26-n6cg1s@korea-econ-cal-data
-DTSTAMP:20250526T020000Z
-DTSTART;TZID=Asia/Seoul:20250526T110000
-DTEND;TZID=Asia/Seoul:20250526T113000
-SUMMARY:[국고채 입찰] 5년물
-DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
-LOCATION:Ministry of Economy and Finance
-END:VEVENT
-BEGIN:VEVENT
-UID:moef-2025-05-27-1cj42jr@korea-econ-cal-data
-DTSTAMP:20250527T020000Z
-DTSTART;TZID=Asia/Seoul:20250527T110000
-DTEND;TZID=Asia/Seoul:20250527T113000
-SUMMARY:[국고채 입찰] 20년물
-DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
-LOCATION:Ministry of Economy and Finance
-END:VEVENT
-BEGIN:VEVENT
 UID:fred_180_2025-05-29@korea-econ-cal-data
 DTSTAMP:20250529T123000Z
 DTSTART;TZID=Asia/Seoul:20250529T213000
@@ -8049,15 +8031,6 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
-UID:kostat-2026-07-02-178nzi5@korea-econ-cal-data
-DTSTAMP:20260701T230000Z
-DTSTART;TZID=Asia/Seoul:20260702T080000
-DTEND;TZID=Asia/Seoul:20260702T083000
-SUMMARY:[통계청] 2025년 기준 소비자물가지수 개편 실시
-DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 08:00 KST
-LOCATION:Statistics Korea / National Data Office
-END:VEVENT
-BEGIN:VEVENT
 UID:challenger_2026-07-02@korea-econ-cal-data
 DTSTAMP:20260702T113000Z
 DTSTART;TZID=Asia/Seoul:20260702T203000
@@ -8168,6 +8141,15 @@ DTEND;TZID=Asia/Seoul:20260707T123000
 SUMMARY:[BOK] 자금순환동향
 DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 1/4 · 12:00 KST
 LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-07-07-1j5us3o@korea-econ-cal-data
+DTSTAMP:20260707T030000Z
+DTSTART;TZID=Asia/Seoul:20260707T120000
+DTEND;TZID=Asia/Seoul:20260707T123000
+SUMMARY:[통계청] 2025년 기준 소비자물가지수개편 실시
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
 UID:fred_51_2026-07-07@korea-econ-cal-data
