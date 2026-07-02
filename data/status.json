@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-01T22:42:40.687Z",
-  "manifestUpdatedAt": "2026-07-01T22:42:36.647Z",
+  "generatedAt": "2026-07-02T22:15:59.985Z",
+  "manifestUpdatedAt": "2026-07-02T22:15:35.898Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -10,7 +10,7 @@
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-06-29T22:17:08.785Z",
+      "uploadedAt": "2026-07-02T22:15:35.898Z",
       "available": true
     },
     "ust": {
@@ -30,7 +30,7 @@
     },
     "kostat": {
       "filename": "kostat.ics",
-      "uploadedAt": "2026-06-29T22:17:08.785Z",
+      "uploadedAt": "2026-07-02T22:15:35.898Z",
       "available": true
     }
   },
@@ -64,16 +64,27 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-07-01T22:24:20.177Z",
+    "generatedAt": "2026-07-02T22:15:35.898Z",
     "window": {
-      "start": "2025-06-01",
-      "end": "2026-12-28"
+      "start": "2025-06-02",
+      "end": "2026-12-29"
     },
     "sources": {
+      "kostat": {
+        "success": true,
+        "count": 99,
+        "changed": true,
+        "skippedWrite": false,
+        "filename": "kostat.ics",
+        "meta": {
+          "year": 2026
+        },
+        "error": null
+      },
       "bok": {
         "success": true,
         "count": 204,
-        "changed": true,
+        "changed": false,
         "skippedWrite": false,
         "filename": "bok.ics",
         "meta": {
@@ -85,22 +96,15 @@
         "error": null
       },
       "moef": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
+        "success": true,
+        "count": 141,
+        "changed": true,
+        "skippedWrite": false,
         "filename": "moef.ics",
-        "meta": null,
-        "error": "fetch failed"
-      },
-      "kostat": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
-        "filename": "kostat.ics",
-        "meta": null,
-        "error": "fetch failed"
+        "meta": {
+          "months": 19
+        },
+        "error": null
       }
     },
     "manifestChanged": true

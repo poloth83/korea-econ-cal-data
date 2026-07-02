@@ -27,15 +27,6 @@ DESCRIPTION:At the 2025 Bank of Korea International Conference: Structural Shift
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
-UID:moef-2025-06-02-ly8rfx@korea-econ-cal-data
-DTSTAMP:20250602T020000Z
-DTSTART;TZID=Asia/Seoul:20250602T110000
-DTEND;TZID=Asia/Seoul:20250602T113000
-SUMMARY:[국고채 입찰] 2년물
-DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
-LOCATION:Ministry of Economy and Finance
-END:VEVENT
-BEGIN:VEVENT
 UID:spg_mfg_final_2025-06-02@korea-econ-cal-data
 DTSTAMP:20250602T134500Z
 DTSTART;TZID=Asia/Seoul:20250602T224500
@@ -12506,5 +12497,23 @@ DTEND;TZID=Asia/Seoul:20261229T123000
 SUMMARY:[BOK] 금융기관 가중평균금리
 DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 11 · 12:00 KST
 LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-29-1eemzme@korea-econ-cal-data
+DTSTAMP:20261229T030000Z
+DTSTART;TZID=Asia/Seoul:20261229T120000
+DTEND;TZID=Asia/Seoul:20261229T123000
+SUMMARY:[통계청] 2026년 3/4분기 실질 지역내총생산(잠정)
+DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-30-1wp920@korea-econ-cal-data
+DTSTAMP:20261229T230000Z
+DTSTART;TZID=Asia/Seoul:20261230T080000
+DTEND;TZID=Asia/Seoul:20261230T083000
+SUMMARY:[통계청] 2026년 11월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 END:VCALENDAR

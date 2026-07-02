@@ -887,4 +887,22 @@ SUMMARY:[통계청] 2026년 11월 국내인구이동통계
 DESCRIPTION:국가데이터처 보도계획 · 담당: 인구추계팀 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-29-1eemzme@korea-econ-cal-data
+DTSTAMP:20261229T030000Z
+DTSTART;TZID=Asia/Seoul:20261229T120000
+DTEND;TZID=Asia/Seoul:20261229T123000
+SUMMARY:[통계청] 2026년 3/4분기 실질 지역내총생산(잠정)
+DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-30-1wp920@korea-econ-cal-data
+DTSTAMP:20261229T230000Z
+DTSTART;TZID=Asia/Seoul:20261230T080000
+DTEND;TZID=Asia/Seoul:20261230T083000
+SUMMARY:[통계청] 2026년 11월 산업활동동향
+DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
 END:VCALENDAR
