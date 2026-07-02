@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-06-01_1_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250602T000000Z
-DTSTART;TZID=Asia/Seoul:20250602T090000
-DTEND;TZID=Asia/Seoul:20250602T100000
-SUMMARY:Waller 연설
-DESCRIPTION:At the 2025 Bank of Korea International Conference: Structural Shifts and Monetary Policy\, Seoul\, Republic of Korea · 8:00 p.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-06-02_2_SpeechChairJeromeHPowell@korea-econ-cal-data
 DTSTAMP:20250602T170000Z
 DTSTART;TZID=Asia/Seoul:20250603T020000
@@ -1353,6 +1344,15 @@ DTSTART;TZID=Asia/Seoul:20260701T220000
 DTEND;TZID=Asia/Seoul:20260701T230000
 SUMMARY:Warsh 토론
 DESCRIPTION:At the European Central Bank (ECB) Forum on Central Banking 2026\, Sintra\, Portugal · 9:00 a.m. ET · Discussion - Chairman Kevin Warsh
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-06_6_DiscussionGovernorChrist@korea-econ-cal-data
+DTSTAMP:20260706T150000Z
+DTSTART;TZID=Asia/Seoul:20260707T000000
+DTEND;TZID=Asia/Seoul:20260707T010000
+SUMMARY:Waller 토론
+DESCRIPTION:At the Closing Conference of the European System of Central Banks Research Network on Challenges for Monetary Policy Transmission in a Changing World\, Rome\, Italy · 11:00 a.m. ET · Discussion - Governor Christopher J. Waller
 LOCATION:United States
 END:VEVENT
 END:VCALENDAR

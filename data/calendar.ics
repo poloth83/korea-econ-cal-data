@@ -18,15 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-06-01_1_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250602T000000Z
-DTSTART;TZID=Asia/Seoul:20250602T090000
-DTEND;TZID=Asia/Seoul:20250602T100000
-SUMMARY:Waller 연설
-DESCRIPTION:At the 2025 Bank of Korea International Conference: Structural Shifts and Monetary Policy\, Seoul\, Republic of Korea · 8:00 p.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:spg_mfg_final_2025-06-02@korea-econ-cal-data
 DTSTAMP:20250602T134500Z
 DTSTART;TZID=Asia/Seoul:20250602T224500
@@ -8069,6 +8060,15 @@ DESCRIPTION:ISM Services PMI · 10:00 ET · 매월 3번째 영업일
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-07-06_6_DiscussionGovernorChrist@korea-econ-cal-data
+DTSTAMP:20260706T150000Z
+DTSTART;TZID=Asia/Seoul:20260707T000000
+DTEND;TZID=Asia/Seoul:20260707T010000
+SUMMARY:Waller 토론
+DESCRIPTION:At the Closing Conference of the European System of Central Banks Research Network on Challenges for Monetary Policy Transmission in a Changing World\, Rome\, Italy · 11:00 a.m. ET · Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:ust-13-week-bill-2026-07-06@korea-econ-cal-data
 DTSTAMP:20260508T112100Z
 DTSTART:20260706T153000Z
@@ -12506,6 +12506,15 @@ DTEND;TZID=Asia/Seoul:20261229T123000
 SUMMARY:[통계청] 2026년 3/4분기 실질 지역내총생산(잠정)
 DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:cb_conf_2026-12-29@korea-econ-cal-data
+DTSTAMP:20261229T150000Z
+DTSTART;TZID=Asia/Seoul:20261230T000000
+DTEND;TZID=Asia/Seoul:20261230T010000
+SUMMARY:CB 소비자신뢰지수
+DESCRIPTION:Conference Board Consumer Confidence Index · 10:00 ET
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:kostat-2026-12-30-1wp920@korea-econ-cal-data
