@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-06-02_2_SpeechChairJeromeHPowell@korea-econ-cal-data
-DTSTAMP:20250602T170000Z
-DTSTART;TZID=Asia/Seoul:20250603T020000
-DTEND;TZID=Asia/Seoul:20250603T030000
-SUMMARY:Powell 연설
-DESCRIPTION:At the Federal Reserve Board&#8217\;s International Finance Division 75th Anniversary Conference\, Washington\, D.C. · 1:00 p.m. ET · Speech - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-06-03_3_SpeechGovernorLisaDCook@korea-econ-cal-data
 DTSTAMP:20250603T170000Z
 DTSTART;TZID=Asia/Seoul:20250604T020000
