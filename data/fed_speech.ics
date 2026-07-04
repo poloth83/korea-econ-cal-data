@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-06-03_3_SpeechGovernorLisaDCook@korea-econ-cal-data
-DTSTAMP:20250603T170000Z
-DTSTART;TZID=Asia/Seoul:20250604T020000
-DTEND;TZID=Asia/Seoul:20250604T030000
-SUMMARY:Cook 연설
-DESCRIPTION:At the Peter McColough Series on International Economics: A Conversation With Lisa D. Cook\, New York\, N.Y.  · 1:00 p.m. ET · Speech - Governor Lisa D. Cook
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-06-04_4_SpeechGovernorLisaDCook@korea-econ-cal-data
 DTSTAMP:20250604T123000Z
 DTSTART;TZID=Asia/Seoul:20250604T213000
