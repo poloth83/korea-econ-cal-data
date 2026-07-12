@@ -211,11 +211,11 @@ function extractDiv(html, id) {
 async function fetchBokEvents() {
   const events = [];
   const fetchedYears = [];
+  const skippedYears = [];
 
   for (const year of yearsInWindow()) {
     const params = new URLSearchParams({ menuNo: '200776', year: String(year) });
     const html = await fetchText(`${BOK_URL}?${params.toString()}`);
-    fetchedYears.push(year);
 
     const titleArea = extractDiv(html, 'rockLeftDiv');
     const dataArea = extractDiv(html, 'dataDiv');
@@ -226,8 +226,12 @@ async function fetchBokEvents() {
       .map(m => [...m[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map(x => x[1]));
 
     if (titles.length === 0 || rows.length === 0) {
-      throw new Error(`BOK ${year} table parse failed`);
+      // 아직 공표되지 않은 연도(예: 차년도 일정 미발표)는 빈 테이블로 반환됨 → 해당 연도만 건너뜀.
+      // 모든 연도가 비면 events 0건이 되어 runSource가 최종 실패 처리하므로 실제 구조 변경은 여전히 감지됨.
+      skippedYears.push(year);
+      continue;
     }
+    fetchedYears.push(year);
 
     rows.forEach((cells, rowIdx) => {
       const statName = titles[rowIdx] || '한국은행 통계';
@@ -264,7 +268,7 @@ async function fetchBokEvents() {
     });
   }
 
-  return { events: dedupeSort(events), meta: { years: fetchedYears } };
+  return { events: dedupeSort(events), meta: { years: fetchedYears, skippedYears } };
 }
 
 function parseMoefRows(html) {
