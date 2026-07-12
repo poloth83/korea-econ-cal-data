@@ -15,33 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-06-04_4_SpeechGovernorLisaDCook@korea-econ-cal-data
-DTSTAMP:20250604T123000Z
-DTSTART;TZID=Asia/Seoul:20250604T213000
-DTEND;TZID=Asia/Seoul:20250604T223000
-SUMMARY:Cook 연설
-DESCRIPTION:At the Fed Listens event hosted by the Federal Reserve Bank of Atlanta\, Atlanta\, Ga. · 8:30 a.m. ET · Speech - Governor Lisa D. Cook
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-06-05_5_SpeechGovernorAdrianaDKu@korea-econ-cal-data
-DTSTAMP:20250605T160000Z
-DTSTART;TZID=Asia/Seoul:20250606T010000
-DTEND;TZID=Asia/Seoul:20250606T020000
-SUMMARY:Kugler 연설
-DESCRIPTION:At the Economic Club of New York (ECNY) Luncheon\, New York\, N.Y. · 12:00 p.m. ET · Speech - Governor Adriana D. Kugler
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-06-06_6_SpeechGovernorMichelleWB@korea-econ-cal-data
-DTSTAMP:20250606T140000Z
-DTSTART;TZID=Asia/Seoul:20250606T230000
-DTEND;TZID=Asia/Seoul:20250607T000000
-SUMMARY:Bowman 연설
-DESCRIPTION:At the Psaros Center for Financial Markets and Policy Event\, Georgetown University\, Washington\, D.C. · 10:00 a.m. ET · Speech - Governor Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-06-23_23_SpeechGovernorChristophe@korea-econ-cal-data
 DTSTAMP:20250623T070000Z
 DTSTART;TZID=Asia/Seoul:20250623T160000
@@ -1335,6 +1308,105 @@ DTSTART;TZID=Asia/Seoul:20260707T000000
 DTEND;TZID=Asia/Seoul:20260707T010000
 SUMMARY:Waller 토론
 DESCRIPTION:At the Closing Conference of the European System of Central Banks Research Network on Challenges for Monetary Policy Transmission in a Changing World\, Rome\, Italy · 11:00 a.m. ET · Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-07_7_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260707T110000Z
+DTSTART;TZID=Asia/Seoul:20260707T200000
+DTEND;TZID=Asia/Seoul:20260707T210000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Financial Stability Board Virtual Outreach Event · 7:00 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-13_13_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260713T092500Z
+DTSTART;TZID=Asia/Seoul:20260713T182500
+DTEND;TZID=Asia/Seoul:20260713T192500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Bank Policy Institute (BPI) Roundtable (virtual) · 5:25 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-13_13_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260713T163000Z
+DTSTART;TZID=Asia/Seoul:20260714T013000
+DTEND;TZID=Asia/Seoul:20260714T023000
+SUMMARY:Waller 연설
+DESCRIPTION:At New York Association for Business Economics (NYABE) hosts &quot\;A Conversation with Governor Waller\,&quot\; New York\, New York · 12:30 p.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-14_14_TestimonyChairmanKevinWa@korea-econ-cal-data
+DTSTAMP:20260714T140000Z
+DTSTART;TZID=Asia/Seoul:20260714T230000
+DTEND;TZID=Asia/Seoul:20260715T000000
+SUMMARY:Warsh 증언
+DESCRIPTION:Before the U.S. House Financial Services Committee · 10:00 a.m. ET · Testimony - Chairman Kevin Warsh
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-14_14_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260714T164000Z
+DTSTART;TZID=Asia/Seoul:20260715T014000
+DTEND;TZID=Asia/Seoul:20260715T024000
+SUMMARY:Barr 연설
+DESCRIPTION:At the Federal Reserve Board Annual Financial Inclusion Conference\, Washington\, D.C. · 12:40 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-14_14_DiscussionGovernorMichae@korea-econ-cal-data
+DTSTAMP:20260714T165500Z
+DTSTART;TZID=Asia/Seoul:20260715T015500
+DTEND;TZID=Asia/Seoul:20260715T025500
+SUMMARY:Barr 토론
+DESCRIPTION:At the Federal Reserve Board Annual Financial Inclusion Conference\, Washington\, D.C. · 12:55 p.m. ET · Discussion - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-14_14_DiscussionGovernorLisaDC@korea-econ-cal-data
+DTSTAMP:20260714T173000Z
+DTSTART;TZID=Asia/Seoul:20260715T023000
+DTEND;TZID=Asia/Seoul:20260715T033000
+SUMMARY:Cook 토론
+DESCRIPTION:At the Federal Reserve Board Annual Financial Inclusion Conference\, Washington\, D.C. · 1:30 p.m. ET · Discussion - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-14_14_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260714T185500Z
+DTSTART;TZID=Asia/Seoul:20260715T035500
+DTEND;TZID=Asia/Seoul:20260715T045500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Federal Reserve Board Annual Financial Inclusion Conference\, Washington\, D.C. (via pre-recorded video) · 2:55 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-15_15_TestimonyChairmanKevinWa@korea-econ-cal-data
+DTSTAMP:20260715T140000Z
+DTSTART;TZID=Asia/Seoul:20260715T230000
+DTEND;TZID=Asia/Seoul:20260716T000000
+SUMMARY:Warsh 증언
+DESCRIPTION:Before the U.S. Senate Committee on Banking\, Housing\, and Urban Affairs · 10:00 a.m. ET · Testimony - Chairman Kevin Warsh
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-15_15_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260715T170000Z
+DTSTART;TZID=Asia/Seoul:20260716T020000
+DTEND;TZID=Asia/Seoul:20260716T030000
+SUMMARY:Cook 연설
+DESCRIPTION:At the Exchequer Club Luncheon\, Washington\, D.C. · 1:00 p.m. ET · Speech - Governor Lisa D. Cook
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-07-16_16_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260716T230000Z
+DTSTART;TZID=Asia/Seoul:20260717T080000
+DTEND;TZID=Asia/Seoul:20260717T090000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At In Conversation with Philip Jefferson\, Stanford\, California · 7:00 p.m. ET · Speech - Vice Chair Philip N. Jefferson
 LOCATION:United States
 END:VEVENT
 END:VCALENDAR
