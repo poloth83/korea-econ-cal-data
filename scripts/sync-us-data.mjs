@@ -145,11 +145,6 @@ function nthBusinessDayOfMonth(year, monthIdx, n) {
     if (d.getMonth() !== monthIdx) return null;
   }
 }
-function firstFridayOfMonth(year, monthIdx) {
-  const d = new Date(year, monthIdx, 1);
-  while (d.getDay() !== 5) d.setDate(d.getDate() + 1);
-  return d;
-}
 function adpReleaseDate(year, monthIdx) {
   const d = new Date(year, monthIdx, 1);
   while (d.getDay() !== 3) d.setDate(d.getDate() + 1);
@@ -169,10 +164,9 @@ function qraRefundingStmtDate(year, monthIdx) {
   while (d.getDay() !== 3) d.setDate(d.getDate() + 1);
   return d;
 }
-function nthFridayOfMonth(year, monthIdx, n) {
-  const d = firstFridayOfMonth(year, monthIdx);
-  d.setDate(d.getDate() + (n - 1) * 7);
-  if (d.getMonth() !== monthIdx) return null;
+function lastFridayOfMonth(year, monthIdx) {
+  const d = new Date(year, monthIdx + 1, 0);
+  while (d.getDay() !== 5) d.setDate(d.getDate() - 1);
   return d;
 }
 function lastTuesdayOfMonth(year, monthIdx) {
@@ -406,8 +400,9 @@ function generateUsScheduledIndicators(rangeStart, rangeEnd) {
     const challengerDate = nthThursdayOfMonth(yy, mm, 1);
     const qraBE = qraBorrowingEstDate(yy, mm);
     const qraRS = qraRefundingStmtDate(yy, mm);
-    const umPrelim = nthFridayOfMonth(yy, mm, 2);
-    const umFinal = nthFridayOfMonth(yy, mm, 4);
+    const umFinal = lastFridayOfMonth(yy, mm);
+    const umPrelim = new Date(umFinal);
+    umPrelim.setDate(umPrelim.getDate() - 14);
     const cbConf = lastTuesdayOfMonth(yy, mm);
 
     addEvent(ismMfg, '10:00', '미국 ISM 제조업 PMI', 'ism_mfg', 'ISM Manufacturing PMI · 10:00 ET · 매월 1번째 영업일');
@@ -418,7 +413,7 @@ function generateUsScheduledIndicators(rangeStart, rangeEnd) {
     addEvent(challengerDate, '07:30', '미국 챌린저 감원계획', 'challenger', 'Challenger Job Cut Report · 7:30 ET');
     addEvent(qraBE, '15:00', 'QRA — 분기 차입 추정치', 'qra_be', 'Treasury Quarterly Borrowing Estimate · 15:00 ET');
     addEvent(qraRS, '08:30', 'QRA — 분기 환매 성명', 'qra_rs', 'Treasury Quarterly Refunding Statement · 8:30 ET');
-    addEvent(umPrelim, '10:00', '미시간대 소비자심리 (예비)', 'umich_prelim', 'University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET');
+    if (umPrelim.getMonth() === mm) addEvent(umPrelim, '10:00', '미시간대 소비자심리 (예비)', 'umich_prelim', 'University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET');
     addEvent(umFinal, '10:00', '미시간대 소비자심리 (확정)', 'umich_final', 'University of Michigan Surveys of Consumers (Final) · 10:00 ET');
     addEvent(cbConf, '10:00', 'CB 소비자신뢰지수', 'cb_conf', 'Conference Board Consumer Confidence Index · 10:00 ET');
     cur.setMonth(cur.getMonth() + 1);
