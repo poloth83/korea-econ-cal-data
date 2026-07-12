@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-12T08:04:33.373Z",
-  "manifestUpdatedAt": "2026-07-12T08:04:29.675Z",
+  "generatedAt": "2026-07-12T09:37:21.460Z",
+  "manifestUpdatedAt": "2026-07-12T09:36:48.200Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-07-01T22:24:20.177Z",
+      "uploadedAt": "2026-07-12T09:36:48.200Z",
       "available": true
     },
     "moef": {
@@ -64,20 +64,28 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-07-11T22:00:46.249Z",
+    "generatedAt": "2026-07-12T09:36:48.200Z",
     "window": {
-      "start": "2025-06-11",
-      "end": "2027-01-07"
+      "start": "2025-06-12",
+      "end": "2027-01-08"
     },
     "sources": {
       "bok": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
+        "success": true,
+        "count": 199,
+        "changed": true,
+        "skippedWrite": false,
         "filename": "bok.ics",
-        "meta": null,
-        "error": "BOK 2027 table parse failed"
+        "meta": {
+          "years": [
+            2025,
+            2026
+          ],
+          "skippedYears": [
+            2027
+          ]
+        },
+        "error": null
       },
       "moef": {
         "success": false,
@@ -98,7 +106,7 @@
         "error": "fetch failed"
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
@@ -115,5 +123,10 @@
       "feedErrors": []
     }
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "kr-sync-partial",
+      "message": "Korean data automation partially failed: moef, kostat."
+    }
+  ]
 }
