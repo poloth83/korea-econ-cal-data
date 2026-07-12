@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-12T22:02:25.668Z",
+  "generatedAt": "2026-07-12T22:10:11.952Z",
   "manifestUpdatedAt": "2026-07-12T09:37:35.364Z",
   "agencies": {
     "bok": {
@@ -35,7 +35,7 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-07-12T08:04:29.675Z",
+    "generatedAt": "2026-07-12T22:10:06.720Z",
     "window": {
       "start": "2025-06-12",
       "end": "2027-01-08"
@@ -51,17 +51,17 @@
     },
     "fed": {
       "count": 553,
-      "changed": true,
+      "changed": false,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
     "fedSpeech": {
       "count": 155,
-      "changed": true,
+      "changed": false,
       "error": null,
       "filename": "fed_speech.ics"
     },
-    "manifestChanged": true
+    "manifestChanged": false
   },
   "koreaSync": {
     "generatedAt": "2026-07-12T22:02:08.025Z",
@@ -114,7 +114,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-07-12T08:04:32.788Z",
+      "generatedAt": "2026-07-12T22:10:11.709Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
