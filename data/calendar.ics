@@ -27,15 +27,6 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
-UID:umich_prelim_2025-06-13@korea-econ-cal-data
-DTSTAMP:20250613T140000Z
-DTSTART;TZID=Asia/Seoul:20250613T230000
-DTEND;TZID=Asia/Seoul:20250614T000000
-SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:moef-2025-06-16-cxvxis@korea-econ-cal-data
 DTSTAMP:20250616T020000Z
 DTSTART;TZID=Asia/Seoul:20250616T110000
