@@ -3510,6 +3510,15 @@ DESCRIPTION:1월 FOMC 회의 14일 전 (수요일) · 14:00 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-2026-01-15@korea-econ-cal-data
+DTSTAMP:20260115T005000Z
+DTSTART;TZID=Asia/Seoul:20260115T095000
+DTEND;TZID=Asia/Seoul:20260115T102000
+SUMMARY:[BOK] 금통위 통화정책방향 결정회의 (기준금리)
+DESCRIPTION:한국은행 금융통화위원회 · 기준금리 결정 발표 통상 09:45~10:00 · 총재 기자간담회 11:10
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:fred_180_2026-01-15@korea-econ-cal-data
 DTSTAMP:20260115T133000Z
 DTSTART;TZID=Asia/Seoul:20260115T223000
@@ -3895,6 +3904,15 @@ DTEND;TZID=Asia/Seoul:20260203T113000
 SUMMARY:[국고채 입찰] 30년물
 DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
 LOCATION:Ministry of Economy and Finance
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-02-03@korea-econ-cal-data
+DTSTAMP:20260203T070000Z
+DTSTART;TZID=Asia/Seoul:20260203T160000
+DTEND;TZID=Asia/Seoul:20260203T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (1월 통방)
+DESCRIPTION:1월 통화정책방향 결정회의(2026-01-15) 의사록 · 통상 16:00 공개
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:adp_nfp_2026-02-04@korea-econ-cal-data
@@ -4392,6 +4410,15 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 인구동향과 · 12:00 
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-2026-02-26@korea-econ-cal-data
+DTSTAMP:20260226T005000Z
+DTSTART;TZID=Asia/Seoul:20260226T095000
+DTEND;TZID=Asia/Seoul:20260226T102000
+SUMMARY:[BOK] 금통위 통화정책방향 결정회의 (기준금리)
+DESCRIPTION:한국은행 금융통화위원회 · 기준금리 결정 발표 통상 09:45~10:00 · 총재 기자간담회 11:10
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:kostat-2026-02-26-1j2n4it@korea-econ-cal-data
 DTSTAMP:20260226T030000Z
 DTSTART;TZID=Asia/Seoul:20260226T120000
@@ -4788,6 +4815,15 @@ DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 2 · 06:00 KST
 LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-03-17@korea-econ-cal-data
+DTSTAMP:20260317T070000Z
+DTSTART;TZID=Asia/Seoul:20260317T160000
+DTEND;TZID=Asia/Seoul:20260317T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (2월 통방)
+DESCRIPTION:2월 통화정책방향 결정회의(2026-02-26) 의사록 · 통상 16:00 공개
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:kostat-2026-03-18-zhb6wt@korea-econ-cal-data
 DTSTAMP:20260317T230000Z
 DTSTART;TZID=Asia/Seoul:20260318T080000
@@ -4966,6 +5002,15 @@ DTEND;TZID=Asia/Seoul:20260326T061000
 SUMMARY:Miran 토론
 DESCRIPTION:At the Digital Asset Summit 2026\, New York\, N.Y. · 4:10 p.m. ET · Discussion - Governor Stephen I. Miran
 LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-2026-03-26-fsm@korea-econ-cal-data
+DTSTAMP:20260326T000000Z
+DTSTART;TZID=Asia/Seoul:20260326T090000
+DTEND;TZID=Asia/Seoul:20260326T093000
+SUMMARY:[BOK] 금통위 금융안정회의
+DESCRIPTION:한국은행 금융통화위원회 · 금융안정 상황 점검 회의
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:fred_180_2026-03-26@korea-econ-cal-data
@@ -5337,6 +5382,15 @@ DESCRIPTION:Personal Income and Outlays · 08:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-2026-04-10@korea-econ-cal-data
+DTSTAMP:20260410T005000Z
+DTSTART;TZID=Asia/Seoul:20260410T095000
+DTEND;TZID=Asia/Seoul:20260410T102000
+SUMMARY:[BOK] 금통위 통화정책방향 결정회의 (기준금리)
+DESCRIPTION:한국은행 금융통화위원회 · 기준금리 결정 발표 통상 09:45~10:00 · 총재 기자간담회 11:10
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:moef-2026-04-10-rst9io@korea-econ-cal-data
 DTSTAMP:20260410T020000Z
 DTSTART;TZID=Asia/Seoul:20260410T110000
@@ -5389,6 +5443,15 @@ DTEND;TZID=Asia/Seoul:20260414T082000
 SUMMARY:Miran 토론
 DESCRIPTION:At the Symposium on Building the Financial System of the 21st Century: An Agenda for Europe and the United States\, Washington\, D.C. · 6:20 p.m. ET · Discussion - Governor Stephen I. Miran   
 LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-04-14@korea-econ-cal-data
+DTSTAMP:20260414T070000Z
+DTSTART;TZID=Asia/Seoul:20260414T160000
+DTEND;TZID=Asia/Seoul:20260414T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (3월 금안)
+DESCRIPTION:3월 금융안정회의(2026-03-26) 의사록 · 통상 16:00 공개
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:fred_46_2026-04-14@korea-econ-cal-data
@@ -5631,6 +5694,15 @@ DTSTART;TZID=Asia/Seoul:20260428T120000
 DTEND;TZID=Asia/Seoul:20260428T123000
 SUMMARY:[BOK] 금융기관 가중평균금리
 DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 3 · 12:00 KST
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-04-28@korea-econ-cal-data
+DTSTAMP:20260428T070000Z
+DTSTART;TZID=Asia/Seoul:20260428T160000
+DTEND;TZID=Asia/Seoul:20260428T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (4월 통방)
+DESCRIPTION:4월 통화정책방향 결정회의(2026-04-10) 의사록 · 통상 16:00 공개
 LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
@@ -6505,6 +6577,15 @@ DESCRIPTION:At the Bank of Japan-Institute for Monetary and Economic Studies Con
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-2026-05-28@korea-econ-cal-data
+DTSTAMP:20260528T005000Z
+DTSTART;TZID=Asia/Seoul:20260528T095000
+DTEND;TZID=Asia/Seoul:20260528T102000
+SUMMARY:[BOK] 금통위 통화정책방향 결정회의 (기준금리)
+DESCRIPTION:한국은행 금융통화위원회 · 기준금리 결정 발표 통상 09:45~10:00 · 총재 기자간담회 11:10
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:kostat-2026-05-28-hev8m1@korea-econ-cal-data
 DTSTAMP:20260528T030000Z
 DTSTART;TZID=Asia/Seoul:20260528T120000
@@ -7165,6 +7246,15 @@ DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 4 · 12:00 KST
 LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-06-16@korea-econ-cal-data
+DTSTAMP:20260616T070000Z
+DTSTART;TZID=Asia/Seoul:20260616T160000
+DTEND;TZID=Asia/Seoul:20260616T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (5월 통방)
+DESCRIPTION:5월 통화정책방향 결정회의(2026-05-28) 의사록 · 통상 16:00 공개
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:fred_188_2026-06-16@korea-econ-cal-data
 DTSTAMP:20260616T123000Z
 DTSTART;TZID=Asia/Seoul:20260616T213000
@@ -7371,6 +7461,15 @@ SUMMARY:미국 2년 노트 입찰
 DESCRIPTION:발표 2026-06-18 · 결제 2026-06-30 · 13:00 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-2026-06-24-fsm@korea-econ-cal-data
+DTSTAMP:20260624T000000Z
+DTSTART;TZID=Asia/Seoul:20260624T090000
+DTEND;TZID=Asia/Seoul:20260624T093000
+SUMMARY:[BOK] 금통위 금융안정회의
+DESCRIPTION:한국은행 금융통화위원회 · 금융안정 상황 점검 회의
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:kostat-2026-06-24-1cdo5th@korea-econ-cal-data
@@ -7971,6 +8070,15 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-07-10@korea-econ-cal-data
+DTSTAMP:20260710T070000Z
+DTSTART;TZID=Asia/Seoul:20260710T160000
+DTEND;TZID=Asia/Seoul:20260710T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (6월 금안)
+DESCRIPTION:6월 금융안정회의(2026-06-24) 의사록 · 통상 16:00 공개
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:moef-2026-07-13-cxvxis@korea-econ-cal-data
 DTSTAMP:20260713T020000Z
 DTSTART;TZID=Asia/Seoul:20260713T110000
@@ -8153,6 +8261,15 @@ DTEND;TZID=Asia/Seoul:20260716T040000
 SUMMARY:Fed Beige Book (7월 FOMC 대비)
 DESCRIPTION:7월 FOMC 회의 14일 전 (수요일) · 14:00 ET
 LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-2026-07-16@korea-econ-cal-data
+DTSTAMP:20260716T005000Z
+DTSTART;TZID=Asia/Seoul:20260716T095000
+DTEND;TZID=Asia/Seoul:20260716T102000
+SUMMARY:[BOK] 금통위 통화정책방향 결정회의 (기준금리)
+DESCRIPTION:한국은행 금융통화위원회 · 기준금리 결정 발표 통상 09:45~10:00 · 총재 기자간담회 11:10
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:fred_180_2026-07-16@korea-econ-cal-data
@@ -8706,6 +8823,15 @@ DTEND;TZID=Asia/Seoul:20260804T113000
 SUMMARY:[국고채 입찰] 30년물
 DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
 LOCATION:Ministry of Economy and Finance
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-08-04@korea-econ-cal-data
+DTSTAMP:20260804T070000Z
+DTSTART;TZID=Asia/Seoul:20260804T160000
+DTEND;TZID=Asia/Seoul:20260804T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (7월 통방)
+DESCRIPTION:7월 통화정책방향 결정회의(2026-07-16) 의사록 · 통상 16:00 공개
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:fred_51_2026-08-04@korea-econ-cal-data
@@ -9412,6 +9538,15 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-2026-08-27@korea-econ-cal-data
+DTSTAMP:20260827T005000Z
+DTSTART;TZID=Asia/Seoul:20260827T095000
+DTEND;TZID=Asia/Seoul:20260827T102000
+SUMMARY:[BOK] 금통위 통화정책방향 결정회의 (기준금리)
+DESCRIPTION:한국은행 금융통화위원회 · 기준금리 결정 발표 통상 09:45~10:00 · 총재 기자간담회 11:10
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:kostat-2026-08-27-xjham8@korea-econ-cal-data
 DTSTAMP:20260827T030000Z
 DTSTART;TZID=Asia/Seoul:20260827T120000
@@ -9946,6 +10081,15 @@ DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 7 · 12:00 KST
 LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-09-15@korea-econ-cal-data
+DTSTAMP:20260915T070000Z
+DTSTART;TZID=Asia/Seoul:20260915T160000
+DTEND;TZID=Asia/Seoul:20260915T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (8월 통방)
+DESCRIPTION:8월 통화정책방향 결정회의(2026-08-27) 의사록 · 통상 16:00 공개
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:ust-6-week-bill-2026-09-15@korea-econ-cal-data
 DTSTAMP:20260508T112100Z
 DTSTART:20260915T153000Z
@@ -10123,6 +10267,15 @@ SUMMARY:미국 26주 T-Bill 입찰
 DESCRIPTION:발표 2026-09-17 · 결제 2026-09-24 · 11:30 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-2026-09-22-fsm@korea-econ-cal-data
+DTSTAMP:20260922T000000Z
+DTSTART;TZID=Asia/Seoul:20260922T090000
+DTEND;TZID=Asia/Seoul:20260922T093000
+SUMMARY:[BOK] 금통위 금융안정회의
+DESCRIPTION:한국은행 금융통화위원회 · 금융안정 상황 점검 회의
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:moef-2026-09-22-n6cg1s@korea-econ-cal-data
@@ -10707,6 +10860,15 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-10-13@korea-econ-cal-data
+DTSTAMP:20261013T070000Z
+DTSTART;TZID=Asia/Seoul:20261013T160000
+DTEND;TZID=Asia/Seoul:20261013T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (9월 금안)
+DESCRIPTION:9월 금융안정회의(2026-09-22) 의사록 · 통상 16:00 공개
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:ust-13-week-bill-2026-10-13@korea-econ-cal-data
 DTSTAMP:20260508T112100Z
 DTSTART:20261013T153000Z
@@ -10968,6 +11130,15 @@ SUMMARY:미국 20년 본드 입찰 (재발행)
 DESCRIPTION:발표 2026-10-15 · 결제 2026-10-23 · 13:00 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-2026-10-22@korea-econ-cal-data
+DTSTAMP:20261022T005000Z
+DTSTART;TZID=Asia/Seoul:20261022T095000
+DTEND;TZID=Asia/Seoul:20261022T102000
+SUMMARY:[BOK] 금통위 통화정책방향 결정회의 (기준금리)
+DESCRIPTION:한국은행 금융통화위원회 · 기준금리 결정 발표 통상 09:45~10:00 · 총재 기자간담회 11:10
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:kostat-2026-10-22-5koich@korea-econ-cal-data
@@ -11527,6 +11698,15 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-11-10@korea-econ-cal-data
+DTSTAMP:20261110T070000Z
+DTSTART;TZID=Asia/Seoul:20261110T160000
+DTEND;TZID=Asia/Seoul:20261110T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (10월 통방)
+DESCRIPTION:10월 통화정책방향 결정회의(2026-10-22) 의사록 · 통상 16:00 공개
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:fred_10_2026-11-10@korea-econ-cal-data
 DTSTAMP:20261110T133000Z
 DTSTART;TZID=Asia/Seoul:20261110T223000
@@ -11813,6 +11993,15 @@ DTEND;TZID=Asia/Seoul:20261126T010000
 SUMMARY:미국 신규주택판매
 DESCRIPTION:New Residential Sales · 10:00 ET
 LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-2026-11-26@korea-econ-cal-data
+DTSTAMP:20261126T005000Z
+DTSTART;TZID=Asia/Seoul:20261126T095000
+DTEND;TZID=Asia/Seoul:20261126T102000
+SUMMARY:[BOK] 금통위 통화정책방향 결정회의 (기준금리)
+DESCRIPTION:한국은행 금융통화위원회 · 기준금리 결정 발표 통상 09:45~10:00 · 총재 기자간담회 11:10
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:kostat-2026-11-26-cgxjbr@korea-econ-cal-data
@@ -12112,6 +12301,15 @@ DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 10 · 12:00 KS
 LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
+UID:bok-mpc-minutes-2026-12-15@korea-econ-cal-data
+DTSTAMP:20261215T070000Z
+DTSTART;TZID=Asia/Seoul:20261215T160000
+DTEND;TZID=Asia/Seoul:20261215T163000
+SUMMARY:[BOK] 금통위 의사록 공개 (11월 통방)
+DESCRIPTION:11월 통화정책방향 결정회의(2026-11-26) 의사록 · 통상 16:00 공개
+LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:fred_46_2026-12-15@korea-econ-cal-data
 DTSTAMP:20261215T133000Z
 DTSTART;TZID=Asia/Seoul:20261215T223000
@@ -12227,6 +12425,15 @@ DTEND;TZID=Asia/Seoul:20261222T113000
 SUMMARY:[국고채 입찰] 20년물
 DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
 LOCATION:Ministry of Economy and Finance
+END:VEVENT
+BEGIN:VEVENT
+UID:bok-mpc-2026-12-23-fsm@korea-econ-cal-data
+DTSTAMP:20261223T000000Z
+DTSTART;TZID=Asia/Seoul:20261223T090000
+DTEND;TZID=Asia/Seoul:20261223T093000
+SUMMARY:[BOK] 금통위 금융안정회의
+DESCRIPTION:한국은행 금융통화위원회 · 금융안정 상황 점검 회의
+LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
 UID:kostat-2026-12-23-175r51a@korea-econ-cal-data
