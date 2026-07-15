@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-15T13:16:19.348Z",
+  "generatedAt": "2026-07-15T13:27:44.093Z",
   "manifestUpdatedAt": "2026-07-14T22:16:30.761Z",
   "agencies": {
     "bok": {
@@ -35,7 +35,7 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-07-15T13:16:14.348Z",
+    "generatedAt": "2026-07-15T13:27:38.738Z",
     "window": {
       "start": "2025-06-15",
       "end": "2027-01-11"
@@ -110,7 +110,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-07-15T13:16:19.107Z",
+      "generatedAt": "2026-07-15T13:27:43.702Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
