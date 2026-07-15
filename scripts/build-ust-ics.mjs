@@ -110,6 +110,16 @@ for (const raw of lines) {
   rows.push({ term, type, isReopen, isTips, announceDate, auctionDate, settleDate });
 }
 
+// 파싱 sanity 가드 — PDF 포맷 변경/추출 실패로 행이 비면 빈 ust.ics 생성을 막는다(무인 자동화 안전장치)
+const MIN_EXPECTED_ROWS = 10;
+if (rows.length < MIN_EXPECTED_ROWS) {
+  console.error(
+    `build-ust-ics: 파싱된 입찰 행이 ${rows.length}건뿐입니다(기대 >= ${MIN_EXPECTED_ROWS}). ` +
+    'PDF 포맷 변경 또는 추출 텍스트 불완전 가능성 — ust.ics를 생성하지 않고 종료합니다.',
+  );
+  process.exit(1);
+}
+
 // 한글화
 function termKr(term) {
   return term.replace(/-Week/g, '주').replace(/-Year/g, '년').replace(/-Month/g, '개월');
