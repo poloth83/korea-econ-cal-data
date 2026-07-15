@@ -21,6 +21,27 @@ const BOK_URL = 'https://www.bok.or.kr/portal/stats/statsPublictSchdul/listKnd.d
 const MOEF_MONTH_URL = 'https://ktb.moef.go.kr/mnbyIsuCldr.do';
 const KOSTAT_URL = 'https://kostat.go.kr/newsPln.es';
 
+// 금통위(금융통화위원회) 일정 — BOK 통계공표일정 페이지(BOK_URL)에는 없고, 매년 10월 말
+// "익년 금융통화위원회 정기회의 개최 및 의사록 공개 예정일정" 보도자료의 첨부 PDF에만 실려
+// 자동 크롤링이 불가 → FOMC_MEETINGS(sync-us-data.mjs)와 같은 하드코딩 방식.
+// 갱신: 예약 루틴 korea-econ-cal-bok-mpc-annual 이 매년 11/5·12/5 보도자료를 확인해 익년 배열 추가.
+// 2026년 출처: 공보 2025-10-24호(2025-10-30) — 통방 결정회의 8회, 금융안정회의 4회.
+// 의사록은 회의 2주 경과 후 첫 화요일 공개 원칙(예외: 6월 금안 의사록은 7/10로 앞당김, 12월 금안은 미정).
+const BOK_MPC_MEETINGS = [
+  { date: '2026-01-15', kind: 'rate',      minutes: '2026-02-03' },
+  { date: '2026-02-26', kind: 'rate',      minutes: '2026-03-17' },
+  { date: '2026-03-26', kind: 'stability', minutes: '2026-04-14' },
+  { date: '2026-04-10', kind: 'rate',      minutes: '2026-04-28' },
+  { date: '2026-05-28', kind: 'rate',      minutes: '2026-06-16' },
+  { date: '2026-06-24', kind: 'stability', minutes: '2026-07-10' },
+  { date: '2026-07-16', kind: 'rate',      minutes: '2026-08-04' },
+  { date: '2026-08-27', kind: 'rate',      minutes: '2026-09-15' },
+  { date: '2026-09-22', kind: 'stability', minutes: '2026-10-13' },
+  { date: '2026-10-22', kind: 'rate',      minutes: '2026-11-10' },
+  { date: '2026-11-26', kind: 'rate',      minutes: '2026-12-15' },
+  { date: '2026-12-23', kind: 'stability', minutes: null }, // 의사록 공개일은 2027년 일정과 함께 추후 발표
+];
+
 const now = new Date();
 const startDate = new Date(now);
 startDate.setMonth(startDate.getMonth() - 13);
@@ -208,6 +229,37 @@ function extractDiv(html, id) {
   return end === -1 ? html.slice(start) : html.slice(start, end);
 }
 
+function bokMpcEvents() {
+  const events = [];
+  for (const m of BOK_MPC_MEETINGS) {
+    const monthLabel = `${Number(m.date.slice(5, 7))}월`;
+    const isRate = m.kind === 'rate';
+    if (inWindow(m.date)) {
+      events.push({
+        id: `bok-mpc-${m.date}${isRate ? '' : '-fsm'}`,
+        date: m.date,
+        time: isRate ? '09:50' : '09:00',
+        title: isRate ? '[BOK] 금통위 통화정책방향 결정회의 (기준금리)' : '[BOK] 금통위 금융안정회의',
+        note: isRate
+          ? '한국은행 금융통화위원회 · 기준금리 결정 발표 통상 09:45~10:00 · 총재 기자간담회 11:10'
+          : '한국은행 금융통화위원회 · 금융안정 상황 점검 회의',
+        location: 'Bank of Korea',
+      });
+    }
+    if (m.minutes && inWindow(m.minutes)) {
+      events.push({
+        id: `bok-mpc-minutes-${m.minutes}`,
+        date: m.minutes,
+        time: '16:00',
+        title: `[BOK] 금통위 의사록 공개 (${monthLabel} ${isRate ? '통방' : '금안'})`,
+        note: `${monthLabel} ${isRate ? '통화정책방향 결정회의' : '금융안정회의'}(${m.date}) 의사록 · 통상 16:00 공개`,
+        location: 'Bank of Korea',
+      });
+    }
+  }
+  return events;
+}
+
 async function fetchBokEvents() {
   const events = [];
   const fetchedYears = [];
@@ -268,7 +320,10 @@ async function fetchBokEvents() {
     });
   }
 
-  return { events: dedupeSort(events), meta: { years: fetchedYears, skippedYears } };
+  const mpc = bokMpcEvents();
+  events.push(...mpc);
+
+  return { events: dedupeSort(events), meta: { years: fetchedYears, skippedYears, mpcEvents: mpc.length } };
 }
 
 function parseMoefRows(html) {
