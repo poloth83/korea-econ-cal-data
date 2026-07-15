@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-15T13:27:55.434Z",
+  "updatedAt": "2026-07-15T13:44:18.428Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -8,7 +8,7 @@
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-07-12T09:37:35.364Z"
+      "uploadedAt": "2026-07-15T13:44:18.428Z"
     },
     "ust": {
       "filename": "ust.ics",
