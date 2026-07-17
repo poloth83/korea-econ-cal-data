@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-17T22:02:46.467Z",
+  "generatedAt": "2026-07-17T22:08:48.147Z",
   "manifestUpdatedAt": "2026-07-17T22:02:13.384Z",
   "agencies": {
     "bok": {
@@ -35,10 +35,10 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-07-16T22:18:02.243Z",
+    "generatedAt": "2026-07-17T22:08:43.656Z",
     "window": {
-      "start": "2025-06-16",
-      "end": "2027-01-12"
+      "start": "2025-06-17",
+      "end": "2027-01-13"
     },
     "fred": {
       "success": true,
@@ -111,7 +111,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-07-16T22:18:06.807Z",
+      "generatedAt": "2026-07-17T22:08:47.792Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
@@ -124,10 +124,5 @@
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef, kostat."
-    }
-  ]
+  "warnings": []
 }
