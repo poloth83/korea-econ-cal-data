@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-22T22:13:56.706Z",
+  "generatedAt": "2026-07-22T22:27:51.562Z",
   "manifestUpdatedAt": "2026-07-20T22:09:15.059Z",
   "agencies": {
     "bok": {
@@ -35,10 +35,10 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-07-21T22:13:52.679Z",
+    "generatedAt": "2026-07-22T22:27:47.069Z",
     "window": {
-      "start": "2025-06-21",
-      "end": "2027-01-17"
+      "start": "2025-06-22",
+      "end": "2027-01-18"
     },
     "fred": {
       "success": true,
@@ -106,7 +106,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-07-21T22:13:57.321Z",
+      "generatedAt": "2026-07-22T22:27:51.330Z",
       "status": "blocked",
       "verificationSkippedReason": null,
       "counts": {
@@ -119,10 +119,5 @@
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: bok."
-    }
-  ]
+  "warnings": []
 }
