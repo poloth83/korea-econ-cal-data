@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-21T22:13:57.722Z",
+  "generatedAt": "2026-07-22T22:13:56.706Z",
   "manifestUpdatedAt": "2026-07-20T22:09:15.059Z",
   "agencies": {
     "bok": {
@@ -64,10 +64,10 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-07-21T22:09:16.699Z",
+    "generatedAt": "2026-07-22T22:13:09.565Z",
     "window": {
-      "start": "2025-06-21",
-      "end": "2027-01-17"
+      "start": "2025-06-22",
+      "end": "2027-01-18"
     },
     "sources": {
       "kostat": {
@@ -81,32 +81,25 @@
         },
         "error": null
       },
-      "bok": {
+      "moef": {
         "success": true,
-        "count": 218,
+        "count": 136,
         "changed": false,
         "skippedWrite": false,
-        "filename": "bok.ics",
+        "filename": "moef.ics",
         "meta": {
-          "years": [
-            2025,
-            2026
-          ],
-          "skippedYears": [
-            2027
-          ],
-          "mpcEvents": 23
+          "months": 20
         },
         "error": null
       },
-      "moef": {
+      "bok": {
         "success": false,
         "count": 0,
         "changed": false,
         "skippedWrite": true,
-        "filename": "moef.ics",
+        "filename": "bok.ics",
         "meta": null,
-        "error": "fetch failed"
+        "error": "https://www.bok.or.kr/portal/stats/statsPublictSchdul/listKnd.do?menuNo=200776&year=2025 request timed out after 15000ms"
       }
     },
     "manifestChanged": false
@@ -126,5 +119,10 @@
       "feedErrors": []
     }
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "kr-sync-partial",
+      "message": "Korean data automation partially failed: bok."
+    }
+  ]
 }
