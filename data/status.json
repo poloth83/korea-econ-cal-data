@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-22T22:27:51.562Z",
-  "manifestUpdatedAt": "2026-07-20T22:09:15.059Z",
+  "generatedAt": "2026-07-23T22:11:25.402Z",
+  "manifestUpdatedAt": "2026-07-23T22:11:04.372Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-07-20T22:09:15.059Z",
+      "uploadedAt": "2026-07-23T22:11:04.372Z",
       "available": true
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-07-16T22:12:04.563Z",
+      "uploadedAt": "2026-07-23T22:11:04.372Z",
       "available": true
     },
     "ust": {
@@ -64,10 +64,10 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-07-22T22:13:09.565Z",
+    "generatedAt": "2026-07-23T22:11:04.372Z",
     "window": {
-      "start": "2025-06-22",
-      "end": "2027-01-18"
+      "start": "2025-06-23",
+      "end": "2027-01-19"
     },
     "sources": {
       "kostat": {
@@ -81,28 +81,37 @@
         },
         "error": null
       },
+      "bok": {
+        "success": true,
+        "count": 217,
+        "changed": true,
+        "skippedWrite": false,
+        "filename": "bok.ics",
+        "meta": {
+          "years": [
+            2025,
+            2026
+          ],
+          "skippedYears": [
+            2027
+          ],
+          "mpcEvents": 23
+        },
+        "error": null
+      },
       "moef": {
         "success": true,
-        "count": 136,
-        "changed": false,
+        "count": 135,
+        "changed": true,
         "skippedWrite": false,
         "filename": "moef.ics",
         "meta": {
           "months": 20
         },
         "error": null
-      },
-      "bok": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
-        "filename": "bok.ics",
-        "meta": null,
-        "error": "https://www.bok.or.kr/portal/stats/statsPublictSchdul/listKnd.do?menuNo=200776&year=2025 request timed out after 15000ms"
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
