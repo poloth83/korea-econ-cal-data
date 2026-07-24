@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-23T22:17:40.604Z",
-  "manifestUpdatedAt": "2026-07-23T22:11:04.372Z",
+  "generatedAt": "2026-07-24T22:14:48.804Z",
+  "manifestUpdatedAt": "2026-07-24T22:14:15.635Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-07-23T22:11:04.372Z",
+      "uploadedAt": "2026-07-24T22:14:15.635Z",
       "available": true
     },
     "moef": {
@@ -64,10 +64,10 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-07-23T22:11:04.372Z",
+    "generatedAt": "2026-07-24T22:14:15.635Z",
     "window": {
-      "start": "2025-06-23",
-      "end": "2027-01-19"
+      "start": "2025-06-24",
+      "end": "2027-01-20"
     },
     "sources": {
       "kostat": {
@@ -83,7 +83,7 @@
       },
       "bok": {
         "success": true,
-        "count": 217,
+        "count": 216,
         "changed": true,
         "skippedWrite": false,
         "filename": "bok.ics",
@@ -100,15 +100,13 @@
         "error": null
       },
       "moef": {
-        "success": true,
-        "count": 135,
-        "changed": true,
-        "skippedWrite": false,
+        "success": false,
+        "count": 0,
+        "changed": false,
+        "skippedWrite": true,
         "filename": "moef.ics",
-        "meta": {
-          "months": 20
-        },
-        "error": null
+        "meta": null,
+        "error": "fetch failed"
       }
     },
     "manifestChanged": true
@@ -128,5 +126,10 @@
       "feedErrors": []
     }
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "kr-sync-partial",
+      "message": "Korean data automation partially failed: moef."
+    }
+  ]
 }
