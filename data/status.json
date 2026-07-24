@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T22:14:48.804Z",
-  "manifestUpdatedAt": "2026-07-24T22:14:15.635Z",
+  "generatedAt": "2026-07-24T22:29:56.395Z",
+  "manifestUpdatedAt": "2026-07-24T22:29:51.010Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,7 +20,7 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-07-12T08:04:29.675Z",
+      "uploadedAt": "2026-07-24T22:29:51.010Z",
       "available": true
     },
     "fed": {
@@ -35,10 +35,10 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-07-23T22:17:36.378Z",
+    "generatedAt": "2026-07-24T22:29:51.010Z",
     "window": {
-      "start": "2025-06-23",
-      "end": "2027-01-19"
+      "start": "2025-06-24",
+      "end": "2027-01-20"
     },
     "fred": {
       "success": true,
@@ -56,12 +56,12 @@
       "filename": "fed.ics"
     },
     "fedSpeech": {
-      "count": 155,
-      "changed": false,
+      "count": 152,
+      "changed": true,
       "error": null,
       "filename": "fed_speech.ics"
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "koreaSync": {
     "generatedAt": "2026-07-24T22:14:15.635Z",
@@ -113,7 +113,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-07-23T22:17:40.176Z",
+      "generatedAt": "2026-07-24T22:29:56.046Z",
       "status": "blocked",
       "verificationSkippedReason": null,
       "counts": {
@@ -126,10 +126,5 @@
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef."
-    }
-  ]
+  "warnings": []
 }
