@@ -15,24 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-06-24_24_TestimonyChairJeromeHPow@korea-econ-cal-data
-DTSTAMP:20250624T140000Z
-DTSTART;TZID=Asia/Seoul:20250624T230000
-DTEND;TZID=Asia/Seoul:20250625T000000
-SUMMARY:Powell 증언
-DESCRIPTION:Before the U.S. House Financial Services Committee · 10:00 a.m. ET · Testimony - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-06-24_24_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20250624T200000Z
-DTSTART;TZID=Asia/Seoul:20250625T050000
-DTEND;TZID=Asia/Seoul:20250625T060000
-SUMMARY:Barr 연설
-DESCRIPTION:At a Fed Listens event hosted by the Federal Reserve Bank of Kansas City\, Omaha Branch (Virtual) · 4:00 p.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-06-25_25_TestimonyChairJeromeHPow@korea-econ-cal-data
 DTSTAMP:20250625T140000Z
 DTSTART;TZID=Asia/Seoul:20250625T230000
