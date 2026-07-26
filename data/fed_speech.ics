@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-06-25_25_TestimonyChairJeromeHPow@korea-econ-cal-data
-DTSTAMP:20250625T140000Z
-DTSTART;TZID=Asia/Seoul:20250625T230000
-DTEND;TZID=Asia/Seoul:20250626T000000
-SUMMARY:Powell 증언
-DESCRIPTION:Before the U.S. Senate Committee on Banking\, Housing\, and Urban Affairs · 10:00 a.m. ET · Testimony - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-06-26_26_SpeechGovernorMichaelSBa@korea-econ-cal-data
 DTSTAMP:20250626T171500Z
 DTSTART;TZID=Asia/Seoul:20250627T021500
