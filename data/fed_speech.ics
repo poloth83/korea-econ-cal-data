@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-06-26_26_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20250626T171500Z
-DTSTART;TZID=Asia/Seoul:20250627T021500
-DTEND;TZID=Asia/Seoul:20250627T031500
-SUMMARY:Barr 연설
-DESCRIPTION:At the 2025 Policy Summit hosted by the Federal Reserve Bank of Cleveland\, Cleveland\, Ohio · 1:15 p.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-06-27_27_DiscussionGovernorLisaDC@korea-econ-cal-data
 DTSTAMP:20250627T131500Z
 DTSTART;TZID=Asia/Seoul:20250627T221500
