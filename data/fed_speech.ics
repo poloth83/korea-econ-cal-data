@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-06-27_27_DiscussionGovernorLisaDC@korea-econ-cal-data
-DTSTAMP:20250627T131500Z
-DTSTART;TZID=Asia/Seoul:20250627T221500
-DTEND;TZID=Asia/Seoul:20250627T231500
-SUMMARY:Cook 토론
-DESCRIPTION:At a Fed Listens event hosted by the Federal Reserve Bank of Cleveland at their 2025 Policy Summit\, Cleveland\, Ohio · 9:15 a.m. ET · Discussion - Governor Lisa D. Cook
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-07-01_1_DiscussionChairJeromeHPo@korea-econ-cal-data
 DTSTAMP:20250701T133000Z
 DTSTART;TZID=Asia/Seoul:20250701T223000

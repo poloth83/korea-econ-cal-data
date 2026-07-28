@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-27T22:29:22.669Z",
+  "updatedAt": "2026-07-28T22:27:34.549Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -16,11 +16,11 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-07-27T22:29:22.669Z"
+      "uploadedAt": "2026-07-28T22:27:34.549Z"
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-07-27T22:29:22.669Z"
+      "uploadedAt": "2026-07-28T22:27:34.549Z"
     },
     "kostat": {
       "filename": "kostat.ics",
