@@ -8621,6 +8621,15 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-08-05_5_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260805T200500Z
+DTSTART;TZID=Asia/Seoul:20260806T050500
+DTEND;TZID=Asia/Seoul:20260806T060500
+SUMMARY:Cook 연설
+DESCRIPTION:At the Anchorage Economic Development Corporation (AEDC) 2026 Economic Luncheon\, Anchorage\, Alaska · 4:05 p.m. ET · Speech - Governor Lisa D. Cook  
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:bok-2026-08-06-1faxz5u@korea-econ-cal-data
 DTSTAMP:20260805T230000Z
 DTSTART;TZID=Asia/Seoul:20260806T080000
@@ -12334,6 +12343,15 @@ DTSTART;TZID=Asia/Seoul:20270116T000000
 DTEND;TZID=Asia/Seoul:20270116T010000
 SUMMARY:미시간대 소비자심리 (예비)
 DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:cb_conf_2027-01-26@korea-econ-cal-data
+DTSTAMP:20270126T150000Z
+DTSTART;TZID=Asia/Seoul:20270127T000000
+DTEND;TZID=Asia/Seoul:20270127T010000
+SUMMARY:CB 소비자신뢰지수
+DESCRIPTION:Conference Board Consumer Confidence Index · 10:00 ET
 LOCATION:United States
 END:VEVENT
 END:VCALENDAR

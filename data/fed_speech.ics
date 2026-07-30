@@ -1337,4 +1337,13 @@ SUMMARY:Jefferson 연설
 DESCRIPTION:At In Conversation with Philip Jefferson\, Stanford\, California · 7:00 p.m. ET · Speech - Vice Chair Philip N. Jefferson
 LOCATION:United States
 END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-08-05_5_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20260805T200500Z
+DTSTART;TZID=Asia/Seoul:20260806T050500
+DTEND;TZID=Asia/Seoul:20260806T060500
+SUMMARY:Cook 연설
+DESCRIPTION:At the Anchorage Economic Development Corporation (AEDC) 2026 Economic Luncheon\, Anchorage\, Alaska · 4:05 p.m. ET · Speech - Governor Lisa D. Cook  
+LOCATION:United States
+END:VEVENT
 END:VCALENDAR
