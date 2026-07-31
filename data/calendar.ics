@@ -8686,6 +8686,15 @@ DESCRIPTION:Employment Situation · 08:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-08-08_8_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260808T164500Z
+DTSTART;TZID=Asia/Seoul:20260809T014500
+DTEND;TZID=Asia/Seoul:20260809T024500
+SUMMARY:Bowman 토론
+DESCRIPTION:At the 2026 CEO &amp\; Senior Management Summit and Annual Meeting Speakers (Virtual) · 12:45 p.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:moef-2026-08-10-1rmu37u@korea-econ-cal-data
 DTSTAMP:20260810T020000Z
 DTSTART;TZID=Asia/Seoul:20260810T110000

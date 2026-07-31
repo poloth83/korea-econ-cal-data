@@ -1346,4 +1346,13 @@ SUMMARY:Cook 연설
 DESCRIPTION:At the Anchorage Economic Development Corporation (AEDC) 2026 Economic Luncheon\, Anchorage\, Alaska · 4:05 p.m. ET · Speech - Governor Lisa D. Cook  
 LOCATION:United States
 END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-08-08_8_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20260808T164500Z
+DTSTART;TZID=Asia/Seoul:20260809T014500
+DTEND;TZID=Asia/Seoul:20260809T024500
+SUMMARY:Bowman 토론
+DESCRIPTION:At the 2026 CEO &amp\; Senior Management Summit and Annual Meeting Speakers (Virtual) · 12:45 p.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
 END:VCALENDAR
