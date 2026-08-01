@@ -38,7 +38,15 @@ const FOMC_MEETINGS = [
   { year: 2026, meeting: '7월',  decisionUtc: '2026-07-29T18:00:00Z', pressConf: false },
   { year: 2026, meeting: '9월',  decisionUtc: '2026-09-16T18:00:00Z', pressConf: true },
   { year: 2026, meeting: '10월', decisionUtc: '2026-10-28T18:00:00Z', pressConf: false },
-  { year: 2026, meeting: '12월', decisionUtc: '2026-12-16T19:00:00Z', pressConf: true },
+  { year: 2026, meeting: '12월', decisionUtc: '2026-12-09T19:00:00Z', pressConf: true },
+  { year: 2027, meeting: '1월',  decisionUtc: '2027-01-27T19:00:00Z', pressConf: false },
+  { year: 2027, meeting: '3월',  decisionUtc: '2027-03-17T18:00:00Z', pressConf: true },
+  { year: 2027, meeting: '4월',  decisionUtc: '2027-04-28T18:00:00Z', pressConf: false },
+  { year: 2027, meeting: '6월',  decisionUtc: '2027-06-09T18:00:00Z', pressConf: true },
+  { year: 2027, meeting: '7월',  decisionUtc: '2027-07-28T18:00:00Z', pressConf: false },
+  { year: 2027, meeting: '9월',  decisionUtc: '2027-09-15T18:00:00Z', pressConf: true },
+  { year: 2027, meeting: '10월', decisionUtc: '2027-10-27T18:00:00Z', pressConf: false },
+  { year: 2027, meeting: '12월', decisionUtc: '2027-12-08T19:00:00Z', pressConf: true },
 ];
 
 const FRED_RELEASES = [
