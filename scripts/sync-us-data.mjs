@@ -145,11 +145,18 @@ function nthBusinessDayOfMonth(year, monthIdx, n) {
     if (d.getMonth() !== monthIdx) return null;
   }
 }
-function adpReleaseDate(year, monthIdx) {
-  const d = new Date(year, monthIdx, 1);
-  while (d.getDay() !== 3) d.setDate(d.getDate() + 1);
-  while (isUsFederalHoliday(d) && d.getMonth() === monthIdx) d.setDate(d.getDate() + 7);
-  return d;
+// ADP — 그 달 NFP 직전 수요일. 단 그 달 1번째 수요일보다 늦어지지는 않는다.
+// NFP가 1~2일이면 ADP는 전월 말 수요일로 앞당겨지고(2026-10-02 NFP → 2026-09-30),
+// 반대로 BLS 일정이 셧다운 등으로 크게 밀려도 ADP는 따라가지 않는다(1번째 수요일 유지).
+// nfpDate가 없으면(FRED 미수집 월) 1번째 수요일로 폴백.
+function adpReleaseDate(year, monthIdx, nfpDate) {
+  const firstWed = new Date(year, monthIdx, 1);
+  while (firstWed.getDay() !== 3) firstWed.setDate(firstWed.getDate() + 1);
+  while (isUsFederalHoliday(firstWed) && firstWed.getMonth() === monthIdx) firstWed.setDate(firstWed.getDate() + 7);
+  if (!nfpDate) return firstWed;
+  const wed = new Date(nfpDate);
+  do { wed.setDate(wed.getDate() - 1); } while (wed.getDay() !== 3);
+  return wed < firstWed ? wed : firstWed;
 }
 function qraBorrowingEstDate(year, monthIdx) {
   if (![1, 4, 7, 10].includes(monthIdx)) return null;
@@ -373,7 +380,22 @@ function generateBeigeBookEvents() {
   });
 }
 
-function generateUsScheduledIndicators(rangeStart, rangeEnd) {
+// FRED 이벤트 id(`fred_50_YYYY-MM-DD`)에서 NFP의 ET 발표일을 월별로 추출.
+// event.date는 KST 변환본이라 ET 기준일과 어긋날 수 있어 id 쪽을 쓴다.
+function nfpDatesByMonth(fredEvents) {
+  const prefix = 'fred_50_';
+  const map = new Map();
+  for (const ev of fredEvents) {
+    if (!ev.id.startsWith(prefix)) continue;
+    const [y, m, d] = ev.id.slice(prefix.length).split('-').map(Number);
+    const key = `${y}-${m}`;
+    const date = new Date(y, m - 1, d);
+    if (!map.has(key) || date < map.get(key)) map.set(key, date);
+  }
+  return map;
+}
+
+function generateUsScheduledIndicators(rangeStart, rangeEnd, nfpByMonth = new Map()) {
   const events = [];
   const cur = new Date(rangeStart.getFullYear(), rangeStart.getMonth(), 1);
   const last = new Date(rangeEnd.getFullYear(), rangeEnd.getMonth() + 1, 0);
@@ -396,7 +418,7 @@ function generateUsScheduledIndicators(rangeStart, rangeEnd) {
     const mm = cur.getMonth();
     const ismMfg = nthBusinessDayOfMonth(yy, mm, 1);
     const ismSvc = nthBusinessDayOfMonth(yy, mm, 3);
-    const adpDate = adpReleaseDate(yy, mm);
+    const adpDate = adpReleaseDate(yy, mm, nfpByMonth.get(`${yy}-${mm + 1}`));
     const challengerDate = nthThursdayOfMonth(yy, mm, 1);
     const qraBE = qraBorrowingEstDate(yy, mm);
     const qraRS = qraRefundingStmtDate(yy, mm);
@@ -409,7 +431,7 @@ function generateUsScheduledIndicators(rangeStart, rangeEnd) {
     addEvent(ismMfg, '09:45', 'S&P 글로벌 제조업 PMI (확정)', 'spg_mfg_final', 'S&P Global US Manufacturing PMI Final · 9:45 ET');
     addEvent(ismSvc, '10:00', '미국 ISM 서비스업 PMI', 'ism_svc', 'ISM Services PMI · 10:00 ET · 매월 3번째 영업일');
     addEvent(ismSvc, '09:45', 'S&P 글로벌 서비스업·종합 PMI (확정)', 'spg_svc_final', 'S&P Global US Services + Composite PMI Final · 9:45 ET');
-    addEvent(adpDate, '08:15', '미국 ADP 민간고용', 'adp_nfp', 'ADP National Employment Report · 8:15 ET');
+    addEvent(adpDate, '08:15', '미국 ADP 민간고용', 'adp_nfp', 'ADP National Employment Report · 8:15 ET · 고용지표(NFP) 직전 수요일');
     addEvent(challengerDate, '07:30', '미국 챌린저 감원계획', 'challenger', 'Challenger Job Cut Report · 7:30 ET');
     addEvent(qraBE, '15:00', 'QRA — 분기 차입 추정치', 'qra_be', 'Treasury Quarterly Borrowing Estimate · 15:00 ET');
     addEvent(qraRS, '08:30', 'QRA — 분기 환매 성명', 'qra_rs', 'Treasury Quarterly Refunding Statement · 8:30 ET');
@@ -631,7 +653,7 @@ async function main() {
     ...(fredResult.events || []),
     ...generateFomcEvents(),
     ...generateBeigeBookEvents(),
-    ...generateUsScheduledIndicators(startDate, endDate),
+    ...generateUsScheduledIndicators(startDate, endDate, nfpDatesByMonth(fredResult.events || [])),
   ]);
   const fedIcs = eventsToIcs(generatedFedEvents, 'US Economic Data Releases');
   const shouldWriteFed = !!fredResult.success || !!fredResult.partial;
