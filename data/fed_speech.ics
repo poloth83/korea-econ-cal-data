@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-07-01_1_DiscussionChairJeromeHPo@korea-econ-cal-data
-DTSTAMP:20250701T133000Z
-DTSTART;TZID=Asia/Seoul:20250701T223000
-DTEND;TZID=Asia/Seoul:20250701T233000
-SUMMARY:Powell 토론
-DESCRIPTION:At the European Central Bank Forum on Central Banking 2025\, Sintra\, Portugal · 9:30 a.m. ET · Discussion - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-07-10_10_SpeechGovernorChristophe@korea-econ-cal-data
 DTSTAMP:20250710T171500Z
 DTSTART;TZID=Asia/Seoul:20250711T021500
