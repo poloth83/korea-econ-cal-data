@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-07T21:58:30.454Z",
-  "manifestUpdatedAt": "2026-08-07T01:02:22.886Z",
+  "generatedAt": "2026-08-08T21:40:47.084Z",
+  "manifestUpdatedAt": "2026-08-08T00:45:42.000Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -15,7 +15,7 @@
     },
     "ust": {
       "filename": "ust.ics",
-      "uploadedAt": "2026-05-08T11:21:15.844Z",
+      "uploadedAt": "2026-08-08T00:45:42.000Z",
       "available": true
     },
     "fed_speech": {
@@ -64,51 +64,38 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-08-07T21:50:42.407Z",
+    "generatedAt": "2026-08-08T21:40:00.097Z",
     "window": {
-      "start": "2025-07-07",
-      "end": "2027-02-03"
+      "start": "2025-07-08",
+      "end": "2027-02-04"
     },
     "sources": {
       "kostat": {
-        "success": true,
-        "count": 100,
+        "success": false,
+        "count": 0,
         "changed": false,
-        "skippedWrite": false,
+        "skippedWrite": true,
         "filename": "kostat.ics",
-        "meta": {
-          "year": 2026
-        },
-        "error": null
-      },
-      "bok": {
-        "success": true,
-        "count": 211,
-        "changed": false,
-        "skippedWrite": false,
-        "filename": "bok.ics",
-        "meta": {
-          "years": [
-            2025,
-            2026
-          ],
-          "skippedYears": [
-            2027
-          ],
-          "mpcEvents": 23
-        },
-        "error": null
+        "meta": null,
+        "error": "fetch failed"
       },
       "moef": {
-        "success": true,
-        "count": 131,
+        "success": false,
+        "count": 0,
         "changed": false,
-        "skippedWrite": false,
+        "skippedWrite": true,
         "filename": "moef.ics",
-        "meta": {
-          "months": 20
-        },
-        "error": null
+        "meta": null,
+        "error": "fetch failed"
+      },
+      "bok": {
+        "success": false,
+        "count": 0,
+        "changed": false,
+        "skippedWrite": true,
+        "filename": "bok.ics",
+        "meta": null,
+        "error": "https://www.bok.or.kr/portal/stats/statsPublictSchdul/listKnd.do?menuNo=200776&year=2025 request timed out after 15000ms"
       }
     },
     "manifestChanged": false
@@ -128,5 +115,10 @@
       "feedErrors": []
     }
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "kr-sync-partial",
+      "message": "Korean data automation partially failed: kostat, moef, bok."
+    }
+  ]
 }
