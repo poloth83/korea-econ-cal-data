@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-09T21:43:02.323Z",
+  "generatedAt": "2026-08-09T21:51:44.979Z",
   "manifestUpdatedAt": "2026-08-09T21:42:29.274Z",
   "agencies": {
     "bok": {
@@ -35,10 +35,10 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-08-08T21:49:11.485Z",
+    "generatedAt": "2026-08-09T21:51:40.032Z",
     "window": {
-      "start": "2025-07-08",
-      "end": "2027-02-04"
+      "start": "2025-07-09",
+      "end": "2027-02-05"
     },
     "fred": {
       "success": true,
@@ -51,7 +51,7 @@
     },
     "fed": {
       "count": 552,
-      "changed": true,
+      "changed": false,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
@@ -61,7 +61,7 @@
       "error": null,
       "filename": "fed_speech.ics"
     },
-    "manifestChanged": true
+    "manifestChanged": false
   },
   "koreaSync": {
     "generatedAt": "2026-08-09T21:42:29.274Z",
@@ -111,23 +111,18 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-08-08T21:49:15.622Z",
+      "generatedAt": "2026-08-09T21:51:44.542Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
-        "forexFactoryHighUsd": 4,
+        "forexFactoryHighUsd": 6,
         "appFedEvents": 552,
-        "checked": 3,
+        "checked": 6,
         "mismatches": 0,
-        "ignored": 1
+        "ignored": 0
       },
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef, kostat."
-    }
-  ]
+  "warnings": []
 }
