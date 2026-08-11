@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-07-10_10_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250710T171500Z
-DTSTART;TZID=Asia/Seoul:20250711T021500
-DTEND;TZID=Asia/Seoul:20250711T031500
-SUMMARY:Waller 연설
-DESCRIPTION:At a Conversation with Federal Reserve Governor Christopher J. Waller\, hosted by the Federal Reserve Bank of Dallas and the World Affairs Council of Dallas/Fort Worth\, Dallas\, Texas · 1:15 p.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-07-15_15_SpeechViceChairforSuperv@korea-econ-cal-data
 DTSTAMP:20250715T131500Z
 DTSTART;TZID=Asia/Seoul:20250715T221500
