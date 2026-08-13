@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-12T22:06:20.624Z",
+  "generatedAt": "2026-08-13T21:56:47.261Z",
   "manifestUpdatedAt": "2026-08-12T22:05:50.136Z",
   "agencies": {
     "bok": {
@@ -64,23 +64,12 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-08-12T21:56:25.524Z",
+    "generatedAt": "2026-08-13T21:56:14.182Z",
     "window": {
-      "start": "2025-07-12",
-      "end": "2027-02-08"
+      "start": "2025-07-13",
+      "end": "2027-02-09"
     },
     "sources": {
-      "kostat": {
-        "success": true,
-        "count": 100,
-        "changed": false,
-        "skippedWrite": false,
-        "filename": "kostat.ics",
-        "meta": {
-          "year": 2026
-        },
-        "error": null
-      },
       "bok": {
         "success": true,
         "count": 210,
@@ -100,15 +89,22 @@
         "error": null
       },
       "moef": {
-        "success": true,
-        "count": 130,
+        "success": false,
+        "count": 0,
         "changed": false,
-        "skippedWrite": false,
+        "skippedWrite": true,
         "filename": "moef.ics",
-        "meta": {
-          "months": 20
-        },
-        "error": null
+        "meta": null,
+        "error": "fetch failed"
+      },
+      "kostat": {
+        "success": false,
+        "count": 0,
+        "changed": false,
+        "skippedWrite": true,
+        "filename": "kostat.ics",
+        "meta": null,
+        "error": "fetch failed"
       }
     },
     "manifestChanged": false
@@ -128,5 +124,10 @@
       "feedErrors": []
     }
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "kr-sync-partial",
+      "message": "Korean data automation partially failed: moef, kostat."
+    }
+  ]
 }
