@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-13T22:06:44.961Z",
+  "generatedAt": "2026-08-14T21:35:15.165Z",
   "manifestUpdatedAt": "2026-08-12T22:05:50.136Z",
   "agencies": {
     "bok": {
@@ -64,10 +64,10 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-08-13T21:56:14.182Z",
+    "generatedAt": "2026-08-14T21:34:41.982Z",
     "window": {
-      "start": "2025-07-13",
-      "end": "2027-02-09"
+      "start": "2025-07-14",
+      "end": "2027-02-10"
     },
     "sources": {
       "bok": {
@@ -124,5 +124,10 @@
       "feedErrors": []
     }
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "kr-sync-partial",
+      "message": "Korean data automation partially failed: moef, kostat."
+    }
+  ]
 }
