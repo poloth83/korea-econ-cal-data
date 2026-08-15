@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-14T21:43:37.423Z",
-  "manifestUpdatedAt": "2026-08-12T22:05:50.136Z",
+  "generatedAt": "2026-08-15T21:30:28.058Z",
+  "manifestUpdatedAt": "2026-08-15T21:30:07.735Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-08-09T21:42:29.274Z",
+      "uploadedAt": "2026-08-15T21:30:07.735Z",
       "available": true
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-08-11T21:57:54.952Z",
+      "uploadedAt": "2026-08-15T21:30:07.735Z",
       "available": true
     },
     "ust": {
@@ -64,16 +64,27 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-08-14T21:34:41.982Z",
+    "generatedAt": "2026-08-15T21:30:07.735Z",
     "window": {
-      "start": "2025-07-14",
-      "end": "2027-02-10"
+      "start": "2025-07-15",
+      "end": "2027-02-11"
     },
     "sources": {
+      "kostat": {
+        "success": true,
+        "count": 100,
+        "changed": false,
+        "skippedWrite": false,
+        "filename": "kostat.ics",
+        "meta": {
+          "year": 2026
+        },
+        "error": null
+      },
       "bok": {
         "success": true,
-        "count": 210,
-        "changed": false,
+        "count": 209,
+        "changed": true,
         "skippedWrite": false,
         "filename": "bok.ics",
         "meta": {
@@ -89,25 +100,18 @@
         "error": null
       },
       "moef": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
+        "success": true,
+        "count": 129,
+        "changed": true,
+        "skippedWrite": false,
         "filename": "moef.ics",
-        "meta": null,
-        "error": "fetch failed"
-      },
-      "kostat": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
-        "filename": "kostat.ics",
-        "meta": null,
-        "error": "fetch failed"
+        "meta": {
+          "months": 20
+        },
+        "error": null
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
