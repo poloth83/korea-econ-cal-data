@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-15T21:39:08.392Z",
-  "manifestUpdatedAt": "2026-08-15T21:30:07.735Z",
+  "generatedAt": "2026-08-16T21:30:08.342Z",
+  "manifestUpdatedAt": "2026-08-16T21:29:35.154Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-08-15T21:30:07.735Z",
+      "uploadedAt": "2026-08-16T21:29:35.154Z",
       "available": true
     },
     "moef": {
@@ -64,26 +64,15 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-08-15T21:30:07.735Z",
+    "generatedAt": "2026-08-16T21:29:35.154Z",
     "window": {
-      "start": "2025-07-15",
-      "end": "2027-02-11"
+      "start": "2025-07-16",
+      "end": "2027-02-12"
     },
     "sources": {
-      "kostat": {
-        "success": true,
-        "count": 100,
-        "changed": false,
-        "skippedWrite": false,
-        "filename": "kostat.ics",
-        "meta": {
-          "year": 2026
-        },
-        "error": null
-      },
       "bok": {
         "success": true,
-        "count": 209,
+        "count": 208,
         "changed": true,
         "skippedWrite": false,
         "filename": "bok.ics",
@@ -100,15 +89,22 @@
         "error": null
       },
       "moef": {
-        "success": true,
-        "count": 129,
-        "changed": true,
-        "skippedWrite": false,
+        "success": false,
+        "count": 0,
+        "changed": false,
+        "skippedWrite": true,
         "filename": "moef.ics",
-        "meta": {
-          "months": 20
-        },
-        "error": null
+        "meta": null,
+        "error": "fetch failed"
+      },
+      "kostat": {
+        "success": false,
+        "count": 0,
+        "changed": false,
+        "skippedWrite": true,
+        "filename": "kostat.ics",
+        "meta": null,
+        "error": "fetch failed"
       }
     },
     "manifestChanged": true
@@ -128,5 +124,10 @@
       "feedErrors": []
     }
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "kr-sync-partial",
+      "message": "Korean data automation partially failed: moef, kostat."
+    }
+  ]
 }
