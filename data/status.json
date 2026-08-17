@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-16T21:30:08.342Z",
-  "manifestUpdatedAt": "2026-08-16T21:29:35.154Z",
+  "generatedAt": "2026-08-17T21:34:53.871Z",
+  "manifestUpdatedAt": "2026-08-17T21:34:34.952Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-08-16T21:29:35.154Z",
+      "uploadedAt": "2026-08-17T21:34:34.952Z",
       "available": true
     },
     "moef": {
@@ -64,15 +64,26 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-08-16T21:29:35.154Z",
+    "generatedAt": "2026-08-17T21:34:34.952Z",
     "window": {
-      "start": "2025-07-16",
-      "end": "2027-02-12"
+      "start": "2025-07-17",
+      "end": "2027-02-13"
     },
     "sources": {
+      "kostat": {
+        "success": true,
+        "count": 100,
+        "changed": false,
+        "skippedWrite": false,
+        "filename": "kostat.ics",
+        "meta": {
+          "year": 2026
+        },
+        "error": null
+      },
       "bok": {
         "success": true,
-        "count": 208,
+        "count": 207,
         "changed": true,
         "skippedWrite": false,
         "filename": "bok.ics",
@@ -89,22 +100,15 @@
         "error": null
       },
       "moef": {
-        "success": false,
-        "count": 0,
+        "success": true,
+        "count": 129,
         "changed": false,
-        "skippedWrite": true,
+        "skippedWrite": false,
         "filename": "moef.ics",
-        "meta": null,
-        "error": "fetch failed"
-      },
-      "kostat": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
-        "filename": "kostat.ics",
-        "meta": null,
-        "error": "fetch failed"
+        "meta": {
+          "months": 20
+        },
+        "error": null
       }
     },
     "manifestChanged": true
@@ -124,10 +128,5 @@
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef, kostat."
-    }
-  ]
+  "warnings": []
 }
