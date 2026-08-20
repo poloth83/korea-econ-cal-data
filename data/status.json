@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-19T21:35:01.207Z",
+  "generatedAt": "2026-08-20T21:37:02.762Z",
   "manifestUpdatedAt": "2026-08-17T21:34:34.952Z",
   "agencies": {
     "bok": {
@@ -64,10 +64,10 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-08-19T21:34:37.682Z",
+    "generatedAt": "2026-08-20T21:36:43.323Z",
     "window": {
-      "start": "2025-07-19",
-      "end": "2027-02-15"
+      "start": "2025-07-20",
+      "end": "2027-02-16"
     },
     "sources": {
       "kostat": {
