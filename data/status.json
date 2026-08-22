@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-21T21:34:18.891Z",
-  "manifestUpdatedAt": "2026-08-17T21:34:34.952Z",
+  "generatedAt": "2026-08-22T21:31:22.891Z",
+  "manifestUpdatedAt": "2026-08-22T21:30:53.135Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-08-17T21:34:34.952Z",
+      "uploadedAt": "2026-08-22T21:30:53.135Z",
       "available": true
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-08-15T21:30:07.735Z",
+      "uploadedAt": "2026-08-22T21:30:53.135Z",
       "available": true
     },
     "ust": {
@@ -64,16 +64,27 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-08-21T21:33:45.809Z",
+    "generatedAt": "2026-08-22T21:30:53.135Z",
     "window": {
-      "start": "2025-07-21",
-      "end": "2027-02-17"
+      "start": "2025-07-22",
+      "end": "2027-02-18"
     },
     "sources": {
+      "kostat": {
+        "success": true,
+        "count": 100,
+        "changed": false,
+        "skippedWrite": false,
+        "filename": "kostat.ics",
+        "meta": {
+          "year": 2026
+        },
+        "error": null
+      },
       "bok": {
         "success": true,
-        "count": 207,
-        "changed": false,
+        "count": 206,
+        "changed": true,
         "skippedWrite": false,
         "filename": "bok.ics",
         "meta": {
@@ -89,25 +100,18 @@
         "error": null
       },
       "moef": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
+        "success": true,
+        "count": 127,
+        "changed": true,
+        "skippedWrite": false,
         "filename": "moef.ics",
-        "meta": null,
-        "error": "fetch failed"
-      },
-      "kostat": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
-        "filename": "kostat.ics",
-        "meta": null,
-        "error": "fetch failed"
+        "meta": {
+          "months": 20
+        },
+        "error": null
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
@@ -124,10 +128,5 @@
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef, kostat."
-    }
-  ]
+  "warnings": []
 }
