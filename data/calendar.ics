@@ -18,141 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fred_10_2025-07-15@korea-econ-cal-data
-DTSTAMP:20250715T123000Z
-DTSTART;TZID=Asia/Seoul:20250715T213000
-DTEND;TZID=Asia/Seoul:20250715T223000
-SUMMARY:미국 CPI
-DESCRIPTION:Consumer Price Index · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-07-15_15_SpeechViceChairforSuperv@korea-econ-cal-data
-DTSTAMP:20250715T131500Z
-DTSTART;TZID=Asia/Seoul:20250715T221500
-DTEND;TZID=Asia/Seoul:20250715T231500
-SUMMARY:Bowman 연설
-DESCRIPTION:At the Federal Reserve Board&#39\;s Second Annual Financial Inclusion Conference (via pre-recorded video) · 9:15 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-07-15_15_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20250715T164500Z
-DTSTART;TZID=Asia/Seoul:20250716T014500
-DTEND;TZID=Asia/Seoul:20250716T024500
-SUMMARY:Barr 연설
-DESCRIPTION:At the Federal Reserve Board&#39\;s Second Annual Financial Inclusion Conference\, Washington\, D.C. · 12:45 p.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_46_2025-07-16@korea-econ-cal-data
-DTSTAMP:20250716T123000Z
-DTSTART;TZID=Asia/Seoul:20250716T213000
-DTEND;TZID=Asia/Seoul:20250716T223000
-SUMMARY:미국 PPI
-DESCRIPTION:Producer Price Index · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_13_2025-07-16@korea-econ-cal-data
-DTSTAMP:20250716T131500Z
-DTSTART;TZID=Asia/Seoul:20250716T221500
-DTEND;TZID=Asia/Seoul:20250716T231500
-SUMMARY:미국 산업생산
-DESCRIPTION:G.17 Industrial Production and Capacity Utilization · 09:15 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-07-16_16_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20250716T140000Z
-DTSTART;TZID=Asia/Seoul:20250716T230000
-DTEND;TZID=Asia/Seoul:20250717T000000
-SUMMARY:Barr 연설
-DESCRIPTION:At Conversation with Governor Barr\, Washington\, D.C. · 10:00 a.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_180_2025-07-17@korea-econ-cal-data
-DTSTAMP:20250717T123000Z
-DTSTART;TZID=Asia/Seoul:20250717T213000
-DTEND;TZID=Asia/Seoul:20250717T223000
-SUMMARY:미국 주간실업수당청구
-DESCRIPTION:Unemployment Insurance Weekly Claims Report · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_188_2025-07-17@korea-econ-cal-data
-DTSTAMP:20250717T123000Z
-DTSTART;TZID=Asia/Seoul:20250717T213000
-DTEND;TZID=Asia/Seoul:20250717T223000
-SUMMARY:미국 수출입물가지수
-DESCRIPTION:U.S. Import and Export Price Indexes · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_9_2025-07-17@korea-econ-cal-data
-DTSTAMP:20250717T123000Z
-DTSTART;TZID=Asia/Seoul:20250717T213000
-DTEND;TZID=Asia/Seoul:20250717T223000
-SUMMARY:미국 소매판매
-DESCRIPTION:Advance Monthly Sales for Retail and Food Services · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-07-17_17_SpeechGovernorAdrianaDKu@korea-econ-cal-data
-DTSTAMP:20250717T131500Z
-DTSTART;TZID=Asia/Seoul:20250717T221500
-DTEND;TZID=Asia/Seoul:20250717T231500
-SUMMARY:Kugler 연설
-DESCRIPTION:At the Housing Partnership Network Symposium\, Washington\, D.C. · 9:15 a.m. ET · Speech - Governor Adriana D. Kugler
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-07-17_17_SpeechGovernorLisaDCook@korea-econ-cal-data
-DTSTAMP:20250717T173000Z
-DTSTART;TZID=Asia/Seoul:20250718T023000
-DTEND;TZID=Asia/Seoul:20250718T033000
-SUMMARY:Cook 연설
-DESCRIPTION:At the National Bureau of Economic Research (NBER) Summer Institute: Digital Economics and Artificial Intelligence (virtual) · 1:30 p.m. ET · Speech - Governor Lisa D. Cook
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-07-17_17_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250717T223000Z
-DTSTART;TZID=Asia/Seoul:20250718T073000
-DTEND;TZID=Asia/Seoul:20250718T083000
-SUMMARY:Waller 연설
-DESCRIPTION:At the Money Marketeers Speech\, New York\, New York · 6:30 p.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_27_2025-07-18@korea-econ-cal-data
-DTSTAMP:20250718T123000Z
-DTSTART;TZID=Asia/Seoul:20250718T213000
-DTEND;TZID=Asia/Seoul:20250718T223000
-SUMMARY:미국 주택착공
-DESCRIPTION:New Residential Construction · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-07-22_22_SpeechChairJeromeHPowell@korea-econ-cal-data
-DTSTAMP:20250722T123000Z
-DTSTART;TZID=Asia/Seoul:20250722T213000
-DTEND;TZID=Asia/Seoul:20250722T223000
-SUMMARY:Powell 연설
-DESCRIPTION:At the Integrated Review of the Capital Framework for Large Banks Conference\, Washington\, D.C. · 8:30 a.m. ET · Speech - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-07-22_22_DiscussionViceChairforSu@korea-econ-cal-data
-DTSTAMP:20250722T162500Z
-DTSTART;TZID=Asia/Seoul:20250723T012500
-DTEND;TZID=Asia/Seoul:20250723T022500
-SUMMARY:Bowman 토론
-DESCRIPTION:At the Integrated Review of the Capital Framework for Large Banks Conference\, Washington\, D.C. · 12:25 p.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:bok-2025-07-24-1lt313n@korea-econ-cal-data
 DTSTAMP:20250723T210000Z
 DTSTART;TZID=Asia/Seoul:20250724T060000
@@ -7956,6 +7821,15 @@ DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-08-28_28_SpeechChairmanKevinWarsh@korea-econ-cal-data
+DTSTAMP:20260828T140000Z
+DTSTART;TZID=Asia/Seoul:20260828T230000
+DTEND;TZID=Asia/Seoul:20260829T000000
+SUMMARY:Warsh 연설
+DESCRIPTION:At the 2026 Jackson Hole Economic Policy Symposium\, Moran\, Wyo. · 10:00 a.m. ET · Speech - Chairman Kevin Warsh
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:kostat-2026-08-31-1vg6uzl@korea-econ-cal-data
 DTSTAMP:20260830T230000Z
 DTSTART;TZID=Asia/Seoul:20260831T080000
@@ -12180,6 +12054,15 @@ DTSTART;TZID=Asia/Seoul:20270204T213000
 DTEND;TZID=Asia/Seoul:20270204T223000
 SUMMARY:미국 챌린저 감원계획
 DESCRIPTION:Challenger Job Cut Report · 7:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_prelim_2027-02-12@korea-econ-cal-data
+DTSTAMP:20270212T150000Z
+DTSTART;TZID=Asia/Seoul:20270213T000000
+DTEND;TZID=Asia/Seoul:20270213T010000
+SUMMARY:미시간대 소비자심리 (예비)
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
