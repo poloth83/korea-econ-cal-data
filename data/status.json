@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-25T21:47:31.753Z",
-  "manifestUpdatedAt": "2026-08-25T21:47:26.939Z",
+  "generatedAt": "2026-08-27T00:40:33.018Z",
+  "manifestUpdatedAt": "2026-08-27T00:40:15.612Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -30,7 +30,7 @@
     },
     "kostat": {
       "filename": "kostat.ics",
-      "uploadedAt": "2026-07-03T22:12:50.909Z",
+      "uploadedAt": "2026-08-27T00:40:15.612Z",
       "available": true
     }
   },
@@ -64,16 +64,16 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-08-25T21:37:17.454Z",
+    "generatedAt": "2026-08-27T00:40:15.612Z",
     "window": {
-      "start": "2025-07-25",
-      "end": "2027-02-21"
+      "start": "2025-07-27",
+      "end": "2027-02-23"
     },
     "sources": {
       "kostat": {
         "success": true,
         "count": 100,
-        "changed": false,
+        "changed": true,
         "skippedWrite": false,
         "filename": "kostat.ics",
         "meta": {
@@ -111,7 +111,7 @@
         "error": null
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
