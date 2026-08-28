@@ -7823,6 +7823,15 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 서비스업동향과 · 
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-09-01_1_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260901T130500Z
+DTSTART;TZID=Asia/Seoul:20260901T220500
+DTEND;TZID=Asia/Seoul:20260901T230500
+SUMMARY:Barr 연설
+DESCRIPTION:At the Second Chance Lending Forum\, hosted by Prosperity Now and the Collateral Consequences Resource Center\, Washington D.C. · 9:05 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:spg_mfg_final_2026-09-01@korea-econ-cal-data
 DTSTAMP:20260901T134500Z
 DTSTART;TZID=Asia/Seoul:20260901T224500
@@ -7949,6 +7958,15 @@ DTSTART;TZID=Asia/Seoul:20260903T213000
 DTEND;TZID=Asia/Seoul:20260903T223000
 SUMMARY:미국 무역수지
 DESCRIPTION:U.S. International Trade in Goods and Services · 08:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-09-03_3_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260903T123000Z
+DTSTART;TZID=Asia/Seoul:20260903T213000
+DTEND;TZID=Asia/Seoul:20260903T223000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Reuters NEXT Newsmaker Interview (Virtual) · 8:30 a.m. ET · Speech - Governor Christopher J. Waller
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT

@@ -1274,4 +1274,22 @@ SUMMARY:Warsh 연설
 DESCRIPTION:At the 2026 Jackson Hole Economic Policy Symposium\, Moran\, Wyo. · 10:00 a.m. ET · Speech - Chairman Kevin Warsh
 LOCATION:United States
 END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-09-01_1_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260901T130500Z
+DTSTART;TZID=Asia/Seoul:20260901T220500
+DTEND;TZID=Asia/Seoul:20260901T230500
+SUMMARY:Barr 연설
+DESCRIPTION:At the Second Chance Lending Forum\, hosted by Prosperity Now and the Collateral Consequences Resource Center\, Washington D.C. · 9:05 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-09-03_3_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20260903T123000Z
+DTSTART;TZID=Asia/Seoul:20260903T213000
+DTEND;TZID=Asia/Seoul:20260903T223000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Reuters NEXT Newsmaker Interview (Virtual) · 8:30 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
 END:VCALENDAR
