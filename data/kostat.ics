@@ -609,6 +609,15 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
+UID:kostat-2026-09-10-1pl11hu@korea-econ-cal-data
+DTSTAMP:20260910T030000Z
+DTSTART;TZID=Asia/Seoul:20260910T120000
+DTEND;TZID=Asia/Seoul:20260910T123000
+SUMMARY:[통계청] 국가데이터처\, 일일물가조사로 추석 물가 안정 지원한다
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
 UID:kostat-2026-09-22-1ey1uwy@korea-econ-cal-data
 DTSTAMP:20260922T030000Z
 DTSTART;TZID=Asia/Seoul:20260922T120000

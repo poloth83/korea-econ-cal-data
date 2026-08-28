@@ -924,38 +924,38 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
-UID:moef-2026-09-11-1cj42jr@korea-econ-cal-data
+UID:moef-2026-09-11-rst9io@korea-econ-cal-data
 DTSTAMP:20260911T020000Z
 DTSTART;TZID=Asia/Seoul:20260911T110000
 DTEND;TZID=Asia/Seoul:20260911T113000
-SUMMARY:[국고채 입찰] 20년물
-DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
-LOCATION:Ministry of Economy and Finance
-END:VEVENT
-BEGIN:VEVENT
-UID:moef-2026-09-14-rst9io@korea-econ-cal-data
-DTSTAMP:20260914T020000Z
-DTSTART;TZID=Asia/Seoul:20260914T110000
-DTEND;TZID=Asia/Seoul:20260914T113000
 SUMMARY:[국고채 입찰] 50년물
 DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
-UID:moef-2026-09-21-cxvxis@korea-econ-cal-data
-DTSTAMP:20260921T020000Z
-DTSTART;TZID=Asia/Seoul:20260921T110000
-DTEND;TZID=Asia/Seoul:20260921T113000
+UID:moef-2026-09-14-cxvxis@korea-econ-cal-data
+DTSTAMP:20260914T020000Z
+DTSTART;TZID=Asia/Seoul:20260914T110000
+DTEND;TZID=Asia/Seoul:20260914T113000
 SUMMARY:[국고채 입찰] 10년물
 DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
-UID:moef-2026-09-22-n6cg1s@korea-econ-cal-data
+UID:moef-2026-09-21-n6cg1s@korea-econ-cal-data
+DTSTAMP:20260921T020000Z
+DTSTART;TZID=Asia/Seoul:20260921T110000
+DTEND;TZID=Asia/Seoul:20260921T113000
+SUMMARY:[국고채 입찰] 5년물
+DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
+LOCATION:Ministry of Economy and Finance
+END:VEVENT
+BEGIN:VEVENT
+UID:moef-2026-09-22-1cj42jr@korea-econ-cal-data
 DTSTAMP:20260922T020000Z
 DTSTART;TZID=Asia/Seoul:20260922T110000
 DTEND;TZID=Asia/Seoul:20260922T113000
-SUMMARY:[국고채 입찰] 5년물
+SUMMARY:[국고채 입찰] 20년물
 DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
