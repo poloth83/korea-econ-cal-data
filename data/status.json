@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-30T23:25:47.770Z",
-  "manifestUpdatedAt": "2026-08-30T23:25:14.610Z",
+  "generatedAt": "2026-08-30T23:34:50.293Z",
+  "manifestUpdatedAt": "2026-08-30T23:34:44.735Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -25,7 +25,7 @@
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-08-27T00:51:40.319Z",
+      "uploadedAt": "2026-08-30T23:34:44.735Z",
       "available": true
     },
     "kostat": {
@@ -35,23 +35,23 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-08-29T23:24:40.194Z",
+    "generatedAt": "2026-08-30T23:34:44.735Z",
     "window": {
-      "start": "2025-07-29",
-      "end": "2027-02-25"
+      "start": "2025-07-30",
+      "end": "2027-02-26"
     },
     "fred": {
       "success": true,
       "skipped": false,
       "partial": false,
-      "count": 323,
-      "sourceRecords": 323,
+      "count": 322,
+      "sourceRecords": 322,
       "failures": [],
       "error": null
     },
     "fed": {
-      "count": 540,
-      "changed": false,
+      "count": 539,
+      "changed": true,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
@@ -61,7 +61,7 @@
       "error": null,
       "filename": "fed_speech.ics"
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "koreaSync": {
     "generatedAt": "2026-08-30T23:25:14.610Z",
@@ -111,23 +111,18 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-08-29T23:24:44.096Z",
+      "generatedAt": "2026-08-30T23:34:49.827Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
         "forexFactoryHighUsd": 4,
-        "appFedEvents": 540,
-        "checked": 2,
+        "appFedEvents": 539,
+        "checked": 3,
         "mismatches": 0,
-        "ignored": 2
+        "ignored": 1
       },
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef, kostat."
-    }
-  ]
+  "warnings": []
 }
