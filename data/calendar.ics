@@ -8039,6 +8039,15 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 고용통계과 · 08:00 
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
+UID:moef-2026-09-09-1cj42jr@korea-econ-cal-data
+DTSTAMP:20260909T020000Z
+DTSTART;TZID=Asia/Seoul:20260909T110000
+DTEND;TZID=Asia/Seoul:20260909T113000
+SUMMARY:[국고채 입찰] 20년물
+DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
+LOCATION:Ministry of Economy and Finance
+END:VEVENT
+BEGIN:VEVENT
 UID:bok-2026-09-09-lri0bf@korea-econ-cal-data
 DTSTAMP:20260909T030000Z
 DTSTART;TZID=Asia/Seoul:20260909T120000
@@ -8394,15 +8403,6 @@ DTEND;TZID=Asia/Seoul:20260922T093000
 SUMMARY:[BOK] 금통위 금융안정회의
 DESCRIPTION:한국은행 금융통화위원회 · 금융안정 상황 점검 회의
 LOCATION:Bank of Korea
-END:VEVENT
-BEGIN:VEVENT
-UID:moef-2026-09-22-1cj42jr@korea-econ-cal-data
-DTSTAMP:20260922T020000Z
-DTSTART;TZID=Asia/Seoul:20260922T110000
-DTEND;TZID=Asia/Seoul:20260922T113000
-SUMMARY:[국고채 입찰] 20년물
-DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
-LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
 UID:kostat-2026-09-22-1ey1uwy@korea-econ-cal-data
