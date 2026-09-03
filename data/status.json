@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T23:14:01.303Z",
+  "generatedAt": "2026-09-03T23:19:45.063Z",
   "manifestUpdatedAt": "2026-09-02T23:21:49.350Z",
   "agencies": {
     "bok": {
@@ -35,10 +35,10 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-09-02T23:21:49.350Z",
+    "generatedAt": "2026-09-03T23:19:40.609Z",
     "window": {
-      "start": "2025-08-02",
-      "end": "2027-03-01"
+      "start": "2025-08-03",
+      "end": "2027-03-02"
     },
     "fred": {
       "success": true,
@@ -51,7 +51,7 @@
     },
     "fed": {
       "count": 534,
-      "changed": true,
+      "changed": false,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
@@ -61,7 +61,7 @@
       "error": null,
       "filename": "fed_speech.ics"
     },
-    "manifestChanged": true
+    "manifestChanged": false
   },
   "koreaSync": {
     "generatedAt": "2026-09-03T23:13:28.223Z",
@@ -111,7 +111,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-09-02T23:21:57.325Z",
+      "generatedAt": "2026-09-03T23:19:44.794Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
@@ -124,10 +124,5 @@
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef, kostat."
-    }
-  ]
+  "warnings": []
 }
