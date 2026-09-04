@@ -618,6 +618,15 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 12:00 
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
+UID:kostat-2026-09-15-ugmep1@korea-econ-cal-data
+DTSTAMP:20260915T073000Z
+DTSTART;TZID=Asia/Seoul:20260915T163000
+DTEND;TZID=Asia/Seoul:20260915T170000
+SUMMARY:[통계청] '빅밸류' 사업체 방문
+DESCRIPTION:국가데이터처 보도계획 · 담당: 대변인실 · 16:30 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
 UID:kostat-2026-09-22-1ey1uwy@korea-econ-cal-data
 DTSTAMP:20260922T030000Z
 DTSTART;TZID=Asia/Seoul:20260922T120000

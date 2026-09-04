@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T23:19:45.063Z",
-  "manifestUpdatedAt": "2026-09-02T23:21:49.350Z",
+  "generatedAt": "2026-09-04T22:59:59.699Z",
+  "manifestUpdatedAt": "2026-09-04T22:59:35.895Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -10,7 +10,7 @@
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-09-02T23:15:46.790Z",
+      "uploadedAt": "2026-09-04T22:59:35.895Z",
       "available": true
     },
     "ust": {
@@ -30,7 +30,7 @@
     },
     "kostat": {
       "filename": "kostat.ics",
-      "uploadedAt": "2026-08-28T05:18:45.502Z",
+      "uploadedAt": "2026-09-04T22:59:35.895Z",
       "available": true
     }
   },
@@ -64,12 +64,23 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-09-03T23:13:28.223Z",
+    "generatedAt": "2026-09-04T22:59:35.895Z",
     "window": {
-      "start": "2025-08-03",
-      "end": "2027-03-02"
+      "start": "2025-08-04",
+      "end": "2027-03-03"
     },
     "sources": {
+      "kostat": {
+        "success": true,
+        "count": 102,
+        "changed": true,
+        "skippedWrite": false,
+        "filename": "kostat.ics",
+        "meta": {
+          "year": 2026
+        },
+        "error": null
+      },
       "bok": {
         "success": true,
         "count": 202,
@@ -89,25 +100,18 @@
         "error": null
       },
       "moef": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
+        "success": true,
+        "count": 126,
+        "changed": true,
+        "skippedWrite": false,
         "filename": "moef.ics",
-        "meta": null,
-        "error": "fetch failed"
-      },
-      "kostat": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
-        "filename": "kostat.ics",
-        "meta": null,
-        "error": "fetch failed"
+        "meta": {
+          "months": 20
+        },
+        "error": null
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
