@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T22:59:35.895Z",
+  "updatedAt": "2026-09-04T23:04:25.979Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,7 +20,7 @@
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-09-02T23:21:49.350Z"
+      "uploadedAt": "2026-09-04T23:04:25.979Z"
     },
     "kostat": {
       "filename": "kostat.ics",
