@@ -36,15 +36,6 @@ DESCRIPTION:Treasury Quarterly Borrowing Estimate · 15:00 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
-UID:moef-2025-08-05-12vazb2@korea-econ-cal-data
-DTSTAMP:20250805T020000Z
-DTSTART;TZID=Asia/Seoul:20250805T110000
-DTEND;TZID=Asia/Seoul:20250805T113000
-SUMMARY:[국고채 입찰] 30년물
-DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
-LOCATION:Ministry of Economy and Finance
-END:VEVENT
-BEGIN:VEVENT
 UID:fred_51_2025-08-05@korea-econ-cal-data
 DTSTAMP:20250805T123000Z
 DTSTART;TZID=Asia/Seoul:20250805T213000
