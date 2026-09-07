@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-08-06_6_DiscussionGovernorLisaDC@korea-econ-cal-data
-DTSTAMP:20250806T180000Z
-DTSTART;TZID=Asia/Seoul:20250807T030000
-DTEND;TZID=Asia/Seoul:20250807T040000
-SUMMARY:Cook 토론
-DESCRIPTION:At A Central Bank Perspective on the Evolving Global Landscape (virtual) · 2:00 p.m. ET · Discussion - Governor Lisa D. Cook
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-08-09_9_SpeechViceChairforSuperv@korea-econ-cal-data
 DTSTAMP:20250809T161500Z
 DTSTART;TZID=Asia/Seoul:20250810T011500
