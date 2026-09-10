@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-08-09_9_SpeechViceChairforSuperv@korea-econ-cal-data
-DTSTAMP:20250809T161500Z
-DTSTART;TZID=Asia/Seoul:20250810T011500
-DTEND;TZID=Asia/Seoul:20250810T021500
-SUMMARY:Bowman 연설
-DESCRIPTION:At the Kansas Bankers Association (KBA) CEO and Senior Management Summit and Annual Meeting\, Colorado Springs\, Colo. · 12:15 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-08-19_19_SpeechViceChairforSuperv@korea-econ-cal-data
 DTSTAMP:20250819T181000Z
 DTSTART;TZID=Asia/Seoul:20250820T031000
@@ -1281,6 +1272,15 @@ DTSTART;TZID=Asia/Seoul:20260903T213000
 DTEND;TZID=Asia/Seoul:20260903T223000
 SUMMARY:Waller 연설
 DESCRIPTION:At the Reuters NEXT Newsmaker Interview (Virtual) · 8:30 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-09-18_18_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260918T133000Z
+DTSTART;TZID=Asia/Seoul:20260918T223000
+DTEND;TZID=Asia/Seoul:20260918T233000
+SUMMARY:Bowman 연설
+DESCRIPTION:At a Chat with U.S. Federal Reserve Vice Chair for Supervision Michelle Bowman\, London\, United Kingdom · 9:30 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
 LOCATION:United States
 END:VEVENT
 END:VCALENDAR

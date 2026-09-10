@@ -18,15 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-08-09_9_SpeechViceChairforSuperv@korea-econ-cal-data
-DTSTAMP:20250809T161500Z
-DTSTART;TZID=Asia/Seoul:20250810T011500
-DTEND;TZID=Asia/Seoul:20250810T021500
-SUMMARY:Bowman 연설
-DESCRIPTION:At the Kansas Bankers Association (KBA) CEO and Senior Management Summit and Annual Meeting\, Colorado Springs\, Colo. · 12:15 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:moef-2025-08-11-1rmu37u@korea-econ-cal-data
 DTSTAMP:20250811T020000Z
 DTSTART;TZID=Asia/Seoul:20250811T110000
@@ -8202,6 +8193,15 @@ DTSTART;TZID=Asia/Seoul:20260918T221500
 DTEND;TZID=Asia/Seoul:20260918T231500
 SUMMARY:미국 산업생산
 DESCRIPTION:G.17 Industrial Production and Capacity Utilization · 09:15 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-09-18_18_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20260918T133000Z
+DTSTART;TZID=Asia/Seoul:20260918T223000
+DTEND;TZID=Asia/Seoul:20260918T233000
+SUMMARY:Bowman 연설
+DESCRIPTION:At a Chat with U.S. Federal Reserve Vice Chair for Supervision Michelle Bowman\, London\, United Kingdom · 9:30 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
