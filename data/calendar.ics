@@ -7924,11 +7924,11 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
-UID:kostat-2026-09-10-1pl11hu@korea-econ-cal-data
+UID:kostat-2026-09-10-zbzu2d@korea-econ-cal-data
 DTSTAMP:20260910T030000Z
 DTSTART;TZID=Asia/Seoul:20260910T120000
 DTEND;TZID=Asia/Seoul:20260910T123000
-SUMMARY:[통계청] 국가데이터처\, 일일물가조사로 추석 물가 안정 지원한다
+SUMMARY:[통계청] 국가데이터처\, 추석 일일물가조사로 민생안정대책 신속 지원
 DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
@@ -8062,15 +8062,6 @@ DTEND;TZID=Asia/Seoul:20260915T163000
 SUMMARY:[BOK] 금통위 의사록 공개 (8월 통방)
 DESCRIPTION:8월 통화정책방향 결정회의(2026-08-27) 의사록 · 통상 16:00 공개
 LOCATION:Bank of Korea
-END:VEVENT
-BEGIN:VEVENT
-UID:kostat-2026-09-15-ugmep1@korea-econ-cal-data
-DTSTAMP:20260915T073000Z
-DTSTART;TZID=Asia/Seoul:20260915T163000
-DTEND;TZID=Asia/Seoul:20260915T170000
-SUMMARY:[통계청] '빅밸류' 사업체 방문
-DESCRIPTION:국가데이터처 보도계획 · 담당: 대변인실 · 16:30 KST
-LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2026-09-15@korea-econ-cal-data
