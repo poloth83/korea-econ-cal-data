@@ -1283,4 +1283,22 @@ SUMMARY:Bowman 연설
 DESCRIPTION:At a Chat with U.S. Federal Reserve Vice Chair for Supervision Michelle Bowman\, London\, United Kingdom · 9:30 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
 LOCATION:United States
 END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-09-22_22_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20260922T142000Z
+DTSTART;TZID=Asia/Seoul:20260922T232000
+DTEND;TZID=Asia/Seoul:20260923T002000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the 2026 Treasury Market Conference\, Federal Reserve Bank of New York\, New York. N.Y. · 10:20 a.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-09-23_23_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20260923T140500Z
+DTSTART;TZID=Asia/Seoul:20260923T230500
+DTEND;TZID=Asia/Seoul:20260924T000500
+SUMMARY:Barr 연설
+DESCRIPTION:At the Housing Affordability 2026: A Community Development Summit\, Federal Reserve Bank of Chicago\, Chicago\, Ill. · 10:05 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
 END:VCALENDAR
