@@ -36,15 +36,6 @@ DESCRIPTION:At the Wyoming Blockchain Symposium 2025\, Teton Village\, Wyoming �
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
-UID:bok-2025-08-20-1e4gpvg@korea-econ-cal-data
-DTSTAMP:20250820T030000Z
-DTSTART;TZID=Asia/Seoul:20250820T120000
-DTEND;TZID=Asia/Seoul:20250820T123000
-SUMMARY:[BOK] 국제투자대조표 (대외채무·채권 통계)
-DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2025 2/4 · 12:00 KST
-LOCATION:Bank of Korea
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-08-20_20_SpeechGovernorChristophe@korea-econ-cal-data
 DTSTAMP:20250820T150000Z
 DTSTART;TZID=Asia/Seoul:20250821T000000
