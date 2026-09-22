@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T00:02:10.824Z",
-  "manifestUpdatedAt": "2026-09-22T00:01:37.738Z",
+  "generatedAt": "2026-09-22T00:11:06.384Z",
+  "manifestUpdatedAt": "2026-09-22T00:11:01.600Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,12 +20,12 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-09-20T23:17:52.899Z",
+      "uploadedAt": "2026-09-22T00:11:01.600Z",
       "available": true
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-09-20T23:17:52.899Z",
+      "uploadedAt": "2026-09-22T00:11:01.600Z",
       "available": true
     },
     "kostat": {
@@ -35,28 +35,28 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-09-20T23:17:52.899Z",
+    "generatedAt": "2026-09-22T00:11:01.600Z",
     "window": {
-      "start": "2025-08-20",
-      "end": "2027-03-19"
+      "start": "2025-08-22",
+      "end": "2027-03-21"
     },
     "fred": {
       "success": true,
       "skipped": false,
       "partial": false,
-      "count": 307,
-      "sourceRecords": 307,
+      "count": 306,
+      "sourceRecords": 306,
       "failures": [],
       "error": null
     },
     "fed": {
-      "count": 522,
+      "count": 521,
       "changed": true,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
     "fedSpeech": {
-      "count": 142,
+      "count": 141,
       "changed": true,
       "error": null,
       "filename": "fed_speech.ics"
@@ -111,12 +111,12 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-09-20T23:17:57.491Z",
+      "generatedAt": "2026-09-22T00:11:06.067Z",
       "status": "blocked",
       "verificationSkippedReason": null,
       "counts": {
         "forexFactoryHighUsd": 0,
-        "appFedEvents": 522,
+        "appFedEvents": 521,
         "checked": 0,
         "mismatches": 0,
         "ignored": 0
@@ -124,10 +124,5 @@
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef, kostat."
-    }
-  ]
+  "warnings": []
 }
