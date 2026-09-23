@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-08-22_22_SpeechChairJeromeHPowell@korea-econ-cal-data
-DTSTAMP:20250822T140000Z
-DTSTART;TZID=Asia/Seoul:20250822T230000
-DTEND;TZID=Asia/Seoul:20250823T000000
-SUMMARY:Powell 연설
-DESCRIPTION:At the 2025 Jackson Hole Economic Policy Symposium\, Moran\, Wyoming · 10:00 a.m. ET · Speech - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-08-28_28_SpeechGovernorChristophe@korea-econ-cal-data
 DTSTAMP:20250828T223000Z
 DTSTART;TZID=Asia/Seoul:20250829T073000
