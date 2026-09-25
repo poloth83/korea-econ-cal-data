@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T05:06:07.320Z",
+  "generatedAt": "2026-09-25T05:09:49.845Z",
   "manifestUpdatedAt": "2026-09-23T23:46:26.783Z",
   "agencies": {
     "bok": {
@@ -35,7 +35,7 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-09-25T05:06:02.591Z",
+    "generatedAt": "2026-09-25T05:09:45.375Z",
     "window": {
       "start": "2025-08-25",
       "end": "2027-03-24"
@@ -115,15 +115,15 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-09-25T05:06:06.762Z",
-      "status": "blocked",
+      "generatedAt": "2026-09-25T05:09:49.522Z",
+      "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
-        "forexFactoryHighUsd": 0,
+        "forexFactoryHighUsd": 6,
         "appFedEvents": 521,
-        "checked": 0,
+        "checked": 3,
         "mismatches": 0,
-        "ignored": 0
+        "ignored": 3
       },
       "feedErrors": []
     }
