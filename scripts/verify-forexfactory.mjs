@@ -105,28 +105,19 @@ async function fetchForexFactoryEvents() {
           feed,
           error: `HTTP 200 but 0 <event> blocks parsed (bodyLength=${xml.length}, head=${JSON.stringify(xml.slice(0, 160))})`,
         });
-      } else {
-        // Blocks parsed but nothing may survive the USD/High filter (seen from
-        // GitHub Actions since 2026-09-21 while local runs stay fine). Dump the
-        // value distributions so the workflow log shows what this runner got.
-        const dist = field => {
-          const counts = {};
-          for (const b of blocks) {
-            const v = tag(b, field) || '(empty)';
-            counts[v] = (counts[v] || 0) + 1;
-          }
-          return JSON.stringify(counts);
-        };
-        console.error(`feed diagnostic: blocks=${blocks.length} country=${dist('country')} impact=${dist('impact')}`);
-        console.error(`feed diagnostic: first block=${JSON.stringify(blocks[0].slice(0, 300))}`);
       }
+      const countBefore = events.length;
       for (const block of blocks) {
         const country = tag(block, 'country');
         const impact = tag(block, 'impact');
         const title = tag(block, 'title');
         const date = parseFfDate(tag(block, 'date'));
         if (country !== 'USD') continue;
-        if (!/high/i.test(impact)) continue;
+        // High only used to suffice, but FF re-rates US releases per week
+        // (e.g. week of 2026-09-21 had zero High USD events — Claims and UoM
+        // were Medium), which starved verification. The WATCHLIST still
+        // narrows what gets compared, so Medium adds coverage, not noise.
+        if (!/high|medium/i.test(impact)) continue;
         if (!date || !title) continue;
         events.push({
           id: `${date}_${title}`.replace(/[^a-zA-Z0-9_-]/g, '_').slice(0, 96),
@@ -136,6 +127,19 @@ async function fetchForexFactoryEvents() {
           impact,
           source: feed,
         });
+      }
+      if (blocks.length > 0 && events.length === countBefore) {
+        // Blocks parsed but nothing survived the USD impact filter — dump the
+        // value distributions so the workflow log shows what this run got.
+        const dist = field => {
+          const counts = {};
+          for (const b of blocks) {
+            const v = tag(b, field) || '(empty)';
+            counts[v] = (counts[v] || 0) + 1;
+          }
+          return JSON.stringify(counts);
+        };
+        console.error(`feed diagnostic: blocks=${blocks.length} country=${dist('country')} impact=${dist('impact')}`);
       }
     } catch (err) {
       feedErrors.push({ feed, error: err.message });
@@ -236,13 +240,19 @@ async function main() {
     result = verify(ffResult.events, appEvents);
   }
 
+  // 'blocked' means verification could not run (missing fed.ics or feed
+  // errors). A healthy feed that simply has no comparable USD events this
+  // week is 'no-comparable-events' — a quiet week, not an alarm. Before
+  // 2026-09-25 that case was mislabeled 'blocked'.
   const status = verificationSkippedReason
     ? 'blocked'
     : result.mismatches.length > 0
       ? 'mismatch'
       : ffResult.events.length > 0
         ? 'ok'
-        : 'blocked';
+        : ffResult.feedErrors.length > 0
+          ? 'blocked'
+          : 'no-comparable-events';
 
   const report = {
     generatedAt,
