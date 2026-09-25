@@ -63,10 +63,30 @@ function parseFfDate(dateValue) {
   return null;
 }
 
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
 async function fetchText(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`${url} HTTP ${res.status}`);
-  return res.text();
+  // Since 2026-09-21 the feed CDN serves HTTP 200 with an empty/blank body to
+  // requests from GitHub Actions IPs using Node's default `node` User-Agent,
+  // which silently disabled verification. A browser-like UA avoids the filter.
+  // The feed also rate-limits aggressively per IP (HTTP 429 observed from both
+  // local and shared runner IPs), so back off and retry before giving up.
+  const backoffMs = [45_000, 90_000];
+  for (let attempt = 0; ; attempt++) {
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36',
+        'Accept': 'text/xml,application/xml;q=0.9,*/*;q=0.8',
+      },
+    });
+    if (res.status === 429 && attempt < backoffMs.length) {
+      console.error(`${url} HTTP 429 — retrying in ${backoffMs[attempt] / 1000}s`);
+      await sleep(backoffMs[attempt]);
+      continue;
+    }
+    if (!res.ok) throw new Error(`${url} HTTP ${res.status}`);
+    return res.text();
+  }
 }
 
 async function fetchForexFactoryEvents() {
@@ -77,6 +97,15 @@ async function fetchForexFactoryEvents() {
     try {
       const xml = await fetchText(feed);
       const blocks = [...xml.matchAll(/<event>([\s\S]*?)<\/event>/gi)].map(m => m[1]);
+      if (blocks.length === 0) {
+        // HTTP 200 with no parsable events means the feed is blocked or its
+        // format changed — record it so status.json shows why instead of a
+        // silent zero-event "blocked" that looks like a quiet week.
+        feedErrors.push({
+          feed,
+          error: `HTTP 200 but 0 <event> blocks parsed (bodyLength=${xml.length}, head=${JSON.stringify(xml.slice(0, 160))})`,
+        });
+      }
       for (const block of blocks) {
         const country = tag(block, 'country');
         const impact = tag(block, 'impact');
