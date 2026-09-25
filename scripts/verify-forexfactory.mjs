@@ -105,6 +105,20 @@ async function fetchForexFactoryEvents() {
           feed,
           error: `HTTP 200 but 0 <event> blocks parsed (bodyLength=${xml.length}, head=${JSON.stringify(xml.slice(0, 160))})`,
         });
+      } else {
+        // Blocks parsed but nothing may survive the USD/High filter (seen from
+        // GitHub Actions since 2026-09-21 while local runs stay fine). Dump the
+        // value distributions so the workflow log shows what this runner got.
+        const dist = field => {
+          const counts = {};
+          for (const b of blocks) {
+            const v = tag(b, field) || '(empty)';
+            counts[v] = (counts[v] || 0) + 1;
+          }
+          return JSON.stringify(counts);
+        };
+        console.error(`feed diagnostic: blocks=${blocks.length} country=${dist('country')} impact=${dist('impact')}`);
+        console.error(`feed diagnostic: first block=${JSON.stringify(blocks[0].slice(0, 300))}`);
       }
       for (const block of blocks) {
         const country = tag(block, 'country');
