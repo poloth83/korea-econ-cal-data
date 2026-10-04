@@ -80,6 +80,8 @@ jobs:
             echo "No generated data changes."
           else
             git commit -m "Update automated US calendar data"
+            # 실행 중 사람·루틴이 scripts를 push하면 거부되므로 rebase 후 push (2026-10-04)
+            git pull --rebase origin main
             git push
           fi
 
