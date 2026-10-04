@@ -26,7 +26,8 @@ const WATCHLIST = [
   { ff: /retail sales/i, app: /소매판매/i },
   { ff: /ISM manufacturing/i, app: /ISM 제조업/i },
   { ff: /ISM services|ISM non-manufacturing/i, app: /ISM 서비스업/i },
-  { ff: /FOMC|federal funds|fed interest rate/i, app: /FOMC/i },
+  // "FOMC Member X Speaks"는 연설 — fed.ics가 아니라 fed_speech.ics 소관이라 제외
+  { ff: /FOMC(?! Member)|federal funds|fed interest rate/i, app: /FOMC/i },
   { ff: /JOLTS|job openings/i, app: /JOLTS/i },
   { ff: /CB consumer confidence|consumer confidence/i, app: /CB 소비자신뢰|소비자신뢰/i },
   { ff: /UoM|University of Michigan|consumer sentiment/i, app: /미시간대/i },
