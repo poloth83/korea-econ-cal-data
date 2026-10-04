@@ -88,3 +88,6 @@ jobs:
         run: |
           echo "Automated commit blocked: ${{ steps.gate.outputs.reason }}"
           echo "Review the uploaded Forex Factory verification report before publishing generated data."
+          # 실패로 끝내야 run 목록·GitHub 알림에 드러남 (2026-09-27~10-04, success로 표시된 채 8일간 미발행)
+          echo "::error::US calendar data was NOT published (${{ steps.gate.outputs.reason }})"
+          exit 1
