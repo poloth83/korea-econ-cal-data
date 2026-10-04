@@ -18,123 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fred_95_2025-08-26@korea-econ-cal-data
-DTSTAMP:20250826T123000Z
-DTSTART;TZID=Asia/Seoul:20250826T213000
-DTEND;TZID=Asia/Seoul:20250826T223000
-SUMMARY:미국 제조업수주 / 내구재
-DESCRIPTION:Manufacturer's Shipments\, Inventories\, and Orders (M3) Survey · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:cb_conf_2025-08-26@korea-econ-cal-data
-DTSTAMP:20250826T140000Z
-DTSTART;TZID=Asia/Seoul:20250826T230000
-DTEND;TZID=Asia/Seoul:20250827T000000
-SUMMARY:CB 소비자신뢰지수
-DESCRIPTION:Conference Board Consumer Confidence Index · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_180_2025-08-28@korea-econ-cal-data
-DTSTAMP:20250828T123000Z
-DTSTART;TZID=Asia/Seoul:20250828T213000
-DTEND;TZID=Asia/Seoul:20250828T223000
-SUMMARY:미국 주간실업수당청구
-DESCRIPTION:Unemployment Insurance Weekly Claims Report · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_53_2025-08-28@korea-econ-cal-data
-DTSTAMP:20250828T123000Z
-DTSTART;TZID=Asia/Seoul:20250828T213000
-DTEND;TZID=Asia/Seoul:20250828T223000
-SUMMARY:미국 GDP
-DESCRIPTION:Gross Domestic Product · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-08-28_28_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250828T223000Z
-DTSTART;TZID=Asia/Seoul:20250829T073000
-DTEND;TZID=Asia/Seoul:20250829T083000
-SUMMARY:Waller 연설
-DESCRIPTION:At the Economic Club of Miami Dinner\, Miami\, Fla. · 6:30 p.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_54_2025-08-29@korea-econ-cal-data
-DTSTAMP:20250829T123000Z
-DTSTART;TZID=Asia/Seoul:20250829T213000
-DTEND;TZID=Asia/Seoul:20250829T223000
-SUMMARY:미국 PCE / 개인소득·지출
-DESCRIPTION:Personal Income and Outlays · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:umich_final_2025-08-29@korea-econ-cal-data
-DTSTAMP:20250829T140000Z
-DTSTART;TZID=Asia/Seoul:20250829T230000
-DTEND;TZID=Asia/Seoul:20250830T000000
-SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:spg_mfg_final_2025-09-02@korea-econ-cal-data
-DTSTAMP:20250902T134500Z
-DTSTART;TZID=Asia/Seoul:20250902T224500
-DTEND;TZID=Asia/Seoul:20250902T234500
-SUMMARY:S&P 글로벌 제조업 PMI (확정)
-DESCRIPTION:S&P Global US Manufacturing PMI Final · 9:45 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_229_2025-09-02@korea-econ-cal-data
-DTSTAMP:20250902T140000Z
-DTSTART;TZID=Asia/Seoul:20250902T230000
-DTEND;TZID=Asia/Seoul:20250903T000000
-SUMMARY:미국 건설지출
-DESCRIPTION:Construction Spending · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:ism_mfg_2025-09-02@korea-econ-cal-data
-DTSTAMP:20250902T140000Z
-DTSTART;TZID=Asia/Seoul:20250902T230000
-DTEND;TZID=Asia/Seoul:20250903T000000
-SUMMARY:미국 ISM 제조업 PMI
-DESCRIPTION:ISM Manufacturing PMI · 10:00 ET · 매월 1번째 영업일
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:adp_nfp_2025-09-03@korea-econ-cal-data
-DTSTAMP:20250903T121500Z
-DTSTART;TZID=Asia/Seoul:20250903T211500
-DTEND;TZID=Asia/Seoul:20250903T221500
-SUMMARY:미국 ADP 민간고용
-DESCRIPTION:ADP National Employment Report · 8:15 ET · 고용지표(NFP) 직전 수요일
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_95_2025-09-03@korea-econ-cal-data
-DTSTAMP:20250903T123000Z
-DTSTART;TZID=Asia/Seoul:20250903T213000
-DTEND;TZID=Asia/Seoul:20250903T223000
-SUMMARY:미국 제조업수주 / 내구재
-DESCRIPTION:Manufacturer's Shipments\, Inventories\, and Orders (M3) Survey · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fred_192_2025-09-03@korea-econ-cal-data
-DTSTAMP:20250903T140000Z
-DTSTART;TZID=Asia/Seoul:20250903T230000
-DTEND;TZID=Asia/Seoul:20250904T000000
-SUMMARY:미국 JOLTS (구인이직)
-DESCRIPTION:Job Openings and Labor Turnover Survey · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:bok-2025-09-04-14alilg@korea-econ-cal-data
 DTSTAMP:20250903T230000Z
 DTSTART;TZID=Asia/Seoul:20250904T080000
@@ -275,7 +158,7 @@ DTSTAMP:20250912T140000Z
 DTSTART;TZID=Asia/Seoul:20250912T230000
 DTEND;TZID=Asia/Seoul:20250913T000000
 SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET · 추정
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -518,7 +401,7 @@ DTSTAMP:20250926T140000Z
 DTSTART;TZID=Asia/Seoul:20250926T230000
 DTEND;TZID=Asia/Seoul:20250927T000000
 SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET · 추정
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -887,7 +770,7 @@ DTSTAMP:20251017T140000Z
 DTSTART;TZID=Asia/Seoul:20251017T230000
 DTEND;TZID=Asia/Seoul:20251018T000000
 SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET · 추정
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -1031,7 +914,7 @@ DTSTAMP:20251031T140000Z
 DTSTART;TZID=Asia/Seoul:20251031T230000
 DTEND;TZID=Asia/Seoul:20251101T000000
 SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET · 추정
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -1256,7 +1139,7 @@ DTSTAMP:20251114T150000Z
 DTSTART;TZID=Asia/Seoul:20251115T000000
 DTEND;TZID=Asia/Seoul:20251115T010000
 SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET · 추정
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -1526,7 +1409,7 @@ DTSTAMP:20251128T150000Z
 DTSTART;TZID=Asia/Seoul:20251129T000000
 DTEND;TZID=Asia/Seoul:20251129T010000
 SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET · 추정
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -1760,7 +1643,7 @@ DTSTAMP:20251212T150000Z
 DTSTART;TZID=Asia/Seoul:20251213T000000
 DTEND;TZID=Asia/Seoul:20251213T010000
 SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET · 추정
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -1931,7 +1814,7 @@ DTSTAMP:20251226T150000Z
 DTSTART;TZID=Asia/Seoul:20251227T000000
 DTEND;TZID=Asia/Seoul:20251227T010000
 SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET · 추정
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -2142,6 +2025,15 @@ DESCRIPTION:Employment Situation · 08:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:umich_prelim_2026-01-09@korea-econ-cal-data
+DTSTAMP:20260109T150000Z
+DTSTART;TZID=Asia/Seoul:20260110T000000
+DTEND;TZID=Asia/Seoul:20260110T010000
+SUMMARY:미시간대 소비자심리 (예비)
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:moef-2026-01-12-1rmu37u@korea-econ-cal-data
 DTSTAMP:20260112T020000Z
 DTSTART;TZID=Asia/Seoul:20260112T110000
@@ -2286,15 +2178,6 @@ DESCRIPTION:G.17 Industrial Production and Capacity Utilization · 09:15 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
-UID:umich_prelim_2026-01-16@korea-econ-cal-data
-DTSTAMP:20260116T150000Z
-DTSTART;TZID=Asia/Seoul:20260117T000000
-DTEND;TZID=Asia/Seoul:20260117T010000
-SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2026-01-16_16_SpeechViceChairforSuperv@korea-econ-cal-data
 DTSTAMP:20260116T160000Z
 DTSTART;TZID=Asia/Seoul:20260117T010000
@@ -2392,6 +2275,15 @@ DTEND;TZID=Asia/Seoul:20260123T063000
 SUMMARY:[BOK] 소비자동향조사
 DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 1 · 06:00 KST
 LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_final_2026-01-23@korea-econ-cal-data
+DTSTAMP:20260123T150000Z
+DTSTART;TZID=Asia/Seoul:20260124T000000
+DTEND;TZID=Asia/Seoul:20260124T010000
+SUMMARY:미시간대 소비자심리 (확정)
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:moef-2026-01-26-n6cg1s@korea-econ-cal-data
@@ -2535,15 +2427,6 @@ DTSTART;TZID=Asia/Seoul:20260130T223000
 DTEND;TZID=Asia/Seoul:20260130T233000
 SUMMARY:미국 PPI
 DESCRIPTION:Producer Price Index · 08:30 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:umich_final_2026-01-30@korea-econ-cal-data
-DTSTAMP:20260130T150000Z
-DTSTART;TZID=Asia/Seoul:20260131T000000
-DTEND;TZID=Asia/Seoul:20260131T010000
-SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -2727,6 +2610,15 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 물가연동국�
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
+UID:umich_prelim_2026-02-06@korea-econ-cal-data
+DTSTAMP:20260206T150000Z
+DTSTART;TZID=Asia/Seoul:20260207T000000
+DTEND;TZID=Asia/Seoul:20260207T010000
+SUMMARY:미시간대 소비자심리 (예비)
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:fed_speech_2026-02-06_6_SpeechViceChairPhilipNJe@korea-econ-cal-data
 DTSTAMP:20260206T170000Z
 DTSTART;TZID=Asia/Seoul:20260207T020000
@@ -2871,15 +2763,6 @@ DESCRIPTION:Consumer Price Index · 08:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
-UID:umich_prelim_2026-02-13@korea-econ-cal-data
-DTSTAMP:20260213T150000Z
-DTSTART;TZID=Asia/Seoul:20260214T000000
-DTEND;TZID=Asia/Seoul:20260214T010000
-SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2026-02-16_16_SpeechViceChairforSuperv@korea-econ-cal-data
 DTSTAMP:20260216T132500Z
 DTSTART;TZID=Asia/Seoul:20260216T222500
@@ -2994,6 +2877,15 @@ DTSTART;TZID=Asia/Seoul:20260221T000000
 DTEND;TZID=Asia/Seoul:20260221T010000
 SUMMARY:미국 신규주택판매
 DESCRIPTION:New Residential Sales · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_final_2026-02-20@korea-econ-cal-data
+DTSTAMP:20260220T150000Z
+DTSTART;TZID=Asia/Seoul:20260221T000000
+DTEND;TZID=Asia/Seoul:20260221T010000
+SUMMARY:미시간대 소비자심리 (확정)
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -3192,15 +3084,6 @@ DTSTART;TZID=Asia/Seoul:20260228T000000
 DTEND;TZID=Asia/Seoul:20260228T010000
 SUMMARY:미국 건설지출
 DESCRIPTION:Construction Spending · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:umich_final_2026-02-27@korea-econ-cal-data
-DTSTAMP:20260227T150000Z
-DTSTART;TZID=Asia/Seoul:20260228T000000
-DTEND;TZID=Asia/Seoul:20260228T010000
-SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -4725,6 +4608,15 @@ DESCRIPTION:Employment Situation · 08:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:umich_prelim_2026-05-08@korea-econ-cal-data
+DTSTAMP:20260508T140000Z
+DTSTART;TZID=Asia/Seoul:20260508T230000
+DTEND;TZID=Asia/Seoul:20260509T000000
+SUMMARY:미시간대 소비자심리 (예비)
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:fed_speech_2026-05-08_8_PanelDiscussionGovernorC@korea-econ-cal-data
 DTSTAMP:20260508T233000Z
 DTSTART;TZID=Asia/Seoul:20260509T083000
@@ -4860,15 +4752,6 @@ DESCRIPTION:G.17 Industrial Production and Capacity Utilization · 09:15 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
-UID:umich_prelim_2026-05-15@korea-econ-cal-data
-DTSTAMP:20260515T140000Z
-DTSTART;TZID=Asia/Seoul:20260515T230000
-DTEND;TZID=Asia/Seoul:20260516T000000
-SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:moef-2026-05-18-cxvxis@korea-econ-cal-data
 DTSTAMP:20260518T020000Z
 DTSTART;TZID=Asia/Seoul:20260518T110000
@@ -4966,6 +4849,15 @@ DTEND;TZID=Asia/Seoul:20260522T123000
 SUMMARY:[통계청] 2025년 농가 및 어가경제조사 결과
 DESCRIPTION:국가데이터처 보도계획 · 담당: 농어업동향과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_final_2026-05-22@korea-econ-cal-data
+DTSTAMP:20260522T140000Z
+DTSTART;TZID=Asia/Seoul:20260522T230000
+DTEND;TZID=Asia/Seoul:20260523T000000
+SUMMARY:미시간대 소비자심리 (확정)
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:fed_speech_2026-05-22_22_LectureGovernorChristoph@korea-econ-cal-data
@@ -5145,15 +5037,6 @@ DTSTART;TZID=Asia/Seoul:20260529T221000
 DTEND;TZID=Asia/Seoul:20260529T231000
 SUMMARY:Bowman 연설
 DESCRIPTION:At the Reykjavik Economic Conference 2026\, Reykjavik\, Iceland · 9:10 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:umich_final_2026-05-29@korea-econ-cal-data
-DTSTAMP:20260529T140000Z
-DTSTART;TZID=Asia/Seoul:20260529T230000
-DTEND;TZID=Asia/Seoul:20260530T000000
-SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -8170,6 +8053,15 @@ DESCRIPTION:At the Military Banking Summit 2026 (Virtual) · 8:15 a.m. ET · Dis
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:fred_9_2026-09-28@korea-econ-cal-data
+DTSTAMP:20260928T123000Z
+DTSTART;TZID=Asia/Seoul:20260928T213000
+DTEND;TZID=Asia/Seoul:20260928T223000
+SUMMARY:미국 소매판매
+DESCRIPTION:Advance Monthly Sales for Retail and Food Services · 08:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:ust-13-week-bill-2026-09-28@korea-econ-cal-data
 DTSTAMP:20260808T004500Z
 DTSTART:20260928T153000Z
@@ -8539,6 +8431,15 @@ DESCRIPTION:U.S. International Trade in Goods and Services · 08:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-10-06_6_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20261006T144500Z
+DTSTART;TZID=Asia/Seoul:20261006T234500
+DTEND;TZID=Asia/Seoul:20261007T004500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the 2026 Community Banking Research Conference\, St. Louis\, Missouri · 10:45 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:ust-6-week-bill-2026-10-06@korea-econ-cal-data
 DTSTAMP:20260808T004500Z
 DTSTART:20261006T153000Z
@@ -8615,6 +8516,15 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 물가연동국�
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-10-08_8_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20261008T083000Z
+DTSTART;TZID=Asia/Seoul:20261008T173000
+DTEND;TZID=Asia/Seoul:20261008T183000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Central Bank of the Republic of Türkiye (TCMB) İstanbul Economic Forum\, Ümraniye/İstanbul\, Türkiye  · 4:30 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:fred_180_2026-10-08@korea-econ-cal-data
 DTSTAMP:20261008T123000Z
 DTSTART;TZID=Asia/Seoul:20261008T213000
@@ -8652,6 +8562,15 @@ SUMMARY:미국 30년 본드 입찰 (재발행)
 DESCRIPTION:발표 2026-10-01 · 결제 2026-10-15 · 13:00 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_prelim_2026-10-09@korea-econ-cal-data
+DTSTAMP:20261009T140000Z
+DTSTART;TZID=Asia/Seoul:20261009T230000
+DTEND;TZID=Asia/Seoul:20261010T000000
+SUMMARY:미시간대 소비자심리 (예비)
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:moef-2026-10-12-1rmu37u@korea-econ-cal-data
@@ -8831,15 +8750,6 @@ DESCRIPTION:G.17 Industrial Production and Capacity Utilization · 09:15 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
-UID:umich_prelim_2026-10-16@korea-econ-cal-data
-DTSTAMP:20261016T140000Z
-DTSTART;TZID=Asia/Seoul:20261016T230000
-DTEND;TZID=Asia/Seoul:20261017T000000
-SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:moef-2026-10-19-cxvxis@korea-econ-cal-data
 DTSTAMP:20261019T020000Z
 DTSTART;TZID=Asia/Seoul:20261019T110000
@@ -8990,6 +8900,15 @@ SUMMARY:미국 5년 TIPS 입찰
 DESCRIPTION:발표 2026-10-15 · 결제 2026-10-30 · 13:00 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_final_2026-10-23@korea-econ-cal-data
+DTSTAMP:20261023T140000Z
+DTSTART;TZID=Asia/Seoul:20261023T230000
+DTEND;TZID=Asia/Seoul:20261024T000000
+SUMMARY:미시간대 소비자심리 (확정)
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:moef-2026-10-26-n6cg1s@korea-econ-cal-data
@@ -9255,15 +9174,6 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
-UID:umich_final_2026-10-30@korea-econ-cal-data
-DTSTAMP:20261030T140000Z
-DTSTART;TZID=Asia/Seoul:20261030T230000
-DTEND;TZID=Asia/Seoul:20261031T000000
-SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:moef-2026-11-02-ly8rfx@korea-econ-cal-data
 DTSTAMP:20261102T020000Z
 DTSTART;TZID=Asia/Seoul:20261102T110000
@@ -9522,6 +9432,15 @@ DESCRIPTION:Employment Situation · 08:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:umich_prelim_2026-11-06@korea-econ-cal-data
+DTSTAMP:20261106T150000Z
+DTSTART;TZID=Asia/Seoul:20261107T000000
+DTEND;TZID=Asia/Seoul:20261107T010000
+SUMMARY:미시간대 소비자심리 (예비)
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:moef-2026-11-09-1rmu37u@korea-econ-cal-data
 DTSTAMP:20261109T020000Z
 DTSTART;TZID=Asia/Seoul:20261109T110000
@@ -9693,15 +9612,6 @@ DESCRIPTION:Producer Price Index · 08:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
-UID:umich_prelim_2026-11-13@korea-econ-cal-data
-DTSTAMP:20261113T150000Z
-DTSTART;TZID=Asia/Seoul:20261114T000000
-DTEND;TZID=Asia/Seoul:20261114T010000
-SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:moef-2026-11-16-cxvxis@korea-econ-cal-data
 DTSTAMP:20261116T020000Z
 DTSTART;TZID=Asia/Seoul:20261116T110000
@@ -9870,6 +9780,15 @@ DTEND;TZID=Asia/Seoul:20261120T123000
 SUMMARY:[BOK] 차주별 가계부채
 DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 3/4 · 12:00 KST
 LOCATION:Bank of Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_final_2026-11-20@korea-econ-cal-data
+DTSTAMP:20261120T150000Z
+DTSTART;TZID=Asia/Seoul:20261121T000000
+DTEND;TZID=Asia/Seoul:20261121T010000
+SUMMARY:미시간대 소비자심리 (확정)
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:moef-2026-11-23-n6cg1s@korea-econ-cal-data
@@ -10135,15 +10054,6 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 가계수지동향과 · 
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
-UID:umich_final_2026-11-27@korea-econ-cal-data
-DTSTAMP:20261127T150000Z
-DTSTART;TZID=Asia/Seoul:20261128T000000
-DTEND;TZID=Asia/Seoul:20261128T010000
-SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:kostat-2026-11-30-2dmu4b@korea-econ-cal-data
 DTSTAMP:20261129T230000Z
 DTSTART;TZID=Asia/Seoul:20261130T080000
@@ -10366,6 +10276,15 @@ DESCRIPTION:Employment Situation · 08:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:umich_prelim_2026-12-04@korea-econ-cal-data
+DTSTAMP:20261204T150000Z
+DTSTART;TZID=Asia/Seoul:20261205T000000
+DTEND;TZID=Asia/Seoul:20261205T010000
+SUMMARY:미시간대 소비자심리 (예비)
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:moef-2026-12-07-1rmu37u@korea-econ-cal-data
 DTSTAMP:20261207T020000Z
 DTSTART;TZID=Asia/Seoul:20261207T110000
@@ -10535,15 +10454,6 @@ DTEND;TZID=Asia/Seoul:20261211T113000
 SUMMARY:[국고채 입찰] 50년물
 DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
 LOCATION:Ministry of Economy and Finance
-END:VEVENT
-BEGIN:VEVENT
-UID:umich_prelim_2026-12-11@korea-econ-cal-data
-DTSTAMP:20261211T150000Z
-DTSTART;TZID=Asia/Seoul:20261212T000000
-DTEND;TZID=Asia/Seoul:20261212T010000
-SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
-LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:moef-2026-12-14-cxvxis@korea-econ-cal-data
@@ -10721,6 +10631,15 @@ SUMMARY:미국 8주 T-Bill 입찰
 DESCRIPTION:발표 2026-12-15 · 결제 2026-12-22 · 11:30 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_final_2026-12-18@korea-econ-cal-data
+DTSTAMP:20261218T150000Z
+DTSTART;TZID=Asia/Seoul:20261219T000000
+DTEND;TZID=Asia/Seoul:20261219T010000
+SUMMARY:미시간대 소비자심리 (확정)
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:moef-2026-12-21-n6cg1s@korea-econ-cal-data
@@ -10938,15 +10857,6 @@ SUMMARY:미국 8주 T-Bill 입찰
 DESCRIPTION:발표 2026-12-22 · 결제 2026-12-29 · 11:30 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:umich_final_2026-12-25@korea-econ-cal-data
-DTSTAMP:20261225T150000Z
-DTSTART;TZID=Asia/Seoul:20261226T000000
-DTEND;TZID=Asia/Seoul:20261226T010000
-SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
-LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2026-12-28@korea-econ-cal-data
@@ -11216,6 +11126,15 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
+UID:umich_prelim_2027-01-08@korea-econ-cal-data
+DTSTAMP:20270108T150000Z
+DTSTART;TZID=Asia/Seoul:20270109T000000
+DTEND;TZID=Asia/Seoul:20270109T010000
+SUMMARY:미시간대 소비자심리 (예비)
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:ust-13-week-bill-2027-01-11@korea-econ-cal-data
 DTSTAMP:20260808T004500Z
 DTSTART:20270111T163000Z
@@ -11315,15 +11234,6 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
-UID:umich_prelim_2027-01-15@korea-econ-cal-data
-DTSTAMP:20270115T150000Z
-DTSTART;TZID=Asia/Seoul:20270116T000000
-DTEND;TZID=Asia/Seoul:20270116T010000
-SUMMARY:미시간대 소비자심리 (예비)
-DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:ust-13-week-bill-2027-01-19@korea-econ-cal-data
 DTSTAMP:20260808T004500Z
 DTSTART:20270119T163000Z
@@ -11412,6 +11322,15 @@ SUMMARY:미국 10년 TIPS 입찰
 DESCRIPTION:발표 2027-01-14 · 결제 2027-01-29 · 13:00 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_final_2027-01-22@korea-econ-cal-data
+DTSTAMP:20270122T150000Z
+DTSTART;TZID=Asia/Seoul:20270123T000000
+DTEND;TZID=Asia/Seoul:20270123T010000
+SUMMARY:미시간대 소비자심리 (확정)
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2027-01-25@korea-econ-cal-data
@@ -11530,15 +11449,6 @@ SUMMARY:미국 7년 노트 입찰
 DESCRIPTION:발표 2027-01-21 · 결제 2027-02-01 · 13:00 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:umich_final_2027-01-29@korea-econ-cal-data
-DTSTAMP:20270129T150000Z
-DTSTART;TZID=Asia/Seoul:20270130T000000
-DTEND;TZID=Asia/Seoul:20270130T010000
-SUMMARY:미시간대 소비자심리 (확정)
-DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
-LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
 UID:spg_mfg_final_2027-02-01@korea-econ-cal-data
@@ -11748,6 +11658,51 @@ DTSTART;TZID=Asia/Seoul:20270318T030000
 DTEND;TZID=Asia/Seoul:20270318T040000
 SUMMARY:FOMC 3월 금리결정 + 의장 회견
 DESCRIPTION:Fed 공식 일정 · 14:00 ET (KST 기준 다음날 03:00)
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:umich_final_2027-03-25@korea-econ-cal-data
+DTSTAMP:20270325T140000Z
+DTSTART;TZID=Asia/Seoul:20270325T230000
+DTEND;TZID=Asia/Seoul:20270326T000000
+SUMMARY:미시간대 소비자심리 (확정)
+DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:cb_conf_2027-03-30@korea-econ-cal-data
+DTSTAMP:20270330T140000Z
+DTSTART;TZID=Asia/Seoul:20270330T230000
+DTEND;TZID=Asia/Seoul:20270331T000000
+SUMMARY:CB 소비자신뢰지수
+DESCRIPTION:Conference Board Consumer Confidence Index · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:challenger_2027-04-01@korea-econ-cal-data
+DTSTAMP:20270401T113000Z
+DTSTART;TZID=Asia/Seoul:20270401T203000
+DTEND;TZID=Asia/Seoul:20270401T213000
+SUMMARY:미국 챌린저 감원계획
+DESCRIPTION:Challenger Job Cut Report · 7:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:spg_mfg_final_2027-04-01@korea-econ-cal-data
+DTSTAMP:20270401T134500Z
+DTSTART;TZID=Asia/Seoul:20270401T224500
+DTEND;TZID=Asia/Seoul:20270401T234500
+SUMMARY:S&P 글로벌 제조업 PMI (확정)
+DESCRIPTION:S&P Global US Manufacturing PMI Final · 9:45 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:ism_mfg_2027-04-01@korea-econ-cal-data
+DTSTAMP:20270401T140000Z
+DTSTART;TZID=Asia/Seoul:20270401T230000
+DTEND;TZID=Asia/Seoul:20270402T000000
+SUMMARY:미국 ISM 제조업 PMI
+DESCRIPTION:ISM Manufacturing PMI · 10:00 ET · 매월 1번째 영업일
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT

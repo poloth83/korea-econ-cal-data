@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T23:44:51.979Z",
-  "manifestUpdatedAt": "2026-10-03T00:24:18.884Z",
+  "generatedAt": "2026-10-04T03:36:09.234Z",
+  "manifestUpdatedAt": "2026-10-04T03:36:03.517Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,12 +20,12 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-09-25T23:58:00.736Z",
+      "uploadedAt": "2026-10-04T03:36:03.517Z",
       "available": true
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-09-26T23:39:50.472Z",
+      "uploadedAt": "2026-10-04T03:36:03.517Z",
       "available": true
     },
     "kostat": {
@@ -35,29 +35,29 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-09-26T23:39:50.472Z",
+    "generatedAt": "2026-10-04T03:36:03.517Z",
     "window": {
-      "start": "2025-08-26",
-      "end": "2027-03-25"
+      "start": "2025-09-04",
+      "end": "2027-04-02"
     },
     "fred": {
       "success": true,
       "skipped": false,
       "partial": false,
-      "count": 304,
-      "sourceRecords": 304,
+      "count": 298,
+      "sourceRecords": 298,
       "failures": [],
       "error": null
     },
     "fed": {
-      "count": 519,
+      "count": 513,
       "changed": true,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
     "fedSpeech": {
-      "count": 150,
-      "changed": false,
+      "count": 151,
+      "changed": true,
       "error": null,
       "filename": "fed_speech.ics"
     },
@@ -111,23 +111,18 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-09-26T23:39:55.036Z",
+      "generatedAt": "2026-10-04T03:36:08.954Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
-        "forexFactoryHighUsd": 6,
-        "appFedEvents": 519,
-        "checked": 3,
+        "forexFactoryHighUsd": 14,
+        "appFedEvents": 513,
+        "checked": 10,
         "mismatches": 0,
-        "ignored": 3
+        "ignored": 4
       },
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef, kostat."
-    }
-  ]
+  "warnings": []
 }

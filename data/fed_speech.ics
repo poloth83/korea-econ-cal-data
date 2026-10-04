@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-08-28_28_SpeechGovernorChristophe@korea-econ-cal-data
-DTSTAMP:20250828T223000Z
-DTSTART;TZID=Asia/Seoul:20250829T073000
-DTEND;TZID=Asia/Seoul:20250829T083000
-SUMMARY:Waller 연설
-DESCRIPTION:At the Economic Club of Miami Dinner\, Miami\, Fla. · 6:30 p.m. ET · Speech - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-09-22_22_SpeechGovernorStephenIMi@korea-econ-cal-data
 DTSTAMP:20250922T160000Z
 DTSTART;TZID=Asia/Seoul:20250923T010000
@@ -1362,6 +1353,24 @@ DTSTART;TZID=Asia/Seoul:20261002T043000
 DTEND;TZID=Asia/Seoul:20261002T053000
 SUMMARY:Cook 토론
 DESCRIPTION:At the Central Banking Seminar (Virtual) · 3:30 p.m. ET · Discussion - Governor Lisa D. Cook 
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-10-06_6_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20261006T144500Z
+DTSTART;TZID=Asia/Seoul:20261006T234500
+DTEND;TZID=Asia/Seoul:20261007T004500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the 2026 Community Banking Research Conference\, St. Louis\, Missouri · 10:45 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-10-08_8_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20261008T083000Z
+DTSTART;TZID=Asia/Seoul:20261008T173000
+DTEND;TZID=Asia/Seoul:20261008T183000
+SUMMARY:Waller 연설
+DESCRIPTION:At the Central Bank of the Republic of Türkiye (TCMB) İstanbul Economic Forum\, Ümraniye/İstanbul\, Türkiye  · 4:30 a.m. ET · Speech - Governor Christopher J. Waller
 LOCATION:United States
 END:VEVENT
 END:VCALENDAR
