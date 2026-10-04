@@ -11,6 +11,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import zlib from 'node:zlib';
 
 const args = new Set(process.argv.slice(2));
 const DRY_RUN = args.has('--dry-run');
@@ -21,6 +22,7 @@ const FRED_API_KEY = process.env.FRED_API_KEY || process.env.VITE_FRED_API_KEY |
 const FRED_API_BASE = 'https://api.stlouisfed.org/fred/';
 const FED_CALENDAR_URL = 'https://www.federalreserve.gov/json/calendar.json';
 const FETCH_TIMEOUT_MS = 15_000;
+const UMICH_PORTAL = 'https://data.sca.isr.umich.edu';
 
 const now = new Date();
 const startDate = new Date(now);
@@ -48,6 +50,26 @@ const FOMC_MEETINGS = [
   { year: 2027, meeting: '10월', decisionUtc: '2027-10-27T18:00:00Z', pressConf: false },
   { year: 2027, meeting: '12월', decisionUtc: '2027-12-08T19:00:00Z', pressConf: true },
 ];
+
+// 미시간대 소비자심리 공식 발표일 (데이터 월 → [예비, 확정]).
+// 출처: data.sca.isr.umich.edu/survey-info.php의 "YYYY Release Dates" PDF.
+// 규칙(마지막 금요일 등)으로는 못 맞춤 — 2026-10 대조 시 30건 중 19건 불일치.
+// 실행 때마다 PDF를 다시 읽어 덮어쓰고, 이 상수는 사이트 장애 시 폴백.
+// 여기에도 없는 달만 마지막 금요일 규칙으로 추정.
+const UMICH_RELEASE_DATES = {
+  '2026-01': ['2026-01-09', '2026-01-23'], '2026-02': ['2026-02-06', '2026-02-20'],
+  '2026-03': ['2026-03-13', '2026-03-27'], '2026-04': ['2026-04-10', '2026-04-24'],
+  '2026-05': ['2026-05-08', '2026-05-22'], '2026-06': ['2026-06-12', '2026-06-26'],
+  '2026-07': ['2026-07-17', '2026-07-31'], '2026-08': ['2026-08-14', '2026-08-28'],
+  '2026-09': ['2026-09-11', '2026-09-25'], '2026-10': ['2026-10-09', '2026-10-23'],
+  '2026-11': ['2026-11-06', '2026-11-20'], '2026-12': ['2026-12-04', '2026-12-18'],
+  '2027-01': ['2027-01-08', '2027-01-22'], '2027-02': ['2027-02-12', '2027-02-26'],
+  '2027-03': ['2027-03-12', '2027-03-25'], '2027-04': ['2027-04-09', '2027-04-23'],
+  '2027-05': ['2027-05-07', '2027-05-21'], '2027-06': ['2027-06-11', '2027-06-25'],
+  '2027-07': ['2027-07-16', '2027-07-30'], '2027-08': ['2027-08-13', '2027-08-27'],
+  '2027-09': ['2027-09-10', '2027-09-24'], '2027-10': ['2027-10-08', '2027-10-22'],
+  '2027-11': ['2027-11-05', '2027-11-19'], '2027-12': ['2027-12-03', '2027-12-17'],
+};
 
 const FRED_RELEASES = [
   { id: 9, name: 'Advance Monthly Sales for Retail and Food Services', title: '미국 소매판매', timeEt: '08:30' },
@@ -278,6 +300,47 @@ async function fetchText(url, attempts = 3) {
   throw lastError;
 }
 
+// 미시간대 연간 Release Dates PDF → { 'YYYY-MM': [예비, 확정] }.
+// PDF 본문은 FlateDecode 스트림 안의 평문 문자열이라 zlib로 풀어 정규식으로 읽는다.
+const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+function parseUmichReleasePdf(buf, year) {
+  const raw = buf.toString('latin1');
+  let text = '';
+  for (const m of raw.matchAll(/stream\r?\n/g)) {
+    const st = m.index + m[0].length;
+    let body;
+    try { body = zlib.inflateSync(buf.subarray(st, raw.indexOf('endstream', st))).toString('latin1'); } catch { continue; }
+    for (const x of body.matchAll(/\((?:\\.|[^\\)])*\)/g)) text += x[0].slice(1, -1);
+  }
+  text = text.replace(/\s+/g, ' ');
+  const M = MONTH_NAMES.join('|');
+  const out = {};
+  for (const [, relMonth, day, dataMonth, kind] of text.matchAll(new RegExp(`(${M}) (\\d{1,2})\\*? +(${M}) (Prelim|Final)`, 'g'))) {
+    const key = `${year}-${String(MONTH_NAMES.indexOf(dataMonth) + 1).padStart(2, '0')}`;
+    const date = fmtKey(new Date(year, MONTH_NAMES.indexOf(relMonth), +day));
+    (out[key] ||= [null, null])[kind === 'Prelim' ? 0 : 1] = date;
+  }
+  return out;
+}
+
+async function fetchUmichReleaseDates() {
+  const html = await fetchText(`${UMICH_PORTAL}/survey-info.php`);
+  const docs = [...html.matchAll(/data-docname="(\d{4}) Release Dates"\s*href="(fetchdoc\.php\?docid=\d+)"/g)];
+  if (docs.length === 0) throw new Error('Release Dates 링크를 찾지 못함 (포털 형식 변경?)');
+  const dates = {};
+  const years = [];
+  for (const [, year, href] of docs) {
+    const buf = Buffer.from(await fetchWithTimeout(`${UMICH_PORTAL}/${href}`, res => res.arrayBuffer()));
+    const parsed = parseUmichReleasePdf(buf, +year);
+    const complete = Object.values(parsed).filter(([p, f]) => p && f).length;
+    years.push({ year: +year, months: complete });
+    if (complete !== 12) continue; // 일부만 파싱되면 그 해는 버리고 상수 폴백
+    Object.assign(dates, parsed);
+  }
+  return { dates, years };
+}
+
 async function fetchFredEvents() {
   if (!FRED_API_KEY) return { success: false, skipped: true, events: [], error: 'FRED_API_KEY missing' };
 
@@ -403,7 +466,7 @@ function nfpDatesByMonth(fredEvents) {
   return map;
 }
 
-function generateUsScheduledIndicators(rangeStart, rangeEnd, nfpByMonth = new Map()) {
+function generateUsScheduledIndicators(rangeStart, rangeEnd, nfpByMonth = new Map(), umichDates = UMICH_RELEASE_DATES) {
   const events = [];
   const cur = new Date(rangeStart.getFullYear(), rangeStart.getMonth(), 1);
   const last = new Date(rangeEnd.getFullYear(), rangeEnd.getMonth() + 1, 0);
@@ -430,9 +493,10 @@ function generateUsScheduledIndicators(rangeStart, rangeEnd, nfpByMonth = new Ma
     const challengerDate = nthThursdayOfMonth(yy, mm, 1);
     const qraBE = qraBorrowingEstDate(yy, mm);
     const qraRS = qraRefundingStmtDate(yy, mm);
-    const umFinal = lastFridayOfMonth(yy, mm);
-    const umPrelim = new Date(umFinal);
-    umPrelim.setDate(umPrelim.getDate() - 14);
+    const umOfficial = umichDates[`${yy}-${String(mm + 1).padStart(2, '0')}`];
+    const parseKey = (k) => { const [y, m, d] = k.split('-').map(Number); return new Date(y, m - 1, d); };
+    const umFinal = umOfficial ? parseKey(umOfficial[1]) : lastFridayOfMonth(yy, mm);
+    const umPrelim = umOfficial ? parseKey(umOfficial[0]) : new Date(umFinal.getFullYear(), umFinal.getMonth(), umFinal.getDate() - 14);
     const cbConf = lastTuesdayOfMonth(yy, mm);
 
     addEvent(ismMfg, '10:00', '미국 ISM 제조업 PMI', 'ism_mfg', 'ISM Manufacturing PMI · 10:00 ET · 매월 1번째 영업일');
@@ -443,8 +507,8 @@ function generateUsScheduledIndicators(rangeStart, rangeEnd, nfpByMonth = new Ma
     addEvent(challengerDate, '07:30', '미국 챌린저 감원계획', 'challenger', 'Challenger Job Cut Report · 7:30 ET');
     addEvent(qraBE, '15:00', 'QRA — 분기 차입 추정치', 'qra_be', 'Treasury Quarterly Borrowing Estimate · 15:00 ET');
     addEvent(qraRS, '08:30', 'QRA — 분기 환매 성명', 'qra_rs', 'Treasury Quarterly Refunding Statement · 8:30 ET');
-    if (umPrelim.getMonth() === mm) addEvent(umPrelim, '10:00', '미시간대 소비자심리 (예비)', 'umich_prelim', 'University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET');
-    addEvent(umFinal, '10:00', '미시간대 소비자심리 (확정)', 'umich_final', 'University of Michigan Surveys of Consumers (Final) · 10:00 ET');
+    if (umPrelim.getMonth() === mm) addEvent(umPrelim, '10:00', '미시간대 소비자심리 (예비)', 'umich_prelim', `University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET${umOfficial ? '' : ' · 추정'}`);
+    addEvent(umFinal, '10:00', '미시간대 소비자심리 (확정)', 'umich_final', `University of Michigan Surveys of Consumers (Final) · 10:00 ET${umOfficial ? '' : ' · 추정'}`);
     addEvent(cbConf, '10:00', 'CB 소비자신뢰지수', 'cb_conf', 'Conference Board Consumer Confidence Index · 10:00 ET');
     cur.setMonth(cur.getMonth() + 1);
   }
@@ -638,6 +702,7 @@ async function main() {
     fred: null,
     fed: null,
     fedSpeech: null,
+    umich: null,
     manifestChanged: false,
   };
 
@@ -657,11 +722,21 @@ async function main() {
     error: fredResult.error || null,
   };
 
+  let umichDates = UMICH_RELEASE_DATES;
+  try {
+    const { dates, years } = await fetchUmichReleaseDates();
+    umichDates = { ...UMICH_RELEASE_DATES, ...dates };
+    const drift = Object.keys(dates).filter(k => UMICH_RELEASE_DATES[k] && UMICH_RELEASE_DATES[k].join() !== dates[k].join());
+    report.umich = { source: 'official-pdf', years, changedFromBuiltin: drift, error: null };
+  } catch (err) {
+    report.umich = { source: 'builtin', years: [], changedFromBuiltin: [], error: err.message };
+  }
+
   const generatedFedEvents = dedupeSort([
     ...(fredResult.events || []),
     ...generateFomcEvents(),
     ...generateBeigeBookEvents(),
-    ...generateUsScheduledIndicators(startDate, endDate, nfpDatesByMonth(fredResult.events || [])),
+    ...generateUsScheduledIndicators(startDate, endDate, nfpDatesByMonth(fredResult.events || []), umichDates),
   ]);
   const fedIcs = eventsToIcs(generatedFedEvents, 'US Economic Data Releases');
   const shouldWriteFed = !!fredResult.success || !!fredResult.partial;
