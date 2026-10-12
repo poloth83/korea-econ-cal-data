@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T00:27:52.409Z",
-  "manifestUpdatedAt": "2026-10-12T00:27:34.237Z",
+  "generatedAt": "2026-10-12T00:37:27.879Z",
+  "manifestUpdatedAt": "2026-10-12T00:37:21.467Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,12 +20,12 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-10-04T03:36:03.517Z",
+      "uploadedAt": "2026-10-12T00:37:21.467Z",
       "available": true
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-10-04T03:36:03.517Z",
+      "uploadedAt": "2026-10-12T00:37:21.467Z",
       "available": true
     },
     "kostat": {
@@ -35,33 +35,33 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-10-04T03:47:59.351Z",
+    "generatedAt": "2026-10-12T00:37:21.467Z",
     "window": {
-      "start": "2025-09-04",
-      "end": "2027-04-02"
+      "start": "2025-09-12",
+      "end": "2027-04-10"
     },
     "fred": {
       "success": true,
       "skipped": false,
       "partial": false,
-      "count": 298,
-      "sourceRecords": 298,
+      "count": 292,
+      "sourceRecords": 292,
       "failures": [],
       "error": null
     },
     "fed": {
-      "count": 513,
-      "changed": false,
+      "count": 508,
+      "changed": true,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
     "fedSpeech": {
-      "count": 151,
-      "changed": false,
+      "count": 155,
+      "changed": true,
       "error": null,
       "filename": "fed_speech.ics"
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "koreaSync": {
     "generatedAt": "2026-10-12T00:27:34.237Z",
@@ -115,15 +115,15 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-10-04T03:48:05.412Z",
+      "generatedAt": "2026-10-12T00:37:27.675Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
-        "forexFactoryHighUsd": 14,
-        "appFedEvents": 513,
-        "checked": 10,
+        "forexFactoryHighUsd": 11,
+        "appFedEvents": 508,
+        "checked": 9,
         "mismatches": 0,
-        "ignored": 4
+        "ignored": 2
       },
       "feedErrors": []
     }

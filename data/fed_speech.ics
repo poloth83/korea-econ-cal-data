@@ -1373,4 +1373,40 @@ SUMMARY:Waller 연설
 DESCRIPTION:At the Central Bank of the Republic of Türkiye (TCMB) İstanbul Economic Forum\, Ümraniye/İstanbul\, Türkiye  · 4:30 a.m. ET · Speech - Governor Christopher J. Waller
 LOCATION:United States
 END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-10-13_13_DiscussionGovernorChrist@korea-econ-cal-data
+DTSTAMP:20261013T074500Z
+DTSTART;TZID=Asia/Seoul:20261013T164500
+DTEND;TZID=Asia/Seoul:20261013T174500
+SUMMARY:Waller 토론
+DESCRIPTION:At the Bloomberg New Economy Forum 2026\, New Delhi\, India · 3:45 a.m. ET · Discussion - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-10-14_14_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20261014T094000Z
+DTSTART;TZID=Asia/Seoul:20261014T184000
+DTEND;TZID=Asia/Seoul:20261014T194000
+SUMMARY:Bowman 토론
+DESCRIPTION:At the 2026 IIF Annual Membership Summit\, Bangkok\, Thailand · 5:40 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-10-14_14_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20261015T025500Z
+DTSTART;TZID=Asia/Seoul:20261015T115500
+DTEND;TZID=Asia/Seoul:20261015T125500
+SUMMARY:Bowman 연설
+DESCRIPTION:At the Bangkok Economic Festival 2026 · 10:55 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-10-15_15_DiscussionChairmanKevinW@korea-econ-cal-data
+DTSTAMP:20261016T033000Z
+DTSTART;TZID=Asia/Seoul:20261016T123000
+DTEND;TZID=Asia/Seoul:20261016T133000
+SUMMARY:Warsh 토론
+DESCRIPTION:At the Fireside Chat with International Monetary Fund (IMF) Managing Director Kristalina Georgieva\, Bangkok\, Thailand · 11:30 p.m. ET · Discussion - Chairman Kevin Warsh
+LOCATION:United States
+END:VEVENT
 END:VCALENDAR
