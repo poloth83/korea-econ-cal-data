@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T23:02:14.231Z",
-  "manifestUpdatedAt": "2026-10-17T23:11:58.535Z",
+  "generatedAt": "2026-10-18T23:21:06.412Z",
+  "manifestUpdatedAt": "2026-10-18T23:21:00.481Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -25,7 +25,7 @@
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-10-17T23:11:58.535Z",
+      "uploadedAt": "2026-10-18T23:21:00.481Z",
       "available": true
     },
     "kostat": {
@@ -35,22 +35,22 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-10-17T23:11:58.535Z",
+    "generatedAt": "2026-10-18T23:21:00.481Z",
     "window": {
-      "start": "2025-09-17",
-      "end": "2027-04-15"
+      "start": "2025-09-18",
+      "end": "2027-04-16"
     },
     "fred": {
       "success": true,
       "skipped": false,
       "partial": false,
-      "count": 289,
-      "sourceRecords": 289,
+      "count": 288,
+      "sourceRecords": 288,
       "failures": [],
       "error": null
     },
     "fed": {
-      "count": 504,
+      "count": 503,
       "changed": true,
       "skippedWrite": false,
       "filename": "fed.ics"
@@ -115,13 +115,13 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-10-17T23:12:03.875Z",
+      "generatedAt": "2026-10-18T23:21:06.163Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
-        "forexFactoryHighUsd": 11,
-        "appFedEvents": 504,
-        "checked": 9,
+        "forexFactoryHighUsd": 5,
+        "appFedEvents": 503,
+        "checked": 3,
         "mismatches": 0,
         "ignored": 2
       },
