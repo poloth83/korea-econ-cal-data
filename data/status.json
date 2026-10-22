@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T00:02:58.536Z",
-  "manifestUpdatedAt": "2026-10-20T00:25:56.595Z",
+  "generatedAt": "2026-10-22T23:57:23.466Z",
+  "manifestUpdatedAt": "2026-10-22T23:57:02.185Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -10,7 +10,7 @@
     },
     "moef": {
       "filename": "moef.ics",
-      "uploadedAt": "2026-10-16T23:29:18.580Z",
+      "uploadedAt": "2026-10-22T23:57:02.185Z",
       "available": true
     },
     "ust": {
@@ -145,10 +145,10 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-10-21T23:58:17.817Z",
+    "generatedAt": "2026-10-22T23:57:02.185Z",
     "window": {
-      "start": "2025-09-21",
-      "end": "2027-04-19"
+      "start": "2025-09-22",
+      "end": "2027-04-20"
     },
     "sources": {
       "kostat": {
@@ -182,8 +182,8 @@
       },
       "moef": {
         "success": true,
-        "count": 113,
-        "changed": false,
+        "count": 112,
+        "changed": true,
         "skippedWrite": false,
         "filename": "moef.ics",
         "meta": {
@@ -192,7 +192,7 @@
         "error": null
       }
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "verification": {
     "forexFactory": {
@@ -209,10 +209,5 @@
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "fred-fetch-failed",
-      "message": "FRED releases failed during automation: 16 FRED release(s) failed"
-    }
-  ]
+  "warnings": []
 }
