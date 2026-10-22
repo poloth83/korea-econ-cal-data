@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T23:58:34.887Z",
+  "generatedAt": "2026-10-22T00:02:58.536Z",
   "manifestUpdatedAt": "2026-10-20T00:25:56.595Z",
   "agencies": {
     "bok": {
@@ -35,24 +35,105 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-10-20T23:57:06.942Z",
+    "generatedAt": "2026-10-22T00:02:27.513Z",
     "window": {
-      "start": "2025-09-20",
-      "end": "2027-04-18"
+      "start": "2025-09-22",
+      "end": "2027-04-20"
     },
     "fred": {
-      "success": true,
+      "success": false,
       "skipped": false,
       "partial": false,
-      "count": 287,
-      "sourceRecords": 287,
-      "failures": [],
-      "error": null
+      "count": 0,
+      "sourceRecords": 0,
+      "failures": [
+        {
+          "releaseId": 9,
+          "name": "Advance Monthly Sales for Retail and Food Services",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 10,
+          "name": "Consumer Price Index",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 13,
+          "name": "G.17 Industrial Production and Capacity Utilization",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 27,
+          "name": "New Residential Construction",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 46,
+          "name": "Producer Price Index",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 50,
+          "name": "Employment Situation",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 51,
+          "name": "U.S. International Trade in Goods and Services",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 53,
+          "name": "Gross Domestic Product",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 54,
+          "name": "Personal Income and Outlays",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 95,
+          "name": "Manufacturer's Shipments, Inventories, and Orders (M3) Survey",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 97,
+          "name": "New Residential Sales",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 180,
+          "name": "Unemployment Insurance Weekly Claims Report",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 188,
+          "name": "U.S. Import and Export Price Indexes",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 192,
+          "name": "Job Openings and Labor Turnover Survey",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 229,
+          "name": "Construction Spending",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        },
+        {
+          "releaseId": 291,
+          "name": "Existing Home Sales",
+          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
+        }
+      ],
+      "error": "16 FRED release(s) failed"
     },
     "fed": {
-      "count": 502,
+      "count": 215,
       "changed": false,
-      "skippedWrite": false,
+      "skippedWrite": true,
       "filename": "fed.ics"
     },
     "fedSpeech": {
@@ -115,7 +196,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-10-20T23:57:12.490Z",
+      "generatedAt": "2026-10-22T00:02:58.261Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
@@ -128,5 +209,10 @@
       "feedErrors": []
     }
   },
-  "warnings": []
+  "warnings": [
+    {
+      "code": "fred-fetch-failed",
+      "message": "FRED releases failed during automation: 16 FRED release(s) failed"
+    }
+  ]
 }
