@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T23:57:23.466Z",
-  "manifestUpdatedAt": "2026-10-22T23:57:02.185Z",
+  "generatedAt": "2026-10-23T00:01:30.445Z",
+  "manifestUpdatedAt": "2026-10-23T00:00:39.400Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,7 +20,7 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-10-12T00:37:21.467Z",
+      "uploadedAt": "2026-10-23T00:00:39.400Z",
       "available": true
     },
     "fed": {
@@ -35,114 +35,33 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-10-22T00:02:27.513Z",
+    "generatedAt": "2026-10-23T00:00:39.400Z",
     "window": {
-      "start": "2025-09-22",
-      "end": "2027-04-20"
+      "start": "2025-09-23",
+      "end": "2027-04-21"
     },
     "fred": {
-      "success": false,
+      "success": true,
       "skipped": false,
       "partial": false,
-      "count": 0,
-      "sourceRecords": 0,
-      "failures": [
-        {
-          "releaseId": 9,
-          "name": "Advance Monthly Sales for Retail and Food Services",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 10,
-          "name": "Consumer Price Index",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 13,
-          "name": "G.17 Industrial Production and Capacity Utilization",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 27,
-          "name": "New Residential Construction",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 46,
-          "name": "Producer Price Index",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 50,
-          "name": "Employment Situation",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 51,
-          "name": "U.S. International Trade in Goods and Services",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 53,
-          "name": "Gross Domestic Product",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 54,
-          "name": "Personal Income and Outlays",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 95,
-          "name": "Manufacturer's Shipments, Inventories, and Orders (M3) Survey",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 97,
-          "name": "New Residential Sales",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 180,
-          "name": "Unemployment Insurance Weekly Claims Report",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 188,
-          "name": "U.S. Import and Export Price Indexes",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 192,
-          "name": "Job Openings and Labor Turnover Survey",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 229,
-          "name": "Construction Spending",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        },
-        {
-          "releaseId": 291,
-          "name": "Existing Home Sales",
-          "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON"
-        }
-      ],
-      "error": "16 FRED release(s) failed"
+      "count": 287,
+      "sourceRecords": 287,
+      "failures": [],
+      "error": null
     },
     "fed": {
-      "count": 215,
+      "count": 502,
       "changed": false,
-      "skippedWrite": true,
+      "skippedWrite": false,
       "filename": "fed.ics"
     },
     "fedSpeech": {
-      "count": 155,
-      "changed": false,
+      "count": 154,
+      "changed": true,
       "error": null,
       "filename": "fed_speech.ics"
     },
-    "manifestChanged": false
+    "manifestChanged": true
   },
   "koreaSync": {
     "generatedAt": "2026-10-22T23:57:02.185Z",
@@ -196,7 +115,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-10-22T00:02:58.261Z",
+      "generatedAt": "2026-10-23T00:01:29.982Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {

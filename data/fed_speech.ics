@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-09-22_22_SpeechGovernorStephenIMi@korea-econ-cal-data
-DTSTAMP:20250922T160000Z
-DTSTART;TZID=Asia/Seoul:20250923T010000
-DTEND;TZID=Asia/Seoul:20250923T020000
-SUMMARY:Miran 연설
-DESCRIPTION:At the Economic Club of New York Luncheon\, New York\, N.Y. · 12:00 p.m. ET · Speech - Governor Stephen I. Miran
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-09-23_23_SpeechViceChairforSuperv@korea-econ-cal-data
 DTSTAMP:20250923T130000Z
 DTSTART;TZID=Asia/Seoul:20250923T220000
