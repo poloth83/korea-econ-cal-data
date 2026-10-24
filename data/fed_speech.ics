@@ -15,24 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-09-23_23_SpeechViceChairforSuperv@korea-econ-cal-data
-DTSTAMP:20250923T130000Z
-DTSTART;TZID=Asia/Seoul:20250923T220000
-DTEND;TZID=Asia/Seoul:20250923T230000
-SUMMARY:Bowman 연설
-DESCRIPTION:At the 134th Annual Kentucky Bankers Association Convention (virtual) · 9:00 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-09-23_23_SpeechChairJeromeHPowell@korea-econ-cal-data
-DTSTAMP:20250923T163500Z
-DTSTART;TZID=Asia/Seoul:20250924T013500
-DTEND;TZID=Asia/Seoul:20250924T023500
-SUMMARY:Powell 연설
-DESCRIPTION:At the Greater Providence Chamber of Commerce 2025 Economic Outlook Luncheon\, Warwick\, R.I. · 12:35 p.m. ET · Speech - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-09-25_25_DiscussionViceChairforSu@korea-econ-cal-data
 DTSTAMP:20250925T140000Z
 DTSTART;TZID=Asia/Seoul:20250925T230000
