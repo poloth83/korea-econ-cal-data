@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T23:20:23.106Z",
+  "updatedAt": "2026-10-27T00:21:12.394Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-10-24T23:06:07.449Z"
+      "uploadedAt": "2026-10-27T00:21:12.394Z"
     },
     "moef": {
       "filename": "moef.ics",
@@ -24,7 +24,7 @@
     },
     "kostat": {
       "filename": "kostat.ics",
-      "uploadedAt": "2026-09-10T23:05:37.782Z"
+      "uploadedAt": "2026-10-27T00:21:12.394Z"
     }
   }
 }

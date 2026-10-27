@@ -708,6 +708,15 @@ DESCRIPTION:국가데이터처 보도계획 · 담당: 기업통계팀 · 12:00 
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
+UID:kostat-2026-10-27-g27ww7@korea-econ-cal-data
+DTSTAMP:20261027T070000Z
+DTSTART;TZID=Asia/Seoul:20261027T160000
+DTEND;TZID=Asia/Seoul:20261027T163000
+SUMMARY:[통계청] 2025년 기준 경제총조사 최우수 응답사업체 현판 전달
+DESCRIPTION:국가데이터처 보도계획 · 담당: 경제총조사과 · 16:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
 UID:kostat-2026-10-28-kbfgl5@korea-econ-cal-data
 DTSTAMP:20261028T030000Z
 DTSTART;TZID=Asia/Seoul:20261028T120000
