@@ -15,33 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-09-25_25_DiscussionViceChairforSu@korea-econ-cal-data
-DTSTAMP:20250925T140000Z
-DTSTART;TZID=Asia/Seoul:20250925T230000
-DTEND;TZID=Asia/Seoul:20250926T000000
-SUMMARY:Bowman 토론
-DESCRIPTION:At the Financial Markets Quality Conference 2025\, Washington\, D.C. · 10:00 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-09-25_25_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20250925T170000Z
-DTSTART;TZID=Asia/Seoul:20250926T020000
-DTEND;TZID=Asia/Seoul:20250926T030000
-SUMMARY:Barr 연설
-DESCRIPTION:At a Conversation with Michael S. Barr\, Peterson Institute for International Economics\, Washington\, D.C. · 1:00 p.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-09-26_26_SpeechViceChairforSuperv@korea-econ-cal-data
-DTSTAMP:20250926T170000Z
-DTSTART;TZID=Asia/Seoul:20250927T020000
-DTEND;TZID=Asia/Seoul:20250927T030000
-SUMMARY:Bowman 연설
-DESCRIPTION:At a Conversation with Michelle W. Bowman\, The Cornell Club of New York\, New York City\, N.Y. · 1:00 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-09-29_29_SpeechGovernorChristophe@korea-econ-cal-data
 DTSTAMP:20250929T113000Z
 DTSTART;TZID=Asia/Seoul:20250929T203000
