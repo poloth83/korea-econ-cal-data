@@ -27,24 +27,6 @@ DESCRIPTION:At the Sibos 2025 Conference\, Frankfurt am Main\, Germany · 7:30 a
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
-UID:moef-2025-09-30-12vazb2@korea-econ-cal-data
-DTSTAMP:20250930T020000Z
-DTSTART;TZID=Asia/Seoul:20250930T110000
-DTEND;TZID=Asia/Seoul:20250930T113000
-SUMMARY:[국고채 입찰] 30년물
-DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결과발표 통상 11:00 KST
-LOCATION:Ministry of Economy and Finance
-END:VEVENT
-BEGIN:VEVENT
-UID:bok-2025-09-30-1vlky0q@korea-econ-cal-data
-DTSTAMP:20250930T030000Z
-DTSTART;TZID=Asia/Seoul:20250930T120000
-DTEND;TZID=Asia/Seoul:20250930T123000
-SUMMARY:[BOK] 금융기관 가중평균금리
-DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2025 8 · 12:00 KST
-LOCATION:Bank of Korea
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-09-30_30_SpeechViceChairPhilipNJe@korea-econ-cal-data
 DTSTAMP:20250930T100000Z
 DTSTART;TZID=Asia/Seoul:20250930T190000
