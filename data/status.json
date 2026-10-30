@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T00:49:56.144Z",
-  "manifestUpdatedAt": "2026-10-30T00:49:35.398Z",
+  "generatedAt": "2026-10-30T01:07:27.701Z",
+  "manifestUpdatedAt": "2026-10-30T01:07:22.647Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,7 +20,7 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-10-27T00:33:45.453Z",
+      "uploadedAt": "2026-10-30T01:07:22.647Z",
       "available": true
     },
     "fed": {
@@ -35,10 +35,10 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-10-29T01:02:19.049Z",
+    "generatedAt": "2026-10-30T01:07:22.647Z",
     "window": {
-      "start": "2025-09-29",
-      "end": "2027-04-27"
+      "start": "2025-09-30",
+      "end": "2027-04-28"
     },
     "fred": {
       "success": true,
@@ -51,13 +51,13 @@
     },
     "fed": {
       "count": 497,
-      "changed": true,
+      "changed": false,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
     "fedSpeech": {
       "count": 149,
-      "changed": false,
+      "changed": true,
       "error": null,
       "filename": "fed_speech.ics"
     },
@@ -115,7 +115,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-10-29T01:02:24.791Z",
+      "generatedAt": "2026-10-30T01:07:27.417Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
