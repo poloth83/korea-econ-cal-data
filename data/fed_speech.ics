@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-09-30_30_SpeechViceChairPhilipNJe@korea-econ-cal-data
-DTSTAMP:20250930T100000Z
-DTSTART;TZID=Asia/Seoul:20250930T190000
-DTEND;TZID=Asia/Seoul:20250930T200000
-SUMMARY:Jefferson 연설
-DESCRIPTION:At the Bank of Finland International Monetary Policy Conference\, Helsinki\, Finland · 6:00 a.m. ET · Speech - Vice Chair Philip N. Jefferson
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-10-03_3_SpeechViceChairPhilipNJe@korea-econ-cal-data
 DTSTAMP:20251003T174000Z
 DTSTART;TZID=Asia/Seoul:20251004T024000
