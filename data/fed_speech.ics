@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-10-03_3_SpeechViceChairPhilipNJe@korea-econ-cal-data
-DTSTAMP:20251003T174000Z
-DTSTART;TZID=Asia/Seoul:20251004T024000
-DTEND;TZID=Asia/Seoul:20251004T034000
-SUMMARY:Jefferson 연설
-DESCRIPTION:At the Drexel Economic Forum\, Philadelphia\, Pa. · 1:40 p.m. ET · Speech - Vice Chair Philip N. Jefferson
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-10-07_7_SpeechViceChairforSuperv@korea-econ-cal-data
 DTSTAMP:20251007T140500Z
 DTSTART;TZID=Asia/Seoul:20251007T230500
