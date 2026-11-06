@@ -1337,4 +1337,58 @@ SUMMARY:Bowman 토론
 DESCRIPTION:At the University of Mississippi Banking and Finance Symposium\, Oxford\, Miss. · 12:15 p.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
 LOCATION:United States
 END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-11-09_9_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20261109T134000Z
+DTSTART;TZID=Asia/Seoul:20261109T224000
+DTEND;TZID=Asia/Seoul:20261109T234000
+SUMMARY:Bowman 토론
+DESCRIPTION:At the Mutual Board Summit Conference\, Boston\, Mass. · 8:40 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-11-10_10_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20261110T090000Z
+DTSTART;TZID=Asia/Seoul:20261110T180000
+DTEND;TZID=Asia/Seoul:20261110T190000
+SUMMARY:Waller 연설
+DESCRIPTION:At The Bank of England and its Watchers Conference 2026\, London\, United Kingdom · 4:00 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-11-10_10_SpeechViceChairforSuperv@korea-econ-cal-data
+DTSTAMP:20261110T203000Z
+DTSTART;TZID=Asia/Seoul:20261111T053000
+DTEND;TZID=Asia/Seoul:20261111T063000
+SUMMARY:Bowman 연설
+DESCRIPTION:At the C. Peter McColough Series on International Economics with Michelle Bowman\, Washington\, D.C. · 3:30 p.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-11-12_12_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20261112T150000Z
+DTSTART;TZID=Asia/Seoul:20261113T000000
+DTEND;TZID=Asia/Seoul:20261113T010000
+SUMMARY:Barr 연설
+DESCRIPTION:At A Conversation with Michael S. Barr (virtual) · 10:00 a.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-11-13_13_DiscussionViceChairforSu@korea-econ-cal-data
+DTSTAMP:20261113T155000Z
+DTSTART;TZID=Asia/Seoul:20261114T005000
+DTEND;TZID=Asia/Seoul:20261114T015000
+SUMMARY:Bowman 토론
+DESCRIPTION:At the Connecticut Bankers Association Annual Meeting and Conference 2026 (virtual) · 10:50 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-11-13_13_SpeechViceChairPhilipNJe@korea-econ-cal-data
+DTSTAMP:20261114T000000Z
+DTSTART;TZID=Asia/Seoul:20261114T090000
+DTEND;TZID=Asia/Seoul:20261114T100000
+SUMMARY:Jefferson 연설
+DESCRIPTION:At the University of California San Diego Economics Roundtable\, La Jolla\, Calif. · 7:00 p.m. ET · Speech - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
 END:VCALENDAR
