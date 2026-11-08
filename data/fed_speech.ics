@@ -15,24 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-10-07_7_SpeechViceChairforSuperv@korea-econ-cal-data
-DTSTAMP:20251007T140500Z
-DTSTART;TZID=Asia/Seoul:20251007T230500
-DTEND;TZID=Asia/Seoul:20251008T000500
-SUMMARY:Bowman 연설
-DESCRIPTION:At the 2025 Community Banking Research Conference\, St. Louis\, Mo. (via pre-recorded video) · 10:05 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-10-07_7_DiscussionGovernorStephe@korea-econ-cal-data
-DTSTAMP:20251007T144500Z
-DTSTART;TZID=Asia/Seoul:20251007T234500
-DTEND;TZID=Asia/Seoul:20251008T004500
-SUMMARY:Miran 토론
-DESCRIPTION:At the Managed Funds Association (MFA) Policy Outlook 2025\, New York\, N.Y. · 10:45 a.m. ET · Discussion - Governor Stephen I. Miran
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-10-08_8_SpeechGovernorMichaelSBa@korea-econ-cal-data
 DTSTAMP:20251008T133000Z
 DTSTART;TZID=Asia/Seoul:20251008T223000

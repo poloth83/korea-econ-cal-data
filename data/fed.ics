@@ -4398,6 +4398,15 @@ DESCRIPTION:Challenger Job Cut Report · 7:30 ET
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:umich_prelim_2027-05-07@korea-econ-cal-data
+DTSTAMP:20270507T140000Z
+DTSTART;TZID=Asia/Seoul:20270507T230000
+DTEND;TZID=Asia/Seoul:20270508T000000
+SUMMARY:미시간대 소비자심리 (예비)
+DESCRIPTION:University of Michigan Surveys of Consumers (Preliminary) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:beige_2027_6@korea-econ-cal-data
 DTSTAMP:20270526T180000Z
 DTSTART;TZID=Asia/Seoul:20270527T030000
