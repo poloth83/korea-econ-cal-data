@@ -18,15 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-10-08_8_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20251008T133000Z
-DTSTART;TZID=Asia/Seoul:20251008T223000
-DTEND;TZID=Asia/Seoul:20251008T233000
-SUMMARY:Barr 연설
-DESCRIPTION:At the 2025 Community Banking Research Conference\, St. Louis\, Mo. · 9:30 a.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-10-09_9_SpeechChairJeromeHPowell@korea-econ-cal-data
 DTSTAMP:20251009T123000Z
 DTSTART;TZID=Asia/Seoul:20251009T213000
