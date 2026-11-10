@@ -15,42 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-10-09_9_SpeechChairJeromeHPowell@korea-econ-cal-data
-DTSTAMP:20251009T123000Z
-DTSTART;TZID=Asia/Seoul:20251009T213000
-DTEND;TZID=Asia/Seoul:20251009T223000
-SUMMARY:Powell 연설
-DESCRIPTION:At the Community Bank Conference\, Washington\, D.C.  (via pre-recorded video) · 8:30 a.m. ET · Speech - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-10-09_9_SpeechViceChairforSuperv@korea-econ-cal-data
-DTSTAMP:20251009T123500Z
-DTSTART;TZID=Asia/Seoul:20251009T213500
-DTEND;TZID=Asia/Seoul:20251009T223500
-SUMMARY:Bowman 연설
-DESCRIPTION:At the Community Bank Conference\, Washington\, D.C.   · 8:35 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-10-09_9_DiscussionViceChairforSu@korea-econ-cal-data
-DTSTAMP:20251009T124500Z
-DTSTART;TZID=Asia/Seoul:20251009T214500
-DTEND;TZID=Asia/Seoul:20251009T224500
-SUMMARY:Bowman 토론
-DESCRIPTION:At the Community Bank Conference\, Washington\, D.C. · 8:45 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-10-09_9_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20251009T164500Z
-DTSTART;TZID=Asia/Seoul:20251010T014500
-DTEND;TZID=Asia/Seoul:20251010T024500
-SUMMARY:Barr 연설
-DESCRIPTION:At the Economic Club of Minnesota Luncheon\, Minneapolis\, Minn.   · 12:45 p.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-10-14_14_DiscussionViceChairforSu@korea-econ-cal-data
 DTSTAMP:20251014T124500Z
 DTSTART;TZID=Asia/Seoul:20251014T214500
