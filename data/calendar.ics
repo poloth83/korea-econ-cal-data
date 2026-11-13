@@ -9117,6 +9117,15 @@ DESCRIPTION:기획재정부 국채시장 월간 발행일정 · 국고채 · 결
 LOCATION:Ministry of Economy and Finance
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-11-16_16_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20261116T100000Z
+DTSTART;TZID=Asia/Seoul:20261116T190000
+DTEND;TZID=Asia/Seoul:20261116T200000
+SUMMARY:Barr 연설
+DESCRIPTION:At the 7th ACM International Conference on AI in Finance\, Milan\, Italy · 5:00 a.m. ET · Speech -  Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:ust-13-week-bill-2026-11-16@korea-econ-cal-data
 DTSTAMP:20260808T004500Z
 DTSTART:20261116T163000Z
@@ -9137,6 +9146,15 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-11-16_16_SpeechChairmanKevinWarsh@korea-econ-cal-data
+DTSTAMP:20261116T170000Z
+DTSTART;TZID=Asia/Seoul:20261117T020000
+DTEND;TZID=Asia/Seoul:20261117T030000
+SUMMARY:Warsh 연설
+DESCRIPTION:At the Federal Reserve&#8217\;s Productivity and Jobs Task Force Conference\, Federal Reserve Bank of San Francisco\, San Francisco\, Calif. · 12:00 p.m. ET · Speech - Chairman Kevin Warsh
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:fred_188_2026-11-17@korea-econ-cal-data
 DTSTAMP:20261117T133000Z
 DTSTART;TZID=Asia/Seoul:20261117T223000
@@ -9152,6 +9170,15 @@ DTSTART;TZID=Asia/Seoul:20261117T223000
 DTEND;TZID=Asia/Seoul:20261117T233000
 SUMMARY:미국 소매판매
 DESCRIPTION:Advance Monthly Sales for Retail and Food Services · 08:30 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-11-17_17_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20261117T141000Z
+DTSTART;TZID=Asia/Seoul:20261117T231000
+DTEND;TZID=Asia/Seoul:20261118T001000
+SUMMARY:Waller 연설
+DESCRIPTION:At The Clearing House (TCH) Annual Conference\, New York\, N.Y. · 9:10 a.m. ET · Speech - Governor Christopher J. Waller
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
@@ -9212,6 +9239,15 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-11-18_18_SpeechGovernorMichaelSBa@korea-econ-cal-data
+DTSTAMP:20261118T183500Z
+DTSTART;TZID=Asia/Seoul:20261119T033500
+DTEND;TZID=Asia/Seoul:20261119T043500
+SUMMARY:Barr 연설
+DESCRIPTION:At Making Missing Markets: Catalyzing Capital and Igniting Innovation\, Federal Reserve Bank of New York\, New York\, N.Y. · 1:35 p.m. ET · Speech - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:bok-2026-11-19-1wc722e@korea-econ-cal-data
 DTSTAMP:20261119T030000Z
 DTSTART;TZID=Asia/Seoul:20261119T120000
@@ -9260,6 +9296,15 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-11-19_19_DiscussionGovernorMichae@korea-econ-cal-data
+DTSTAMP:20261119T191500Z
+DTSTART;TZID=Asia/Seoul:20261120T041500
+DTEND;TZID=Asia/Seoul:20261120T051500
+SUMMARY:Barr 토론
+DESCRIPTION:At the FinRegLab 2026 AI Symposium\, Washington\, D.C. · 2:15 p.m. ET · Discussion - Governor Michael S. Barr
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:bok-2026-11-20-5f1pj3@korea-econ-cal-data
 DTSTAMP:20261119T210000Z
 DTSTART;TZID=Asia/Seoul:20261120T060000
@@ -9278,12 +9323,30 @@ DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 3/4 · 12:00 K
 LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-11-20_20_SpeechGovernorChristophe@korea-econ-cal-data
+DTSTAMP:20261120T132500Z
+DTSTART;TZID=Asia/Seoul:20261120T222500
+DTEND;TZID=Asia/Seoul:20261120T232500
+SUMMARY:Waller 연설
+DESCRIPTION:At the College Fed Challenge Finals · 8:25 a.m. ET · Speech - Governor Christopher J. Waller
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:umich_final_2026-11-20@korea-econ-cal-data
 DTSTAMP:20261120T150000Z
 DTSTART;TZID=Asia/Seoul:20261121T000000
 DTEND;TZID=Asia/Seoul:20261121T010000
 SUMMARY:미시간대 소비자심리 (확정)
 DESCRIPTION:University of Michigan Surveys of Consumers (Final) · 10:00 ET
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-11-20_20_SpeechGovernorLisaDCook@korea-econ-cal-data
+DTSTAMP:20261120T171500Z
+DTSTART;TZID=Asia/Seoul:20261121T021500
+DTEND;TZID=Asia/Seoul:20261121T031500
+SUMMARY:Cook 연설
+DESCRIPTION:At the Annual Conference of the Central Bank of Chile\, Santiago\, Chile · 12:15 p.m. ET · Speech - Governor Lisa D. Cook
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
