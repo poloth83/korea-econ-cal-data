@@ -1365,6 +1365,15 @@ DESCRIPTION:At Making Missing Markets: Catalyzing Capital and Igniting Innovatio
 LOCATION:United States
 END:VEVENT
 BEGIN:VEVENT
+UID:fed_speech_2026-11-19_19_DiscussionViceChairPhili@korea-econ-cal-data
+DTSTAMP:20261119T142500Z
+DTSTART;TZID=Asia/Seoul:20261119T232500
+DTEND;TZID=Asia/Seoul:20261120T002500
+SUMMARY:Jefferson 토론
+DESCRIPTION:At the International Monetary Fund (IMF) and Central Bank of Brazil conference &quot\;A Quarter Century of Inflation Targeting in Latin America: Progress\, Challenges\, and the Road Ahead&quot\; (virtual) · 9:25 a.m. ET · Discussion - Vice Chair Philip N. Jefferson
+LOCATION:United States
+END:VEVENT
+BEGIN:VEVENT
 UID:fed_speech_2026-11-19_19_DiscussionGovernorMichae@korea-econ-cal-data
 DTSTAMP:20261119T191500Z
 DTSTART;TZID=Asia/Seoul:20261120T041500
