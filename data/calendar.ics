@@ -18,33 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-10-14_14_DiscussionViceChairforSu@korea-econ-cal-data
-DTSTAMP:20251014T124500Z
-DTSTART;TZID=Asia/Seoul:20251014T214500
-DTEND;TZID=Asia/Seoul:20251014T224500
-SUMMARY:Bowman 토론
-DESCRIPTION:At the 2025 Institute of International Finance (IIF) Annual Membership Meeting\, Washington\, D.C. · 8:45 a.m. ET · Discussion - Vice Chair for Supervision Michelle W. Bowman
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-10-14_14_SpeechChairJeromeHPowell@korea-econ-cal-data
-DTSTAMP:20251014T162000Z
-DTSTART;TZID=Asia/Seoul:20251015T012000
-DTEND;TZID=Asia/Seoul:20251015T022000
-SUMMARY:Powell 연설
-DESCRIPTION:At the National Association for Business Economics (NABE) Annual Meeting\, Philadelphia\, Pa. · 12:20 p.m. ET · Speech - Chair Jerome H. Powell
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
-UID:fed_speech_2025-10-14_14_DiscussionGovernorChrist@korea-econ-cal-data
-DTSTAMP:20251014T192500Z
-DTSTART;TZID=Asia/Seoul:20251015T042500
-DTEND;TZID=Asia/Seoul:20251015T052500
-SUMMARY:Waller 토론
-DESCRIPTION:At the 2025 Institute of International Finance (IIF) Annual Membership Meeting\, Washington\, D.C. · 3:25 p.m. ET · Discussion - Governor Christopher J. Waller
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-10-15_15_DiscussionGovernorStephe@korea-econ-cal-data
 DTSTAMP:20251015T163000Z
 DTSTART;TZID=Asia/Seoul:20251016T013000
