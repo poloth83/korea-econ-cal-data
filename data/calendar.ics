@@ -10129,6 +10129,15 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
+UID:kostat-2026-12-18-3kiz8o@korea-econ-cal-data
+DTSTAMP:20261218T030000Z
+DTSTART;TZID=Asia/Seoul:20261218T120000
+DTEND;TZID=Asia/Seoul:20261218T123000
+SUMMARY:[통계청] 2025년 기준 소비자물가지수 개편결과
+DESCRIPTION:국가데이터처 보도계획 · 담당: 물가동향과 · 12:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
 UID:umich_final_2026-12-18@korea-econ-cal-data
 DTSTAMP:20261218T150000Z
 DTSTART;TZID=Asia/Seoul:20261219T000000
@@ -10413,15 +10422,6 @@ DESCRIPTION:한국은행 통계공표일정 · 대상기간: 2026 11 · 12:00 KS
 LOCATION:Bank of Korea
 END:VEVENT
 BEGIN:VEVENT
-UID:kostat-2026-12-29-1eemzme@korea-econ-cal-data
-DTSTAMP:20261229T030000Z
-DTSTART;TZID=Asia/Seoul:20261229T120000
-DTEND;TZID=Asia/Seoul:20261229T123000
-SUMMARY:[통계청] 2026년 3/4분기 실질 지역내총생산(잠정)
-DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
-LOCATION:Statistics Korea / National Data Office
-END:VEVENT
-BEGIN:VEVENT
 UID:cb_conf_2026-12-29@korea-econ-cal-data
 DTSTAMP:20261229T150000Z
 DTSTART;TZID=Asia/Seoul:20261230T000000
@@ -10457,6 +10457,15 @@ DTSTART;TZID=Asia/Seoul:20261230T080000
 DTEND;TZID=Asia/Seoul:20261230T083000
 SUMMARY:[통계청] 2026년 11월 산업활동동향
 DESCRIPTION:국가데이터처 보도계획 · 담당: 산업동향과/서비스업동향과 · 08:00 KST
+LOCATION:Statistics Korea / National Data Office
+END:VEVENT
+BEGIN:VEVENT
+UID:kostat-2026-12-30-1eemzme@korea-econ-cal-data
+DTSTAMP:20261230T030000Z
+DTSTART;TZID=Asia/Seoul:20261230T120000
+DTEND;TZID=Asia/Seoul:20261230T123000
+SUMMARY:[통계청] 2026년 3/4분기 실질 지역내총생산(잠정)
+DESCRIPTION:국가데이터처 보도계획 · 담당: 소득통계과 · 12:00 KST
 LOCATION:Statistics Korea / National Data Office
 END:VEVENT
 BEGIN:VEVENT
