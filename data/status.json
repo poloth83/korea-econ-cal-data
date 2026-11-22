@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T06:03:14.424Z",
-  "manifestUpdatedAt": "2026-11-22T06:03:04.028Z",
+  "generatedAt": "2026-11-22T06:03:29.408Z",
+  "manifestUpdatedAt": "2026-11-22T06:03:24.506Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
@@ -20,12 +20,12 @@
     },
     "fed_speech": {
       "filename": "fed_speech.ics",
-      "uploadedAt": "2026-11-15T01:05:34.826Z",
+      "uploadedAt": "2026-11-22T06:03:24.506Z",
       "available": true
     },
     "fed": {
       "filename": "fed.ics",
-      "uploadedAt": "2026-11-08T00:45:30.354Z",
+      "uploadedAt": "2026-11-22T06:03:24.506Z",
       "available": true
     },
     "kostat": {
@@ -35,28 +35,28 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-11-15T01:05:34.826Z",
+    "generatedAt": "2026-11-22T06:03:24.506Z",
     "window": {
-      "start": "2025-10-15",
-      "end": "2027-05-14"
+      "start": "2025-10-22",
+      "end": "2027-05-21"
     },
     "fred": {
       "success": true,
       "skipped": false,
       "partial": false,
-      "count": 280,
-      "sourceRecords": 280,
+      "count": 281,
+      "sourceRecords": 281,
       "failures": [],
       "error": null
     },
     "fed": {
-      "count": 498,
-      "changed": false,
+      "count": 499,
+      "changed": true,
       "skippedWrite": false,
       "filename": "fed.ics"
     },
     "fedSpeech": {
-      "count": 151,
+      "count": 143,
       "changed": true,
       "error": null,
       "filename": "fed_speech.ics"
@@ -115,15 +115,15 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-11-15T01:05:40.234Z",
+      "generatedAt": "2026-11-22T06:03:29.200Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
-        "forexFactoryHighUsd": 6,
-        "appFedEvents": 498,
+        "forexFactoryHighUsd": 7,
+        "appFedEvents": 499,
         "checked": 5,
         "mismatches": 0,
-        "ignored": 1
+        "ignored": 2
       },
       "feedErrors": []
     }
