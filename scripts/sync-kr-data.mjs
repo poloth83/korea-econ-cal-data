@@ -26,7 +26,9 @@ const KOSTAT_URL = 'https://kostat.go.kr/newsPln.es';
 // 자동 크롤링이 불가 → FOMC_MEETINGS(sync-us-data.mjs)와 같은 하드코딩 방식.
 // 갱신: 예약 루틴 korea-econ-cal-bok-mpc-annual 이 매년 11/5·12/5 보도자료를 확인해 익년 배열 추가.
 // 2026년 출처: 공보 2025-10-24호(2025-10-30) — 통방 결정회의 8회, 금융안정회의 4회.
-// 의사록은 회의 2주 경과 후 첫 화요일 공개 원칙(예외: 6월 금안 의사록은 7/10로 앞당김, 12월 금안은 미정).
+// 2027년 출처: 공보 2026-10-25호(2026-10-29) — 통방 결정회의 8회, 금융안정회의 4회.
+// 의사록은 회의 2주 경과 후 첫 화요일 공개 원칙. 예외는 PDF 명시값을 따름
+// (2026: 6월 금안 7/10 · 2026-12 금안 2027-01-08 / 2027: 6월 금안 7/9 · 8월 통방 9/13(월) · 9월 금안 10/8 · 12월 금안 미정).
 const BOK_MPC_MEETINGS = [
   { date: '2026-01-15', kind: 'rate',      minutes: '2026-02-03' },
   { date: '2026-02-26', kind: 'rate',      minutes: '2026-03-17' },
@@ -39,7 +41,19 @@ const BOK_MPC_MEETINGS = [
   { date: '2026-09-22', kind: 'stability', minutes: '2026-10-13' },
   { date: '2026-10-22', kind: 'rate',      minutes: '2026-11-10' },
   { date: '2026-11-26', kind: 'rate',      minutes: '2026-12-15' },
-  { date: '2026-12-23', kind: 'stability', minutes: null }, // 의사록 공개일은 2027년 일정과 함께 추후 발표
+  { date: '2026-12-23', kind: 'stability', minutes: '2027-01-08' },
+  { date: '2027-01-14', kind: 'rate',      minutes: '2027-02-02' },
+  { date: '2027-02-25', kind: 'rate',      minutes: '2027-03-16' },
+  { date: '2027-03-25', kind: 'stability', minutes: '2027-04-13' },
+  { date: '2027-04-09', kind: 'rate',      minutes: '2027-04-27' },
+  { date: '2027-05-27', kind: 'rate',      minutes: '2027-06-15' },
+  { date: '2027-06-23', kind: 'stability', minutes: '2027-07-09' },
+  { date: '2027-07-15', kind: 'rate',      minutes: '2027-08-03' },
+  { date: '2027-08-26', kind: 'rate',      minutes: '2027-09-13' },
+  { date: '2027-09-23', kind: 'stability', minutes: '2027-10-08' },
+  { date: '2027-10-15', kind: 'rate',      minutes: '2027-11-02' },
+  { date: '2027-11-25', kind: 'rate',      minutes: '2027-12-14' },
+  { date: '2027-12-23', kind: 'stability', minutes: null }, // 의사록 공개일은 2028년 일정과 함께 추후 발표
 ];
 
 const now = new Date();
