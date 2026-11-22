@@ -6,1088 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:US Treasury Auction Schedule
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-UID:ust-3-year-note-2026-08-11@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260811T170000Z
-DTEND:20260811T173000Z
-SUMMARY:미국 3년 노트 입찰
-DESCRIPTION:발표 2026-08-05 · 결제 2026-08-17 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-10-year-note-2026-08-12@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260812T170000Z
-DTEND:20260812T173000Z
-SUMMARY:미국 10년 노트 입찰
-DESCRIPTION:발표 2026-08-05 · 결제 2026-08-17 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-30-year-bond-2026-08-13@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260813T170000Z
-DTEND:20260813T173000Z
-SUMMARY:미국 30년 본드 입찰
-DESCRIPTION:발표 2026-08-05 · 결제 2026-08-17 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-08-10@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260810T153000Z
-DTEND:20260810T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-06 · 결제 2026-08-13 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-08-10@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260810T153000Z
-DTEND:20260810T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-06 · 결제 2026-08-13 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-08-11@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260811T153000Z
-DTEND:20260811T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-06 · 결제 2026-08-13 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-08-12@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260812T153000Z
-DTEND:20260812T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-11 · 결제 2026-08-18 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-08-13@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260813T153000Z
-DTEND:20260813T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-11 · 결제 2026-08-18 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-08-13@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260813T153000Z
-DTEND:20260813T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-11 · 결제 2026-08-18 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-08-17@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260817T153000Z
-DTEND:20260817T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-13 · 결제 2026-08-20 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-08-17@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260817T153000Z
-DTEND:20260817T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-13 · 결제 2026-08-20 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-08-18@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260818T153000Z
-DTEND:20260818T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-13 · 결제 2026-08-20 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-20-year-bond-2026-08-19@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260819T170000Z
-DTEND:20260819T173000Z
-SUMMARY:미국 20년 본드 입찰
-DESCRIPTION:발표 2026-08-13 · 결제 2026-08-31 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-30-year-tips-2026-08-20-r-t@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260820T170000Z
-DTEND:20260820T173000Z
-SUMMARY:미국 30년 TIPS 입찰 (재발행)
-DESCRIPTION:발표 2026-08-13 · 결제 2026-08-31 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-08-19@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260819T153000Z
-DTEND:20260819T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-18 · 결제 2026-08-25 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-08-20@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260820T153000Z
-DTEND:20260820T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-18 · 결제 2026-08-25 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-08-20@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260820T153000Z
-DTEND:20260820T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-18 · 결제 2026-08-25 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-08-24@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260824T153000Z
-DTEND:20260824T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-20 · 결제 2026-08-27 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-08-24@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260824T153000Z
-DTEND:20260824T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-20 · 결제 2026-08-27 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-08-25@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260825T153000Z
-DTEND:20260825T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-20 · 결제 2026-08-27 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-2-year-frn-2026-08-26-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260826T170000Z
-DTEND:20260826T173000Z
-SUMMARY:미국 2년 FRN 입찰 (재발행)
-DESCRIPTION:발표 2026-08-20 · 결제 2026-08-28 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-2-year-note-2026-08-25@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260825T170000Z
-DTEND:20260825T173000Z
-SUMMARY:미국 2년 노트 입찰
-DESCRIPTION:발표 2026-08-20 · 결제 2026-08-31 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-5-year-note-2026-08-26@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260826T170000Z
-DTEND:20260826T173000Z
-SUMMARY:미국 5년 노트 입찰
-DESCRIPTION:발표 2026-08-20 · 결제 2026-08-31 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-7-year-note-2026-08-27@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260827T170000Z
-DTEND:20260827T173000Z
-SUMMARY:미국 7년 노트 입찰
-DESCRIPTION:발표 2026-08-20 · 결제 2026-08-31 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-08-26@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260826T153000Z
-DTEND:20260826T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-25 · 결제 2026-09-01 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-08-27@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260827T153000Z
-DTEND:20260827T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-25 · 결제 2026-09-01 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-08-27@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260827T153000Z
-DTEND:20260827T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-25 · 결제 2026-09-01 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-08-31@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260831T153000Z
-DTEND:20260831T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-27 · 결제 2026-09-03 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-08-31@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260831T153000Z
-DTEND:20260831T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-27 · 결제 2026-09-03 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-09-01@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260901T153000Z
-DTEND:20260901T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-27 · 결제 2026-09-03 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-52-week-bill-2026-09-01@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260901T153000Z
-DTEND:20260901T160000Z
-SUMMARY:미국 52주 T-Bill 입찰
-DESCRIPTION:발표 2026-08-27 · 결제 2026-09-03 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-09-02@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260902T153000Z
-DTEND:20260902T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-01 · 결제 2026-09-08 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-09-03@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260903T153000Z
-DTEND:20260903T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-01 · 결제 2026-09-08 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-09-03@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260903T153000Z
-DTEND:20260903T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-01 · 결제 2026-09-08 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-09-08@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260908T153000Z
-DTEND:20260908T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-03 · 결제 2026-09-10 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-09-08@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260908T153000Z
-DTEND:20260908T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-03 · 결제 2026-09-10 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-09-08@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260908T153000Z
-DTEND:20260908T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-03 · 결제 2026-09-10 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-3-year-note-2026-09-08@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260908T170000Z
-DTEND:20260908T173000Z
-SUMMARY:미국 3년 노트 입찰
-DESCRIPTION:발표 2026-09-03 · 결제 2026-09-15 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-10-year-note-2026-09-09-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260909T170000Z
-DTEND:20260909T173000Z
-SUMMARY:미국 10년 노트 입찰 (재발행)
-DESCRIPTION:발표 2026-09-03 · 결제 2026-09-15 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-30-year-bond-2026-09-10-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260910T170000Z
-DTEND:20260910T173000Z
-SUMMARY:미국 30년 본드 입찰 (재발행)
-DESCRIPTION:발표 2026-09-03 · 결제 2026-09-15 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-09-09@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260909T153000Z
-DTEND:20260909T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-08 · 결제 2026-09-15 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-09-10@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260910T153000Z
-DTEND:20260910T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-08 · 결제 2026-09-15 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-09-10@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260910T153000Z
-DTEND:20260910T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-08 · 결제 2026-09-15 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-09-14@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260914T153000Z
-DTEND:20260914T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-10 · 결제 2026-09-17 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-09-14@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260914T153000Z
-DTEND:20260914T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-10 · 결제 2026-09-17 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-09-15@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260915T153000Z
-DTEND:20260915T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-10 · 결제 2026-09-17 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-20-year-bond-2026-09-15-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260915T170000Z
-DTEND:20260915T173000Z
-SUMMARY:미국 20년 본드 입찰 (재발행)
-DESCRIPTION:발표 2026-09-10 · 결제 2026-09-18 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-10-year-tips-2026-09-17-r-t@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260917T170000Z
-DTEND:20260917T173000Z
-SUMMARY:미국 10년 TIPS 입찰 (재발행)
-DESCRIPTION:발표 2026-09-10 · 결제 2026-09-30 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-09-16@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260916T153000Z
-DTEND:20260916T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-15 · 결제 2026-09-22 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-09-17@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260917T153000Z
-DTEND:20260917T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-15 · 결제 2026-09-22 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-09-17@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260917T153000Z
-DTEND:20260917T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-15 · 결제 2026-09-22 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-09-21@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260921T153000Z
-DTEND:20260921T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-17 · 결제 2026-09-24 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-09-21@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260921T153000Z
-DTEND:20260921T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-17 · 결제 2026-09-24 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-09-22@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260922T153000Z
-DTEND:20260922T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-17 · 결제 2026-09-24 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-2-year-frn-2026-09-23-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260923T170000Z
-DTEND:20260923T173000Z
-SUMMARY:미국 2년 FRN 입찰 (재발행)
-DESCRIPTION:발표 2026-09-17 · 결제 2026-09-25 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-2-year-note-2026-09-22@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260922T170000Z
-DTEND:20260922T173000Z
-SUMMARY:미국 2년 노트 입찰
-DESCRIPTION:발표 2026-09-17 · 결제 2026-09-30 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-5-year-note-2026-09-23@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260923T170000Z
-DTEND:20260923T173000Z
-SUMMARY:미국 5년 노트 입찰
-DESCRIPTION:발표 2026-09-17 · 결제 2026-09-30 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-7-year-note-2026-09-24@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260924T170000Z
-DTEND:20260924T173000Z
-SUMMARY:미국 7년 노트 입찰
-DESCRIPTION:발표 2026-09-17 · 결제 2026-09-30 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-09-23@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260923T153000Z
-DTEND:20260923T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-22 · 결제 2026-09-29 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-09-24@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260924T153000Z
-DTEND:20260924T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-22 · 결제 2026-09-29 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-09-24@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260924T153000Z
-DTEND:20260924T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-22 · 결제 2026-09-29 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-09-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260928T153000Z
-DTEND:20260928T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-24 · 결제 2026-10-01 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-09-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260928T153000Z
-DTEND:20260928T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-24 · 결제 2026-10-01 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-09-29@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260929T153000Z
-DTEND:20260929T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-24 · 결제 2026-10-01 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-52-week-bill-2026-09-29@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260929T153000Z
-DTEND:20260929T160000Z
-SUMMARY:미국 52주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-24 · 결제 2026-10-01 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-09-30@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20260930T153000Z
-DTEND:20260930T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-29 · 결제 2026-10-06 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-10-01@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261001T153000Z
-DTEND:20261001T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-29 · 결제 2026-10-06 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-10-01@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261001T153000Z
-DTEND:20261001T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-09-29 · 결제 2026-10-06 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-10-05@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261005T153000Z
-DTEND:20261005T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-01 · 결제 2026-10-08 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-10-05@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261005T153000Z
-DTEND:20261005T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-01 · 결제 2026-10-08 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-10-06@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261006T153000Z
-DTEND:20261006T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-01 · 결제 2026-10-08 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-3-year-note-2026-10-06@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261006T170000Z
-DTEND:20261006T173000Z
-SUMMARY:미국 3년 노트 입찰
-DESCRIPTION:발표 2026-10-01 · 결제 2026-10-15 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-10-year-note-2026-10-07-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261007T170000Z
-DTEND:20261007T173000Z
-SUMMARY:미국 10년 노트 입찰 (재발행)
-DESCRIPTION:발표 2026-10-01 · 결제 2026-10-15 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-30-year-bond-2026-10-08-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261008T170000Z
-DTEND:20261008T173000Z
-SUMMARY:미국 30년 본드 입찰 (재발행)
-DESCRIPTION:발표 2026-10-01 · 결제 2026-10-15 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-10-07@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261007T153000Z
-DTEND:20261007T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-06 · 결제 2026-10-13 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-10-08@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261008T153000Z
-DTEND:20261008T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-06 · 결제 2026-10-13 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-10-08@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261008T153000Z
-DTEND:20261008T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-06 · 결제 2026-10-13 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-10-13@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261013T153000Z
-DTEND:20261013T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-08 · 결제 2026-10-15 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-10-13@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261013T153000Z
-DTEND:20261013T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-08 · 결제 2026-10-15 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-10-13@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261013T153000Z
-DTEND:20261013T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-08 · 결제 2026-10-15 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-10-14@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261014T153000Z
-DTEND:20261014T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-13 · 결제 2026-10-20 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-10-15@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261015T153000Z
-DTEND:20261015T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-13 · 결제 2026-10-20 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-10-15@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261015T153000Z
-DTEND:20261015T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-13 · 결제 2026-10-20 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-10-19@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261019T153000Z
-DTEND:20261019T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-15 · 결제 2026-10-22 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-10-19@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261019T153000Z
-DTEND:20261019T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-15 · 결제 2026-10-22 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-10-20@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261020T153000Z
-DTEND:20261020T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-15 · 결제 2026-10-22 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-20-year-bond-2026-10-21-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261021T170000Z
-DTEND:20261021T173000Z
-SUMMARY:미국 20년 본드 입찰 (재발행)
-DESCRIPTION:발표 2026-10-15 · 결제 2026-10-23 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-5-year-tips-2026-10-22-t@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261022T170000Z
-DTEND:20261022T173000Z
-SUMMARY:미국 5년 TIPS 입찰
-DESCRIPTION:발표 2026-10-15 · 결제 2026-10-30 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-10-21@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261021T153000Z
-DTEND:20261021T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-20 · 결제 2026-10-27 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-10-22@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261022T153000Z
-DTEND:20261022T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-20 · 결제 2026-10-27 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-10-22@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261022T153000Z
-DTEND:20261022T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-20 · 결제 2026-10-27 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-10-26@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261026T153000Z
-DTEND:20261026T160000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-22 · 결제 2026-10-29 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-10-26@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261026T153000Z
-DTEND:20261026T160000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-22 · 결제 2026-10-29 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-10-27@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261027T153000Z
-DTEND:20261027T160000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-22 · 결제 2026-10-29 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-52-week-bill-2026-10-27@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261027T153000Z
-DTEND:20261027T160000Z
-SUMMARY:미국 52주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-22 · 결제 2026-10-29 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-2-year-note-2026-10-26@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261026T170000Z
-DTEND:20261026T173000Z
-SUMMARY:미국 2년 노트 입찰
-DESCRIPTION:발표 2026-10-22 · 결제 2026-11-02 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-5-year-note-2026-10-27@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261027T170000Z
-DTEND:20261027T173000Z
-SUMMARY:미국 5년 노트 입찰
-DESCRIPTION:발표 2026-10-22 · 결제 2026-11-02 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-2-year-frn-2026-10-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261028T170000Z
-DTEND:20261028T173000Z
-SUMMARY:미국 2년 FRN 입찰
-DESCRIPTION:발표 2026-10-22 · 결제 2026-11-02 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-7-year-note-2026-10-29@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261029T170000Z
-DTEND:20261029T173000Z
-SUMMARY:미국 7년 노트 입찰
-DESCRIPTION:발표 2026-10-22 · 결제 2026-11-02 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-10-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261028T153000Z
-DTEND:20261028T160000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-27 · 결제 2026-11-03 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-10-29@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261029T153000Z
-DTEND:20261029T160000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-27 · 결제 2026-11-03 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-10-29@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261029T153000Z
-DTEND:20261029T160000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-27 · 결제 2026-11-03 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-13-week-bill-2026-11-02@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261102T163000Z
-DTEND:20261102T170000Z
-SUMMARY:미국 13주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-29 · 결제 2026-11-05 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-26-week-bill-2026-11-02@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261102T163000Z
-DTEND:20261102T170000Z
-SUMMARY:미국 26주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-29 · 결제 2026-11-05 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-6-week-bill-2026-11-03@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261103T163000Z
-DTEND:20261103T170000Z
-SUMMARY:미국 6주 T-Bill 입찰
-DESCRIPTION:발표 2026-10-29 · 결제 2026-11-05 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-17-week-bill-2026-11-04@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261104T163000Z
-DTEND:20261104T170000Z
-SUMMARY:미국 17주 T-Bill 입찰
-DESCRIPTION:발표 2026-11-03 · 결제 2026-11-10 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-4-week-bill-2026-11-05@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261105T163000Z
-DTEND:20261105T170000Z
-SUMMARY:미국 4주 T-Bill 입찰
-DESCRIPTION:발표 2026-11-03 · 결제 2026-11-10 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-8-week-bill-2026-11-05@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261105T163000Z
-DTEND:20261105T170000Z
-SUMMARY:미국 8주 T-Bill 입찰
-DESCRIPTION:발표 2026-11-03 · 결제 2026-11-10 · 11:30 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
 UID:ust-3-year-note-2026-11-09@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261109T180000Z
 DTEND:20261109T183000Z
 SUMMARY:미국 3년 노트 입찰
@@ -1097,7 +17,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-10-year-note-2026-11-10@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261110T180000Z
 DTEND:20261110T183000Z
 SUMMARY:미국 10년 노트 입찰
@@ -1107,7 +27,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-30-year-bond-2026-11-12@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261112T180000Z
 DTEND:20261112T183000Z
 SUMMARY:미국 30년 본드 입찰
@@ -1117,7 +37,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2026-11-09@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261109T163000Z
 DTEND:20261109T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1127,7 +47,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2026-11-09@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261109T163000Z
 DTEND:20261109T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1137,7 +57,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2026-11-09@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261109T163000Z
 DTEND:20261109T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1147,7 +67,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2026-11-12@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261112T163000Z
 DTEND:20261112T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1157,7 +77,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2026-11-12@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261112T163000Z
 DTEND:20261112T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -1167,7 +87,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2026-11-12@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261112T163000Z
 DTEND:20261112T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1177,7 +97,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2026-11-16@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261116T163000Z
 DTEND:20261116T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1187,7 +107,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2026-11-16@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261116T163000Z
 DTEND:20261116T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1197,7 +117,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2026-11-17@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261117T163000Z
 DTEND:20261117T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1207,7 +127,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-20-year-bond-2026-11-18@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261118T180000Z
 DTEND:20261118T183000Z
 SUMMARY:미국 20년 본드 입찰
@@ -1217,7 +137,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-10-year-tips-2026-11-19-r-t@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261119T180000Z
 DTEND:20261119T183000Z
 SUMMARY:미국 10년 TIPS 입찰 (재발행)
@@ -1227,7 +147,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2026-11-18@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261118T163000Z
 DTEND:20261118T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1237,7 +157,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2026-11-19@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261119T163000Z
 DTEND:20261119T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1247,7 +167,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2026-11-19@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261119T163000Z
 DTEND:20261119T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -1257,7 +177,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2026-11-23@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261123T163000Z
 DTEND:20261123T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1267,7 +187,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2026-11-23@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261123T163000Z
 DTEND:20261123T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1277,7 +197,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2026-11-24@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261124T163000Z
 DTEND:20261124T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1287,7 +207,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-52-week-bill-2026-11-24@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261124T163000Z
 DTEND:20261124T170000Z
 SUMMARY:미국 52주 T-Bill 입찰
@@ -1297,7 +217,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-2-year-frn-2026-11-24-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261124T180000Z
 DTEND:20261124T183000Z
 SUMMARY:미국 2년 FRN 입찰 (재발행)
@@ -1307,7 +227,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-2-year-note-2026-11-23@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261123T180000Z
 DTEND:20261123T183000Z
 SUMMARY:미국 2년 노트 입찰
@@ -1317,7 +237,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-5-year-note-2026-11-24@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261124T180000Z
 DTEND:20261124T183000Z
 SUMMARY:미국 5년 노트 입찰
@@ -1327,7 +247,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-7-year-note-2026-11-25@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261125T180000Z
 DTEND:20261125T183000Z
 SUMMARY:미국 7년 노트 입찰
@@ -1337,7 +257,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2026-11-25@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261125T163000Z
 DTEND:20261125T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1347,7 +267,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2026-11-25@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261125T163000Z
 DTEND:20261125T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -1357,7 +277,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2026-11-25@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261125T163000Z
 DTEND:20261125T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1367,7 +287,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2026-11-30@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261130T163000Z
 DTEND:20261130T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1377,7 +297,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2026-11-30@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261130T163000Z
 DTEND:20261130T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1387,7 +307,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2026-12-01@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261201T163000Z
 DTEND:20261201T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1397,7 +317,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2026-12-02@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261202T163000Z
 DTEND:20261202T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1407,7 +327,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2026-12-03@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261203T163000Z
 DTEND:20261203T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1417,7 +337,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2026-12-03@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261203T163000Z
 DTEND:20261203T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -1427,7 +347,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2026-12-07@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261207T163000Z
 DTEND:20261207T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1437,7 +357,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2026-12-07@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261207T163000Z
 DTEND:20261207T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1447,7 +367,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2026-12-08@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261208T163000Z
 DTEND:20261208T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1457,7 +377,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-3-year-note-2026-12-07@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261207T180000Z
 DTEND:20261207T183000Z
 SUMMARY:미국 3년 노트 입찰
@@ -1467,7 +387,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-10-year-note-2026-12-08-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261208T180000Z
 DTEND:20261208T183000Z
 SUMMARY:미국 10년 노트 입찰 (재발행)
@@ -1477,7 +397,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-30-year-bond-2026-12-10-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261210T180000Z
 DTEND:20261210T183000Z
 SUMMARY:미국 30년 본드 입찰 (재발행)
@@ -1487,7 +407,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2026-12-09@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261209T163000Z
 DTEND:20261209T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1497,7 +417,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2026-12-10@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261210T163000Z
 DTEND:20261210T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1507,7 +427,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2026-12-10@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261210T163000Z
 DTEND:20261210T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -1517,7 +437,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2026-12-14@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261214T163000Z
 DTEND:20261214T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1527,7 +447,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2026-12-14@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261214T163000Z
 DTEND:20261214T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1537,7 +457,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2026-12-15@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261215T163000Z
 DTEND:20261215T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1547,7 +467,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2026-12-16@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261216T163000Z
 DTEND:20261216T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1557,7 +477,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2026-12-17@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261217T163000Z
 DTEND:20261217T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1567,7 +487,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2026-12-17@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261217T163000Z
 DTEND:20261217T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -1577,7 +497,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2026-12-21@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261221T163000Z
 DTEND:20261221T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1587,7 +507,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2026-12-21@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261221T163000Z
 DTEND:20261221T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1597,7 +517,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2026-12-22@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261222T163000Z
 DTEND:20261222T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1607,7 +527,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-52-week-bill-2026-12-22@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261222T163000Z
 DTEND:20261222T170000Z
 SUMMARY:미국 52주 T-Bill 입찰
@@ -1616,8 +536,18 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
+UID:ust-20-year-bond-2026-12-22-r@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20261222T180000Z
+DTEND:20261222T183000Z
+SUMMARY:미국 20년 본드 입찰 (재발행)
+DESCRIPTION:발표 2026-12-17 · 결제 2026-12-28 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
 UID:ust-2-year-frn-2026-12-23-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261223T180000Z
 DTEND:20261223T183000Z
 SUMMARY:미국 2년 FRN 입찰 (재발행)
@@ -1626,20 +556,10 @@ LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
-UID:ust-20-year-bond-2026-12-23-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+UID:ust-5-year-tips-2026-12-23-r-t@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
 DTSTART:20261223T180000Z
 DTEND:20261223T183000Z
-SUMMARY:미국 20년 본드 입찰 (재발행)
-DESCRIPTION:발표 2026-12-17 · 결제 2026-12-28 · 13:00 ET
-LOCATION:US Department of Treasury
-URL:https://www.treasurydirect.gov/auctions/upcoming/
-END:VEVENT
-BEGIN:VEVENT
-UID:ust-5-year-tips-2026-12-22-r-t@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
-DTSTART:20261222T180000Z
-DTEND:20261222T183000Z
 SUMMARY:미국 5년 TIPS 입찰 (재발행)
 DESCRIPTION:발표 2026-12-17 · 결제 2026-12-31 · 13:00 ET
 LOCATION:US Department of Treasury
@@ -1647,7 +567,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2026-12-23@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261223T163000Z
 DTEND:20261223T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1657,7 +577,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2026-12-24@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261224T163000Z
 DTEND:20261224T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1667,7 +587,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2026-12-24@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261224T163000Z
 DTEND:20261224T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -1677,7 +597,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2026-12-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261228T163000Z
 DTEND:20261228T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1687,7 +607,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2026-12-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261228T163000Z
 DTEND:20261228T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1697,7 +617,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-2-year-note-2026-12-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261228T180000Z
 DTEND:20261228T183000Z
 SUMMARY:미국 2년 노트 입찰
@@ -1707,7 +627,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-5-year-note-2026-12-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261228T180000Z
 DTEND:20261228T183000Z
 SUMMARY:미국 5년 노트 입찰
@@ -1717,7 +637,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2026-12-29@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261229T163000Z
 DTEND:20261229T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1727,7 +647,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-7-year-note-2026-12-29@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261229T180000Z
 DTEND:20261229T183000Z
 SUMMARY:미국 7년 노트 입찰
@@ -1737,7 +657,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2026-12-30@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261230T163000Z
 DTEND:20261230T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1747,7 +667,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2026-12-31@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261231T163000Z
 DTEND:20261231T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1757,7 +677,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2026-12-31@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20261231T163000Z
 DTEND:20261231T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -1767,7 +687,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2027-01-04@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270104T163000Z
 DTEND:20270104T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1777,7 +697,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2027-01-04@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270104T163000Z
 DTEND:20270104T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1787,7 +707,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2027-01-05@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270105T163000Z
 DTEND:20270105T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1797,7 +717,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2027-01-06@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270106T163000Z
 DTEND:20270106T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1807,7 +727,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2027-01-07@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270107T163000Z
 DTEND:20270107T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1817,7 +737,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2027-01-07@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270107T163000Z
 DTEND:20270107T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -1827,7 +747,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2027-01-11@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270111T163000Z
 DTEND:20270111T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1837,7 +757,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2027-01-11@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270111T163000Z
 DTEND:20270111T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1847,7 +767,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2027-01-12@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270112T163000Z
 DTEND:20270112T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1857,7 +777,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-3-year-note-2027-01-11@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270111T180000Z
 DTEND:20270111T183000Z
 SUMMARY:미국 3년 노트 입찰
@@ -1867,7 +787,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-10-year-note-2027-01-12-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270112T180000Z
 DTEND:20270112T183000Z
 SUMMARY:미국 10년 노트 입찰 (재발행)
@@ -1877,7 +797,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-30-year-bond-2027-01-13-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270113T180000Z
 DTEND:20270113T183000Z
 SUMMARY:미국 30년 본드 입찰 (재발행)
@@ -1887,7 +807,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2027-01-13@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270113T163000Z
 DTEND:20270113T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1897,7 +817,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2027-01-14@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270114T163000Z
 DTEND:20270114T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1907,7 +827,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2027-01-14@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270114T163000Z
 DTEND:20270114T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -1917,7 +837,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2027-01-19@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270119T163000Z
 DTEND:20270119T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -1927,7 +847,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2027-01-19@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270119T163000Z
 DTEND:20270119T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -1937,7 +857,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2027-01-19@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270119T163000Z
 DTEND:20270119T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -1947,7 +867,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-52-week-bill-2027-01-19@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270119T163000Z
 DTEND:20270119T170000Z
 SUMMARY:미국 52주 T-Bill 입찰
@@ -1957,7 +877,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-20-year-bond-2027-01-20-r@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270120T180000Z
 DTEND:20270120T183000Z
 SUMMARY:미국 20년 본드 입찰 (재발행)
@@ -1967,7 +887,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-10-year-tips-2027-01-21-t@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270121T180000Z
 DTEND:20270121T183000Z
 SUMMARY:미국 10년 TIPS 입찰
@@ -1977,7 +897,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2027-01-20@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270120T163000Z
 DTEND:20270120T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -1987,7 +907,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2027-01-21@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270121T163000Z
 DTEND:20270121T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -1997,7 +917,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2027-01-21@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270121T163000Z
 DTEND:20270121T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -2007,7 +927,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2027-01-25@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270125T163000Z
 DTEND:20270125T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -2017,7 +937,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2027-01-25@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270125T163000Z
 DTEND:20270125T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -2027,7 +947,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2027-01-26@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270126T163000Z
 DTEND:20270126T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
@@ -2037,7 +957,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-2-year-note-2027-01-25@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270125T180000Z
 DTEND:20270125T183000Z
 SUMMARY:미국 2년 노트 입찰
@@ -2047,7 +967,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-5-year-note-2027-01-26@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270126T180000Z
 DTEND:20270126T183000Z
 SUMMARY:미국 5년 노트 입찰
@@ -2057,7 +977,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-2-year-frn-2027-01-27@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270127T180000Z
 DTEND:20270127T183000Z
 SUMMARY:미국 2년 FRN 입찰
@@ -2067,7 +987,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-7-year-note-2027-01-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270128T180000Z
 DTEND:20270128T183000Z
 SUMMARY:미국 7년 노트 입찰
@@ -2077,7 +997,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-17-week-bill-2027-01-27@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270127T163000Z
 DTEND:20270127T170000Z
 SUMMARY:미국 17주 T-Bill 입찰
@@ -2087,7 +1007,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-4-week-bill-2027-01-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270128T163000Z
 DTEND:20270128T170000Z
 SUMMARY:미국 4주 T-Bill 입찰
@@ -2097,7 +1017,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-8-week-bill-2027-01-28@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270128T163000Z
 DTEND:20270128T170000Z
 SUMMARY:미국 8주 T-Bill 입찰
@@ -2107,7 +1027,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-13-week-bill-2027-02-01@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270201T163000Z
 DTEND:20270201T170000Z
 SUMMARY:미국 13주 T-Bill 입찰
@@ -2117,7 +1037,7 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-26-week-bill-2027-02-01@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270201T163000Z
 DTEND:20270201T170000Z
 SUMMARY:미국 26주 T-Bill 입찰
@@ -2127,11 +1047,1091 @@ URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
 BEGIN:VEVENT
 UID:ust-6-week-bill-2027-02-02@korea-econ-cal-data
-DTSTAMP:20260808T004500Z
+DTSTAMP:20261122T055600Z
 DTSTART:20270202T163000Z
 DTEND:20270202T170000Z
 SUMMARY:미국 6주 T-Bill 입찰
 DESCRIPTION:발표 2027-01-28 · 결제 2027-02-04 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-02-03@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270203T163000Z
+DTEND:20270203T170000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-02 · 결제 2027-02-09 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-02-04@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270204T163000Z
+DTEND:20270204T170000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-02 · 결제 2027-02-09 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-02-04@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270204T163000Z
+DTEND:20270204T170000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-02 · 결제 2027-02-09 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-3-year-note-2027-02-09@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270209T180000Z
+DTEND:20270209T183000Z
+SUMMARY:미국 3년 노트 입찰
+DESCRIPTION:발표 2027-02-03 · 결제 2027-02-16 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-10-year-note-2027-02-10@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270210T180000Z
+DTEND:20270210T183000Z
+SUMMARY:미국 10년 노트 입찰
+DESCRIPTION:발표 2027-02-03 · 결제 2027-02-16 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-30-year-bond-2027-02-11@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270211T180000Z
+DTEND:20270211T183000Z
+SUMMARY:미국 30년 본드 입찰
+DESCRIPTION:발표 2027-02-03 · 결제 2027-02-16 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-02-08@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270208T163000Z
+DTEND:20270208T170000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-04 · 결제 2027-02-11 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-02-08@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270208T163000Z
+DTEND:20270208T170000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-04 · 결제 2027-02-11 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-02-09@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270209T163000Z
+DTEND:20270209T170000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-04 · 결제 2027-02-11 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-02-10@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270210T163000Z
+DTEND:20270210T170000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-09 · 결제 2027-02-16 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-02-11@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270211T163000Z
+DTEND:20270211T170000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-09 · 결제 2027-02-16 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-02-11@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270211T163000Z
+DTEND:20270211T170000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-09 · 결제 2027-02-16 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-02-16@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270216T163000Z
+DTEND:20270216T170000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-11 · 결제 2027-02-18 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-02-16@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270216T163000Z
+DTEND:20270216T170000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-11 · 결제 2027-02-18 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-02-16@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270216T163000Z
+DTEND:20270216T170000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-11 · 결제 2027-02-18 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-52-week-bill-2027-02-16@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270216T163000Z
+DTEND:20270216T170000Z
+SUMMARY:미국 52주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-11 · 결제 2027-02-18 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-30-year-tips-2027-02-18-t@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270218T180000Z
+DTEND:20270218T183000Z
+SUMMARY:미국 30년 TIPS 입찰
+DESCRIPTION:발표 2027-02-11 · 결제 2027-02-26 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-20-year-bond-2027-02-17@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270217T180000Z
+DTEND:20270217T183000Z
+SUMMARY:미국 20년 본드 입찰
+DESCRIPTION:발표 2027-02-11 · 결제 2027-03-01 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-02-17@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270217T163000Z
+DTEND:20270217T170000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-16 · 결제 2027-02-23 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-02-18@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270218T163000Z
+DTEND:20270218T170000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-16 · 결제 2027-02-23 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-02-18@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270218T163000Z
+DTEND:20270218T170000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-16 · 결제 2027-02-23 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-02-22@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270222T163000Z
+DTEND:20270222T170000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-18 · 결제 2027-02-25 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-02-22@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270222T163000Z
+DTEND:20270222T170000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-18 · 결제 2027-02-25 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-02-23@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270223T163000Z
+DTEND:20270223T170000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-18 · 결제 2027-02-25 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-2-year-frn-2027-02-24-r@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270224T180000Z
+DTEND:20270224T183000Z
+SUMMARY:미국 2년 FRN 입찰 (재발행)
+DESCRIPTION:발표 2027-02-18 · 결제 2027-02-26 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-2-year-note-2027-02-23@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270223T180000Z
+DTEND:20270223T183000Z
+SUMMARY:미국 2년 노트 입찰
+DESCRIPTION:발표 2027-02-18 · 결제 2027-03-01 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-5-year-note-2027-02-24@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270224T180000Z
+DTEND:20270224T183000Z
+SUMMARY:미국 5년 노트 입찰
+DESCRIPTION:발표 2027-02-18 · 결제 2027-03-01 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-7-year-note-2027-02-25@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270225T180000Z
+DTEND:20270225T183000Z
+SUMMARY:미국 7년 노트 입찰
+DESCRIPTION:발표 2027-02-18 · 결제 2027-03-01 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-02-24@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270224T163000Z
+DTEND:20270224T170000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-23 · 결제 2027-03-02 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-02-25@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270225T163000Z
+DTEND:20270225T170000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-23 · 결제 2027-03-02 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-02-25@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270225T163000Z
+DTEND:20270225T170000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-23 · 결제 2027-03-02 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-03-01@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270301T163000Z
+DTEND:20270301T170000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-25 · 결제 2027-03-04 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-03-01@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270301T163000Z
+DTEND:20270301T170000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-25 · 결제 2027-03-04 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-03-02@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270302T163000Z
+DTEND:20270302T170000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-02-25 · 결제 2027-03-04 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-03-03@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270303T163000Z
+DTEND:20270303T170000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-02 · 결제 2027-03-09 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-03-04@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270304T163000Z
+DTEND:20270304T170000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-02 · 결제 2027-03-09 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-03-04@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270304T163000Z
+DTEND:20270304T170000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-02 · 결제 2027-03-09 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-03-08@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270308T163000Z
+DTEND:20270308T170000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-04 · 결제 2027-03-11 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-03-08@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270308T163000Z
+DTEND:20270308T170000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-04 · 결제 2027-03-11 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-03-09@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270309T163000Z
+DTEND:20270309T170000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-04 · 결제 2027-03-11 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-3-year-note-2027-03-09@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270309T180000Z
+DTEND:20270309T183000Z
+SUMMARY:미국 3년 노트 입찰
+DESCRIPTION:발표 2027-03-04 · 결제 2027-03-15 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-10-year-note-2027-03-10-r@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270310T180000Z
+DTEND:20270310T183000Z
+SUMMARY:미국 10년 노트 입찰 (재발행)
+DESCRIPTION:발표 2027-03-04 · 결제 2027-03-15 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-30-year-bond-2027-03-11-r@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270311T180000Z
+DTEND:20270311T183000Z
+SUMMARY:미국 30년 본드 입찰 (재발행)
+DESCRIPTION:발표 2027-03-04 · 결제 2027-03-15 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-03-10@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270310T163000Z
+DTEND:20270310T170000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-09 · 결제 2027-03-16 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-03-11@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270311T163000Z
+DTEND:20270311T170000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-09 · 결제 2027-03-16 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-03-11@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270311T163000Z
+DTEND:20270311T170000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-09 · 결제 2027-03-16 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-03-15@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270315T153000Z
+DTEND:20270315T160000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-11 · 결제 2027-03-18 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-03-15@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270315T153000Z
+DTEND:20270315T160000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-11 · 결제 2027-03-18 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-03-16@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270316T153000Z
+DTEND:20270316T160000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-11 · 결제 2027-03-18 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-52-week-bill-2027-03-16@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270316T153000Z
+DTEND:20270316T160000Z
+SUMMARY:미국 52주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-11 · 결제 2027-03-18 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-20-year-bond-2027-03-16-r@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270316T170000Z
+DTEND:20270316T173000Z
+SUMMARY:미국 20년 본드 입찰 (재발행)
+DESCRIPTION:발표 2027-03-11 · 결제 2027-03-19 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-10-year-tips-2027-03-18-r-t@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270318T170000Z
+DTEND:20270318T173000Z
+SUMMARY:미국 10년 TIPS 입찰 (재발행)
+DESCRIPTION:발표 2027-03-11 · 결제 2027-03-31 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-03-17@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270317T153000Z
+DTEND:20270317T160000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-16 · 결제 2027-03-23 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-03-18@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270318T153000Z
+DTEND:20270318T160000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-16 · 결제 2027-03-23 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-03-18@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270318T153000Z
+DTEND:20270318T160000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-16 · 결제 2027-03-23 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-03-22@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270322T153000Z
+DTEND:20270322T160000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-18 · 결제 2027-03-25 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-03-22@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270322T153000Z
+DTEND:20270322T160000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-18 · 결제 2027-03-25 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-03-23@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270323T153000Z
+DTEND:20270323T160000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-18 · 결제 2027-03-25 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-2-year-frn-2027-03-24-r@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270324T170000Z
+DTEND:20270324T173000Z
+SUMMARY:미국 2년 FRN 입찰 (재발행)
+DESCRIPTION:발표 2027-03-18 · 결제 2027-03-29 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-2-year-note-2027-03-23@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270323T170000Z
+DTEND:20270323T173000Z
+SUMMARY:미국 2년 노트 입찰
+DESCRIPTION:발표 2027-03-18 · 결제 2027-03-31 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-5-year-note-2027-03-24@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270324T170000Z
+DTEND:20270324T173000Z
+SUMMARY:미국 5년 노트 입찰
+DESCRIPTION:발표 2027-03-18 · 결제 2027-03-31 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-7-year-note-2027-03-25@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270325T170000Z
+DTEND:20270325T173000Z
+SUMMARY:미국 7년 노트 입찰
+DESCRIPTION:발표 2027-03-18 · 결제 2027-03-31 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-03-24@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270324T153000Z
+DTEND:20270324T160000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-23 · 결제 2027-03-30 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-03-25@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270325T153000Z
+DTEND:20270325T160000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-23 · 결제 2027-03-30 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-03-25@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270325T153000Z
+DTEND:20270325T160000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-23 · 결제 2027-03-30 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-03-29@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270329T153000Z
+DTEND:20270329T160000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-25 · 결제 2027-04-01 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-03-29@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270329T153000Z
+DTEND:20270329T160000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-25 · 결제 2027-04-01 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-03-30@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270330T153000Z
+DTEND:20270330T160000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-25 · 결제 2027-04-01 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-03-31@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270331T153000Z
+DTEND:20270331T160000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-30 · 결제 2027-04-06 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-04-01@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270401T153000Z
+DTEND:20270401T160000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-30 · 결제 2027-04-06 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-04-01@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270401T153000Z
+DTEND:20270401T160000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-03-30 · 결제 2027-04-06 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-04-05@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270405T153000Z
+DTEND:20270405T160000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-01 · 결제 2027-04-08 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-04-05@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270405T153000Z
+DTEND:20270405T160000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-01 · 결제 2027-04-08 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-04-06@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270406T153000Z
+DTEND:20270406T160000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-01 · 결제 2027-04-08 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-04-07@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270407T153000Z
+DTEND:20270407T160000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-06 · 결제 2027-04-13 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-04-08@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270408T153000Z
+DTEND:20270408T160000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-06 · 결제 2027-04-13 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-04-08@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270408T153000Z
+DTEND:20270408T160000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-06 · 결제 2027-04-13 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-04-12@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270412T153000Z
+DTEND:20270412T160000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-08 · 결제 2027-04-15 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-04-12@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270412T153000Z
+DTEND:20270412T160000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-08 · 결제 2027-04-15 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-3-year-note-2027-04-12@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270412T170000Z
+DTEND:20270412T173000Z
+SUMMARY:미국 3년 노트 입찰
+DESCRIPTION:발표 2027-04-08 · 결제 2027-04-15 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-10-year-note-2027-04-12-r@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270412T170000Z
+DTEND:20270412T173000Z
+SUMMARY:미국 10년 노트 입찰 (재발행)
+DESCRIPTION:발표 2027-04-08 · 결제 2027-04-15 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-04-13@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270413T153000Z
+DTEND:20270413T160000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-08 · 결제 2027-04-15 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-52-week-bill-2027-04-13@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270413T153000Z
+DTEND:20270413T160000Z
+SUMMARY:미국 52주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-08 · 결제 2027-04-15 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-30-year-bond-2027-04-13-r@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270413T170000Z
+DTEND:20270413T173000Z
+SUMMARY:미국 30년 본드 입찰 (재발행)
+DESCRIPTION:발표 2027-04-08 · 결제 2027-04-15 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-04-14@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270414T153000Z
+DTEND:20270414T160000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-13 · 결제 2027-04-20 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-04-15@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270415T153000Z
+DTEND:20270415T160000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-13 · 결제 2027-04-20 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-04-15@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270415T153000Z
+DTEND:20270415T160000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-13 · 결제 2027-04-20 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-04-19@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270419T153000Z
+DTEND:20270419T160000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-15 · 결제 2027-04-22 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-04-19@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270419T153000Z
+DTEND:20270419T160000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-15 · 결제 2027-04-22 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-04-20@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270420T153000Z
+DTEND:20270420T160000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-15 · 결제 2027-04-22 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-20-year-bond-2027-04-21-r@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270421T170000Z
+DTEND:20270421T173000Z
+SUMMARY:미국 20년 본드 입찰 (재발행)
+DESCRIPTION:발표 2027-04-15 · 결제 2027-04-23 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-5-year-tips-2027-04-22-t@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270422T170000Z
+DTEND:20270422T173000Z
+SUMMARY:미국 5년 TIPS 입찰
+DESCRIPTION:발표 2027-04-15 · 결제 2027-04-30 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-04-21@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270421T153000Z
+DTEND:20270421T160000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-20 · 결제 2027-04-27 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-04-22@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270422T153000Z
+DTEND:20270422T160000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-20 · 결제 2027-04-27 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-04-22@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270422T153000Z
+DTEND:20270422T160000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-20 · 결제 2027-04-27 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-04-26@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270426T153000Z
+DTEND:20270426T160000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-22 · 결제 2027-04-29 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-04-26@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270426T153000Z
+DTEND:20270426T160000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-22 · 결제 2027-04-29 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-04-27@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270427T153000Z
+DTEND:20270427T160000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-22 · 결제 2027-04-29 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-2-year-note-2027-04-26@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270426T170000Z
+DTEND:20270426T173000Z
+SUMMARY:미국 2년 노트 입찰
+DESCRIPTION:발표 2027-04-22 · 결제 2027-04-30 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-5-year-note-2027-04-26@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270426T170000Z
+DTEND:20270426T173000Z
+SUMMARY:미국 5년 노트 입찰
+DESCRIPTION:발표 2027-04-22 · 결제 2027-04-30 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-2-year-frn-2027-04-27@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270427T170000Z
+DTEND:20270427T173000Z
+SUMMARY:미국 2년 FRN 입찰
+DESCRIPTION:발표 2027-04-22 · 결제 2027-04-30 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-7-year-note-2027-04-27-r@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270427T170000Z
+DTEND:20270427T173000Z
+SUMMARY:미국 7년 노트 입찰 (재발행)
+DESCRIPTION:발표 2027-04-22 · 결제 2027-04-30 · 13:00 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-17-week-bill-2027-04-28@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270428T153000Z
+DTEND:20270428T160000Z
+SUMMARY:미국 17주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-27 · 결제 2027-05-04 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-4-week-bill-2027-04-29@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270429T153000Z
+DTEND:20270429T160000Z
+SUMMARY:미국 4주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-27 · 결제 2027-05-04 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-8-week-bill-2027-04-29@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270429T153000Z
+DTEND:20270429T160000Z
+SUMMARY:미국 8주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-27 · 결제 2027-05-04 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-13-week-bill-2027-05-03@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270503T153000Z
+DTEND:20270503T160000Z
+SUMMARY:미국 13주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-29 · 결제 2027-05-06 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-26-week-bill-2027-05-03@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270503T153000Z
+DTEND:20270503T160000Z
+SUMMARY:미국 26주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-29 · 결제 2027-05-06 · 11:30 ET
+LOCATION:US Department of Treasury
+URL:https://www.treasurydirect.gov/auctions/upcoming/
+END:VEVENT
+BEGIN:VEVENT
+UID:ust-6-week-bill-2027-05-04@korea-econ-cal-data
+DTSTAMP:20261122T055600Z
+DTSTART:20270504T153000Z
+DTEND:20270504T160000Z
+SUMMARY:미국 6주 T-Bill 입찰
+DESCRIPTION:발표 2027-04-29 · 결제 2027-05-06 · 11:30 ET
 LOCATION:US Department of Treasury
 URL:https://www.treasurydirect.gov/auctions/upcoming/
 END:VEVENT
