@@ -99,6 +99,13 @@ function inWindow(dateStr) {
   return d >= startDate && d <= endDate;
 }
 
+// 금통위처럼 연 단위로 확정 공지되는 하드코딩 일정용 — 과거 컷오프만 적용하고
+// +180일 상한은 걸지 않는다 (공지된 연간 일정이 윈도우에 잘려 앱에서 사라지는 것 방지).
+function afterArchiveCutoff(dateStr) {
+  const d = new Date(`${dateStr}T00:00:00+09:00`);
+  return d >= startDate;
+}
+
 function decodeHtml(s) {
   return String(s || '')
     .replace(/&nbsp;/g, ' ')
@@ -248,7 +255,7 @@ function bokMpcEvents() {
   for (const m of BOK_MPC_MEETINGS) {
     const monthLabel = `${Number(m.date.slice(5, 7))}월`;
     const isRate = m.kind === 'rate';
-    if (inWindow(m.date)) {
+    if (afterArchiveCutoff(m.date)) {
       events.push({
         id: `bok-mpc-${m.date}${isRate ? '' : '-fsm'}`,
         date: m.date,
@@ -260,7 +267,7 @@ function bokMpcEvents() {
         location: 'Bank of Korea',
       });
     }
-    if (m.minutes && inWindow(m.minutes)) {
+    if (m.minutes && afterArchiveCutoff(m.minutes)) {
       events.push({
         id: `bok-mpc-minutes-${m.minutes}`,
         date: m.minutes,
