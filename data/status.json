@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T01:09:47.706Z",
-  "manifestUpdatedAt": "2026-11-22T01:09:14.620Z",
+  "generatedAt": "2026-11-22T06:03:14.424Z",
+  "manifestUpdatedAt": "2026-11-22T06:03:04.028Z",
   "agencies": {
     "bok": {
       "filename": "bok.ics",
-      "uploadedAt": "2026-11-22T01:09:14.620Z",
+      "uploadedAt": "2026-11-22T06:03:04.028Z",
       "available": true
     },
     "moef": {
@@ -15,7 +15,7 @@
     },
     "ust": {
       "filename": "ust.ics",
-      "uploadedAt": "2026-08-08T00:45:42.000Z",
+      "uploadedAt": "2026-11-22T05:56:40.000Z",
       "available": true
     },
     "fed_speech": {
@@ -64,15 +64,26 @@
     "manifestChanged": true
   },
   "koreaSync": {
-    "generatedAt": "2026-11-22T01:09:14.620Z",
+    "generatedAt": "2026-11-22T06:03:04.028Z",
     "window": {
       "start": "2025-10-22",
       "end": "2027-05-21"
     },
     "sources": {
+      "kostat": {
+        "success": true,
+        "count": 103,
+        "changed": false,
+        "skippedWrite": false,
+        "filename": "kostat.ics",
+        "meta": {
+          "year": 2026
+        },
+        "error": null
+      },
       "bok": {
         "success": true,
-        "count": 174,
+        "count": 183,
         "changed": true,
         "skippedWrite": false,
         "filename": "bok.ics",
@@ -84,27 +95,20 @@
           "skippedYears": [
             2027
           ],
-          "mpcEvents": 23
+          "mpcEvents": 32
         },
         "error": null
       },
       "moef": {
-        "success": false,
-        "count": 0,
+        "success": true,
+        "count": 106,
         "changed": false,
-        "skippedWrite": true,
+        "skippedWrite": false,
         "filename": "moef.ics",
-        "meta": null,
-        "error": "fetch failed"
-      },
-      "kostat": {
-        "success": false,
-        "count": 0,
-        "changed": false,
-        "skippedWrite": true,
-        "filename": "kostat.ics",
-        "meta": null,
-        "error": "fetch failed"
+        "meta": {
+          "months": 20
+        },
+        "error": null
       }
     },
     "manifestChanged": true
@@ -124,10 +128,5 @@
       "feedErrors": []
     }
   },
-  "warnings": [
-    {
-      "code": "kr-sync-partial",
-      "message": "Korean data automation partially failed: moef, kostat."
-    }
-  ]
+  "warnings": []
 }
