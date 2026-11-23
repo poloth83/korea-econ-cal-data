@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T06:13:40.334Z",
+  "generatedAt": "2026-11-23T01:33:53.509Z",
   "manifestUpdatedAt": "2026-11-22T06:13:06.001Z",
   "agencies": {
     "bok": {
@@ -64,10 +64,10 @@
     "manifestChanged": false
   },
   "koreaSync": {
-    "generatedAt": "2026-11-22T06:13:06.001Z",
+    "generatedAt": "2026-11-23T01:33:42.018Z",
     "window": {
-      "start": "2025-10-22",
-      "end": "2027-05-21"
+      "start": "2025-10-23",
+      "end": "2027-05-22"
     },
     "sources": {
       "kostat": {
@@ -84,7 +84,7 @@
       "bok": {
         "success": true,
         "count": 198,
-        "changed": true,
+        "changed": false,
         "skippedWrite": false,
         "filename": "bok.ics",
         "meta": {
@@ -111,7 +111,7 @@
         "error": null
       }
     },
-    "manifestChanged": true
+    "manifestChanged": false
   },
   "verification": {
     "forexFactory": {
