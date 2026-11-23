@@ -18,15 +18,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-10-22_22_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20251022T200000Z
-DTSTART;TZID=Asia/Seoul:20251023T050000
-DTEND;TZID=Asia/Seoul:20251023T060000
-SUMMARY:Barr 연설
-DESCRIPTION:At the Crossing the Credit Barrier Conference hosted by the Federal Reserve Bank of St. Louis\, St. Louis\, Mo. (via pre-recorded video) · 4:00 p.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-10-23_23_SpeechGovernorMichaelSBa@korea-econ-cal-data
 DTSTAMP:20251023T142500Z
 DTSTART;TZID=Asia/Seoul:20251023T232500
