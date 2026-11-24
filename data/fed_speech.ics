@@ -15,15 +15,6 @@ DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fed_speech_2025-10-23_23_SpeechGovernorMichaelSBa@korea-econ-cal-data
-DTSTAMP:20251023T142500Z
-DTSTART;TZID=Asia/Seoul:20251023T232500
-DTEND;TZID=Asia/Seoul:20251024T002500
-SUMMARY:Barr 연설
-DESCRIPTION:At the Novogradac 2025 Fall New Markets Tax Credit Conference\, New Orleans\, La. · 10:25 a.m. ET · Speech - Governor Michael S. Barr
-LOCATION:United States
-END:VEVENT
-BEGIN:VEVENT
 UID:fed_speech_2025-10-30_30_SpeechViceChairforSuperv@korea-econ-cal-data
 DTSTAMP:20251030T135500Z
 DTSTART;TZID=Asia/Seoul:20251030T225500
