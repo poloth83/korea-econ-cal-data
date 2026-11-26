@@ -1292,4 +1292,13 @@ SUMMARY:Bowman 연설
 DESCRIPTION:At a meeting with the Association of Supervisors of Banks of the Americas\, Basel Committee on Banking Supervision\, and Financial Stability Institute · 7:25 a.m. ET · Speech - Vice Chair for Supervision Michelle W. Bowman
 LOCATION:United States
 END:VEVENT
+BEGIN:VEVENT
+UID:fed_speech_2026-12-01_1_TestimonyViceChairforSup@korea-econ-cal-data
+DTSTAMP:20261201T150000Z
+DTSTART;TZID=Asia/Seoul:20261202T000000
+DTEND;TZID=Asia/Seoul:20261202T010000
+SUMMARY:Bowman 증언
+DESCRIPTION:Before the U.S. House Financial Services Committee · 10:00 a.m. ET · Testimony - Vice Chair for Supervision Michelle W. Bowman
+LOCATION:United States
+END:VEVENT
 END:VCALENDAR
