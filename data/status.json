@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-28T03:13:40.152Z",
+  "generatedAt": "2026-11-28T03:20:45.219Z",
   "manifestUpdatedAt": "2026-11-28T03:13:23.035Z",
   "agencies": {
     "bok": {
@@ -35,10 +35,10 @@
     }
   },
   "sync": {
-    "generatedAt": "2026-11-27T03:39:48.402Z",
+    "generatedAt": "2026-11-28T03:20:39.857Z",
     "window": {
-      "start": "2025-10-27",
-      "end": "2027-05-26"
+      "start": "2025-10-28",
+      "end": "2027-05-27"
     },
     "fred": {
       "success": true,
@@ -115,7 +115,7 @@
   },
   "verification": {
     "forexFactory": {
-      "generatedAt": "2026-11-27T03:39:53.109Z",
+      "generatedAt": "2026-11-28T03:20:44.976Z",
       "status": "ok",
       "verificationSkippedReason": null,
       "counts": {
